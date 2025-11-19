@@ -1,15 +1,30 @@
 using UnityEngine;
+using UnityEngine.UI;
+using System.Collections;
+using System.Collections.Generic;
+using Photon.Pun;
+using Photon.Realtime;
 
-public class NetworkManager : MonoBehaviour
+public class NetworkManager : MonoBehaviourPunCallbacks
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    public InputField NicknameInput;
+    public GameObject SelectButton;
+    public GameObject Select;
+    void Awake()
     {
-        
+        PhotonNetwork.SendRate = 60;
+        PhotonNetwork.SerializationRate = 30;
     }
 
-    // Update is called once per frame
-    void Update()
+    public void Connect() => PhotonNetwork.ConnectUsingSettings();
+
+    public override void OnConnectedToMaster()
+    {
+        PhotonNetwork.LocalPlayer.NickName = NicknameInput.text;
+        PhotonNetwork.JoinOrCreateRoom("Room", new RoomOptions { MaxPlayers = 2 }, null);
+    }
+
+    public override void OnJoinedRoom()
     {
         
     }
