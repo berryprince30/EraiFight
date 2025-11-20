@@ -15,6 +15,8 @@ public class NetworkManager : MonoBehaviourPunCallbacks
     {
         PhotonNetwork.SendRate = 60;
         PhotonNetwork.SerializationRate = 30;
+
+        PhotonNetwork.AutomaticallySyncScene = true;
     }
 
     public void Connect() => PhotonNetwork.ConnectUsingSettings();
@@ -35,6 +37,7 @@ public class NetworkManager : MonoBehaviourPunCallbacks
     {
         // 씬 넘어가기
         // 동기화 뭐시기 로딩 씬
+        // 스폰하는게 그냥 Instantiate가 아니라 PhotonNetwork.Instantiate임.
     }
 
     public override void OnDisconnected(DisconnectCause cause)
