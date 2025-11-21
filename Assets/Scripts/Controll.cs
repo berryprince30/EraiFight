@@ -21,13 +21,30 @@ public class Controll : MonoBehaviourPunCallbacks, IPunObservable
     }
     public void OnPhotonSerializeView(PhotonStream stream, PhotonMessageInfo info)
     {
-        
+        if (stream.IsWriting)
+        {
+            // 내가 조종하는 캐릭터 → 값을 보냄
+            stream.SendNext(transform.position);
+            stream.SendNext(rigid.velocity.x);
+            stream.SendNext(spriteRenderer.flipX);
+        }
+        else
+        {
+            // 남의 캐릭 → 값을 받음
+            networkPos = (Vector3)stream.ReceiveNext();
+            networkSpeed = (float)stream.ReceiveNext();
+            networkFlip = (bool)stream.ReceiveNext();
+        }
     }
 
     // Update is called once per frame
     void Update()
     {
         if(PV.IsMine)
+        {
+            
+        }
+        else
         {
             
         }
