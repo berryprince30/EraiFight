@@ -20,23 +20,28 @@ public class NetworkManager : MonoBehaviourPunCallbacks
         DontDestroyOnLoad(gameObject);
     }
 
-    public void Connect() => PhotonNetwork.ConnectUsingSettings();
-
-    public override void OnConnectedToMaster()
+    public void Connect()
     {
-        string RoomNum = RoomNumberInput.text;
-        string NickName = NicknameInput.text;
-        if(RoomNum.Length != 5 || NickName == null)
+        if (string.IsNullOrEmpty(NicknameInput.text) || RoomNumberInput.text.Length != 5)
         {
             Error_five();
             return;
         }
-        PhotonNetwork.LocalPlayer.NickName = NickName;
+        PhotonNetwork.ConnectUsingSettings();
+    }
+
+    public override void OnConnectedToMaster()
+    {
+        string RoomNum = RoomNumberInput.text;
+        string Nick = NicknameInput.text;
+        
+        PhotonNetwork.LocalPlayer.NickName = Nick;
         PhotonNetwork.JoinOrCreateRoom(RoomNum, new RoomOptions { MaxPlayers = 2 }, null);
     }
 
     public override void OnJoinedRoom()
     {
+        Debug.Log("방 입장 성공!");
         // 둘다 들어올 시 씬 넘어가기
         // 동기화 뭐시기 로딩 씬
         // 스폰하는게 그냥 Instantiate가 아니라 PhotonNetwork.Instantiate임.
