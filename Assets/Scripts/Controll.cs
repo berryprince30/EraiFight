@@ -10,6 +10,10 @@ public class Controll : MonoBehaviourPunCallbacks, IPunObservable
     Rigidbody2D rigid;
     SpriteRenderer spriteRenderer;
     public PhotonView PV;
+
+    Vector3 networkPos;
+    float networkSpeed;
+    bool networkFlip;
     
     void Awake()
     {
@@ -25,7 +29,7 @@ public class Controll : MonoBehaviourPunCallbacks, IPunObservable
         {
             // 내가 조종하는 캐릭터 → 값을 보냄
             stream.SendNext(transform.position);
-            stream.SendNext(rigid.velocity.x);
+            stream.SendNext(rigid.linearVelocity.x);
             stream.SendNext(spriteRenderer.flipX);
         }
         else
