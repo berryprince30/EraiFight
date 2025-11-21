@@ -34,7 +34,7 @@ public class NetworkManager : MonoBehaviourPunCallbacks
     {
         string RoomNum = RoomNumberInput.text;
         string Nick = NicknameInput.text;
-        
+
         PhotonNetwork.LocalPlayer.NickName = Nick;
         PhotonNetwork.JoinOrCreateRoom(RoomNum, new RoomOptions { MaxPlayers = 2 }, null);
     }
@@ -42,6 +42,13 @@ public class NetworkManager : MonoBehaviourPunCallbacks
     public override void OnJoinedRoom()
     {
         Debug.Log("방 입장 성공!");
+        Room currentRoom = PhotonNetwork.CurrentRoom;
+        int playerCount = currentRoom.PlayerCount;
+
+        if (playerCount >= 2)
+        {
+            Debug.Log("방이 꽉 찼습니다!");
+        }
         // 둘다 들어올 시 씬 넘어가기
         // 동기화 뭐시기 로딩 씬
         // 스폰하는게 그냥 Instantiate가 아니라 PhotonNetwork.Instantiate임.
