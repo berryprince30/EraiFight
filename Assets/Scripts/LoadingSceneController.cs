@@ -9,7 +9,7 @@ public class LoadingSceneController : MonoBehaviour
 {
     public string[] Tips;
     public Image progressBar;
-    static string nextScene;
+    public static string nextScene;
     public static void LoadScene(string i) // 용례 : LoadingSceneController.LoadScene("Scene Name")
     {
         nextScene = i;

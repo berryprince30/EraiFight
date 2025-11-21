@@ -76,7 +76,15 @@ public class NetworkManager : MonoBehaviourPunCallbacks
     {
         if (!CanStart) return;
 
+        photonView.RPC("SetNextSceneName", RpcTarget.AllBuffered, "Fight");
+
         LoadingSceneController.LoadScene("Fight"); // 자동동기화로 모두 같이 이동
+    }
+
+    [PunRPC]
+    void SetNextSceneName(string sceneName)
+    {
+        LoadingSceneController.nextScene = sceneName;
     }
 
     [PunRPC]
