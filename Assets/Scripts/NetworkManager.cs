@@ -14,12 +14,14 @@ public class NetworkManager : MonoBehaviourPunCallbacks
     public GameObject ConnectButton;
     
     public TMP_Text ConnectTXT;
+    bool CanStart;
     void Awake()
     {
         PhotonNetwork.SendRate = 60;
         PhotonNetwork.SerializationRate = 30;
 
         PhotonNetwork.AutomaticallySyncScene = true;
+        CanStart = false;
         DontDestroyOnLoad(gameObject);
     }
 
@@ -30,8 +32,9 @@ public class NetworkManager : MonoBehaviourPunCallbacks
             Error_five();
             return;
         }
-        ConnectTXT.text = "Connecting...";
+
         PhotonNetwork.ConnectUsingSettings();
+        ConnectTXT.text = "Connecting...";
     }
 
     public override void OnConnectedToMaster()
@@ -48,23 +51,45 @@ public class NetworkManager : MonoBehaviourPunCallbacks
         Debug.Log("방 입장 성공!");
         Room currentRoom = PhotonNetwork.CurrentRoom;
         int playerCount = currentRoom.PlayerCount;
+        
+        Debug.Log(playerCount);
 
-        if (playerCount >= 2 && PhotonNetwork.IsMasterClient)
+        if (playerCount >= 2)
         {
             Debug.Log("방이 꽉 찼습니다!");
-            LoadingSceneController.LoadScene("Fight");
+            photonView.RPC("UpdateStart", RpcTarget.All);
         }
     }
 
     public override void OnDisconnected(DisconnectCause cause)
     {
-        // 연결 끊겼을 시
-        // StartScene으로 다시 로드
+        // 연결 끊겼을 시 작동
     }
 
     public void Error_five()
     {
         // 다섯자 안되거나 넘으면 이거
         Debug.Log("에러 파이브");
+    }
+
+    public void StartGame()
+    {
+        if (!CanStart) return;
+
+        PhotonNetwork.LoadLevel("Fight"); // 자동동기화로 모두 같이 이동
+    }
+
+    [PunRPC]
+    void UpdateStart()
+    {
+        if(PhotonNetwork.IsMasterClient)
+        {
+            ConnectTXT.text = "Click To Start";
+            CanStart = true;
+        }
+        else
+        {
+            ConnectTXT.text = "Wait For Start";
+        }
     }
 }
