@@ -18,6 +18,7 @@ public class LoadingSceneController : MonoBehaviour
 
     void Start()
     {
+        PhotonNetwork.AutomaticallySyncScene = true;
         StartCoroutine(LoadSceneProcess());
     }
 

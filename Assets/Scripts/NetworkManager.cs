@@ -76,7 +76,7 @@ public class NetworkManager : MonoBehaviourPunCallbacks
     {
         if (!CanStart) return;
 
-        PhotonNetwork.LoadLevel("Fight"); // 자동동기화로 모두 같이 이동
+        LoadingSceneController.LoadScene("Fight"); // 자동동기화로 모두 같이 이동
     }
 
     [PunRPC]
