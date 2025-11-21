@@ -23,7 +23,7 @@ public class Controll : MonoBehaviourPunCallbacks, IPunObservable
 
         string mynickname = PV.IsMine ? PhotonNetwork.NickName : PV.Owner.NickName;
     }
-    public void OnPhotonSerializeView(PhotonStream stream, PhotonMessageInfo info)
+    public void OnPhotonSerializeView(PhotonStream stream, PhotonMessageInfo info) // 데이터 전달
     {
         if (stream.IsWriting)
         {
@@ -42,7 +42,7 @@ public class Controll : MonoBehaviourPunCallbacks, IPunObservable
     }
 
     // Update is called once per frame
-    void Update()
+    void Update() // 실제 데이터 전송
     {
         if(PV.IsMine)
         {

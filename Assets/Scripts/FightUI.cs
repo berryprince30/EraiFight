@@ -8,6 +8,8 @@ using TMPro;
 
 public class FightUI : MonoBehaviourPunCallbacks, IPunObservable
 {
+    public Image HP_1;
+    public Image HP_2;
     void Awake()
     {
         
@@ -23,9 +25,10 @@ public class FightUI : MonoBehaviourPunCallbacks, IPunObservable
         
     }
 
-    [PunRPC] // 이런식으로 변수 동기화 하는듯
-    void checkUI()
+    [PunRPC] // 일시적으로 모든 부분에서 사용
+    void checkUI(float CurHP1, float MaxHP1, float CurHP2, float MaxHP2) // 사용 예 : photonView.RPC("checkUI", RpcTarget.All, 60, 100);
     {
-        
+        HP_1.fillAmount = CurHP1 / MaxHP1;
+        HP_2.fillAmount = CurHP2 / MaxHP2;
     }
 }
