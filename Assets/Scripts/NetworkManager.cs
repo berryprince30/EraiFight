@@ -17,6 +17,7 @@ public class NetworkManager : MonoBehaviourPunCallbacks
         PhotonNetwork.SerializationRate = 30;
 
         PhotonNetwork.AutomaticallySyncScene = true;
+        DontDestroyOnLoad(gameObject);
     }
 
     public void Connect() => PhotonNetwork.ConnectUsingSettings();
@@ -24,18 +25,19 @@ public class NetworkManager : MonoBehaviourPunCallbacks
     public override void OnConnectedToMaster()
     {
         string RoomNum = RoomNumberInput.text;
-        if(RoomNum.Length != 5)
+        string NickName = NicknameInput.text;
+        if(RoomNum.Length != 5 || NickName == null)
         {
             Error_five();
             return;
         }
-        PhotonNetwork.LocalPlayer.NickName = NicknameInput.text;
+        PhotonNetwork.LocalPlayer.NickName = NickName;
         PhotonNetwork.JoinOrCreateRoom(RoomNum, new RoomOptions { MaxPlayers = 2 }, null);
     }
 
     public override void OnJoinedRoom()
     {
-        // 씬 넘어가기
+        // 둘다 들어올 시 씬 넘어가기
         // 동기화 뭐시기 로딩 씬
         // 스폰하는게 그냥 Instantiate가 아니라 PhotonNetwork.Instantiate임.
     }
@@ -53,5 +55,6 @@ public class NetworkManager : MonoBehaviourPunCallbacks
     public void Error_five()
     {
         // 다섯자 안되거나 넘으면 이거
+        Debug.Log("에러 파이브");
     }
 }

@@ -64,7 +64,7 @@ namespace PlayerOwnedStates
     {
         public override void Enter(Player player)
         {
-
+            
         }
         public override void Execute(Player player)
         {
