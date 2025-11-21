@@ -275,7 +275,7 @@ MonoBehaviour:
   HP_1: {fileID: 1716271051}
   HP_2: {fileID: 1895274157}
   Seconds: {fileID: 615927554}
-  TimeMax: 60
+  TimeMax: 63
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0

@@ -4,8 +4,9 @@ using System.Collections.Generic;
 using Photon.Pun;
 using Photon.Realtime;
 
-public class Controll : MonoBehaviourPunCallbacks, IPunObservable
+public class Controll : MonoBehaviourPunCallbacks, IPunObservable 
 {
+    // 이동, 점프, 피격, 기본공격만, 스킬은 따로
     Animator anim;
     Rigidbody2D rigid;
     SpriteRenderer spriteRenderer;
@@ -42,7 +43,7 @@ public class Controll : MonoBehaviourPunCallbacks, IPunObservable
     }
 
     // Update is called once per frame
-    void Update() // 실제 데이터 전송
+    void Update() // 실제 데이터 받아와서 연산 및 업데이트
     {
         if(PV.IsMine)
         {

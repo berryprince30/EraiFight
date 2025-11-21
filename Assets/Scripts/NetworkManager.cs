@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 using System.Collections;
 using System.Collections.Generic;
 using Photon.Pun;
@@ -11,6 +12,8 @@ public class NetworkManager : MonoBehaviourPunCallbacks
     public TMP_InputField NicknameInput;
     public TMP_InputField RoomNumberInput;
     public GameObject ConnectButton;
+    
+    public TMP_Text ConnectTXT;
     void Awake()
     {
         PhotonNetwork.SendRate = 60;
@@ -27,6 +30,7 @@ public class NetworkManager : MonoBehaviourPunCallbacks
             Error_five();
             return;
         }
+        ConnectTXT.text = "Connecting...";
         PhotonNetwork.ConnectUsingSettings();
     }
 
@@ -45,23 +49,17 @@ public class NetworkManager : MonoBehaviourPunCallbacks
         Room currentRoom = PhotonNetwork.CurrentRoom;
         int playerCount = currentRoom.PlayerCount;
 
-        if (playerCount >= 2)
+        if (playerCount >= 2 && PhotonNetwork.IsMasterClient)
         {
             Debug.Log("방이 꽉 찼습니다!");
+            LoadingSceneController.LoadScene("Fight");
         }
-        // 둘다 들어올 시 씬 넘어가기
-        // 동기화 뭐시기 로딩 씬
-        // 스폰하는게 그냥 Instantiate가 아니라 PhotonNetwork.Instantiate임.
     }
 
     public override void OnDisconnected(DisconnectCause cause)
     {
         // 연결 끊겼을 시
-    }
-
-    void Update()
-    {
-        // PhotonNetwork.Disconnect();
+        // StartScene으로 다시 로드
     }
 
     public void Error_five()
