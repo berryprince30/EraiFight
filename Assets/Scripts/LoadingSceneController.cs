@@ -5,11 +5,14 @@ using UnityEngine.SceneManagement;
 using Photon.Pun;
 using Photon.Realtime;
 
-public class LoadingSceneController : MonoBehaviour
+public class LoadingSceneController : MonoBehaviourPunCallbacks
 {
     public string[] Tips;
     public Image progressBar;
     public static string nextScene;
+    private bool isLocalLoadingComplete;
+    int readyPlayers = 0;
+    int totalPlayers = 2;
     public static void LoadScene(string i) // 용례 : LoadingSceneController.LoadScene("Scene Name")
     {
         nextScene = i;
@@ -19,6 +22,7 @@ public class LoadingSceneController : MonoBehaviour
     void Start()
     {
         PhotonNetwork.AutomaticallySyncScene = true;
+        isLocalLoadingComplete = false;
         StartCoroutine(LoadSceneProcess());
     }
 
@@ -34,20 +38,39 @@ public class LoadingSceneController : MonoBehaviour
 
             if(Aop.progress < 0.9f)
             {
-                progressBar.fillAmount = Aop.progress;
+                progressBar.fillAmount = Aop.progress / 0.9f;
             }
             else
             {
                 timer += Time.unscaledDeltaTime;
-                progressBar.fillAmount = Mathf.Lerp(0.9f, 1f, timer);
-                if(Aop.progress >= 0.9f)
-                // if(Aop.progress >= 0.9f || progressBar.fillAmount >= 1.0f)
+                progressBar.fillAmount = Mathf.Lerp(0.9f, 1f, timer * 0.5f);
+
+                if (Aop.progress >= 0.9f && !isLocalLoadingComplete)
                 {
-                    Aop.allowSceneActivation = true; // 로딩 제한 건거 풀기
-                    yield break;
+                    isLocalLoadingComplete = true;
+                    photonView.RPC("PlayerReady", RpcTarget.MasterClient);
+                }
+
+                // 모든 플레이어가 준비됐고, 내가 마스터면 활성화
+                if (readyPlayers >= totalPlayers && PhotonNetwork.IsMasterClient)
+                {
+                    photonView.RPC("ActivateScene", RpcTarget.All);
                 }
             }
         }
         yield return null;
+    }
+
+    [PunRPC]
+    void PlayerReady()
+    {
+        readyPlayers++;
+    }
+
+    [PunRPC]
+    void ActivateScene()
+    {
+        SceneManager.LoadSceneAsync(nextScene).allowSceneActivation = true; // 강제 활성화
+        // 또는 기존 Aop이 살아있으면 Aop.allowSceneActivation = true;
     }
 }

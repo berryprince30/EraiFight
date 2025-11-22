@@ -129,6 +129,7 @@ GameObject:
   m_Component:
   - component: {fileID: 60542762}
   - component: {fileID: 60542763}
+  - component: {fileID: 60542764}
   m_Layer: 5
   m_Name: Loading Bar
   m_TagString: Untagged
@@ -198,6 +199,28 @@ MonoBehaviour:
     \uB9DB\uC788\uB2E4.(\uAC89\uC5D0\uAC00 \uD0C0\uB294\uAC74 \uC5B4\uCA54 \uC218
     \uC5C6\uB2E4.)"
   progressBar: {fileID: 289009635}
+--- !u!114 &60542764
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 60542761}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: PhotonUnityNetworking::Photon.Pun.PhotonView
+  ObservedComponentsFoldoutOpen: 1
+  Group: 0
+  prefixField: -1
+  Synchronization: 3
+  OwnershipTransfer: 0
+  observableSearch: 2
+  ObservedComponents: []
+  sceneViewId: 1
+  InstantiationId: 0
+  isRuntimeInstantiated: 0
 --- !u!1 &246036017
 GameObject:
   m_ObjectHideFlags: 0
