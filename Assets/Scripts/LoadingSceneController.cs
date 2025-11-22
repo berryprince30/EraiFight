@@ -2,10 +2,12 @@ using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
 using Photon.Pun;
+using TMPro;
 
 public class LoadingSceneController : MonoBehaviourPunCallbacks
 {
     public Image progressBar;
+    public TMP_Text TipTXT;
     public string[] Tips;
 
     public static string nextScene;
@@ -25,6 +27,9 @@ public class LoadingSceneController : MonoBehaviourPunCallbacks
         PhotonNetwork.AutomaticallySyncScene = true;
         totalPlayers = PhotonNetwork.CurrentRoom.PlayerCount;
         StartCoroutine(LoadingFakeProgress());
+        
+        int a = Random.Range(0, 13);
+        TipTXT.text = "Tip : "+ Tips[a];
     }
 
     IEnumerator LoadingFakeProgress()
