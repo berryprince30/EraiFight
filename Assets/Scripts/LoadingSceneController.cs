@@ -1,76 +1,60 @@
 using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine.SceneManagement;
 using Photon.Pun;
-using Photon.Realtime;
 
 public class LoadingSceneController : MonoBehaviourPunCallbacks
 {
-    public string[] Tips;
     public Image progressBar;
+    public string[] Tips;
+
     public static string nextScene;
-    private bool isLocalLoadingComplete;
+    private bool isLocalLoadingComplete = false;
+
     int readyPlayers = 0;
-    int totalPlayers = 2;
-    public static void LoadScene(string i) // 용례 : LoadingSceneController.LoadScene("Scene Name")
+    int totalPlayers;
+
+    public static void LoadScene(string sceneName)
     {
-        nextScene = i;
+        nextScene = sceneName;
         PhotonNetwork.LoadLevel("Loading");
     }
 
     void Start()
     {
         PhotonNetwork.AutomaticallySyncScene = true;
-        isLocalLoadingComplete = false;
-        StartCoroutine(LoadSceneProcess());
+        totalPlayers = PhotonNetwork.CurrentRoom.PlayerCount;
+        StartCoroutine(LoadingFakeProgress());
     }
 
-    IEnumerator LoadSceneProcess()
+    IEnumerator LoadingFakeProgress()
     {
-        AsyncOperation Aop = SceneManager.LoadSceneAsync(nextScene);
-        Aop.allowSceneActivation = false; // 일부러 로딩 막기
+        float fakeProgress = 0f;
 
-        float timer = 0f;
-        while(!Aop.isDone)
+        while (fakeProgress < 1f)
         {
+            fakeProgress += Time.deltaTime * 0.25f; // 대충 가짜 로딩속도
+            progressBar.fillAmount = fakeProgress;
+
+            if (fakeProgress >= 0.95f && !isLocalLoadingComplete)
+            {
+                isLocalLoadingComplete = true;
+                photonView.RPC("PlayerReady", RpcTarget.MasterClient);
+            }
+
             yield return null;
-
-            if(Aop.progress < 0.9f)
-            {
-                progressBar.fillAmount = Aop.progress / 0.9f;
-            }
-            else
-            {
-                timer += Time.unscaledDeltaTime;
-                progressBar.fillAmount = Mathf.Lerp(0.9f, 1f, timer * 0.5f);
-
-                if (Aop.progress >= 0.9f && !isLocalLoadingComplete)
-                {
-                    isLocalLoadingComplete = true;
-                    photonView.RPC("PlayerReady", RpcTarget.MasterClient);
-                }
-
-                // 모든 플레이어가 준비됐고, 내가 마스터면 활성화
-                if (readyPlayers >= totalPlayers && PhotonNetwork.IsMasterClient)
-                {
-                    photonView.RPC("ActivateScene", RpcTarget.All);
-                }
-            }
         }
-        yield return null;
     }
 
     [PunRPC]
     void PlayerReady()
     {
         readyPlayers++;
-    }
 
-    [PunRPC]
-    void ActivateScene()
-    {
-        SceneManager.LoadSceneAsync(nextScene).allowSceneActivation = true; // 강제 활성화
-        // 또는 기존 Aop이 살아있으면 Aop.allowSceneActivation = true;
+        if (readyPlayers >= totalPlayers)
+        {
+            // 마스터만 실행됨
+            PhotonNetwork.LoadLevel(nextScene);
+        }
     }
 }
