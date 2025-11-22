@@ -40,7 +40,8 @@ public class LoadingSceneController : MonoBehaviour
             {
                 timer += Time.unscaledDeltaTime;
                 progressBar.fillAmount = Mathf.Lerp(0.9f, 1f, timer);
-                if(Aop.progress >= 1.0f || progressBar.fillAmount >= 1.0f)
+                if(Aop.progress >= 0.9f)
+                // if(Aop.progress >= 0.9f || progressBar.fillAmount >= 1.0f)
                 {
                     Aop.allowSceneActivation = true; // 로딩 제한 건거 풀기
                     yield break;
