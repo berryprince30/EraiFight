@@ -58,7 +58,6 @@ public class LoadingSceneController : MonoBehaviourPunCallbacks
 
         if (readyPlayers >= totalPlayers)
         {
-            // 마스터만 실행됨
             PhotonNetwork.LoadLevel(nextScene);
         }
     }

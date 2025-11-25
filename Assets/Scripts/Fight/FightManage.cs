@@ -1,5 +1,11 @@
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using System.Collections;
+using System.Collections.Generic;
+using Photon.Pun;
+using Photon.Realtime;
+using TMPro;
 
 public class FightManage : MonoBehaviour
 {
@@ -15,4 +21,9 @@ public class FightManage : MonoBehaviour
     {
         
     }
+
+    public void CharSpwan()
+    {
+        
+    } 
 }
