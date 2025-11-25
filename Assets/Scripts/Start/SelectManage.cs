@@ -4,7 +4,7 @@ using UnityEngine.UI;
 public class SelectManage : MonoBehaviour
 {
     int SelectIndex;
-    public SpriteRenderer SelectImage;
+    public Image SelectImage;
     public Sprite[] CharImages;
     public GameObject[] CharInfo;
     // Start is called once before the first execution of Update after the MonoBehaviour is created

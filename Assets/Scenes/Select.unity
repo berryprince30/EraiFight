@@ -390,8 +390,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: -397239343708327211, guid: 547d9cc90e1ea284cada244d59a02c92, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -697,8 +697,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: -1144559231968115075, guid: 48efd2bcc65cbfc4790ed6aae98e114e, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -1958,8 +1958,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectManage
   SelectImage: {fileID: 1200436354}
-  SelectImages: []
-  CharInfo: []
+  CharImages:
+  - {fileID: 888025584023612873, guid: 968efb1a2bd9a3d4fb31f16cf12bbbce, type: 3}
+  - {fileID: 5391288262923240138, guid: 4911fb457a954ff4e8a4c261bd1f8536, type: 3}
+  - {fileID: -8085656097935634340, guid: 4cf5d7e5f1eecdb4e854ec00eafe621e, type: 3}
+  - {fileID: -397239343708327211, guid: 547d9cc90e1ea284cada244d59a02c92, type: 3}
+  - {fileID: -1144559231968115075, guid: 48efd2bcc65cbfc4790ed6aae98e114e, type: 3}
+  CharInfo:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
 --- !u!1 &1011282301
 GameObject:
   m_ObjectHideFlags: 0
