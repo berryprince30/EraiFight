@@ -15,6 +15,8 @@ public class NetworkManager : MonoBehaviourPunCallbacks
     
     public TMP_Text ConnectTXT;
     bool CanStart;
+
+    public SelectManage selectManage;
     void Awake()
     {
         PhotonNetwork.SendRate = 60;
@@ -30,6 +32,13 @@ public class NetworkManager : MonoBehaviourPunCallbacks
         if (string.IsNullOrEmpty(NicknameInput.text) || RoomNumberInput.text.Length != 5)
         {
             Error_five();
+            return;
+        }
+
+
+        if(!selectManage.IsSelect)
+        {
+            Error_Select_Null();
             return;
         }
 
@@ -70,6 +79,12 @@ public class NetworkManager : MonoBehaviourPunCallbacks
     {
         // 다섯자 안되거나 넘으면 이거
         Debug.Log("에러 파이브");
+    }
+
+    public void Error_Select_Null()
+    {
+        // 선택 안하면 이거
+        Debug.Log("에러 셀렉트 널");
     }
 
     public void StartGame()

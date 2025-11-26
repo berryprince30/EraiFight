@@ -5,6 +5,7 @@ using UnityEngine.InputSystem;
 public class SelectManage : MonoBehaviour
 {
     int SelectIndex;
+    public bool IsSelect;
     public Image SelectImage;
     public Sprite[] CharImages;
     public GameObject[] CharInfo;
@@ -15,6 +16,7 @@ public class SelectManage : MonoBehaviour
     void Start()
     {
         kb = Keyboard.current;
+        IsSelect = false;
     }
 
     // Update is called once per frame
@@ -32,6 +34,7 @@ public class SelectManage : MonoBehaviour
         SelectIndex = a;
         SelectImage.sprite = CharImages[SelectIndex];
         CheckBtn.SetActive(true);
+        IsSelect = true;
     }
 
     public void LookCharInfo()

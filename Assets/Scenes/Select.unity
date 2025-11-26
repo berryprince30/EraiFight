@@ -2375,6 +2375,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bb53daa2f560ea74fa48b0c3c4e8ebe3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectManage
+  IsSelect: 0
   SelectImage: {fileID: 1200436354}
   CharImages:
   - {fileID: 888025584023612873, guid: 968efb1a2bd9a3d4fb31f16cf12bbbce, type: 3}
@@ -3063,6 +3064,7 @@ MonoBehaviour:
   RoomNumberInput: {fileID: 631687055}
   ConnectButton: {fileID: 1681662895}
   ConnectTXT: {fileID: 793114040}
+  selectManage: {fileID: 972997290}
 --- !u!4 &1556102536
 Transform:
   m_ObjectHideFlags: 0
@@ -3895,8 +3897,8 @@ CanvasRenderer:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
-  - {fileID: 1556102536}
   - {fileID: 519420032}
   - {fileID: 619394802}
   - {fileID: 944998540}
+  - {fileID: 1556102536}
   - {fileID: 906126479}
