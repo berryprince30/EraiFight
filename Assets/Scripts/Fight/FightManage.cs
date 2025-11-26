@@ -12,10 +12,13 @@ public class FightManage : MonoBehaviour
     public GameObject[] Char_Pres;
     int MasterIndex;
     int ClientIndex;
+    public TMP_Text MasterNick;
+    public TMP_Text ClientNick;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         CharSpwan();
+        SetNickname();
     }
 
     // Update is called once per frame
@@ -36,5 +39,11 @@ public class FightManage : MonoBehaviour
         {
             PhotonNetwork.Instantiate(Char_Pres[1].name, Cvec, Quaternion.identity);
         }
-    } 
+    }
+
+    void SetNickname()
+    {
+        MasterNick.text = PhotonNetwork.PlayerList[0].NickName;
+        ClientNick.text = PhotonNetwork.PlayerList[1].NickName;
+    }
 }
