@@ -1,10 +1,13 @@
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.InputSystem;
+using Photon.Pun;
+using System.Collections;
+using System.Collections.Generic;
 
-public class SelectManage : MonoBehaviour
+public class SelectManage : MonoBehaviourPunCallbacks
 {
-    int SelectIndex;
+    public int SelectIndex;
     public bool IsSelect;
     public Image SelectImage;
     public Sprite[] CharImages;

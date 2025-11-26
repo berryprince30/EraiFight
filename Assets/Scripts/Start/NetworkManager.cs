@@ -62,6 +62,15 @@ public class NetworkManager : MonoBehaviourPunCallbacks
         
         Debug.Log(playerCount);
 
+        if(PhotonNetwork.IsMasterClient)
+        {
+            PlayerPrefs.SetInt("MIndex", selectManage.SelectIndex);
+        }
+        else
+        {
+            PlayerPrefs.SetInt("CIndex", selectManage.SelectIndex);
+        }
+
         if (playerCount >= 2)
         {
             Debug.Log("방이 꽉 찼습니다!");

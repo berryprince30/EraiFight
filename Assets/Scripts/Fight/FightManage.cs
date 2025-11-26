@@ -7,7 +7,7 @@ using Photon.Pun;
 using Photon.Realtime;
 using TMPro;
 
-public class FightManage : MonoBehaviour
+public class FightManage : MonoBehaviourPunCallbacks
 {
     public GameObject[] Char_Pres;
     int MasterIndex;
@@ -31,13 +31,17 @@ public class FightManage : MonoBehaviour
     {
         Vector3 Mvec = new Vector3(-5, 0, 0);
         Vector3 Cvec = new Vector3(5, 0, 0);
-        if(PhotonNetwork.IsMasterClient) // -5 0 0
+
+        MasterIndex = PlayerPrefs.GetInt("MIndex");
+        ClientIndex = PlayerPrefs.GetInt("CIndex");
+
+        if(PhotonNetwork.IsMasterClient)    // -5 0 0
         {
-            PhotonNetwork.Instantiate(Char_Pres[0].name, Mvec, Quaternion.identity);
+            PhotonNetwork.Instantiate(Char_Pres[MasterIndex].name, Mvec, Quaternion.identity);
         }
-        else // 5 0 0
+        else                                // 5 0 0
         {
-            PhotonNetwork.Instantiate(Char_Pres[1].name, Cvec, Quaternion.identity);
+            PhotonNetwork.Instantiate(Char_Pres[ClientIndex].name, Cvec, Quaternion.identity);
         }
     }
 
@@ -45,5 +49,11 @@ public class FightManage : MonoBehaviour
     {
         MasterNick.text = PhotonNetwork.PlayerList[0].NickName;
         ClientNick.text = PhotonNetwork.PlayerList[1].NickName;
+    }
+
+    public void Disconnect() => PhotonNetwork.Disconnect();
+    public override void OnDisconnected(DisconnectCause cause)
+    {
+        SceneManager.LoadScene("Select");
     }
 }
