@@ -46,5 +46,11 @@ public class FightUI : MonoBehaviourPunCallbacks, IPunObservable
     {
         Time.timeScale = 0;
         Seconds.text = "+987";
+        GameSet();
+    }
+
+    void GameSet()
+    {
+        
     }
 }
