@@ -1,21 +1,23 @@
 using UnityEngine;
 using Photon.Pun;
 using Photon.Realtime;
+using UnityEngine.InputSystem;  // ★ 중요!
 
 public class Controll : MonoBehaviourPunCallbacks, IPunObservable
 {
-    // 이동, 점프, 피격, 기본공격만, 스킬은 따로
     Animator anim;
     Rigidbody2D rigid;
     SpriteRenderer spriteRenderer;
     PhotonView PV;
 
-    // Networking values
     Vector3 networkPos;
     float networkSpeedX;
     bool networkFlip;
 
-    // Movement values
+    // Input System 변수
+    Vector2 moveInput;   // Move 액션에서 받음
+    bool jumpInput;      // Jump 액션에서 받음
+
     public float moveSpeed = 5f;
     public float jumpPower = 12f;
     bool isGround;
@@ -28,15 +30,33 @@ public class Controll : MonoBehaviourPunCallbacks, IPunObservable
         PV = GetComponent<PhotonView>();
     }
 
+    // ---------------------------
+    // Input System Callbacks
+    // ---------------------------
+
+    // PlayerInput 컴포넌트에서 자동 호출됨
+    public void OnMove(InputAction.CallbackContext ctx)
+    {
+        moveInput = ctx.ReadValue<Vector2>();
+    }
+
+    public void OnJump(InputAction.CallbackContext ctx)
+    {
+        if (ctx.performed)
+            jumpInput = true;
+    }
+
+    // ---------------------------
+
     public void OnPhotonSerializeView(PhotonStream stream, PhotonMessageInfo info)
     {
-        if (stream.IsWriting) // 내가 보내는 값
+        if (stream.IsWriting)
         {
             stream.SendNext(transform.position);
-            stream.SendNext(rigid.linearVelocity.x); // Unity6.2 Rigidbody2D는 linearVelocity 사용
+            stream.SendNext(rigid.linearVelocity.x);
             stream.SendNext(spriteRenderer.flipX);
         }
-        else // 남이 보낸 값 수신
+        else
         {
             networkPos = (Vector3)stream.ReceiveNext();
             networkSpeedX = (float)stream.ReceiveNext();
@@ -57,32 +77,33 @@ public class Controll : MonoBehaviourPunCallbacks, IPunObservable
         }
     }
 
-    // ============================
+    // ==============================
     //        LOCAL CONTROL
-    // ============================
+    // ==============================
 
     void Walk()
     {
-        float h = Input.GetAxisRaw("Horizontal");
+        float h = moveInput.x;  // Input System 값
 
         rigid.linearVelocity = new Vector2(h * moveSpeed, rigid.linearVelocity.y);
 
         if (h != 0)
             spriteRenderer.flipX = h < 0;
 
-        anim.SetFloat("Speed", Mathf.Abs(h));
+        anim.SetBool("Walk", true);
     }
 
     void Jump()
     {
-        if (Input.GetKeyDown(KeyCode.Space) && isGround)
+        if (jumpInput && isGround)
         {
             rigid.linearVelocity = new Vector2(rigid.linearVelocity.x, jumpPower);
-            anim.SetTrigger("Jump");
+            anim.SetBool("Jump", true);
         }
+
+        jumpInput = false; // 매 프레임 초기화
     }
 
-    // 바닥 체크
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.collider.CompareTag("Ground"))
@@ -95,19 +116,15 @@ public class Controll : MonoBehaviourPunCallbacks, IPunObservable
             isGround = false;
     }
 
-    // ============================
+    // ==============================
     //     REMOTE PLAYER SYNC
-    // ============================
+    // ==============================
 
     void SyncRemotePlayer()
     {
-        // 위치 보간 (부드럽게)
         transform.position = Vector3.Lerp(transform.position, networkPos, Time.deltaTime * 10f);
 
-        // 속도 기반 애니메이션
-        anim.SetFloat("Speed", Mathf.Abs(networkSpeedX));
-
-        // 방향 동기화
+        // anim.SetFloat("Speed", Mathf.Abs(networkSpeedX));
         spriteRenderer.flipX = networkFlip;
     }
 }
