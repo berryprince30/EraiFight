@@ -26,6 +26,11 @@ public class FightUI : MonoBehaviourPunCallbacks, IPunObservable
     {
         TimeMax -= Time.deltaTime;
         Seconds.text = TimeMax.ToString("0");
+
+        if(TimeMax <= -987)
+        {
+            Win987();
+        }
     }
 
     [PunRPC] 
@@ -35,5 +40,11 @@ public class FightUI : MonoBehaviourPunCallbacks, IPunObservable
     {
         HP_1.fillAmount = CurHP1 / MaxHP1;
         HP_2.fillAmount = CurHP2 / MaxHP2;
+    }
+
+    void Win987()
+    {
+        Time.timeScale = 0;
+        Seconds.text = "+987";
     }
 }
