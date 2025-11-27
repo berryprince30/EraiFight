@@ -1,7 +1,7 @@
 using UnityEngine;
 using Photon.Pun;
 using Photon.Realtime;
-using UnityEngine.InputSystem;  // ★ 중요!
+using UnityEngine.InputSystem;  // 유승현은 신이고 원더포션은 무적이다.
 
 public class Controll : MonoBehaviourPunCallbacks, IPunObservable
 {
