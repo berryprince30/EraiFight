@@ -104,7 +104,7 @@ public class Controll : Player, IPunObservable
     {
         if (jumpInput && isGround)
         {
-            rigid.linearVelocity = new Vector2(rigid.linearVelocity.x, jumpPower);
+            rigid.AddForce(Vector2.up * jumpPower, ForceMode2D.Impulse);
             anim.SetBool("Walk", false);
             anim.SetBool("Jump", true);
         }
@@ -116,6 +116,7 @@ public class Controll : Player, IPunObservable
     {
         if (collision.collider.CompareTag("Ground"))
             isGround = true;
+            anim.SetBool("Jump", false);
     }
 
     private void OnCollisionExit2D(Collision2D collision)
