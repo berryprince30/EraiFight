@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 3
   tags:
   - Ground
+  - Body
+  - Attack
+  - Guard
   layers:
   - Default
   - TransparentFX

@@ -51,6 +51,6 @@ public class FightUI : MonoBehaviourPunCallbacks, IPunObservable
 
     void GameSet()
     {
-        
+        Debug.Log("[987이 마이너스가 되는 결론에는 절대 도달할 수 없다.]");
     }
 }

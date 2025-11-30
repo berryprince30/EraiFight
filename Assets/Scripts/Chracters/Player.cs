@@ -1,5 +1,11 @@
 using System;
 using UnityEngine;
+using UnityEngine.UI;
+using UnityEngine.SceneManagement;
+using System.Collections;
+using System.Collections.Generic;
+using Photon.Pun;
+using Photon.Realtime;
 
 public enum PlayerStats
 {
@@ -14,7 +20,7 @@ public enum PlayerStats
     Special,
 }
 
-public class Player : MonoBehaviour
+public class Player : MonoBehaviourPunCallbacks
 {
     //플레이어가 가질 수 있는 모든 상태 개수
     private static readonly int StateCount = Enum.GetValues(typeof(PlayerStats)).Length;
