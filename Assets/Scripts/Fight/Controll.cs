@@ -3,7 +3,7 @@ using Photon.Pun;
 using Photon.Realtime;
 using UnityEngine.InputSystem;
 
-public class Controll : MonoBehaviourPunCallbacks, IPunObservable
+public class Controll : Player, IPunObservable
 {
     Animator anim;
     Rigidbody2D rigid;

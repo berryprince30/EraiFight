@@ -28,11 +28,6 @@ public class Player : MonoBehaviourPunCallbacks
     private State<Player>[] _states;
     private StateManager<Player> _stateManager;
     
-    //머리,몸,화살 오브젝트
-    public GameObject Body;
-    public GameObject Head;
-    public GameObject Arrow;
-    
     //기본 설정
     public void Start()
     {
