@@ -36,10 +36,16 @@ public class FightUI : MonoBehaviourPunCallbacks, IPunObservable
     [PunRPC] 
     // 일시적으로 모든 컴에서 사용
     // 사용 예 : photonView.RPC("checkUI", RpcTarget.All, 60, 100);
-    void checkUI(float CurHP1, float MaxHP1, float CurHP2, float MaxHP2) 
+    void checkUI(float CurHP, float MaxHP)
     {
-        HP_1.fillAmount = CurHP1 / MaxHP1;
-        HP_2.fillAmount = CurHP2 / MaxHP2;
+        if(PhotonNetwork.IsMasterClient)
+        {
+            HP_1.fillAmount = CurHP / MaxHP;
+        }
+        else
+        {
+            HP_2.fillAmount = CurHP / MaxHP;   
+        }
     }
 
     void Win987()

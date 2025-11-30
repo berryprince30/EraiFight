@@ -5,7 +5,6 @@ using UnityEngine.InputSystem;
 
 public class Controll : Player, IPunObservable
 {
-    Animator anim;
     Rigidbody2D rigid;
     SpriteRenderer spriteRenderer;
     PhotonView PV;
@@ -13,18 +12,19 @@ public class Controll : Player, IPunObservable
     Vector3 networkPos;
     float networkSpeedX;
     bool networkFlip;
+    Animator networkAnim;
 
     // Input System 변수
     Vector2 moveInput;   // Move 액션에서 받음
     bool jumpInput;      // Jump 액션에서 받음
 
+    // 점프 관련 함수
     public float moveSpeed = 5f;
     public float jumpPower = 12f;
     bool isGround;
 
     void Awake()
     {
-        anim = GetComponent<Animator>();
         rigid = GetComponent<Rigidbody2D>();
         spriteRenderer = GetComponent<SpriteRenderer>();
         PV = GetComponent<PhotonView>();
@@ -67,6 +67,8 @@ public class Controll : Player, IPunObservable
 
     void Update()
     {
+        base.Update();
+        
         if (PV.IsMine)
         {
             Walk();
@@ -91,11 +93,11 @@ public class Controll : Player, IPunObservable
         if (h != 0)
         {
             spriteRenderer.flipX = h < 0;
-            anim.SetBool("Walk", true);   
+            AddState(PlayerStats.Moving); 
         }
         else
         {
-            anim.SetBool("Walk", false);  
+            RemoveState(PlayerStats.Moving); 
         }
 
     }
@@ -105,8 +107,11 @@ public class Controll : Player, IPunObservable
         if (jumpInput && isGround)
         {
             rigid.AddForce(Vector2.up * jumpPower, ForceMode2D.Impulse);
-            anim.SetBool("Walk", false);
-            anim.SetBool("Jump", true);
+            if(IsContainState(PlayerStats.Moving))
+            {
+                RemoveState(PlayerStats.Moving);
+            }
+            AddState(PlayerStats.Jumping); 
         }
 
         jumpInput = false; // 매 프레임 초기화
@@ -115,8 +120,10 @@ public class Controll : Player, IPunObservable
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.collider.CompareTag("Ground"))
+        {
             isGround = true;
-            anim.SetBool("Jump", false);
+            RemoveState(PlayerStats.Jumping);
+        }
     }
 
     private void OnCollisionExit2D(Collision2D collision)
@@ -133,7 +140,6 @@ public class Controll : Player, IPunObservable
     {
         transform.position = Vector3.Lerp(transform.position, networkPos, Time.deltaTime * 10f);
 
-        // anim.SetFloat("Speed", Mathf.Abs(networkSpeedX));
         spriteRenderer.flipX = networkFlip;
     }
 }

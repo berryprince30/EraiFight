@@ -27,6 +27,6 @@ public class Damage : Player, IPunObservable
     
     void SetDamage()
     {
-        photonView.RPC("checkUI", RpcTarget.All, 60, 100, 30, 100);
+        photonView.RPC("checkUI", RpcTarget.AllBuffered, CurHP, MaxHP);
     }
 }

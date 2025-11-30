@@ -27,10 +27,15 @@ public class Player : MonoBehaviourPunCallbacks
     //플레이어가 가질 수 있는 모든 상태들 배열
     private State<Player>[] _states;
     private StateManager<Player> _stateManager;
+
+    public float CurHP;
+    public float MaxHP;
+    public Animator P_anim;
     
     //기본 설정
     public void Start()
     {
+        P_anim = GetComponent<Animator>();
         //_states 초기화
         _states = new State<Player>[StateCount];
         _states[(int)PlayerStats.Idle] = new PlayerOwnedStates.Idle();
@@ -45,10 +50,11 @@ public class Player : MonoBehaviourPunCallbacks
         
         //상태 매니저 생성 및 초기화
         _stateManager = new StateManager<Player>();
-        _stateManager.Setup(this,StateCount,_states);
+        _stateManager.Setup(this, StateCount, _states);
         
         //바로 등록해야할 상태 등록
-        //AddState(PlayerStats.CanShoot);
+        //AddState(PlayerStats.State);
+        Debug.Log("heyhey kotae");
     }
     
     //업데이트 메소드

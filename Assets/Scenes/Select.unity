@@ -2375,6 +2375,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bb53daa2f560ea74fa48b0c3c4e8ebe3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectManage
+  SelectIndex: 0
   IsSelect: 0
   SelectImage: {fileID: 1200436354}
   CharImages:
