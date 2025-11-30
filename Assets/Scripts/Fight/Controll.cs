@@ -67,8 +67,8 @@ public class Controll : Player, IPunObservable
 
     void Update()
     {
-        base.Update();
-        
+        base.Update(); // 필?수
+
         if (PV.IsMine)
         {
             Walk();
@@ -104,7 +104,7 @@ public class Controll : Player, IPunObservable
 
     void Jump()
     {
-        if (jumpInput && isGround)
+        if (jumpInput && isGround && !IsContainState(PlayerStats.Sstun) && !IsContainState(PlayerStats.Lstun))
         {
             rigid.AddForce(Vector2.up * jumpPower, ForceMode2D.Impulse);
             if(IsContainState(PlayerStats.Moving))

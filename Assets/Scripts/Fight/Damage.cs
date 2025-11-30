@@ -1,10 +1,10 @@
 using UnityEngine;
-using UnityEngine.UI;
 using System.Collections;
 using System.Collections.Generic;
 using Photon.Pun;
 using Photon.Realtime;
 using TMPro;
+using UnityEngine.InputSystem;
 
 public class Damage : Player, IPunObservable
 {
