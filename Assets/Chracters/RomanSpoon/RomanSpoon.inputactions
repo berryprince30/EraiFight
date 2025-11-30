@@ -1,0 +1,135 @@
+{
+    "version": 1,
+    "name": "RomanSpoon",
+    "maps": [
+        {
+            "name": "Atk",
+            "id": "819db94a-00ff-4fa5-823f-d89afa83f287",
+            "actions": [
+                {
+                    "name": "Atk",
+                    "type": "Button",
+                    "id": "c649f16b-b2c1-45c6-9996-03214fee63de",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "AtkD",
+                    "type": "Button",
+                    "id": "77aa3617-4033-49ea-8552-2c251f455785",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Cmd1",
+                    "type": "Button",
+                    "id": "670e459e-9410-4716-af17-21579946dd56",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Cmd2",
+                    "type": "Button",
+                    "id": "8bacd9c9-8f0f-46cd-8dae-3d10adfbe979",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Cmd3",
+                    "type": "Button",
+                    "id": "e92ba70b-0894-4273-86cf-a481a0734825",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Speicial",
+                    "type": "Button",
+                    "id": "2925f837-4cf8-4116-83e0-25f17c031527",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "c4553ba6-9c20-4a26-80f2-de9da3421da4",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Atk",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "91f94bbc-2f5c-4aed-a6b9-4e0e15b6bacc",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "AtkD",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "70c1e506-96da-4cf2-a130-3a817c81c9c4",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Cmd1",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "1984643f-cfa6-4d26-82bd-767db9b371b7",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Cmd2",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "8d41bd63-c996-4bad-87ed-a20ea34fa35b",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Cmd3",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "849175ce-e6db-4af2-8c87-410c7835b11b",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Speicial",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

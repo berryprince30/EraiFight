@@ -27,6 +27,58 @@ public class Woogo : Player, IPunObservable
         
     }
 
+    void OnAtk(InputValue value)
+    {
+        StartCoroutine(AttackCoroutine());
+    }
+
+    void Atk1()
+    {
+        
+    }
+
+    void Atk2()
+    {
+        
+    }
+
+    void Atk3()
+    {
+        
+    }
+
+    IEnumerator AttackCoroutine()
+    {
+        Debug.Log("ss");
+        yield return null;
+    }
+
+    void AtkD()
+    {
+        
+    }
+
+    void Cmd1()
+    {
+        
+    }
+
+    void Cmd2()
+    {
+        
+    }
+    
+    void Cmd3()
+    {
+        
+    }
+
+
+    void Special()
+    {
+        
+    }
+
     void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.collider.CompareTag("Body"))

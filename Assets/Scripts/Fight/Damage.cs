@@ -29,4 +29,18 @@ public class Damage : Player, IPunObservable
     {
         photonView.RPC("checkUI", RpcTarget.AllBuffered, CurHP, MaxHP);
     }
+
+    public void GetDamage(float Damage)
+    {
+        CurHP -= Damage;
+        if(Damage < 7.5)
+        {
+            AddState(PlayerStats.Sstun); 
+        }
+        else
+        {
+            AddState(PlayerStats.Lstun); 
+        }
+        SetDamage();
+    }
 }
