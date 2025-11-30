@@ -244,10 +244,10 @@ MonoBehaviour:
     SynchronizeType: 1
     Name: Jump
   - Type: 9
-    SynchronizeType: 0
+    SynchronizeType: 1
     Name: Sstun
   - Type: 9
-    SynchronizeType: 0
+    SynchronizeType: 1
     Name: Skill1
   m_SynchronizeLayers:
   - SynchronizeType: 1
@@ -395,7 +395,7 @@ MonoBehaviour:
     m_ActionName: UI/TrackedDeviceOrientation
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
-  m_DefaultActionMap: 
+  m_DefaultActionMap: Player
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
 --- !u!114 &2770112778282438706
@@ -441,7 +441,7 @@ GameObject:
   - component: {fileID: 2408633486909439417}
   - component: {fileID: 3969103014059633362}
   - component: {fileID: 527547218298752211}
-  - component: {fileID: 945338426128832213}
+  - component: {fileID: 1766830963168596125}
   m_Layer: 0
   m_Name: Attack
   m_TagString: Attack
@@ -525,7 +525,7 @@ MonoBehaviour:
   CurHP: 0
   MaxHP: 0
   P_anim: {fileID: 380525020310927365}
---- !u!114 &945338426128832213
+--- !u!114 &1766830963168596125
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -549,9 +549,49 @@ MonoBehaviour:
   m_ControlsChangedEvent:
     m_PersistentCalls:
       m_Calls: []
-  m_ActionEvents: []
+  m_ActionEvents:
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 527547218298752211}
+        m_TargetAssemblyTypeName: Woogo, Assembly-CSharp
+        m_MethodName: OnAtk
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: c649f16b-b2c1-45c6-9996-03214fee63de
+    m_ActionName: 'Attack/Atk[/Keyboard/z]'
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 77aa3617-4033-49ea-8552-2c251f455785
+    m_ActionName: 'Attack/AtkD[/Keyboard/downArrow,/Keyboard/z]'
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 9d34aa68-a8bb-4c72-8b24-355e298c23ee
+    m_ActionName: 'Attack/Guard[/Keyboard/x]'
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 670e459e-9410-4716-af17-21579946dd56
+    m_ActionName: Attack/Cmd1
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 8bacd9c9-8f0f-46cd-8dae-3d10adfbe979
+    m_ActionName: Attack/Cmd2
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: e92ba70b-0894-4273-86cf-a481a0734825
+    m_ActionName: Attack/Cmd3
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 2925f837-4cf8-4116-83e0-25f17c031527
+    m_ActionName: Attack/Speicial
   m_NeverAutoSwitchControlSchemes: 0
-  m_DefaultControlScheme: 
-  m_DefaultActionMap: 
+  m_DefaultControlScheme: KeyBoard
+  m_DefaultActionMap: Attack
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}

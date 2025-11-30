@@ -28,7 +28,6 @@ namespace PlayerOwnedStates
         }
         public override void Execute(Player player)
         {
-            Debug.Log("aa");
             player.P_anim.SetBool("Walk", true);
         }
         public override void Exit(Player player)

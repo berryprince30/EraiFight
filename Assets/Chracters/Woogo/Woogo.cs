@@ -27,7 +27,7 @@ public class Woogo : Player, IPunObservable
         
     }
 
-    void OnAtk(InputValue value)
+    public void OnAtk(InputAction.CallbackContext context)
     {
         StartCoroutine(AttackCoroutine());
     }

@@ -3,7 +3,7 @@
     "name": "Woogo",
     "maps": [
         {
-            "name": "Atk",
+            "name": "Attack",
             "id": "819db94a-00ff-4fa5-823f-d89afa83f287",
             "actions": [
                 {
@@ -12,7 +12,7 @@
                     "id": "c649f16b-b2c1-45c6-9996-03214fee63de",
                     "expectedControlType": "",
                     "processors": "",
-                    "interactions": "Tap",
+                    "interactions": "",
                     "initialStateCheck": false
                 },
                 {
@@ -84,28 +84,6 @@
                 },
                 {
                     "name": "",
-                    "id": "91f94bbc-2f5c-4aed-a6b9-4e0e15b6bacc",
-                    "path": "<Keyboard>/downArrow",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "AtkD",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "21344e7b-beeb-41e3-a03d-c3159e602dc3",
-                    "path": "<Keyboard>/z",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "AtkD",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
                     "id": "70c1e506-96da-4cf2-a130-3a817c81c9c4",
                     "path": "",
                     "interactions": "",
@@ -158,9 +136,54 @@
                     "action": "Guard",
                     "isComposite": false,
                     "isPartOfComposite": false
+                },
+                {
+                    "name": "One Modifier",
+                    "id": "61dfdaa7-4216-4237-9adf-ca9a20aad73f",
+                    "path": "OneModifier",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "AtkD",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "modifier",
+                    "id": "4a6b8494-6674-460b-9ef6-fa4b060b6e1e",
+                    "path": "<Keyboard>/downArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "AtkD",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "binding",
+                    "id": "93826ec1-4b3e-4d7e-a8b2-7ec8ea65724f",
+                    "path": "<Keyboard>/z",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "AtkD",
+                    "isComposite": false,
+                    "isPartOfComposite": true
                 }
             ]
         }
     ],
-    "controlSchemes": []
+    "controlSchemes": [
+        {
+            "name": "KeyBoard",
+            "bindingGroup": "KeyBoard",
+            "devices": [
+                {
+                    "devicePath": "<Keyboard>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
 }
