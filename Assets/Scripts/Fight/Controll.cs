@@ -50,6 +50,7 @@ public class Controll : Player, IPunObservable
 
     public void OnPhotonSerializeView(PhotonStream stream, PhotonMessageInfo info)
     {
+        // 보내야 할 거 : 콜라이더 | 속도 | 위치 | 플립 | 애니메이터 
         if (stream.IsWriting)
         {
             stream.SendNext(transform.position);
@@ -88,9 +89,15 @@ public class Controll : Player, IPunObservable
         rigid.linearVelocity = new Vector2(h * moveSpeed, rigid.linearVelocity.y);
 
         if (h != 0)
+        {
             spriteRenderer.flipX = h < 0;
+            anim.SetBool("Walk", true);   
+        }
+        else
+        {
+            anim.SetBool("Walk", false);  
+        }
 
-        anim.SetBool("Walk", true);
     }
 
     void Jump()
@@ -98,6 +105,7 @@ public class Controll : Player, IPunObservable
         if (jumpInput && isGround)
         {
             rigid.linearVelocity = new Vector2(rigid.linearVelocity.x, jumpPower);
+            anim.SetBool("Walk", false);
             anim.SetBool("Jump", true);
         }
 
