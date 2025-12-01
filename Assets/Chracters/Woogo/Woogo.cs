@@ -29,7 +29,7 @@ public class Woogo : Player, IPunObservable
 
     public void OnAtk(InputAction.CallbackContext context)
     {
-        Debug.Log("ss");
+        Debug.Log("깃이그노어 병신");
         StartCoroutine(AttackCoroutine());
     }
 
