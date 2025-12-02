@@ -48,12 +48,12 @@ public class Woogo : Player, IPunObservable
         {
             RemoveState(PlayerStats.Moving);
             RemoveState(PlayerStats.Guard);
-            if(controll.moveInput.y >= 0 && EndAttack)
+            if(controll.moveInput.y >= -0.5f && EndAttack)
             {
-                AttackRoutine();
                 AddState(PlayerStats.Attacking);
+                AttackRoutine();
                 EndAttack = false;
-                Invoke("EndAttackTrue", 0.33f);
+                Invoke("EndAttackTrue", 0.5f);
 
             }
             else
@@ -92,18 +92,10 @@ public class Woogo : Player, IPunObservable
         {
             switch (AttackIndex)
             {
-                case 0:
-                    Atk1();
-                    break;
-                case 1:
-                    Atk2();
-                    break;
-                case 2:
-                    Atk3();
-                    break;
-                default:
-                    Atk1();
-                    break;
+                case 0: Atk1(); break;
+                case 1: Atk2(); break;
+                case 2: Atk3(); break;
+                default: Debug.Log("씨1발 뭐ㅝ야"); break;
             }
         }
 
@@ -124,9 +116,10 @@ public class Woogo : Player, IPunObservable
     {
         Canceling = true;
 
-        yield return new WaitForSeconds(1.5f);
+        yield return new WaitForSeconds(5f);
 
         RemoveState(PlayerStats.Attacking);
+        AttackIndex = 0;
         Canceling = false;
         
         yield return null;
