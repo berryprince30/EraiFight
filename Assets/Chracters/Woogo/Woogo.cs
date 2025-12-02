@@ -18,6 +18,7 @@ public class Woogo : Player, IPunObservable
     int AttackIndex = 0;
     bool Canceling = false;
     bool EndAttack = true;
+    bool EndDownAttack = true;
 
     // 콤보 공격 관련
     int CheckComboFrame = 30;
@@ -48,17 +49,24 @@ public class Woogo : Player, IPunObservable
         {
             RemoveState(PlayerStats.Moving);
             RemoveState(PlayerStats.Guard);
-            if(controll.moveInput.y >= -0.5f && EndAttack)
+            if(controll.moveInput.y >= -0.5f)
             {
-                AddState(PlayerStats.Attacking);
-                AttackRoutine();
-                EndAttack = false;
-                Invoke("EndAttackTrue", 0.5f);
-
+                if(EndAttack)
+                {
+                    AddState(PlayerStats.Attacking);
+                    AttackRoutine();
+                    EndAttack = false;
+                    Invoke("EndAttackTrue", 0.5f);
+                }
             }
             else
             {
-                AtkD();
+                if(EndDownAttack)
+                {
+                    AtkD();
+                    EndDownAttack = false;
+                    Invoke("EndDownAttackTrue", 0.5f);
+                }
             }
         }
     }
@@ -84,6 +92,11 @@ public class Woogo : Player, IPunObservable
     void EndAttackTrue()
     {
         EndAttack = true;
+    }
+
+    void EndDownAttackTrue()
+    {
+        EndDownAttack = true;
     }
 
     void AttackRoutine()
@@ -139,6 +152,7 @@ public class Woogo : Player, IPunObservable
         RemoveState(PlayerStats.Attacking);
         AddState(PlayerStats.Guard);
         EndAttackTrue();
+        EndDownAttackTrue();
         StopCoroutine(CancelAttack());
 
         Debug.Log("Guard");
