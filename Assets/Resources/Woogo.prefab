@@ -249,6 +249,15 @@ MonoBehaviour:
   - Type: 9
     SynchronizeType: 1
     Name: Skill1
+  - Type: 9
+    SynchronizeType: 0
+    Name: Atk1
+  - Type: 9
+    SynchronizeType: 0
+    Name: Atk2
+  - Type: 9
+    SynchronizeType: 0
+    Name: Atk3
   m_SynchronizeLayers:
   - SynchronizeType: 1
     LayerIndex: 0
@@ -509,7 +518,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.1, y: 0.1}
   m_EdgeRadius: 0
 --- !u!114 &527547218298752211
 MonoBehaviour:

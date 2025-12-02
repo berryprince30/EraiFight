@@ -116,18 +116,21 @@ public class Woogo : Player, IPunObservable
     {
         Debug.Log("Attack1");
         anim.SetTrigger("Atk1");
+        StartCoroutine(SetCollider(0.9f, 0.6f, 1.8f, 0.7f, 0.5f));
     }
 
     void Atk2()
     {
         Debug.Log("Attack2");
         anim.SetTrigger("Atk2");
+        StartCoroutine(SetCollider(0.9f, 0.6f, 1.8f, 0.7f, 0.5f));
     }
 
     void Atk3()
     {
         Debug.Log("Attack3");
         anim.SetTrigger("Atk3");
+        StartCoroutine(SetCollider(0.9f, 0.8f, 1.8f, 0.7f, 0.5f));
     }
 
     void EndAttackTrue()
@@ -319,11 +322,13 @@ public class Woogo : Player, IPunObservable
 
     IEnumerator SetCollider(float OfsX, float OfsY, float SizeX, float SizeY, float AttackTime)
     {
+        yield return new WaitForSeconds(0.2f);
+
         SpriteRenderer sr = GetComponentInParent<SpriteRenderer>();
         int i = 0;
 
-        if(sr.flipX) i = 1;
-        else i = -1;
+        if(sr.flipX) i = -1;
+        else i = 1;
 
         HitBox.offset = new Vector2(OfsX * i, OfsY);
         HitBox.size = new Vector2(SizeX, SizeY);
@@ -331,7 +336,7 @@ public class Woogo : Player, IPunObservable
         yield return new WaitForSeconds(AttackTime);
 
         HitBox.offset = new Vector2(0, 0);
-        HitBox.size = new Vector2(0, 0);
+        HitBox.size = new Vector2(0.1f, 0.1f);
     }
 
     void OnDrawGizmos()
