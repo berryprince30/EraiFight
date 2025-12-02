@@ -25,7 +25,7 @@ public class Damage : Player, IPunObservable
         
     }
     
-    void SetDamage()
+    void SetDamageBar()
     {
         photonView.RPC("checkUI", RpcTarget.AllBuffered, CurHP, MaxHP);
     }
@@ -41,6 +41,6 @@ public class Damage : Player, IPunObservable
         {
             AddState(PlayerStats.Lstun); 
         }
-        SetDamage();
+        SetDamageBar();
     }
 }

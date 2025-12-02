@@ -8,7 +8,7 @@ using UnityEngine.InputSystem;
 
 public class Woogo : Player, IPunObservable
 {
-    float Damage;
+    float DamageF;
     BoxCollider2D HitBox;
     Controll controll;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -75,25 +75,25 @@ public class Woogo : Player, IPunObservable
         Debug.Log("Guard");
     }
 
-    void Cmd1()
+    void Cmd1() // z -> <- z
     {
-        
+        Debug.Log("Cmd1");
     }
 
-    void Cmd2()
+    void Cmd2() // <- <- 점프(스패이스 바 || 위 화살표) z x
     {
-        
+        Debug.Log("Cmd2");
     }
     
-    void Cmd3()
+    void Cmd3() //  <- z x z 점프(스패이스 바 || 위 화살표) ->
     {
-        
+        Debug.Log("Cmd3");
     }
 
 
-    void Special()
+    void Special() // 이건 냅둬
     {
-        
+        Debug.Log("Special");
     }
 
     void OnCollisionEnter2D(Collision2D collision)
@@ -101,6 +101,8 @@ public class Woogo : Player, IPunObservable
         if (collision.collider.CompareTag("Body"))
         {
             Debug.Log("닿았다 ㅎㅎ");
+            Damage BodyDamage = collision.gameObject.GetComponent<Damage>();
+            BodyDamage.GetDamage(DamageF);
         }
     }
 
