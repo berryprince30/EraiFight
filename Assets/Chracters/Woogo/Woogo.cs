@@ -21,15 +21,21 @@ public class Woogo : Player, IPunObservable
     bool EndDownAttack = true;
 
     // 콤보 공격 관련
-    int CheckComboFrame = 30;
+    int CheckComboFrame = 120; // 약 0.5초
+    private List<(string input, int frame)> inputBuffer = new List<(string, int)>();
+    private int currentFrame = 0;
+    private Vector2 prevMoveInput;
+    string[] seq3 = { "Z", "Up", "Left", "X"};
+    string[] seq2 = { "Z", "Up", "Z" };
+    string[] seq1 = { "Z", "Left", "Z" };
     
     void Start()
     {
+        base.Start();
+
         HitBox = GetComponent<BoxCollider2D>();
         controll = GetComponentInParent<Controll>();
         anim = GetComponentInParent<Animator>();
-
-        base.Start();
     }
 
     public void OnPhotonSerializeView(PhotonStream stream, PhotonMessageInfo info)
@@ -39,7 +45,35 @@ public class Woogo : Player, IPunObservable
 
     void Update()
     {
-        
+        currentFrame++;
+
+        Vector2 moveInput = controll.moveInput;
+        bool inputAdded = false;
+
+        // 방향 입력 press 감지 (threshold 0.5f로 입력 시작 감지)
+        if (moveInput.x <= -0.5f && prevMoveInput.x > -0.5f)
+        {
+            AddToBuffer("Left");
+            inputAdded = true;
+        }
+        if (moveInput.x >= 0.5f && prevMoveInput.x < 0.5f)
+        {
+            AddToBuffer("Right");
+            inputAdded = true;
+        }
+        if (moveInput.y >= 0.5f && prevMoveInput.y < 0.5f)
+        {
+            AddToBuffer("Up"); // 위 화살표를 점프로 간주 (스페이스 바는 별도 입력으로 추가 필요 시 구현)
+            inputAdded = true;
+        }
+        // Down은 콤보에 사용되지 않으므로 생략
+
+        if (inputAdded)
+        {
+            CheckCombos();
+        }
+
+        prevMoveInput = moveInput;
     }
 
     // 평타
@@ -47,6 +81,9 @@ public class Woogo : Player, IPunObservable
     {
         if(context.performed)
         {
+            AddToBuffer("Z");
+            if (CheckCombos()) return;
+            
             RemoveState(PlayerStats.Moving);
             RemoveState(PlayerStats.Guard);
             if(controll.moveInput.y >= -0.5f)
@@ -148,21 +185,31 @@ public class Woogo : Player, IPunObservable
     // 가드
     public void Guard(InputAction.CallbackContext context)
     {
-        RemoveState(PlayerStats.Moving);
-        RemoveState(PlayerStats.Attacking);
-        AddState(PlayerStats.Guard);
-        EndAttackTrue();
-        EndDownAttackTrue();
-        StopCoroutine(CancelAttack());
+        if(context.performed)
+        {
+            AddToBuffer("X");
+            if (CheckCombos()) return;
 
-        Debug.Log("Guard");
+            if(!IsContainState(PlayerStats.Guard))
+            {
+                RemoveState(PlayerStats.Moving);
+                RemoveState(PlayerStats.Attacking);
+                AddState(PlayerStats.Guard);
+                EndAttackTrue();
+                EndDownAttackTrue();
+                StopCoroutine(CancelAttack());
 
-        Invoke("CancelGuard", 0.75f);
+                Debug.Log("Guard");
+
+                Invoke("CancelGuard", 0.75f); 
+            }
+        }
     }
 
     void CancelGuard()
     {
         Debug.Log("Guard Canceled");
+        RemoveState(PlayerStats.Guard);
     }
 
 
@@ -182,6 +229,72 @@ public class Woogo : Player, IPunObservable
         Debug.Log("Cmd3");
     }
 
+    // X 입력 (새로 추가: 콤보에 사용되는 x 버튼 입력)
+    public void OnSkill(InputAction.CallbackContext context)
+    {
+        if (context.performed)
+        {
+            AddToBuffer("X");
+            if (CheckCombos()) return; // 콤보 발동 시 skip (정상 스킬이 있으면 여기서 처리)
+            // 정상 X 스킬이 없다면 아무것도 하지 않음 또는 필요 시 구현
+            Debug.Log("Normal Skill X");
+        }
+    }
+
+    // 입력 버퍼 추가 함수
+    private void AddToBuffer(string input)
+    {
+        inputBuffer.Add((input, currentFrame));
+        if (inputBuffer.Count > 10) // 버퍼 크기 제한
+        {
+            inputBuffer.RemoveAt(0);
+        }
+    }
+
+    private bool CheckCombos() // 콤보 체크 함수 (긴 시퀀스 우선 체크)
+    {
+        // Cmd3: <- z x z 점프 ->
+        if (CheckSequence(seq3))
+        {
+            Cmd3();
+            inputBuffer.Clear();
+            return true;
+        }
+
+        // Cmd2: <- <- 점프 z x
+        if (CheckSequence(seq2))
+        {
+            Cmd2();
+            inputBuffer.Clear();
+            return true;
+        }
+
+        // Cmd1: z -> <- z
+        if (CheckSequence(seq1))
+        {
+            Cmd1();
+            inputBuffer.Clear();
+            return true;
+        }
+
+        return false;
+    }
+
+    private bool CheckSequence(string[] sequence)
+    {
+        int len = sequence.Length;
+        if (inputBuffer.Count < len) return false;
+
+        for (int i = 0; i < len; i++)
+        {
+            if (inputBuffer[inputBuffer.Count - len + i].input != sequence[i])
+                return false;
+        }
+
+        int startFrame = inputBuffer[inputBuffer.Count - len].frame;
+        int endFrame = inputBuffer[inputBuffer.Count - 1].frame;
+        return (endFrame - startFrame <= CheckComboFrame);
+    }
 
     void Special() // 이건 냅둬
     {
