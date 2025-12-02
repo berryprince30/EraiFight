@@ -8,14 +8,27 @@ using UnityEngine.InputSystem;
 
 public class Woogo : Player, IPunObservable
 {
+    // 범용
     float DamageF;
     BoxCollider2D HitBox;
     Controll controll;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    Animator anim;
+
+    // 평타 관련
+    int AttackIndex = 0;
+    bool Canceling = false;
+    bool EndAttack = true;
+
+    // 콤보 공격 관련
+    int CheckComboFrame = 30;
+    
     void Start()
     {
         HitBox = GetComponent<BoxCollider2D>();
         controll = GetComponentInParent<Controll>();
+        anim = GetComponentInParent<Animator>();
+
+        base.Start();
     }
 
     public void OnPhotonSerializeView(PhotonStream stream, PhotonMessageInfo info)
@@ -23,19 +36,25 @@ public class Woogo : Player, IPunObservable
         
     }
 
-    // Update is called once per frame
     void Update()
     {
         
     }
 
+    // 평타
     public void OnAtk(InputAction.CallbackContext context)
     {
         if(context.performed)
         {
-            if(controll.moveInput.y >= 0)
+            RemoveState(PlayerStats.Moving);
+            RemoveState(PlayerStats.Guard);
+            if(controll.moveInput.y >= 0 && EndAttack)
             {
-                StartCoroutine(AttackCoroutine());   
+                AttackRoutine();
+                AddState(PlayerStats.Attacking);
+                EndAttack = false;
+                Invoke("EndAttackTrue", 0.33f);
+
             }
             else
             {
@@ -46,34 +65,100 @@ public class Woogo : Player, IPunObservable
 
     void Atk1()
     {
-        
+        Debug.Log("Attack1");
+        anim.SetTrigger("Atk1");
     }
 
     void Atk2()
     {
-        
+        Debug.Log("Attack2");
+        anim.SetTrigger("Atk2");
     }
 
     void Atk3()
     {
-        
+        Debug.Log("Attack3");
+        anim.SetTrigger("Atk3");
     }
 
-    IEnumerator AttackCoroutine()
+    void EndAttackTrue()
     {
-        Debug.Log("ss");
+        EndAttack = true;
+    }
+
+    void AttackRoutine()
+    {
+        if(IsContainState(PlayerStats.Attacking))
+        {
+            switch (AttackIndex)
+            {
+                case 0:
+                    Atk1();
+                    break;
+                case 1:
+                    Atk2();
+                    break;
+                case 2:
+                    Atk3();
+                    break;
+                default:
+                    Atk1();
+                    break;
+            }
+        }
+
+        AttackIndex++;
+
+        if(AttackIndex >= 3)
+        {
+            AttackIndex = 0;
+        }
+
+        if(!Canceling)
+        {
+            StartCoroutine(CancelAttack());   
+        }
+    }
+
+    IEnumerator CancelAttack()
+    {
+        Canceling = true;
+
+        yield return new WaitForSeconds(1.5f);
+
+        RemoveState(PlayerStats.Attacking);
+        Canceling = false;
+        
         yield return null;
     }
 
+    // 아래 공격
     void AtkD()
     {
         Debug.Log("Down");
+        anim.SetTrigger("Skill1");
     }
 
+    // 가드
     public void Guard(InputAction.CallbackContext context)
     {
+        RemoveState(PlayerStats.Moving);
+        RemoveState(PlayerStats.Attacking);
+        AddState(PlayerStats.Guard);
+        EndAttackTrue();
+        StopCoroutine(CancelAttack());
+
         Debug.Log("Guard");
+
+        Invoke("CancelGuard", 0.75f);
     }
+
+    void CancelGuard()
+    {
+        Debug.Log("Guard Canceled");
+    }
+
+
 
     void Cmd1() // z -> <- z
     {
@@ -85,7 +170,7 @@ public class Woogo : Player, IPunObservable
         Debug.Log("Cmd2");
     }
     
-    void Cmd3() //  <- z x z 점프(스패이스 바 || 위 화살표) ->
+    void Cmd3() // <- z x z 점프(스패이스 바 || 위 화살표) ->
     {
         Debug.Log("Cmd3");
     }

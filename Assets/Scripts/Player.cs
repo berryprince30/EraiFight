@@ -74,6 +74,7 @@ public class Player : MonoBehaviourPunCallbacks
     //상태 제거 메소드
     public void RemoveState(PlayerStats ps)
     {
+        if(!_stateManager._currentState.Contains(_states[(int)ps])) return;
         State<Player> remState = _states[(int)ps];
         _stateManager.RemoveState(remState);
     }
