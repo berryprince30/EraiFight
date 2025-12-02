@@ -45,6 +45,8 @@ public class Woogo : Player, IPunObservable
 
     void Update()
     {
+        if (!photonView.IsMine) return;
+
         currentFrame++;
 
         Vector2 moveInput = controll.moveInput;
@@ -79,6 +81,8 @@ public class Woogo : Player, IPunObservable
     // 평타
     public void OnAtk(InputAction.CallbackContext context)
     {
+        if (!photonView.IsMine) return;
+        
         if(context.performed)
         {
             AddToBuffer("Z");
@@ -185,6 +189,8 @@ public class Woogo : Player, IPunObservable
     // 가드
     public void Guard(InputAction.CallbackContext context)
     {
+        if (!photonView.IsMine) return;
+
         if(context.performed)
         {
             AddToBuffer("X");
@@ -232,6 +238,8 @@ public class Woogo : Player, IPunObservable
     // X 입력 (새로 추가: 콤보에 사용되는 x 버튼 입력)
     public void OnSkill(InputAction.CallbackContext context)
     {
+        if (!photonView.IsMine) return;
+        
         if (context.performed)
         {
             AddToBuffer("X");
