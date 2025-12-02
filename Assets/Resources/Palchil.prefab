@@ -538,6 +538,7 @@ MonoBehaviour:
   CurHP: 0
   MaxHP: 0
   P_anim: {fileID: 380525020310927365}
+  moveInput: {x: 0, y: 0}
   moveSpeed: 5
   jumpPower: 15
 --- !u!114 &2448054758244305999

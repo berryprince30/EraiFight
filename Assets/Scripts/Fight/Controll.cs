@@ -15,7 +15,7 @@ public class Controll : Player, IPunObservable
     Animator networkAnim;
 
     // Input System 변수
-    Vector2 moveInput;   // Move 액션에서 받음
+    public Vector2 moveInput;   // Move 액션에서 받음
     bool jumpInput;      // Jump 액션에서 받음
 
     // 점프 관련 함수

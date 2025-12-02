@@ -413,6 +413,7 @@ MonoBehaviour:
   CurHP: 0
   MaxHP: 0
   P_anim: {fileID: 380525020310927365}
+  moveInput: {x: 0, y: 0}
   moveSpeed: 5
   jumpPower: 15
 --- !u!114 &-6062805819145365507
@@ -570,7 +571,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 527547218298752211}
         m_TargetAssemblyTypeName: Woogo, Assembly-CSharp
-        m_MethodName: OnAtk
+        m_MethodName: Guard
         m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -580,10 +581,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 1
-    m_ActionId: 77aa3617-4033-49ea-8552-2c251f455785
-    m_ActionName: 'Attack/AtkD[/Keyboard/downArrow,/Keyboard/z]'
-  - m_PersistentCalls:
-      m_Calls: []
     m_ActionId: 9d34aa68-a8bb-4c72-8b24-355e298c23ee
     m_ActionName: 'Attack/Guard[/Keyboard/x]'
   - m_PersistentCalls:

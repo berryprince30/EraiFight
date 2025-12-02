@@ -16,15 +16,6 @@
                     "initialStateCheck": false
                 },
                 {
-                    "name": "AtkD",
-                    "type": "Button",
-                    "id": "77aa3617-4033-49ea-8552-2c251f455785",
-                    "expectedControlType": "",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": false
-                },
-                {
                     "name": "Guard",
                     "type": "Button",
                     "id": "9d34aa68-a8bb-4c72-8b24-355e298c23ee",
@@ -71,17 +62,6 @@
                 }
             ],
             "bindings": [
-                {
-                    "name": "",
-                    "id": "c4553ba6-9c20-4a26-80f2-de9da3421da4",
-                    "path": "<Keyboard>/#(Z)",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Atk",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
                 {
                     "name": "",
                     "id": "70c1e506-96da-4cf2-a130-3a817c81c9c4",
@@ -138,37 +118,15 @@
                     "isPartOfComposite": false
                 },
                 {
-                    "name": "One Modifier",
-                    "id": "61dfdaa7-4216-4237-9adf-ca9a20aad73f",
-                    "path": "OneModifier",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "AtkD",
-                    "isComposite": true,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "modifier",
-                    "id": "4a6b8494-6674-460b-9ef6-fa4b060b6e1e",
-                    "path": "<Keyboard>/downArrow",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "AtkD",
-                    "isComposite": false,
-                    "isPartOfComposite": true
-                },
-                {
-                    "name": "binding",
-                    "id": "93826ec1-4b3e-4d7e-a8b2-7ec8ea65724f",
+                    "name": "",
+                    "id": "458a0a52-e920-4eed-b96a-d887d946b667",
                     "path": "<Keyboard>/z",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "AtkD",
+                    "action": "Atk",
                     "isComposite": false,
-                    "isPartOfComposite": true
+                    "isPartOfComposite": false
                 }
             ]
         }

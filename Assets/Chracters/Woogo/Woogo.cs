@@ -10,10 +10,12 @@ public class Woogo : Player, IPunObservable
 {
     float Damage;
     BoxCollider2D HitBox;
+    Controll controll;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         HitBox = GetComponent<BoxCollider2D>();
+        controll = GetComponentInParent<Controll>();
     }
 
     public void OnPhotonSerializeView(PhotonStream stream, PhotonMessageInfo info)
@@ -29,8 +31,17 @@ public class Woogo : Player, IPunObservable
 
     public void OnAtk(InputAction.CallbackContext context)
     {
-        Debug.Log("깃이그노어 병신");
-        StartCoroutine(AttackCoroutine());
+        if(context.performed)
+        {
+            if(controll.moveInput.y >= 0)
+            {
+                StartCoroutine(AttackCoroutine());   
+            }
+            else
+            {
+                AtkD();
+            }
+        }
     }
 
     void Atk1()
@@ -56,7 +67,12 @@ public class Woogo : Player, IPunObservable
 
     void AtkD()
     {
-        
+        Debug.Log("Down");
+    }
+
+    public void Guard(InputAction.CallbackContext context)
+    {
+        Debug.Log("Guard");
     }
 
     void Cmd1()
@@ -86,5 +102,10 @@ public class Woogo : Player, IPunObservable
         {
             Debug.Log("닿았다 ㅎㅎ");
         }
+    }
+
+    void SetCollider()
+    {
+        
     }
 }
