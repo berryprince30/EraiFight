@@ -218,8 +218,6 @@ public class Woogo : Player, IPunObservable
         RemoveState(PlayerStats.Guard);
     }
 
-
-
     void Cmd1() // z -> <- z
     {
         Debug.Log("Cmd1");
@@ -239,7 +237,7 @@ public class Woogo : Player, IPunObservable
     public void OnSkill(InputAction.CallbackContext context)
     {
         if (!photonView.IsMine) return;
-        
+
         if (context.performed)
         {
             AddToBuffer("X");
@@ -319,8 +317,32 @@ public class Woogo : Player, IPunObservable
         }
     }
 
-    void SetCollider()
+    IEnumerator SetCollider(float OfsX, float OfsY, float SizeX, float SizeY, float AttackTime)
     {
-        
+        SpriteRenderer sr = GetComponentInParent<SpriteRenderer>();
+        int i = 0;
+
+        if(sr.flipX) i = 1;
+        else i = -1;
+
+        HitBox.offset = new Vector2(OfsX * i, OfsY);
+        HitBox.size = new Vector2(SizeX, SizeY);
+
+        yield return new WaitForSeconds(AttackTime);
+
+        HitBox.offset = new Vector2(0, 0);
+        HitBox.size = new Vector2(0, 0);
+    }
+
+    void OnDrawGizmos()
+    {
+        if (HitBox != null)
+        {
+            Gizmos.color = Color.green;
+            // 콜라이더의 월드 스페이스 위치 계산 (transform 적용)
+            Vector3 center = transform.TransformPoint(HitBox.offset);
+            Vector3 size = new Vector3(HitBox.size.x * transform.lossyScale.x, HitBox.size.y * transform.lossyScale.y, 0);
+            Gizmos.DrawWireCube(center, size);
+        }
     }
 }
