@@ -21,7 +21,7 @@ public class Woogo : Player, IPunObservable
     bool EndDownAttack = true;
 
     // 콤보 공격 관련
-    int CheckComboFrame = 120; // 약 0.5초
+    int CheckComboFrame = 90;
     private List<(string input, int frame)> inputBuffer = new List<(string, int)>();
     private int currentFrame = 0;
     private Vector2 prevMoveInput;
