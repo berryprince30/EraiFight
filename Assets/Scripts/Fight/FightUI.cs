@@ -39,6 +39,8 @@ public class FightUI : MonoBehaviourPunCallbacks, IPunObservable
     [PunRPC]
     public void checkUI(float CurHP, float MaxHP)
     {
+        if (!photonView.IsMine) return;
+        
         if(PhotonNetwork.IsMasterClient)
         {
             HP_1.fillAmount = CurHP / MaxHP;

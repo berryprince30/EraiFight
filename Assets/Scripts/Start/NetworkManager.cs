@@ -56,11 +56,8 @@ public class NetworkManager : MonoBehaviourPunCallbacks
 
     public override void OnJoinedRoom()
     {
-        Debug.Log("방 입장 성공!");
         Room currentRoom = PhotonNetwork.CurrentRoom;
         int playerCount = currentRoom.PlayerCount;
-        
-        Debug.Log(playerCount);
 
         if(PhotonNetwork.IsMasterClient)
         {
@@ -73,7 +70,6 @@ public class NetworkManager : MonoBehaviourPunCallbacks
 
         if (playerCount >= 2)
         {
-            Debug.Log("방이 꽉 찼습니다!");
             photonView.RPC("UpdateStart", RpcTarget.All);
         }
     }
