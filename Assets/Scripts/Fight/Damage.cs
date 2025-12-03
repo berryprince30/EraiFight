@@ -4,14 +4,14 @@ using System.Collections.Generic;
 using Photon.Pun;
 using Photon.Realtime;
 using TMPro;
-using UnityEngine.InputSystem;
 
 public class Damage : Player, IPunObservable
 {
+    public PhotonView FightUIPV;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+        base.Start();
     }
 
     public void OnPhotonSerializeView(PhotonStream stream, PhotonMessageInfo info)
@@ -25,9 +25,9 @@ public class Damage : Player, IPunObservable
         
     }
     
-    void SetDamageBar()
+    public void SetDamageBar()
     {
-        photonView.RPC("checkUI", RpcTarget.AllBuffered, CurHP, MaxHP);
+        FightUIPV.RPC("checkUI", RpcTarget.AllBuffered, CurHP, MaxHP);
     }
 
     public void GetDamage(float Damage)

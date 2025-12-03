@@ -129,6 +129,7 @@ public class Woogo : Player, IPunObservable
     void Atk1()
     {
         Debug.Log("Attack1");
+        DamageF = 5;
         anim.SetTrigger("Atk1");
         StartCoroutine(SetCollider(0.9f, 0.6f, 1.8f, 0.7f, 0.5f));
     }
@@ -324,16 +325,6 @@ public class Woogo : Player, IPunObservable
         Debug.Log("Special");
     }
 
-    void OnCollisionEnter2D(Collision2D collision)
-    {
-        if (collision.collider.CompareTag("Body"))
-        {
-            Debug.Log("닿았다 ㅎㅎ");
-            Damage BodyDamage = collision.gameObject.GetComponent<Damage>();
-            BodyDamage.GetDamage(DamageF);
-        }
-    }
-
     IEnumerator SetCollider(float OfsX, float OfsY, float SizeX, float SizeY, float AttackTime)
     {
         yield return new WaitForSeconds(0.2f);
@@ -362,6 +353,16 @@ public class Woogo : Player, IPunObservable
             Vector3 center = transform.TransformPoint(HitBox.offset);
             Vector3 size = new Vector3(HitBox.size.x * transform.lossyScale.x, HitBox.size.y * transform.lossyScale.y, 0);
             Gizmos.DrawWireCube(center, size);
+        }
+    }
+
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("Body"))
+        {
+            Debug.Log("닿았다 ㅎㅎ");
+            Damage BodyDamage = other.gameObject.GetComponent<Damage>();
+            BodyDamage.GetDamage(DamageF);
         }
     }
 }

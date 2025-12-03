@@ -212,7 +212,7 @@ MonoBehaviour:
   prefixField: -1
   Synchronization: 3
   OwnershipTransfer: 0
-  observableSearch: 2
+  observableSearch: 0
   ObservedComponents:
   - {fileID: 349631294481325010}
   - {fileID: 970611013242120989}
@@ -437,8 +437,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21a5d5db50b876a45ae0def73deacfd4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Damage
-  CurHP: 0
-  MaxHP: 0
+  CurHP: 100
+  MaxHP: 100
   P_anim: {fileID: 380525020310927365}
 --- !u!1 &9019801808513527455
 GameObject:

@@ -33,10 +33,11 @@ public class FightUI : MonoBehaviourPunCallbacks, IPunObservable
         }
     }
 
-    [PunRPC] 
+    
     // 일시적으로 모든 컴에서 사용
     // 사용 예 : photonView.RPC("checkUI", RpcTarget.All, 60, 100);
-    void checkUI(float CurHP, float MaxHP)
+    [PunRPC]
+    public void checkUI(float CurHP, float MaxHP)
     {
         if(PhotonNetwork.IsMasterClient)
         {
