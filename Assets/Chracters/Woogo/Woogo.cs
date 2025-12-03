@@ -40,7 +40,21 @@ public class Woogo : Player, IPunObservable
 
     public void OnPhotonSerializeView(PhotonStream stream, PhotonMessageInfo info)
     {
-        
+        if (HitBox == null) 
+        {
+            HitBox = GetComponent<BoxCollider2D>();  // 재초기화 시도
+        }
+
+        if (stream.IsWriting)  // 로컬 플레이어가 데이터 전송
+        {
+            stream.SendNext(HitBox.offset);
+            stream.SendNext(HitBox.size);
+        }
+        else  // 다른 클라이언트가 데이터 수신 및 적용
+        {
+            HitBox.offset = (Vector2)stream.ReceiveNext();
+            HitBox.size = (Vector2)stream.ReceiveNext();
+        }
     }
 
     void Update()
