@@ -7,11 +7,13 @@ using TMPro;
 
 public class Damage : Player, IPunObservable
 {
-    public PhotonView FightUIPV;
+    public PhotonView uiPhotonView;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         base.Start();
+
+        uiPhotonView = FindObjectOfType<FightUI>().photonView;
     }
 
     public void OnPhotonSerializeView(PhotonStream stream, PhotonMessageInfo info)
@@ -27,7 +29,7 @@ public class Damage : Player, IPunObservable
     
     public void SetDamageBar()
     {
-        FightUIPV.RPC("checkUI", RpcTarget.AllBuffered, CurHP, MaxHP);
+        uiPhotonView.RPC("checkUI", RpcTarget.All, CurHP, MaxHP);
     }
 
     public void GetDamage(float Damage)
@@ -35,11 +37,11 @@ public class Damage : Player, IPunObservable
         CurHP -= Damage;
         if(Damage < 7.5)
         {
-            AddState(PlayerStats.Sstun); 
+            //AddState(PlayerStats.Sstun); 
         }
         else
         {
-            AddState(PlayerStats.Lstun); 
+            //AddState(PlayerStats.Lstun); 
         }
         SetDamageBar();
     }

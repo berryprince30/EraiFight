@@ -8,6 +8,7 @@ TagManager:
   - Body
   - Attack
   - Guard
+  - FightUI
   layers:
   - Default
   - TransparentFX

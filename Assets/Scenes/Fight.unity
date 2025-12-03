@@ -233,7 +233,7 @@ GameObject:
   - component: {fileID: 335014069}
   - component: {fileID: 335014068}
   m_Layer: 5
-  m_Name: UI Script
+  m_Name: FightUI
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -297,7 +297,7 @@ MonoBehaviour:
   observableSearch: 2
   ObservedComponents:
   - {fileID: 335014068}
-  sceneViewId: 987
+  sceneViewId: 1
   InstantiationId: 0
   isRuntimeInstantiated: 0
 --- !u!1 &519420028
