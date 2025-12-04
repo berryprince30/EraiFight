@@ -8,12 +8,14 @@ using TMPro;
 public class Damage : Player, IPunObservable
 {
     public PhotonView uiPhotonView;
+    Controll controll;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         base.Start();
 
         uiPhotonView = FindObjectOfType<FightUI>().photonView;
+        controll = GetComponent<Controll>();
     }
 
     public void OnPhotonSerializeView(PhotonStream stream, PhotonMessageInfo info)
@@ -38,7 +40,7 @@ public class Damage : Player, IPunObservable
         CurHP -= Damage;
         if(Damage < 7.5)
         {
-            //AddState(PlayerStats.Sstun); 
+            //AddState(PlayerStats.Sstun);
         }
         else
         {
