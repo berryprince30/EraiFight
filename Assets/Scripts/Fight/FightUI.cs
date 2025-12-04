@@ -8,8 +8,6 @@ using TMPro;
 
 public class FightUI : MonoBehaviourPunCallbacks, IPunObservable
 {
-    public Image HP_1;
-    public Image HP_2;
     public TMP_Text Seconds;
     public float TimeMax;
     void Awake()
@@ -30,24 +28,6 @@ public class FightUI : MonoBehaviourPunCallbacks, IPunObservable
         if(TimeMax <= -987)
         {
             Win987();
-        }
-    }
-
-    
-    // 일시적으로 모든 컴에서 사용
-    // 사용 예 : photonView.RPC("checkUI", RpcTarget.All, 60, 100);
-    [PunRPC]
-    public void CheckUI(float CurHP, float MaxHP)
-    {
-        if (!photonView.IsMine) return;
-        
-        if(PhotonNetwork.IsMasterClient)
-        {
-            HP_1.fillAmount = CurHP / MaxHP;
-        }
-        else
-        {
-            HP_2.fillAmount = CurHP / MaxHP;   
         }
     }
 
