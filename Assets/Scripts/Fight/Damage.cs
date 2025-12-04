@@ -29,7 +29,8 @@ public class Damage : Player, IPunObservable
     
     public void SetDamageBar()
     {
-        uiPhotonView.RPC("checkUI", RpcTarget.All, CurHP, MaxHP);
+        uiPhotonView.RPC("CheckUI", RpcTarget.All, CurHP, MaxHP);
+        Debug.Log("씨발 뭐지");
     }
 
     public void GetDamage(float Damage)
