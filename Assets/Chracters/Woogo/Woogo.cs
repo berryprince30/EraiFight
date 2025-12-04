@@ -362,10 +362,7 @@ public class Woogo : Player, IPunObservable
         {
             Debug.Log("닿았다 ㅎㅎ");
             Damage BodyDamage = other.gameObject.GetComponent<Damage>();
-            if (BodyDamage != null && photonView.IsMine)  // 로컬 플레이어만 데미지 트리거
-            {
-                BodyDamage.GetDamage(DamageF);  // GetDamage 호출 (이게 RPC로 전달됨)
-            }
+            BodyDamage.GetDamage(DamageF);
         }
     }
 }
