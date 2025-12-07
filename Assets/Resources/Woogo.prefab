@@ -440,7 +440,6 @@ MonoBehaviour:
   CurHP: 100
   MaxHP: 100
   P_anim: {fileID: 380525020310927365}
-  uiPhotonView: {fileID: 0}
 --- !u!1 &9019801808513527455
 GameObject:
   m_ObjectHideFlags: 0

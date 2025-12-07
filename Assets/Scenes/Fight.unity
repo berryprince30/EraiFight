@@ -233,8 +233,8 @@ GameObject:
   - component: {fileID: 335014069}
   - component: {fileID: 335014068}
   m_Layer: 5
-  m_Name: FightUI
-  m_TagString: FightUI
+  m_Name: FIGHTUI
+  m_TagString: FIGHTUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

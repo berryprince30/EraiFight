@@ -2,6 +2,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using Photon.Pun;
 using Photon.Realtime;
 using TMPro;
@@ -12,10 +13,18 @@ public class FightUI : MonoBehaviourPunCallbacks, IPunObservable
     public Image HP_2;
     public TMP_Text Seconds;
     public float TimeMax;
+    private List<Damage> players = new List<Damage>();
     void Awake()
     {
         Seconds.text = TimeMax.ToString("0");
     }
+
+    void Start()
+    {
+        players = FindObjectsOfType<Damage>().ToList();
+        players.Sort((a, b) => a.photonView.Owner.ActorNumber.CompareTo(b.photonView.Owner.ActorNumber));
+    }
+
     public void OnPhotonSerializeView(PhotonStream stream, PhotonMessageInfo info)
     {
         
@@ -31,23 +40,25 @@ public class FightUI : MonoBehaviourPunCallbacks, IPunObservable
         {
             Win987();
         }
+
+        if (players.Count == 2)
+        {
+            HP_1.fillAmount = GetHPFill(players[0]);
+            HP_2.fillAmount = GetHPFill(players[1]);
+        }
     }
 
-    
-    // 일시적으로 모든 컴에서 사용
-    // 사용 예 : photonView.RPC("checkUI", RpcTarget.All, 60, 100);
-    [PunRPC]
-    public void CheckUI(float CurHP, float MaxHP)
+    private float GetHPFill(Damage playerDamage)
     {
-        if (!photonView.IsMine) return;
-        
-        if(PhotonNetwork.IsMasterClient)
+        if (playerDamage == null) return 0f;
+
+        if (playerDamage.photonView.IsMine)
         {
-            HP_1.fillAmount = CurHP / MaxHP;
+            return playerDamage.CurHP / playerDamage.MaxHP;
         }
         else
         {
-            HP_2.fillAmount = CurHP / MaxHP;   
+            return playerDamage.netCurHP / playerDamage.netMaxHP;
         }
     }
 

@@ -7,20 +7,32 @@ using TMPro;
 
 public class Damage : Player, IPunObservable
 {
-    public PhotonView uiPhotonView;
     Controll controll;
+    public float netCurHP;
+    public float netMaxHP;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         base.Start();
 
-        uiPhotonView = FindObjectOfType<FightUI>().photonView;
         controll = GetComponent<Controll>();
+        
+        netCurHP = CurHP;
+        netMaxHP = MaxHP;
     }
 
     public void OnPhotonSerializeView(PhotonStream stream, PhotonMessageInfo info)
     {
-        
+        if (stream.IsWriting)  // 로컬 플레이어가 데이터 전송
+        {
+            stream.SendNext(CurHP);
+            stream.SendNext(MaxHP);
+        }
+        else  // 다른 클라이언트가 데이터 수신 및 적용
+        {
+            netCurHP = (float)stream.ReceiveNext();
+            netMaxHP = (float)stream.ReceiveNext();
+        }
     }
 
     // Update is called once per frame
@@ -28,24 +40,18 @@ public class Damage : Player, IPunObservable
     {
         
     }
-    
-    public void SetDamageBar()
-    {
-        uiPhotonView.RPC("CheckUI", RpcTarget.All, CurHP, MaxHP);
-        Debug.Log("씨발 뭐지");
-    }
 
     public void GetDamage(float Damage)
     {
         CurHP -= Damage;
         if(Damage < 7.5)
         {
-            //AddState(PlayerStats.Sstun);
+            //controll.AddState(PlayerStats.Sstun);
         }
         else
         {
-            //AddState(PlayerStats.Lstun); 
+            //controll.AddState(PlayerStats.Lstun); 
         }
-        SetDamageBar();
+        Debug.Log(CurHP + " | " + MaxHP + " | " + netCurHP + " | " + netMaxHP);
     }
 }
