@@ -355,14 +355,4 @@ public class Woogo : Player, IPunObservable
             Gizmos.DrawWireCube(center, size);
         }
     }
-
-    void OnTriggerEnter2D(Collider2D other)
-    {
-        // if (other.CompareTag("Body"))
-        // {
-        //     Debug.Log("닿았다 ㅎㅎ");
-        //     Damage BodyDamage = other.gameObject.GetComponent<Damage>();
-        //     BodyDamage.GetDamage(DamageF);
-        // }
-    }
 }
