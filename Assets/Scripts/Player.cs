@@ -28,8 +28,8 @@ public class Player : MonoBehaviourPunCallbacks
     private State<Player>[] _states;
     private StateManager<Player> _stateManager;
 
-    public float CurHP;
-    public float MaxHP;
+    public float CurHP = 100;
+    public float MaxHP = 100;
     public Animator P_anim;
     
     //기본 설정
