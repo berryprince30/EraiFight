@@ -67,7 +67,7 @@ public class FightUI : MonoBehaviourPunCallbacks
     {
         if (playerDamage == null) return 0f;
 
-        if (!playerDamage.photonView.IsMine)
+        if (playerDamage.photonView.IsMine)
         {
             return playerDamage.CurHP / playerDamage.MaxHP;
         }
