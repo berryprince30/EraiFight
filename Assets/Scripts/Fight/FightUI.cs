@@ -32,9 +32,9 @@ public class FightUI : MonoBehaviourPunCallbacks // Removed IPunObservable if no
         TimeMax -= Time.deltaTime;
         Seconds.text = Mathf.Max(0, TimeMax).ToString("0");
 
-        if (TimeMax <= 0)
+        if (TimeMax <= -987)
         {
-            Win987(); // Adjust to handle tie or whatever
+            Win987();
         }
 
         if (players.Count == 2)

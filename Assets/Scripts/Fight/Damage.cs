@@ -43,8 +43,6 @@ public class Damage : Player, IPunObservable
         }
     }
 
-    // Assumes your player has a Collider2D set as trigger for hurtbox
-    // Attacks should have a separate Collider2D as trigger with tag "Attack" and an AttackData component
     void OnTriggerEnter2D(Collider2D other)
     {
         if (!photonView.IsMine) return; // Only process on the local owner (victim)
