@@ -182,12 +182,12 @@ TextureImporter:
       name: Wight_Knight_Pixel_art_Movement_run_0
       rect:
         serializedVersion: 2
-        x: 49
-        y: 255
-        width: 46
-        height: 71
+        x: 0
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -204,12 +204,12 @@ TextureImporter:
       name: Wight_Knight_Pixel_art_Movement_run_1
       rect:
         serializedVersion: 2
-        x: 174
-        y: 255
-        width: 46
-        height: 72
+        x: 128
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -226,12 +226,12 @@ TextureImporter:
       name: Wight_Knight_Pixel_art_Movement_run_2
       rect:
         serializedVersion: 2
-        x: 299
-        y: 255
-        width: 45
-        height: 80
+        x: 256
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -248,12 +248,12 @@ TextureImporter:
       name: Wight_Knight_Pixel_art_Movement_run_3
       rect:
         serializedVersion: 2
-        x: 425
-        y: 257
-        width: 44
-        height: 82
+        x: 384
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -270,12 +270,12 @@ TextureImporter:
       name: Wight_Knight_Pixel_art_Movement_run_4
       rect:
         serializedVersion: 2
-        x: 550
-        y: 258
-        width: 51
-        height: 82
+        x: 512
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -292,12 +292,12 @@ TextureImporter:
       name: Wight_Knight_Pixel_art_Movement_run_5
       rect:
         serializedVersion: 2
-        x: 676
-        y: 258
-        width: 54
-        height: 82
+        x: 640
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -314,12 +314,12 @@ TextureImporter:
       name: Wight_Knight_Pixel_art_Movement_run_6
       rect:
         serializedVersion: 2
-        x: 805
-        y: 257
-        width: 52
-        height: 84
+        x: 768
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -336,12 +336,12 @@ TextureImporter:
       name: Wight_Knight_Pixel_art_Movement_run_7
       rect:
         serializedVersion: 2
-        x: 935
-        y: 255
-        width: 47
-        height: 82
+        x: 896
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -358,12 +358,12 @@ TextureImporter:
       name: Wight_Knight_Pixel_art_Movement_run_8
       rect:
         serializedVersion: 2
-        x: 1066
-        y: 255
-        width: 41
-        height: 79
+        x: 1024
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -380,12 +380,12 @@ TextureImporter:
       name: Wight_Knight_Pixel_art_Movement_run_9
       rect:
         serializedVersion: 2
-        x: 1199
-        y: 255
-        width: 43
-        height: 71
+        x: 1152
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -402,12 +402,12 @@ TextureImporter:
       name: Wight_Knight_Pixel_art_Movement_run_10
       rect:
         serializedVersion: 2
-        x: 52
-        y: 127
-        width: 42
-        height: 70
+        x: 0
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -424,12 +424,12 @@ TextureImporter:
       name: Wight_Knight_Pixel_art_Movement_run_11
       rect:
         serializedVersion: 2
-        x: 178
-        y: 127
-        width: 45
-        height: 71
+        x: 128
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -446,12 +446,12 @@ TextureImporter:
       name: Wight_Knight_Pixel_art_Movement_run_12
       rect:
         serializedVersion: 2
-        x: 300
-        y: 127
-        width: 50
-        height: 72
+        x: 256
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -468,12 +468,12 @@ TextureImporter:
       name: Wight_Knight_Pixel_art_Movement_run_13
       rect:
         serializedVersion: 2
-        x: 425
+        x: 384
         y: 128
-        width: 52
-        height: 72
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -490,12 +490,12 @@ TextureImporter:
       name: Wight_Knight_Pixel_art_Movement_run_14
       rect:
         serializedVersion: 2
-        x: 550
-        y: 130
-        width: 54
-        height: 71
+        x: 512
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -512,12 +512,12 @@ TextureImporter:
       name: Wight_Knight_Pixel_art_Movement_run_15
       rect:
         serializedVersion: 2
-        x: 676
-        y: 131
-        width: 56
-        height: 69
+        x: 640
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -534,12 +534,12 @@ TextureImporter:
       name: Wight_Knight_Pixel_art_Movement_run_16
       rect:
         serializedVersion: 2
-        x: 804
-        y: 130
-        width: 57
-        height: 70
+        x: 768
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -556,12 +556,12 @@ TextureImporter:
       name: Wight_Knight_Pixel_art_Movement_run_17
       rect:
         serializedVersion: 2
-        x: 933
-        y: 129
-        width: 56
-        height: 70
+        x: 896
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -578,12 +578,12 @@ TextureImporter:
       name: Wight_Knight_Pixel_art_Movement_run_18
       rect:
         serializedVersion: 2
-        x: 1064
-        y: 127
-        width: 55
-        height: 71
+        x: 1024
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -600,12 +600,12 @@ TextureImporter:
       name: Wight_Knight_Pixel_art_Movement_run_19
       rect:
         serializedVersion: 2
-        x: 1196
-        y: 127
-        width: 52
-        height: 70
+        x: 1152
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -622,12 +622,12 @@ TextureImporter:
       name: Wight_Knight_Pixel_art_Movement_run_20
       rect:
         serializedVersion: 2
-        x: 48
+        x: 0
         y: 0
-        width: 49
-        height: 69
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -644,12 +644,12 @@ TextureImporter:
       name: Wight_Knight_Pixel_art_Movement_run_21
       rect:
         serializedVersion: 2
-        x: 177
+        x: 128
         y: 0
-        width: 46
-        height: 70
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -666,12 +666,12 @@ TextureImporter:
       name: Wight_Knight_Pixel_art_Movement_run_22
       rect:
         serializedVersion: 2
-        x: 305
+        x: 256
         y: 0
-        width: 46
-        height: 70
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -688,7 +688,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: d5431329956357c4d8f98b7be5d9ceea
     internalID: 0
     vertices: []
     indices: 
@@ -696,7 +696,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":10.0,"y":3.0},"gridSpriteSize":{"x":128.0,"y":128.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       Wight_Knight_Pixel_art_Movement_run_0: -4579017503282732800
       Wight_Knight_Pixel_art_Movement_run_1: -3367584788453915261

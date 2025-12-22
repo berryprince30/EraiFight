@@ -212,12 +212,12 @@ TextureImporter:
       name: Archer_Pixel_art_Movement_turn_right_0
       rect:
         serializedVersion: 2
-        x: 42
-        y: 383
-        width: 56
-        height: 75
+        x: 0
+        y: 384
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -234,12 +234,12 @@ TextureImporter:
       name: Archer_Pixel_art_Movement_turn_right_1
       rect:
         serializedVersion: 2
-        x: 171
-        y: 383
-        width: 55
-        height: 75
+        x: 128
+        y: 384
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -256,12 +256,12 @@ TextureImporter:
       name: Archer_Pixel_art_Movement_turn_right_2
       rect:
         serializedVersion: 2
-        x: 298
-        y: 383
-        width: 56
-        height: 75
+        x: 256
+        y: 384
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -278,12 +278,12 @@ TextureImporter:
       name: Archer_Pixel_art_Movement_turn_right_3
       rect:
         serializedVersion: 2
-        x: 426
-        y: 383
-        width: 56
-        height: 75
+        x: 384
+        y: 384
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -300,12 +300,12 @@ TextureImporter:
       name: Archer_Pixel_art_Movement_turn_right_4
       rect:
         serializedVersion: 2
-        x: 553
-        y: 383
-        width: 57
-        height: 75
+        x: 512
+        y: 384
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -322,12 +322,12 @@ TextureImporter:
       name: Archer_Pixel_art_Movement_turn_right_5
       rect:
         serializedVersion: 2
-        x: 680
-        y: 383
-        width: 58
-        height: 75
+        x: 640
+        y: 384
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -344,12 +344,12 @@ TextureImporter:
       name: Archer_Pixel_art_Movement_turn_right_6
       rect:
         serializedVersion: 2
-        x: 807
-        y: 383
-        width: 59
-        height: 75
+        x: 768
+        y: 384
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -366,12 +366,12 @@ TextureImporter:
       name: Archer_Pixel_art_Movement_turn_right_7
       rect:
         serializedVersion: 2
-        x: 935
-        y: 383
-        width: 58
-        height: 75
+        x: 896
+        y: 384
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -388,12 +388,12 @@ TextureImporter:
       name: Archer_Pixel_art_Movement_turn_right_8
       rect:
         serializedVersion: 2
-        x: 1063
-        y: 383
-        width: 58
-        height: 75
+        x: 1024
+        y: 384
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -410,12 +410,12 @@ TextureImporter:
       name: Archer_Pixel_art_Movement_turn_right_9
       rect:
         serializedVersion: 2
-        x: 1191
-        y: 383
-        width: 57
-        height: 75
+        x: 1152
+        y: 384
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -432,12 +432,12 @@ TextureImporter:
       name: Archer_Pixel_art_Movement_turn_right_10
       rect:
         serializedVersion: 2
-        x: 40
-        y: 255
-        width: 56
-        height: 75
+        x: 0
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -454,12 +454,12 @@ TextureImporter:
       name: Archer_Pixel_art_Movement_turn_right_11
       rect:
         serializedVersion: 2
-        x: 168
-        y: 255
-        width: 55
-        height: 75
+        x: 128
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -476,12 +476,12 @@ TextureImporter:
       name: Archer_Pixel_art_Movement_turn_right_12
       rect:
         serializedVersion: 2
-        x: 297
-        y: 255
-        width: 54
-        height: 75
+        x: 256
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -498,12 +498,12 @@ TextureImporter:
       name: Archer_Pixel_art_Movement_turn_right_13
       rect:
         serializedVersion: 2
-        x: 426
-        y: 255
-        width: 53
-        height: 75
+        x: 384
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -520,12 +520,12 @@ TextureImporter:
       name: Archer_Pixel_art_Movement_turn_right_14
       rect:
         serializedVersion: 2
-        x: 554
-        y: 255
-        width: 52
-        height: 75
+        x: 512
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -542,12 +542,12 @@ TextureImporter:
       name: Archer_Pixel_art_Movement_turn_right_15
       rect:
         serializedVersion: 2
-        x: 683
-        y: 255
-        width: 51
-        height: 75
+        x: 640
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -564,12 +564,12 @@ TextureImporter:
       name: Archer_Pixel_art_Movement_turn_right_16
       rect:
         serializedVersion: 2
-        x: 811
-        y: 255
-        width: 50
-        height: 75
+        x: 768
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -586,12 +586,12 @@ TextureImporter:
       name: Archer_Pixel_art_Movement_turn_right_17
       rect:
         serializedVersion: 2
-        x: 940
-        y: 255
-        width: 49
-        height: 74
+        x: 896
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -608,12 +608,12 @@ TextureImporter:
       name: Archer_Pixel_art_Movement_turn_right_18
       rect:
         serializedVersion: 2
-        x: 1068
-        y: 255
-        width: 49
-        height: 74
+        x: 1024
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -630,12 +630,12 @@ TextureImporter:
       name: Archer_Pixel_art_Movement_turn_right_19
       rect:
         serializedVersion: 2
-        x: 1196
-        y: 255
-        width: 48
-        height: 74
+        x: 1152
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -652,12 +652,12 @@ TextureImporter:
       name: Archer_Pixel_art_Movement_turn_right_20
       rect:
         serializedVersion: 2
-        x: 44
-        y: 127
-        width: 47
-        height: 74
+        x: 0
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -674,12 +674,12 @@ TextureImporter:
       name: Archer_Pixel_art_Movement_turn_right_21
       rect:
         serializedVersion: 2
-        x: 172
-        y: 127
-        width: 46
-        height: 74
+        x: 128
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -696,12 +696,12 @@ TextureImporter:
       name: Archer_Pixel_art_Movement_turn_right_22
       rect:
         serializedVersion: 2
-        x: 301
-        y: 127
-        width: 44
-        height: 75
+        x: 256
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -718,12 +718,12 @@ TextureImporter:
       name: Archer_Pixel_art_Movement_turn_right_23
       rect:
         serializedVersion: 2
-        x: 429
-        y: 127
-        width: 44
-        height: 75
+        x: 384
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -740,12 +740,12 @@ TextureImporter:
       name: Archer_Pixel_art_Movement_turn_right_24
       rect:
         serializedVersion: 2
-        x: 558
-        y: 127
-        width: 42
-        height: 75
+        x: 512
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -762,12 +762,12 @@ TextureImporter:
       name: Archer_Pixel_art_Movement_turn_right_25
       rect:
         serializedVersion: 2
-        x: 686
-        y: 127
-        width: 42
-        height: 75
+        x: 640
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -784,12 +784,12 @@ TextureImporter:
       name: Archer_Pixel_art_Movement_turn_right_26
       rect:
         serializedVersion: 2
-        x: 815
-        y: 127
-        width: 42
-        height: 76
+        x: 768
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -806,12 +806,12 @@ TextureImporter:
       name: Archer_Pixel_art_Movement_turn_right_27
       rect:
         serializedVersion: 2
-        x: 944
-        y: 127
-        width: 42
-        height: 75
+        x: 896
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -828,12 +828,12 @@ TextureImporter:
       name: Archer_Pixel_art_Movement_turn_right_28
       rect:
         serializedVersion: 2
-        x: 1073
-        y: 127
-        width: 42
-        height: 75
+        x: 1024
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -850,12 +850,12 @@ TextureImporter:
       name: Archer_Pixel_art_Movement_turn_right_29
       rect:
         serializedVersion: 2
-        x: 1201
-        y: 127
-        width: 43
-        height: 75
+        x: 1152
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -872,12 +872,12 @@ TextureImporter:
       name: Archer_Pixel_art_Movement_turn_right_30
       rect:
         serializedVersion: 2
-        x: 49
+        x: 0
         y: 0
-        width: 43
-        height: 74
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -894,12 +894,12 @@ TextureImporter:
       name: Archer_Pixel_art_Movement_turn_right_31
       rect:
         serializedVersion: 2
-        x: 177
+        x: 128
         y: 0
-        width: 44
-        height: 73
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -916,12 +916,12 @@ TextureImporter:
       name: Archer_Pixel_art_Movement_turn_right_32
       rect:
         serializedVersion: 2
-        x: 305
+        x: 256
         y: 0
-        width: 44
-        height: 73
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -938,7 +938,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: a920399e11f567744a2e6234dff4958d
     internalID: 0
     vertices: []
     indices: 
@@ -946,7 +946,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":10.0,"y":4.0},"gridSpriteSize":{"x":128.0,"y":128.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       Archer_Pixel_art_Movement_turn_right_0: -5772370707760088145
       Archer_Pixel_art_Movement_turn_right_1: 2599496249652653427

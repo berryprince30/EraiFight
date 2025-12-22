@@ -332,12 +332,12 @@ TextureImporter:
       name: Wight_Knight_Pixel_art_Combat_death_0
       rect:
         serializedVersion: 2
-        x: 43
-        y: 767
-        width: 46
-        height: 70
+        x: 0
+        y: 768
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -354,12 +354,12 @@ TextureImporter:
       name: Wight_Knight_Pixel_art_Combat_death_1
       rect:
         serializedVersion: 2
-        x: 172
-        y: 767
-        width: 47
-        height: 68
+        x: 128
+        y: 768
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -376,12 +376,12 @@ TextureImporter:
       name: Wight_Knight_Pixel_art_Combat_death_2
       rect:
         serializedVersion: 2
-        x: 300
-        y: 767
-        width: 49
-        height: 68
+        x: 256
+        y: 768
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -398,12 +398,12 @@ TextureImporter:
       name: Wight_Knight_Pixel_art_Combat_death_3
       rect:
         serializedVersion: 2
-        x: 429
-        y: 767
-        width: 49
-        height: 68
+        x: 384
+        y: 768
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -420,12 +420,12 @@ TextureImporter:
       name: Wight_Knight_Pixel_art_Combat_death_4
       rect:
         serializedVersion: 2
-        x: 558
-        y: 767
-        width: 48
-        height: 68
+        x: 512
+        y: 768
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -442,12 +442,12 @@ TextureImporter:
       name: Wight_Knight_Pixel_art_Combat_death_5
       rect:
         serializedVersion: 2
-        x: 686
-        y: 767
-        width: 46
-        height: 68
+        x: 640
+        y: 768
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -464,12 +464,12 @@ TextureImporter:
       name: Wight_Knight_Pixel_art_Combat_death_6
       rect:
         serializedVersion: 2
-        x: 815
-        y: 767
-        width: 42
-        height: 68
+        x: 768
+        y: 768
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -486,12 +486,12 @@ TextureImporter:
       name: Wight_Knight_Pixel_art_Combat_death_7
       rect:
         serializedVersion: 2
-        x: 943
-        y: 767
-        width: 39
-        height: 69
+        x: 896
+        y: 768
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -508,12 +508,12 @@ TextureImporter:
       name: Wight_Knight_Pixel_art_Combat_death_8
       rect:
         serializedVersion: 2
-        x: 1072
-        y: 767
-        width: 36
-        height: 69
+        x: 1024
+        y: 768
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -530,12 +530,12 @@ TextureImporter:
       name: Wight_Knight_Pixel_art_Combat_death_9
       rect:
         serializedVersion: 2
-        x: 1198
-        y: 767
-        width: 37
-        height: 74
+        x: 1152
+        y: 768
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -552,12 +552,12 @@ TextureImporter:
       name: Wight_Knight_Pixel_art_Combat_death_10
       rect:
         serializedVersion: 2
-        x: 44
-        y: 639
-        width: 38
-        height: 78
+        x: 0
+        y: 640
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -574,12 +574,12 @@ TextureImporter:
       name: Wight_Knight_Pixel_art_Combat_death_11
       rect:
         serializedVersion: 2
-        x: 170
-        y: 639
-        width: 40
-        height: 81
+        x: 128
+        y: 640
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -596,12 +596,12 @@ TextureImporter:
       name: Wight_Knight_Pixel_art_Combat_death_12
       rect:
         serializedVersion: 2
-        x: 296
-        y: 639
-        width: 42
-        height: 81
+        x: 256
+        y: 640
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -618,12 +618,12 @@ TextureImporter:
       name: Wight_Knight_Pixel_art_Combat_death_13
       rect:
         serializedVersion: 2
-        x: 422
-        y: 639
-        width: 44
-        height: 81
+        x: 384
+        y: 640
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -640,12 +640,12 @@ TextureImporter:
       name: Wight_Knight_Pixel_art_Combat_death_14
       rect:
         serializedVersion: 2
-        x: 547
-        y: 639
-        width: 48
-        height: 80
+        x: 512
+        y: 640
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -662,12 +662,12 @@ TextureImporter:
       name: Wight_Knight_Pixel_art_Combat_death_15
       rect:
         serializedVersion: 2
-        x: 674
-        y: 639
-        width: 49
-        height: 79
+        x: 640
+        y: 640
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -684,12 +684,12 @@ TextureImporter:
       name: Wight_Knight_Pixel_art_Combat_death_16
       rect:
         serializedVersion: 2
-        x: 801
-        y: 639
-        width: 50
-        height: 80
+        x: 768
+        y: 640
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -706,12 +706,12 @@ TextureImporter:
       name: Wight_Knight_Pixel_art_Combat_death_17
       rect:
         serializedVersion: 2
-        x: 929
-        y: 639
-        width: 51
-        height: 81
+        x: 896
+        y: 640
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -728,12 +728,12 @@ TextureImporter:
       name: Wight_Knight_Pixel_art_Combat_death_18
       rect:
         serializedVersion: 2
-        x: 1058
-        y: 639
-        width: 50
-        height: 81
+        x: 1024
+        y: 640
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -750,12 +750,12 @@ TextureImporter:
       name: Wight_Knight_Pixel_art_Combat_death_19
       rect:
         serializedVersion: 2
-        x: 1186
-        y: 639
-        width: 50
-        height: 82
+        x: 1152
+        y: 640
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -772,12 +772,12 @@ TextureImporter:
       name: Wight_Knight_Pixel_art_Combat_death_20
       rect:
         serializedVersion: 2
-        x: 35
-        y: 511
-        width: 50
-        height: 84
+        x: 0
+        y: 512
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -794,12 +794,12 @@ TextureImporter:
       name: Wight_Knight_Pixel_art_Combat_death_21
       rect:
         serializedVersion: 2
-        x: 164
-        y: 511
-        width: 49
-        height: 83
+        x: 128
+        y: 512
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -816,12 +816,12 @@ TextureImporter:
       name: Wight_Knight_Pixel_art_Combat_death_22
       rect:
         serializedVersion: 2
-        x: 294
-        y: 511
-        width: 47
-        height: 83
+        x: 256
+        y: 512
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -838,12 +838,12 @@ TextureImporter:
       name: Wight_Knight_Pixel_art_Combat_death_23
       rect:
         serializedVersion: 2
-        x: 423
-        y: 511
-        width: 47
-        height: 83
+        x: 384
+        y: 512
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -860,12 +860,12 @@ TextureImporter:
       name: Wight_Knight_Pixel_art_Combat_death_24
       rect:
         serializedVersion: 2
-        x: 553
-        y: 511
-        width: 45
-        height: 83
+        x: 512
+        y: 512
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -882,12 +882,12 @@ TextureImporter:
       name: Wight_Knight_Pixel_art_Combat_death_25
       rect:
         serializedVersion: 2
-        x: 682
-        y: 511
-        width: 44
-        height: 83
+        x: 640
+        y: 512
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -904,12 +904,12 @@ TextureImporter:
       name: Wight_Knight_Pixel_art_Combat_death_26
       rect:
         serializedVersion: 2
-        x: 812
-        y: 511
-        width: 43
-        height: 83
+        x: 768
+        y: 512
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -926,12 +926,12 @@ TextureImporter:
       name: Wight_Knight_Pixel_art_Combat_death_27
       rect:
         serializedVersion: 2
-        x: 941
-        y: 511
-        width: 43
-        height: 82
+        x: 896
+        y: 512
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -948,12 +948,12 @@ TextureImporter:
       name: Wight_Knight_Pixel_art_Combat_death_28
       rect:
         serializedVersion: 2
-        x: 1070
-        y: 511
-        width: 44
-        height: 82
+        x: 1024
+        y: 512
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -970,12 +970,12 @@ TextureImporter:
       name: Wight_Knight_Pixel_art_Combat_death_29
       rect:
         serializedVersion: 2
-        x: 1199
-        y: 511
-        width: 43
-        height: 81
+        x: 1152
+        y: 512
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -992,12 +992,12 @@ TextureImporter:
       name: Wight_Knight_Pixel_art_Combat_death_30
       rect:
         serializedVersion: 2
-        x: 48
-        y: 383
-        width: 42
-        height: 80
+        x: 0
+        y: 384
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1014,12 +1014,12 @@ TextureImporter:
       name: Wight_Knight_Pixel_art_Combat_death_31
       rect:
         serializedVersion: 2
-        x: 177
-        y: 383
-        width: 42
-        height: 80
+        x: 128
+        y: 384
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1036,12 +1036,12 @@ TextureImporter:
       name: Wight_Knight_Pixel_art_Combat_death_32
       rect:
         serializedVersion: 2
-        x: 306
-        y: 383
-        width: 42
-        height: 80
+        x: 256
+        y: 384
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1058,12 +1058,12 @@ TextureImporter:
       name: Wight_Knight_Pixel_art_Combat_death_33
       rect:
         serializedVersion: 2
-        x: 434
-        y: 383
-        width: 41
-        height: 80
+        x: 384
+        y: 384
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1080,12 +1080,12 @@ TextureImporter:
       name: Wight_Knight_Pixel_art_Combat_death_34
       rect:
         serializedVersion: 2
-        x: 562
-        y: 383
-        width: 41
-        height: 80
+        x: 512
+        y: 384
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1102,12 +1102,12 @@ TextureImporter:
       name: Wight_Knight_Pixel_art_Combat_death_35
       rect:
         serializedVersion: 2
-        x: 690
-        y: 383
-        width: 41
-        height: 80
+        x: 640
+        y: 384
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1124,12 +1124,12 @@ TextureImporter:
       name: Wight_Knight_Pixel_art_Combat_death_36
       rect:
         serializedVersion: 2
-        x: 818
-        y: 383
-        width: 42
-        height: 80
+        x: 768
+        y: 384
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1146,12 +1146,12 @@ TextureImporter:
       name: Wight_Knight_Pixel_art_Combat_death_37
       rect:
         serializedVersion: 2
-        x: 946
-        y: 383
-        width: 43
-        height: 80
+        x: 896
+        y: 384
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1168,12 +1168,12 @@ TextureImporter:
       name: Wight_Knight_Pixel_art_Combat_death_38
       rect:
         serializedVersion: 2
-        x: 1074
-        y: 383
-        width: 44
-        height: 66
+        x: 1024
+        y: 384
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1190,12 +1190,12 @@ TextureImporter:
       name: Wight_Knight_Pixel_art_Combat_death_39
       rect:
         serializedVersion: 2
-        x: 1096
-        y: 449
-        width: 16
-        height: 15
+        x: 1152
+        y: 384
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1212,12 +1212,12 @@ TextureImporter:
       name: Wight_Knight_Pixel_art_Combat_death_40
       rect:
         serializedVersion: 2
-        x: 1222
-        y: 447
-        width: 15
-        height: 15
+        x: 0
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1234,12 +1234,12 @@ TextureImporter:
       name: Wight_Knight_Pixel_art_Combat_death_41
       rect:
         serializedVersion: 2
-        x: 1201
-        y: 383
-        width: 46
-        height: 65
+        x: 128
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1256,12 +1256,12 @@ TextureImporter:
       name: Wight_Knight_Pixel_art_Combat_death_42
       rect:
         serializedVersion: 2
-        x: 48
-        y: 255
-        width: 48
-        height: 78
+        x: 256
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1278,12 +1278,12 @@ TextureImporter:
       name: Wight_Knight_Pixel_art_Combat_death_43
       rect:
         serializedVersion: 2
-        x: 176
-        y: 255
-        width: 50
-        height: 80
+        x: 384
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1300,12 +1300,12 @@ TextureImporter:
       name: Wight_Knight_Pixel_art_Combat_death_44
       rect:
         serializedVersion: 2
-        x: 303
-        y: 255
-        width: 52
-        height: 79
+        x: 512
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1322,12 +1322,12 @@ TextureImporter:
       name: Wight_Knight_Pixel_art_Combat_death_45
       rect:
         serializedVersion: 2
-        x: 430
-        y: 255
-        width: 55
-        height: 60
+        x: 640
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1344,12 +1344,12 @@ TextureImporter:
       name: Wight_Knight_Pixel_art_Combat_death_46
       rect:
         serializedVersion: 2
-        x: 452
-        y: 314
-        width: 10
-        height: 17
+        x: 768
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1366,12 +1366,12 @@ TextureImporter:
       name: Wight_Knight_Pixel_art_Combat_death_47
       rect:
         serializedVersion: 2
-        x: 557
-        y: 255
-        width: 58
-        height: 73
+        x: 896
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1388,12 +1388,12 @@ TextureImporter:
       name: Wight_Knight_Pixel_art_Combat_death_48
       rect:
         serializedVersion: 2
-        x: 684
+        x: 1024
         y: 256
-        width: 61
-        height: 70
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1410,12 +1410,12 @@ TextureImporter:
       name: Wight_Knight_Pixel_art_Combat_death_49
       rect:
         serializedVersion: 2
-        x: 811
-        y: 255
-        width: 64
-        height: 67
+        x: 1152
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1432,12 +1432,12 @@ TextureImporter:
       name: Wight_Knight_Pixel_art_Combat_death_50
       rect:
         serializedVersion: 2
-        x: 937
-        y: 255
-        width: 67
-        height: 62
+        x: 0
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1454,12 +1454,12 @@ TextureImporter:
       name: Wight_Knight_Pixel_art_Combat_death_51
       rect:
         serializedVersion: 2
-        x: 1063
-        y: 255
-        width: 70
-        height: 57
+        x: 128
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1476,12 +1476,12 @@ TextureImporter:
       name: Wight_Knight_Pixel_art_Combat_death_52
       rect:
         serializedVersion: 2
-        x: 1186
-        y: 255
-        width: 74
-        height: 49
+        x: 256
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1498,12 +1498,12 @@ TextureImporter:
       name: Wight_Knight_Pixel_art_Combat_death_53
       rect:
         serializedVersion: 2
-        x: 29
-        y: 127
-        width: 79
-        height: 42
+        x: 384
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1520,12 +1520,12 @@ TextureImporter:
       name: Wight_Knight_Pixel_art_Combat_death_54
       rect:
         serializedVersion: 2
-        x: 151
-        y: 127
-        width: 85
-        height: 33
+        x: 512
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1542,12 +1542,12 @@ TextureImporter:
       name: Wight_Knight_Pixel_art_Combat_death_55
       rect:
         serializedVersion: 2
-        x: 274
-        y: 127
-        width: 89
-        height: 21
+        x: 640
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1564,12 +1564,12 @@ TextureImporter:
       name: Wight_Knight_Pixel_art_Combat_death_56
       rect:
         serializedVersion: 2
-        x: 414
-        y: 127
-        width: 77
-        height: 21
+        x: 768
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1586,12 +1586,12 @@ TextureImporter:
       name: Wight_Knight_Pixel_art_Combat_death_57
       rect:
         serializedVersion: 2
-        x: 544
-        y: 127
-        width: 74
-        height: 21
+        x: 896
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1608,12 +1608,12 @@ TextureImporter:
       name: Wight_Knight_Pixel_art_Combat_death_58
       rect:
         serializedVersion: 2
-        x: 672
-        y: 127
-        width: 73
-        height: 20
+        x: 1024
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1630,12 +1630,12 @@ TextureImporter:
       name: Wight_Knight_Pixel_art_Combat_death_59
       rect:
         serializedVersion: 2
-        x: 792
-        y: 127
-        width: 81
-        height: 20
+        x: 1152
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1652,12 +1652,12 @@ TextureImporter:
       name: Wight_Knight_Pixel_art_Combat_death_60
       rect:
         serializedVersion: 2
-        x: 917
-        y: 127
-        width: 84
-        height: 18
+        x: 0
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1674,12 +1674,12 @@ TextureImporter:
       name: Wight_Knight_Pixel_art_Combat_death_61
       rect:
         serializedVersion: 2
-        x: 1044
-        y: 127
-        width: 85
-        height: 18
+        x: 128
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1696,12 +1696,12 @@ TextureImporter:
       name: Wight_Knight_Pixel_art_Combat_death_62
       rect:
         serializedVersion: 2
-        x: 1166
-        y: 127
-        width: 91
-        height: 17
+        x: 256
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1718,12 +1718,12 @@ TextureImporter:
       name: Wight_Knight_Pixel_art_Combat_death_63
       rect:
         serializedVersion: 2
-        x: 13
+        x: 384
         y: 0
-        width: 93
-        height: 14
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1740,12 +1740,12 @@ TextureImporter:
       name: Wight_Knight_Pixel_art_Combat_death_64
       rect:
         serializedVersion: 2
-        x: 145
+        x: 512
         y: 0
-        width: 89
-        height: 13
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1762,12 +1762,12 @@ TextureImporter:
       name: Wight_Knight_Pixel_art_Combat_death_65
       rect:
         serializedVersion: 2
-        x: 266
+        x: 640
         y: 0
-        width: 96
-        height: 13
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1784,12 +1784,12 @@ TextureImporter:
       name: Wight_Knight_Pixel_art_Combat_death_66
       rect:
         serializedVersion: 2
-        x: 404
+        x: 768
         y: 0
-        width: 85
-        height: 13
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1806,12 +1806,12 @@ TextureImporter:
       name: Wight_Knight_Pixel_art_Combat_death_67
       rect:
         serializedVersion: 2
-        x: 541
+        x: 896
         y: 0
-        width: 76
-        height: 13
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1828,12 +1828,12 @@ TextureImporter:
       name: Wight_Knight_Pixel_art_Combat_death_68
       rect:
         serializedVersion: 2
-        x: 673
+        x: 1024
         y: 0
-        width: 72
-        height: 13
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1850,12 +1850,12 @@ TextureImporter:
       name: Wight_Knight_Pixel_art_Combat_death_69
       rect:
         serializedVersion: 2
-        x: 801
+        x: 1152
         y: 0
-        width: 72
-        height: 13
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1868,77 +1868,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: Wight_Knight_Pixel_art_Combat_death_70
-      rect:
-        serializedVersion: 2
-        x: 926
-        y: 0
-        width: 74
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b0e00522c74cac7c0800000000000000
-      internalID: -4050208877435679221
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Wight_Knight_Pixel_art_Combat_death_71
-      rect:
-        serializedVersion: 2
-        x: 1048
-        y: 0
-        width: 80
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a0452f34f7f0c1dc0800000000000000
-      internalID: -3667038957311208438
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Wight_Knight_Pixel_art_Combat_death_72
-      rect:
-        serializedVersion: 2
-        x: 1170
-        y: 0
-        width: 86
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0001ebe6914a95f10800000000000000
-      internalID: 2259017117242101760
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 9055f3e5eb3394e468f65f7f22acb736
     internalID: 0
     vertices: []
     indices: 
@@ -1946,7 +1880,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":10.0,"y":7.0},"gridSpriteSize":{"x":128.0,"y":128.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       Wight_Knight_Pixel_art_Combat_death_0: 6448891627528922035
       Wight_Knight_Pixel_art_Combat_death_1: -4283534989316533258
@@ -2016,9 +1952,6 @@ TextureImporter:
       Wight_Knight_Pixel_art_Combat_death_68: 5603621306611999542
       Wight_Knight_Pixel_art_Combat_death_69: 7919216986015555593
       Wight_Knight_Pixel_art_Combat_death_7: -668502075571572337
-      Wight_Knight_Pixel_art_Combat_death_70: -4050208877435679221
-      Wight_Knight_Pixel_art_Combat_death_71: -3667038957311208438
-      Wight_Knight_Pixel_art_Combat_death_72: 2259017117242101760
       Wight_Knight_Pixel_art_Combat_death_8: -6240140489772517519
       Wight_Knight_Pixel_art_Combat_death_9: -6565724303411386082
   mipmapLimitGroupName: 

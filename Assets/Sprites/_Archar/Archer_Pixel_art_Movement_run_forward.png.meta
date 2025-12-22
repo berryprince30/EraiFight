@@ -191,12 +191,12 @@ TextureImporter:
       name: Archer_Pixel_art_Movement_run_forward_0
       rect:
         serializedVersion: 2
-        x: 41
-        y: 255
-        width: 58
-        height: 69
+        x: 0
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -213,12 +213,12 @@ TextureImporter:
       name: Archer_Pixel_art_Movement_run_forward_1
       rect:
         serializedVersion: 2
-        x: 167
-        y: 255
-        width: 59
-        height: 70
+        x: 128
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -235,12 +235,12 @@ TextureImporter:
       name: Archer_Pixel_art_Movement_run_forward_2
       rect:
         serializedVersion: 2
-        x: 293
-        y: 255
-        width: 59
-        height: 71
+        x: 256
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -257,12 +257,12 @@ TextureImporter:
       name: Archer_Pixel_art_Movement_run_forward_3
       rect:
         serializedVersion: 2
-        x: 420
-        y: 255
-        width: 60
-        height: 72
+        x: 384
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -279,12 +279,12 @@ TextureImporter:
       name: Archer_Pixel_art_Movement_run_forward_4
       rect:
         serializedVersion: 2
-        x: 545
+        x: 512
         y: 256
-        width: 62
-        height: 72
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -301,12 +301,12 @@ TextureImporter:
       name: Archer_Pixel_art_Movement_run_forward_5
       rect:
         serializedVersion: 2
-        x: 671
-        y: 257
-        width: 64
-        height: 71
+        x: 640
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -323,12 +323,12 @@ TextureImporter:
       name: Archer_Pixel_art_Movement_run_forward_6
       rect:
         serializedVersion: 2
-        x: 798
-        y: 258
-        width: 66
-        height: 69
+        x: 768
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -345,12 +345,12 @@ TextureImporter:
       name: Archer_Pixel_art_Movement_run_forward_7
       rect:
         serializedVersion: 2
-        x: 926
-        y: 255
-        width: 65
-        height: 71
+        x: 896
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -367,12 +367,12 @@ TextureImporter:
       name: Archer_Pixel_art_Movement_run_forward_8
       rect:
         serializedVersion: 2
-        x: 1056
-        y: 255
-        width: 63
-        height: 71
+        x: 1024
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -389,12 +389,12 @@ TextureImporter:
       name: Archer_Pixel_art_Movement_run_forward_9
       rect:
         serializedVersion: 2
-        x: 1188
-        y: 255
-        width: 59
-        height: 69
+        x: 1152
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -411,12 +411,12 @@ TextureImporter:
       name: Archer_Pixel_art_Movement_run_forward_10
       rect:
         serializedVersion: 2
-        x: 39
-        y: 127
-        width: 57
-        height: 68
+        x: 0
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -433,12 +433,12 @@ TextureImporter:
       name: Archer_Pixel_art_Movement_run_forward_11
       rect:
         serializedVersion: 2
-        x: 169
-        y: 127
-        width: 55
-        height: 68
+        x: 128
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -455,12 +455,12 @@ TextureImporter:
       name: Archer_Pixel_art_Movement_run_forward_12
       rect:
         serializedVersion: 2
-        x: 298
-        y: 127
-        width: 54
-        height: 67
+        x: 256
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -477,12 +477,12 @@ TextureImporter:
       name: Archer_Pixel_art_Movement_run_forward_13
       rect:
         serializedVersion: 2
-        x: 428
-        y: 127
-        width: 51
-        height: 68
+        x: 384
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -499,12 +499,12 @@ TextureImporter:
       name: Archer_Pixel_art_Movement_run_forward_14
       rect:
         serializedVersion: 2
-        x: 558
-        y: 127
-        width: 50
-        height: 69
+        x: 512
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -521,12 +521,12 @@ TextureImporter:
       name: Archer_Pixel_art_Movement_run_forward_15
       rect:
         serializedVersion: 2
-        x: 681
-        y: 127
-        width: 55
-        height: 71
+        x: 640
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -543,12 +543,12 @@ TextureImporter:
       name: Archer_Pixel_art_Movement_run_forward_16
       rect:
         serializedVersion: 2
-        x: 805
-        y: 127
-        width: 59
-        height: 72
+        x: 768
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -565,12 +565,12 @@ TextureImporter:
       name: Archer_Pixel_art_Movement_run_forward_17
       rect:
         serializedVersion: 2
-        x: 932
-        y: 127
-        width: 61
-        height: 73
+        x: 896
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -587,12 +587,12 @@ TextureImporter:
       name: Archer_Pixel_art_Movement_run_forward_18
       rect:
         serializedVersion: 2
-        x: 1058
-        y: 132
-        width: 63
-        height: 68
+        x: 1024
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -609,12 +609,12 @@ TextureImporter:
       name: Archer_Pixel_art_Movement_run_forward_19
       rect:
         serializedVersion: 2
-        x: 1186
-        y: 132
-        width: 64
-        height: 67
+        x: 1152
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -631,12 +631,12 @@ TextureImporter:
       name: Archer_Pixel_art_Movement_run_forward_20
       rect:
         serializedVersion: 2
-        x: 34
-        y: 1
-        width: 64
-        height: 69
+        x: 0
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -653,12 +653,12 @@ TextureImporter:
       name: Archer_Pixel_art_Movement_run_forward_21
       rect:
         serializedVersion: 2
-        x: 164
+        x: 128
         y: 0
-        width: 62
-        height: 70
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -675,12 +675,12 @@ TextureImporter:
       name: Archer_Pixel_art_Movement_run_forward_22
       rect:
         serializedVersion: 2
-        x: 295
+        x: 256
         y: 0
-        width: 60
-        height: 68
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -697,12 +697,12 @@ TextureImporter:
       name: Archer_Pixel_art_Movement_run_forward_23
       rect:
         serializedVersion: 2
-        x: 428
+        x: 384
         y: 0
-        width: 56
-        height: 65
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -719,12 +719,12 @@ TextureImporter:
       name: Archer_Pixel_art_Movement_run_forward_24
       rect:
         serializedVersion: 2
-        x: 556
+        x: 512
         y: 0
-        width: 56
-        height: 65
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -741,12 +741,12 @@ TextureImporter:
       name: Archer_Pixel_art_Movement_run_forward_25
       rect:
         serializedVersion: 2
-        x: 682
+        x: 640
         y: 0
-        width: 58
-        height: 66
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -763,7 +763,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 17f43250d16cc2548b160f29636b031f
     internalID: 0
     vertices: []
     indices: 
@@ -771,7 +771,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":10.0,"y":3.0},"gridSpriteSize":{"x":128.0,"y":128.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       Archer_Pixel_art_Movement_run_forward_0: -5839069688597533978
       Archer_Pixel_art_Movement_run_forward_1: -2174329242966098963

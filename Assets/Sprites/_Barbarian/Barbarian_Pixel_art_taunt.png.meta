@@ -341,12 +341,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_taunt_0
       rect:
         serializedVersion: 2
-        x: 41
-        y: 895
-        width: 43
-        height: 63
+        x: 0
+        y: 896
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -363,12 +363,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_taunt_1
       rect:
         serializedVersion: 2
-        x: 170
-        y: 895
-        width: 42
-        height: 63
+        x: 128
+        y: 896
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -385,12 +385,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_taunt_2
       rect:
         serializedVersion: 2
-        x: 298
-        y: 895
-        width: 42
-        height: 63
+        x: 256
+        y: 896
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -407,12 +407,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_taunt_3
       rect:
         serializedVersion: 2
-        x: 426
-        y: 895
-        width: 42
-        height: 62
+        x: 384
+        y: 896
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -429,12 +429,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_taunt_4
       rect:
         serializedVersion: 2
-        x: 554
-        y: 895
-        width: 43
-        height: 62
+        x: 512
+        y: 896
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -451,12 +451,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_taunt_5
       rect:
         serializedVersion: 2
-        x: 683
-        y: 895
-        width: 42
-        height: 62
+        x: 640
+        y: 896
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -473,12 +473,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_taunt_6
       rect:
         serializedVersion: 2
-        x: 811
-        y: 895
-        width: 42
-        height: 62
+        x: 768
+        y: 896
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -495,12 +495,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_taunt_7
       rect:
         serializedVersion: 2
-        x: 939
-        y: 895
-        width: 42
-        height: 62
+        x: 896
+        y: 896
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -517,12 +517,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_taunt_8
       rect:
         serializedVersion: 2
-        x: 1067
-        y: 895
-        width: 42
-        height: 62
+        x: 1024
+        y: 896
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -539,12 +539,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_taunt_9
       rect:
         serializedVersion: 2
-        x: 1195
-        y: 895
-        width: 42
-        height: 62
+        x: 1152
+        y: 896
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -561,12 +561,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_taunt_10
       rect:
         serializedVersion: 2
-        x: 43
-        y: 767
-        width: 42
-        height: 63
+        x: 0
+        y: 768
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -583,12 +583,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_taunt_11
       rect:
         serializedVersion: 2
-        x: 170
-        y: 767
-        width: 43
-        height: 64
+        x: 128
+        y: 768
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -605,12 +605,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_taunt_12
       rect:
         serializedVersion: 2
-        x: 298
-        y: 767
-        width: 42
-        height: 64
+        x: 256
+        y: 768
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -627,12 +627,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_taunt_13
       rect:
         serializedVersion: 2
-        x: 426
-        y: 767
-        width: 44
-        height: 65
+        x: 384
+        y: 768
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -649,12 +649,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_taunt_14
       rect:
         serializedVersion: 2
-        x: 553
-        y: 767
-        width: 47
-        height: 65
+        x: 512
+        y: 768
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -671,12 +671,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_taunt_15
       rect:
         serializedVersion: 2
-        x: 681
-        y: 767
-        width: 50
-        height: 66
+        x: 640
+        y: 768
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -693,12 +693,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_taunt_16
       rect:
         serializedVersion: 2
-        x: 809
-        y: 767
-        width: 52
-        height: 66
+        x: 768
+        y: 768
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -715,12 +715,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_taunt_17
       rect:
         serializedVersion: 2
-        x: 937
-        y: 767
-        width: 53
-        height: 67
+        x: 896
+        y: 768
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -737,12 +737,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_taunt_18
       rect:
         serializedVersion: 2
-        x: 1064
-        y: 767
-        width: 54
-        height: 67
+        x: 1024
+        y: 768
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -759,12 +759,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_taunt_19
       rect:
         serializedVersion: 2
-        x: 1192
-        y: 767
-        width: 54
-        height: 67
+        x: 1152
+        y: 768
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -781,12 +781,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_taunt_20
       rect:
         serializedVersion: 2
-        x: 40
-        y: 639
-        width: 52
-        height: 71
+        x: 0
+        y: 640
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -803,12 +803,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_taunt_21
       rect:
         serializedVersion: 2
-        x: 168
-        y: 639
-        width: 46
-        height: 74
+        x: 128
+        y: 640
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -825,12 +825,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_taunt_22
       rect:
         serializedVersion: 2
-        x: 296
-        y: 639
-        width: 42
-        height: 75
+        x: 256
+        y: 640
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -847,12 +847,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_taunt_23
       rect:
         serializedVersion: 2
-        x: 424
-        y: 639
-        width: 42
-        height: 76
+        x: 384
+        y: 640
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -869,12 +869,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_taunt_24
       rect:
         serializedVersion: 2
-        x: 552
-        y: 639
-        width: 42
-        height: 76
+        x: 512
+        y: 640
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -891,12 +891,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_taunt_25
       rect:
         serializedVersion: 2
-        x: 679
-        y: 639
-        width: 42
-        height: 76
+        x: 640
+        y: 640
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -913,12 +913,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_taunt_26
       rect:
         serializedVersion: 2
-        x: 807
-        y: 639
-        width: 42
-        height: 77
+        x: 768
+        y: 640
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -935,12 +935,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_taunt_27
       rect:
         serializedVersion: 2
-        x: 935
-        y: 639
-        width: 42
-        height: 77
+        x: 896
+        y: 640
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -957,12 +957,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_taunt_28
       rect:
         serializedVersion: 2
-        x: 1063
-        y: 639
-        width: 42
-        height: 75
+        x: 1024
+        y: 640
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -979,12 +979,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_taunt_29
       rect:
         serializedVersion: 2
-        x: 1191
-        y: 639
-        width: 46
-        height: 74
+        x: 1152
+        y: 640
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1001,12 +1001,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_taunt_30
       rect:
         serializedVersion: 2
-        x: 39
-        y: 511
-        width: 53
-        height: 74
+        x: 0
+        y: 512
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1023,12 +1023,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_taunt_31
       rect:
         serializedVersion: 2
-        x: 167
-        y: 511
-        width: 57
-        height: 74
+        x: 128
+        y: 512
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1045,12 +1045,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_taunt_32
       rect:
         serializedVersion: 2
-        x: 296
-        y: 511
-        width: 58
-        height: 74
+        x: 256
+        y: 512
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1067,12 +1067,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_taunt_33
       rect:
         serializedVersion: 2
-        x: 424
-        y: 511
-        width: 60
-        height: 74
+        x: 384
+        y: 512
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1089,12 +1089,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_taunt_34
       rect:
         serializedVersion: 2
-        x: 552
-        y: 511
-        width: 60
-        height: 76
+        x: 512
+        y: 512
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1111,12 +1111,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_taunt_35
       rect:
         serializedVersion: 2
-        x: 680
-        y: 511
-        width: 60
-        height: 76
+        x: 640
+        y: 512
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1133,12 +1133,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_taunt_36
       rect:
         serializedVersion: 2
-        x: 808
-        y: 511
-        width: 58
-        height: 77
+        x: 768
+        y: 512
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1155,12 +1155,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_taunt_37
       rect:
         serializedVersion: 2
-        x: 935
-        y: 511
-        width: 54
-        height: 79
+        x: 896
+        y: 512
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1177,12 +1177,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_taunt_38
       rect:
         serializedVersion: 2
-        x: 1063
-        y: 511
-        width: 44
-        height: 78
+        x: 1024
+        y: 512
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1199,12 +1199,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_taunt_39
       rect:
         serializedVersion: 2
-        x: 1191
-        y: 511
-        width: 42
-        height: 78
+        x: 1152
+        y: 512
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1221,12 +1221,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_taunt_40
       rect:
         serializedVersion: 2
-        x: 39
-        y: 383
-        width: 42
-        height: 78
+        x: 0
+        y: 384
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1243,12 +1243,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_taunt_41
       rect:
         serializedVersion: 2
-        x: 167
-        y: 383
-        width: 42
-        height: 77
+        x: 128
+        y: 384
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1265,12 +1265,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_taunt_42
       rect:
         serializedVersion: 2
-        x: 295
-        y: 383
-        width: 43
-        height: 76
+        x: 256
+        y: 384
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1287,12 +1287,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_taunt_43
       rect:
         serializedVersion: 2
-        x: 423
-        y: 383
-        width: 43
-        height: 76
+        x: 384
+        y: 384
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1309,12 +1309,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_taunt_44
       rect:
         serializedVersion: 2
-        x: 551
-        y: 383
-        width: 45
-        height: 76
+        x: 512
+        y: 384
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1331,12 +1331,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_taunt_45
       rect:
         serializedVersion: 2
-        x: 679
-        y: 383
-        width: 49
-        height: 77
+        x: 640
+        y: 384
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1353,12 +1353,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_taunt_46
       rect:
         serializedVersion: 2
-        x: 807
-        y: 383
-        width: 52
-        height: 77
+        x: 768
+        y: 384
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1375,12 +1375,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_taunt_47
       rect:
         serializedVersion: 2
-        x: 935
-        y: 383
-        width: 54
-        height: 77
+        x: 896
+        y: 384
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1397,12 +1397,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_taunt_48
       rect:
         serializedVersion: 2
-        x: 1063
-        y: 383
-        width: 56
-        height: 78
+        x: 1024
+        y: 384
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1419,12 +1419,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_taunt_49
       rect:
         serializedVersion: 2
-        x: 1191
-        y: 383
-        width: 55
-        height: 79
+        x: 1152
+        y: 384
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1441,12 +1441,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_taunt_50
       rect:
         serializedVersion: 2
-        x: 39
-        y: 255
-        width: 55
-        height: 81
+        x: 0
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1463,12 +1463,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_taunt_51
       rect:
         serializedVersion: 2
-        x: 167
-        y: 255
-        width: 52
-        height: 82
+        x: 128
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1485,12 +1485,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_taunt_52
       rect:
         serializedVersion: 2
-        x: 295
-        y: 255
-        width: 48
-        height: 81
+        x: 256
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1507,12 +1507,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_taunt_53
       rect:
         serializedVersion: 2
-        x: 422
-        y: 255
-        width: 43
-        height: 79
+        x: 384
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1529,12 +1529,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_taunt_54
       rect:
         serializedVersion: 2
-        x: 550
-        y: 255
-        width: 42
-        height: 79
+        x: 512
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1551,12 +1551,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_taunt_55
       rect:
         serializedVersion: 2
-        x: 678
-        y: 255
-        width: 42
-        height: 77
+        x: 640
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1573,12 +1573,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_taunt_56
       rect:
         serializedVersion: 2
-        x: 806
-        y: 255
-        width: 42
-        height: 76
+        x: 768
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1595,12 +1595,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_taunt_57
       rect:
         serializedVersion: 2
-        x: 934
-        y: 255
-        width: 42
-        height: 74
+        x: 896
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1617,12 +1617,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_taunt_58
       rect:
         serializedVersion: 2
-        x: 1062
-        y: 255
-        width: 42
-        height: 75
+        x: 1024
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1639,12 +1639,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_taunt_59
       rect:
         serializedVersion: 2
-        x: 1190
-        y: 255
-        width: 42
-        height: 76
+        x: 1152
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1661,12 +1661,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_taunt_60
       rect:
         serializedVersion: 2
-        x: 39
-        y: 127
-        width: 42
-        height: 76
+        x: 0
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1683,12 +1683,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_taunt_61
       rect:
         serializedVersion: 2
-        x: 167
-        y: 127
-        width: 44
-        height: 75
+        x: 128
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1705,12 +1705,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_taunt_62
       rect:
         serializedVersion: 2
-        x: 295
-        y: 127
-        width: 46
-        height: 73
+        x: 256
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1727,12 +1727,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_taunt_63
       rect:
         serializedVersion: 2
-        x: 423
-        y: 127
-        width: 48
-        height: 73
+        x: 384
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1749,12 +1749,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_taunt_64
       rect:
         serializedVersion: 2
-        x: 551
-        y: 127
-        width: 50
-        height: 72
+        x: 512
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1771,12 +1771,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_taunt_65
       rect:
         serializedVersion: 2
-        x: 679
-        y: 127
-        width: 51
-        height: 71
+        x: 640
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1793,12 +1793,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_taunt_66
       rect:
         serializedVersion: 2
-        x: 807
-        y: 127
-        width: 52
-        height: 69
+        x: 768
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1815,12 +1815,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_taunt_67
       rect:
         serializedVersion: 2
-        x: 936
-        y: 127
-        width: 51
-        height: 69
+        x: 896
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1837,12 +1837,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_taunt_68
       rect:
         serializedVersion: 2
-        x: 1064
-        y: 127
-        width: 51
-        height: 67
+        x: 1024
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1859,12 +1859,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_taunt_69
       rect:
         serializedVersion: 2
-        x: 1192
-        y: 127
-        width: 51
-        height: 66
+        x: 1152
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1881,12 +1881,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_taunt_70
       rect:
         serializedVersion: 2
-        x: 40
+        x: 0
         y: 0
-        width: 51
-        height: 64
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1903,12 +1903,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_taunt_71
       rect:
         serializedVersion: 2
-        x: 168
+        x: 128
         y: 0
-        width: 50
-        height: 64
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1925,12 +1925,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_taunt_72
       rect:
         serializedVersion: 2
-        x: 296
+        x: 256
         y: 0
-        width: 50
-        height: 64
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1947,12 +1947,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_taunt_73
       rect:
         serializedVersion: 2
-        x: 424
+        x: 384
         y: 0
-        width: 50
-        height: 64
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1969,12 +1969,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_taunt_74
       rect:
         serializedVersion: 2
-        x: 552
+        x: 512
         y: 0
-        width: 49
-        height: 63
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1991,12 +1991,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_taunt_75
       rect:
         serializedVersion: 2
-        x: 680
+        x: 640
         y: 0
-        width: 49
-        height: 63
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2013,7 +2013,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: afc99dee106f75d4ba97e8ac7ed0a31f
     internalID: 0
     vertices: []
     indices: 
@@ -2021,7 +2021,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":10.0,"y":8.0},"gridSpriteSize":{"x":128.0,"y":128.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       Barbarian_Pixel_art_taunt_0: 4781902820753421008
       Barbarian_Pixel_art_taunt_1: -5069741287635435476

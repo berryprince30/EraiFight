@@ -260,12 +260,12 @@ TextureImporter:
       name: Wight_Knight_Pixel_art_Combat_attack_0
       rect:
         serializedVersion: 2
-        x: 171
-        y: 511
-        width: 47
-        height: 74
+        x: 0
+        y: 512
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -282,12 +282,12 @@ TextureImporter:
       name: Wight_Knight_Pixel_art_Combat_attack_1
       rect:
         serializedVersion: 2
-        x: 299
-        y: 511
-        width: 49
-        height: 76
+        x: 128
+        y: 512
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -304,12 +304,12 @@ TextureImporter:
       name: Wight_Knight_Pixel_art_Combat_attack_2
       rect:
         serializedVersion: 2
-        x: 427
-        y: 511
-        width: 52
-        height: 76
+        x: 256
+        y: 512
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -326,12 +326,12 @@ TextureImporter:
       name: Wight_Knight_Pixel_art_Combat_attack_3
       rect:
         serializedVersion: 2
-        x: 554
-        y: 511
-        width: 55
-        height: 76
+        x: 384
+        y: 512
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -348,12 +348,12 @@ TextureImporter:
       name: Wight_Knight_Pixel_art_Combat_attack_4
       rect:
         serializedVersion: 2
-        x: 682
-        y: 511
-        width: 57
-        height: 77
+        x: 512
+        y: 512
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -370,12 +370,12 @@ TextureImporter:
       name: Wight_Knight_Pixel_art_Combat_attack_5
       rect:
         serializedVersion: 2
-        x: 809
-        y: 511
-        width: 59
-        height: 78
+        x: 640
+        y: 512
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -392,12 +392,12 @@ TextureImporter:
       name: Wight_Knight_Pixel_art_Combat_attack_6
       rect:
         serializedVersion: 2
-        x: 936
-        y: 511
-        width: 61
-        height: 73
+        x: 768
+        y: 512
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -414,12 +414,12 @@ TextureImporter:
       name: Wight_Knight_Pixel_art_Combat_attack_7
       rect:
         serializedVersion: 2
-        x: 970
-        y: 582
-        width: 6
-        height: 6
+        x: 896
+        y: 512
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -436,12 +436,12 @@ TextureImporter:
       name: Wight_Knight_Pixel_art_Combat_attack_8
       rect:
         serializedVersion: 2
-        x: 1063
-        y: 511
-        width: 62
-        height: 75
+        x: 1024
+        y: 512
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -458,12 +458,12 @@ TextureImporter:
       name: Wight_Knight_Pixel_art_Combat_attack_9
       rect:
         serializedVersion: 2
-        x: 1190
-        y: 511
-        width: 63
-        height: 76
+        x: 1152
+        y: 512
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -480,12 +480,12 @@ TextureImporter:
       name: Wight_Knight_Pixel_art_Combat_attack_10
       rect:
         serializedVersion: 2
-        x: 43
-        y: 511
-        width: 46
-        height: 70
+        x: 0
+        y: 384
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -502,12 +502,12 @@ TextureImporter:
       name: Wight_Knight_Pixel_art_Combat_attack_11
       rect:
         serializedVersion: 2
-        x: 37
-        y: 383
-        width: 63
-        height: 73
+        x: 128
+        y: 384
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -524,12 +524,12 @@ TextureImporter:
       name: Wight_Knight_Pixel_art_Combat_attack_12
       rect:
         serializedVersion: 2
-        x: 164
-        y: 383
-        width: 63
-        height: 73
+        x: 256
+        y: 384
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -546,12 +546,12 @@ TextureImporter:
       name: Wight_Knight_Pixel_art_Combat_attack_13
       rect:
         serializedVersion: 2
-        x: 290
-        y: 383
-        width: 64
-        height: 73
+        x: 384
+        y: 384
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -568,12 +568,12 @@ TextureImporter:
       name: Wight_Knight_Pixel_art_Combat_attack_14
       rect:
         serializedVersion: 2
-        x: 417
-        y: 383
-        width: 62
-        height: 73
+        x: 512
+        y: 384
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -590,12 +590,12 @@ TextureImporter:
       name: Wight_Knight_Pixel_art_Combat_attack_15
       rect:
         serializedVersion: 2
-        x: 544
-        y: 383
-        width: 60
-        height: 73
+        x: 640
+        y: 384
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -612,12 +612,12 @@ TextureImporter:
       name: Wight_Knight_Pixel_art_Combat_attack_16
       rect:
         serializedVersion: 2
-        x: 672
-        y: 383
-        width: 57
-        height: 70
+        x: 768
+        y: 384
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -634,12 +634,12 @@ TextureImporter:
       name: Wight_Knight_Pixel_art_Combat_attack_17
       rect:
         serializedVersion: 2
-        x: 801
-        y: 383
-        width: 52
-        height: 68
+        x: 896
+        y: 384
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -656,12 +656,12 @@ TextureImporter:
       name: Wight_Knight_Pixel_art_Combat_attack_18
       rect:
         serializedVersion: 2
-        x: 929
-        y: 383
-        width: 62
-        height: 73
+        x: 1024
+        y: 384
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -678,12 +678,12 @@ TextureImporter:
       name: Wight_Knight_Pixel_art_Combat_attack_19
       rect:
         serializedVersion: 2
-        x: 1057
-        y: 383
-        width: 79
-        height: 67
+        x: 1152
+        y: 384
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -700,12 +700,12 @@ TextureImporter:
       name: Wight_Knight_Pixel_art_Combat_attack_20
       rect:
         serializedVersion: 2
-        x: 1185
-        y: 383
-        width: 95
-        height: 62
+        x: 0
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -722,12 +722,12 @@ TextureImporter:
       name: Wight_Knight_Pixel_art_Combat_attack_21
       rect:
         serializedVersion: 2
-        x: 33
-        y: 255
-        width: 81
-        height: 61
+        x: 128
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -744,12 +744,12 @@ TextureImporter:
       name: Wight_Knight_Pixel_art_Combat_attack_22
       rect:
         serializedVersion: 2
-        x: 161
-        y: 255
-        width: 51
-        height: 60
+        x: 256
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -766,12 +766,12 @@ TextureImporter:
       name: Wight_Knight_Pixel_art_Combat_attack_23
       rect:
         serializedVersion: 2
-        x: 289
-        y: 255
-        width: 52
-        height: 59
+        x: 384
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -788,12 +788,12 @@ TextureImporter:
       name: Wight_Knight_Pixel_art_Combat_attack_24
       rect:
         serializedVersion: 2
-        x: 417
-        y: 255
-        width: 52
-        height: 59
+        x: 512
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -810,12 +810,12 @@ TextureImporter:
       name: Wight_Knight_Pixel_art_Combat_attack_25
       rect:
         serializedVersion: 2
-        x: 545
-        y: 255
-        width: 52
-        height: 58
+        x: 640
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -832,12 +832,12 @@ TextureImporter:
       name: Wight_Knight_Pixel_art_Combat_attack_26
       rect:
         serializedVersion: 2
-        x: 673
-        y: 255
-        width: 52
-        height: 57
+        x: 768
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -854,12 +854,12 @@ TextureImporter:
       name: Wight_Knight_Pixel_art_Combat_attack_27
       rect:
         serializedVersion: 2
-        x: 801
-        y: 255
-        width: 53
-        height: 56
+        x: 896
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -876,12 +876,12 @@ TextureImporter:
       name: Wight_Knight_Pixel_art_Combat_attack_28
       rect:
         serializedVersion: 2
-        x: 930
-        y: 255
-        width: 53
-        height: 56
+        x: 1024
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -898,12 +898,12 @@ TextureImporter:
       name: Wight_Knight_Pixel_art_Combat_attack_29
       rect:
         serializedVersion: 2
-        x: 1058
-        y: 255
-        width: 55
-        height: 56
+        x: 1152
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -920,12 +920,12 @@ TextureImporter:
       name: Wight_Knight_Pixel_art_Combat_attack_30
       rect:
         serializedVersion: 2
-        x: 1186
-        y: 255
-        width: 57
-        height: 56
+        x: 0
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -942,12 +942,12 @@ TextureImporter:
       name: Wight_Knight_Pixel_art_Combat_attack_31
       rect:
         serializedVersion: 2
-        x: 34
-        y: 127
-        width: 59
-        height: 56
+        x: 128
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -964,12 +964,12 @@ TextureImporter:
       name: Wight_Knight_Pixel_art_Combat_attack_32
       rect:
         serializedVersion: 2
-        x: 162
-        y: 127
-        width: 61
-        height: 57
+        x: 256
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -986,12 +986,12 @@ TextureImporter:
       name: Wight_Knight_Pixel_art_Combat_attack_33
       rect:
         serializedVersion: 2
-        x: 291
-        y: 127
-        width: 59
-        height: 58
+        x: 384
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1008,12 +1008,12 @@ TextureImporter:
       name: Wight_Knight_Pixel_art_Combat_attack_34
       rect:
         serializedVersion: 2
-        x: 419
-        y: 127
-        width: 58
-        height: 59
+        x: 512
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1030,12 +1030,12 @@ TextureImporter:
       name: Wight_Knight_Pixel_art_Combat_attack_35
       rect:
         serializedVersion: 2
-        x: 548
-        y: 127
-        width: 59
-        height: 61
+        x: 640
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1052,12 +1052,12 @@ TextureImporter:
       name: Wight_Knight_Pixel_art_Combat_attack_36
       rect:
         serializedVersion: 2
-        x: 677
-        y: 127
-        width: 60
-        height: 62
+        x: 768
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1074,12 +1074,12 @@ TextureImporter:
       name: Wight_Knight_Pixel_art_Combat_attack_37
       rect:
         serializedVersion: 2
-        x: 805
-        y: 127
-        width: 61
-        height: 63
+        x: 896
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1096,12 +1096,12 @@ TextureImporter:
       name: Wight_Knight_Pixel_art_Combat_attack_38
       rect:
         serializedVersion: 2
-        x: 932
-        y: 127
-        width: 64
-        height: 65
+        x: 1024
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1118,12 +1118,12 @@ TextureImporter:
       name: Wight_Knight_Pixel_art_Combat_attack_39
       rect:
         serializedVersion: 2
-        x: 1060
-        y: 127
-        width: 67
-        height: 66
+        x: 1152
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1140,12 +1140,12 @@ TextureImporter:
       name: Wight_Knight_Pixel_art_Combat_attack_40
       rect:
         serializedVersion: 2
-        x: 1189
-        y: 127
-        width: 65
-        height: 66
+        x: 0
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1162,12 +1162,12 @@ TextureImporter:
       name: Wight_Knight_Pixel_art_Combat_attack_41
       rect:
         serializedVersion: 2
-        x: 38
+        x: 128
         y: 0
-        width: 60
-        height: 66
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1184,12 +1184,12 @@ TextureImporter:
       name: Wight_Knight_Pixel_art_Combat_attack_42
       rect:
         serializedVersion: 2
-        x: 167
+        x: 256
         y: 0
-        width: 56
-        height: 66
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1206,12 +1206,12 @@ TextureImporter:
       name: Wight_Knight_Pixel_art_Combat_attack_43
       rect:
         serializedVersion: 2
-        x: 296
+        x: 384
         y: 0
-        width: 51
-        height: 67
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1228,12 +1228,12 @@ TextureImporter:
       name: Wight_Knight_Pixel_art_Combat_attack_44
       rect:
         serializedVersion: 2
-        x: 425
+        x: 512
         y: 0
-        width: 48
-        height: 68
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1250,12 +1250,12 @@ TextureImporter:
       name: Wight_Knight_Pixel_art_Combat_attack_45
       rect:
         serializedVersion: 2
-        x: 554
+        x: 640
         y: 0
-        width: 47
-        height: 68
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1272,12 +1272,12 @@ TextureImporter:
       name: Wight_Knight_Pixel_art_Combat_attack_46
       rect:
         serializedVersion: 2
-        x: 683
+        x: 768
         y: 0
-        width: 46
-        height: 69
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1294,12 +1294,12 @@ TextureImporter:
       name: Wight_Knight_Pixel_art_Combat_attack_47
       rect:
         serializedVersion: 2
-        x: 811
+        x: 896
         y: 0
-        width: 46
-        height: 69
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1312,33 +1312,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: Wight_Knight_Pixel_art_Combat_attack_48
-      rect:
-        serializedVersion: 2
-        x: 939
-        y: 0
-        width: 46
-        height: 69
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 75afe56de6c06abb0800000000000000
-      internalID: -4925235472300574121
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: d991a6500a6df24449e1ad3ba91bcb76
     internalID: 0
     vertices: []
     indices: 
@@ -1346,7 +1324,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":10.0,"y":5.0},"gridSpriteSize":{"x":128.0,"y":128.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       Wight_Knight_Pixel_art_Combat_attack_0: -7139202274896345487
       Wight_Knight_Pixel_art_Combat_attack_1: -1490597226827565106
@@ -1391,7 +1371,6 @@ TextureImporter:
       Wight_Knight_Pixel_art_Combat_attack_45: -6964984170257890037
       Wight_Knight_Pixel_art_Combat_attack_46: -5870782873696593408
       Wight_Knight_Pixel_art_Combat_attack_47: 663048254887906392
-      Wight_Knight_Pixel_art_Combat_attack_48: -4925235472300574121
       Wight_Knight_Pixel_art_Combat_attack_5: -5444194004865190892
       Wight_Knight_Pixel_art_Combat_attack_6: 4458856021360886652
       Wight_Knight_Pixel_art_Combat_attack_7: -7231893313199333667

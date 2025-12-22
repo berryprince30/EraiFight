@@ -461,12 +461,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_360_jump_attack_0
       rect:
         serializedVersion: 2
-        x: 41
-        y: 1279
-        width: 43
-        height: 63
+        x: 0
+        y: 1280
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -483,12 +483,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_360_jump_attack_1
       rect:
         serializedVersion: 2
-        x: 173
-        y: 1279
-        width: 43
-        height: 65
+        x: 128
+        y: 1280
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -505,12 +505,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_360_jump_attack_2
       rect:
         serializedVersion: 2
-        x: 299
-        y: 1279
-        width: 48
-        height: 65
+        x: 256
+        y: 1280
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -527,12 +527,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_360_jump_attack_3
       rect:
         serializedVersion: 2
-        x: 425
-        y: 1279
-        width: 53
-        height: 66
+        x: 384
+        y: 1280
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -549,12 +549,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_360_jump_attack_4
       rect:
         serializedVersion: 2
-        x: 551
-        y: 1279
-        width: 57
-        height: 66
+        x: 512
+        y: 1280
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -571,12 +571,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_360_jump_attack_5
       rect:
         serializedVersion: 2
-        x: 677
-        y: 1279
-        width: 59
-        height: 68
+        x: 640
+        y: 1280
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -593,12 +593,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_360_jump_attack_6
       rect:
         serializedVersion: 2
-        x: 802
-        y: 1279
-        width: 62
-        height: 68
+        x: 768
+        y: 1280
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -615,12 +615,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_360_jump_attack_7
       rect:
         serializedVersion: 2
-        x: 929
-        y: 1279
-        width: 64
-        height: 66
+        x: 896
+        y: 1280
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -637,12 +637,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_360_jump_attack_8
       rect:
         serializedVersion: 2
-        x: 1060
-        y: 1279
-        width: 61
-        height: 65
+        x: 1024
+        y: 1280
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -659,12 +659,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_360_jump_attack_9
       rect:
         serializedVersion: 2
-        x: 1193
-        y: 1279
-        width: 57
-        height: 64
+        x: 1152
+        y: 1280
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -681,12 +681,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_360_jump_attack_10
       rect:
         serializedVersion: 2
-        x: 46
-        y: 1151
-        width: 52
-        height: 64
+        x: 0
+        y: 1152
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -703,12 +703,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_360_jump_attack_11
       rect:
         serializedVersion: 2
-        x: 167
-        y: 1151
-        width: 59
-        height: 64
+        x: 128
+        y: 1152
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -725,12 +725,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_360_jump_attack_12
       rect:
         serializedVersion: 2
-        x: 291
-        y: 1151
-        width: 63
-        height: 64
+        x: 256
+        y: 1152
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -747,12 +747,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_360_jump_attack_13
       rect:
         serializedVersion: 2
-        x: 341
-        y: 1182
-        width: 12
-        height: 9
+        x: 384
+        y: 1152
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -769,12 +769,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_360_jump_attack_14
       rect:
         serializedVersion: 2
-        x: 415
-        y: 1151
-        width: 65
-        height: 65
+        x: 512
+        y: 1152
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -791,12 +791,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_360_jump_attack_15
       rect:
         serializedVersion: 2
-        x: 541
-        y: 1151
-        width: 61
-        height: 65
+        x: 640
+        y: 1152
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -813,12 +813,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_360_jump_attack_16
       rect:
         serializedVersion: 2
-        x: 667
+        x: 768
         y: 1152
-        width: 56
-        height: 63
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -835,12 +835,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_360_jump_attack_17
       rect:
         serializedVersion: 2
-        x: 794
-        y: 1151
-        width: 59
-        height: 63
+        x: 896
+        y: 1152
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -857,12 +857,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_360_jump_attack_18
       rect:
         serializedVersion: 2
-        x: 923
-        y: 1151
-        width: 61
-        height: 61
+        x: 1024
+        y: 1152
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -879,12 +879,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_360_jump_attack_19
       rect:
         serializedVersion: 2
-        x: 1052
-        y: 1151
-        width: 60
-        height: 60
+        x: 1152
+        y: 1152
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -901,12 +901,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_360_jump_attack_20
       rect:
         serializedVersion: 2
-        x: 1183
-        y: 1151
-        width: 57
-        height: 58
+        x: 0
+        y: 1024
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -923,12 +923,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_360_jump_attack_21
       rect:
         serializedVersion: 2
-        x: 36
-        y: 1023
-        width: 52
-        height: 56
+        x: 128
+        y: 1024
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -945,12 +945,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_360_jump_attack_22
       rect:
         serializedVersion: 2
-        x: 170
-        y: 1023
-        width: 50
-        height: 55
+        x: 256
+        y: 1024
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -967,12 +967,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_360_jump_attack_23
       rect:
         serializedVersion: 2
-        x: 301
-        y: 1023
-        width: 47
-        height: 55
+        x: 384
+        y: 1024
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -989,12 +989,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_360_jump_attack_24
       rect:
         serializedVersion: 2
-        x: 429
-        y: 1023
-        width: 46
-        height: 56
+        x: 512
+        y: 1024
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1011,12 +1011,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_360_jump_attack_25
       rect:
         serializedVersion: 2
-        x: 557
-        y: 1023
-        width: 44
-        height: 61
+        x: 640
+        y: 1024
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1033,12 +1033,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_360_jump_attack_26
       rect:
         serializedVersion: 2
-        x: 593
-        y: 1056
-        width: 10
-        height: 15
+        x: 768
+        y: 1024
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1055,12 +1055,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_360_jump_attack_27
       rect:
         serializedVersion: 2
-        x: 684
-        y: 1023
-        width: 45
-        height: 68
+        x: 896
+        y: 1024
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1077,12 +1077,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_360_jump_attack_28
       rect:
         serializedVersion: 2
-        x: 812
-        y: 1023
-        width: 40
-        height: 75
+        x: 1024
+        y: 1024
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1099,12 +1099,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_360_jump_attack_29
       rect:
         serializedVersion: 2
-        x: 939
-        y: 1023
-        width: 38
-        height: 82
+        x: 1152
+        y: 1024
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1121,12 +1121,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_360_jump_attack_30
       rect:
         serializedVersion: 2
-        x: 1060
-        y: 1020
-        width: 43
-        height: 94
+        x: 0
+        y: 896
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1143,12 +1143,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_360_jump_attack_31
       rect:
         serializedVersion: 2
-        x: 1180
-        y: 1030
-        width: 51
-        height: 92
+        x: 128
+        y: 896
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1165,12 +1165,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_360_jump_attack_32
       rect:
         serializedVersion: 2
-        x: 398
-        y: 939
-        width: 62
-        height: 79
+        x: 256
+        y: 896
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1187,12 +1187,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_360_jump_attack_33
       rect:
         serializedVersion: 2
-        x: 525
-        y: 947
-        width: 63
-        height: 77
+        x: 384
+        y: 896
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1209,12 +1209,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_360_jump_attack_34
       rect:
         serializedVersion: 2
-        x: 653
-        y: 950
-        width: 63
-        height: 75
+        x: 512
+        y: 896
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1231,12 +1231,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_360_jump_attack_35
       rect:
         serializedVersion: 2
-        x: 780
-        y: 950
-        width: 61
-        height: 75
+        x: 640
+        y: 896
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1253,12 +1253,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_360_jump_attack_36
       rect:
         serializedVersion: 2
-        x: 909
-        y: 947
-        width: 56
-        height: 78
+        x: 768
+        y: 896
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1275,12 +1275,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_360_jump_attack_37
       rect:
         serializedVersion: 2
-        x: 1037
-        y: 943
-        width: 52
-        height: 71
+        x: 896
+        y: 896
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1297,12 +1297,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_360_jump_attack_38
       rect:
         serializedVersion: 2
-        x: 1055
-        y: 1011
-        width: 18
-        height: 10
+        x: 1024
+        y: 896
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1319,12 +1319,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_360_jump_attack_39
       rect:
         serializedVersion: 2
-        x: 1166
-        y: 940
-        width: 51
-        height: 81
+        x: 1152
+        y: 896
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1341,12 +1341,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_360_jump_attack_40
       rect:
         serializedVersion: 2
-        x: 21
-        y: 909
-        width: 58
-        height: 92
+        x: 0
+        y: 768
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1363,12 +1363,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_360_jump_attack_41
       rect:
         serializedVersion: 2
-        x: 145
-        y: 919
-        width: 61
-        height: 87
+        x: 128
+        y: 768
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1385,12 +1385,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_360_jump_attack_42
       rect:
         serializedVersion: 2
-        x: 271
-        y: 929
-        width: 60
-        height: 81
+        x: 256
+        y: 768
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1407,12 +1407,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_360_jump_attack_43
       rect:
         serializedVersion: 2
-        x: 15
-        y: 810
-        width: 50
-        height: 76
+        x: 384
+        y: 768
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1429,12 +1429,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_360_jump_attack_44
       rect:
         serializedVersion: 2
-        x: 144
-        y: 806
-        width: 49
-        height: 78
+        x: 512
+        y: 768
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1451,12 +1451,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_360_jump_attack_45
       rect:
         serializedVersion: 2
-        x: 274
-        y: 803
-        width: 47
-        height: 78
+        x: 640
+        y: 768
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1473,12 +1473,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_360_jump_attack_46
       rect:
         serializedVersion: 2
-        x: 404
-        y: 797
-        width: 45
-        height: 79
+        x: 768
+        y: 768
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1495,12 +1495,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_360_jump_attack_47
       rect:
         serializedVersion: 2
-        x: 532
-        y: 790
-        width: 45
-        height: 83
+        x: 896
+        y: 768
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1517,12 +1517,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_360_jump_attack_48
       rect:
         serializedVersion: 2
-        x: 660
-        y: 783
-        width: 45
-        height: 88
+        x: 1024
+        y: 768
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1539,12 +1539,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_360_jump_attack_49
       rect:
         serializedVersion: 2
-        x: 788
-        y: 777
-        width: 45
-        height: 91
+        x: 1152
+        y: 768
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1561,12 +1561,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_360_jump_attack_50
       rect:
         serializedVersion: 2
-        x: 917
-        y: 771
-        width: 44
-        height: 93
+        x: 0
+        y: 640
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1583,12 +1583,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_360_jump_attack_51
       rect:
         serializedVersion: 2
-        x: 1045
-        y: 767
-        width: 46
-        height: 92
+        x: 128
+        y: 640
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1605,12 +1605,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_360_jump_attack_52
       rect:
         serializedVersion: 2
-        x: 1175
-        y: 767
-        width: 54
-        height: 81
+        x: 256
+        y: 640
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1627,12 +1627,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_360_jump_attack_53
       rect:
         serializedVersion: 2
-        x: 25
-        y: 639
-        width: 69
-        height: 72
+        x: 384
+        y: 640
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1649,12 +1649,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_360_jump_attack_54
       rect:
         serializedVersion: 2
-        x: 158
-        y: 639
-        width: 71
-        height: 74
+        x: 512
+        y: 640
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1671,12 +1671,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_360_jump_attack_55
       rect:
         serializedVersion: 2
-        x: 287
-        y: 693
-        width: 21
-        height: 17
+        x: 640
+        y: 640
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1693,12 +1693,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_360_jump_attack_56
       rect:
         serializedVersion: 2
-        x: 305
-        y: 639
-        width: 69
-        height: 74
+        x: 768
+        y: 640
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1715,12 +1715,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_360_jump_attack_57
       rect:
         serializedVersion: 2
-        x: 427
-        y: 694
-        width: 46
-        height: 19
+        x: 896
+        y: 640
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1737,12 +1737,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_360_jump_attack_58
       rect:
         serializedVersion: 2
-        x: 561
-        y: 639
-        width: 75
-        height: 74
+        x: 1024
+        y: 640
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1759,12 +1759,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_360_jump_attack_59
       rect:
         serializedVersion: 2
-        x: 433
-        y: 639
-        width: 75
-        height: 50
+        x: 1152
+        y: 640
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1781,12 +1781,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_360_jump_attack_60
       rect:
         serializedVersion: 2
-        x: 616
-        y: 668
-        width: 13
-        height: 13
+        x: 0
+        y: 512
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1803,12 +1803,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_360_jump_attack_61
       rect:
         serializedVersion: 2
-        x: 689
-        y: 639
-        width: 75
-        height: 49
+        x: 128
+        y: 512
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1825,12 +1825,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_360_jump_attack_62
       rect:
         serializedVersion: 2
-        x: 817
-        y: 639
-        width: 74
-        height: 41
+        x: 256
+        y: 512
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1847,12 +1847,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_360_jump_attack_63
       rect:
         serializedVersion: 2
-        x: 945
-        y: 639
-        width: 73
-        height: 41
+        x: 384
+        y: 512
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1869,12 +1869,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_360_jump_attack_64
       rect:
         serializedVersion: 2
-        x: 1073
-        y: 639
-        width: 71
-        height: 42
+        x: 512
+        y: 512
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1891,12 +1891,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_360_jump_attack_65
       rect:
         serializedVersion: 2
-        x: 1201
-        y: 639
-        width: 71
-        height: 43
+        x: 640
+        y: 512
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1913,12 +1913,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_360_jump_attack_66
       rect:
         serializedVersion: 2
-        x: 49
-        y: 511
-        width: 71
-        height: 43
+        x: 768
+        y: 512
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1935,12 +1935,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_360_jump_attack_67
       rect:
         serializedVersion: 2
-        x: 177
-        y: 511
-        width: 71
-        height: 44
+        x: 896
+        y: 512
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1957,12 +1957,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_360_jump_attack_68
       rect:
         serializedVersion: 2
-        x: 305
-        y: 511
-        width: 71
-        height: 44
+        x: 1024
+        y: 512
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1979,12 +1979,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_360_jump_attack_69
       rect:
         serializedVersion: 2
-        x: 433
-        y: 511
-        width: 70
-        height: 44
+        x: 1152
+        y: 512
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2001,12 +2001,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_360_jump_attack_70
       rect:
         serializedVersion: 2
-        x: 561
-        y: 511
-        width: 70
-        height: 44
+        x: 0
+        y: 384
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2023,12 +2023,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_360_jump_attack_71
       rect:
         serializedVersion: 2
-        x: 689
-        y: 511
-        width: 70
-        height: 44
+        x: 128
+        y: 384
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2045,12 +2045,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_360_jump_attack_72
       rect:
         serializedVersion: 2
-        x: 817
-        y: 511
-        width: 70
-        height: 44
+        x: 256
+        y: 384
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2067,12 +2067,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_360_jump_attack_73
       rect:
         serializedVersion: 2
-        x: 945
-        y: 511
-        width: 70
-        height: 44
+        x: 384
+        y: 384
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2089,12 +2089,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_360_jump_attack_74
       rect:
         serializedVersion: 2
-        x: 1073
-        y: 511
-        width: 70
-        height: 44
+        x: 512
+        y: 384
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2111,12 +2111,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_360_jump_attack_75
       rect:
         serializedVersion: 2
-        x: 1201
-        y: 511
-        width: 69
-        height: 44
+        x: 640
+        y: 384
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2133,12 +2133,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_360_jump_attack_76
       rect:
         serializedVersion: 2
-        x: 49
-        y: 383
-        width: 69
-        height: 44
+        x: 768
+        y: 384
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2155,12 +2155,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_360_jump_attack_77
       rect:
         serializedVersion: 2
-        x: 177
-        y: 383
-        width: 69
-        height: 45
+        x: 896
+        y: 384
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2177,12 +2177,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_360_jump_attack_78
       rect:
         serializedVersion: 2
-        x: 305
-        y: 383
-        width: 68
-        height: 45
+        x: 1024
+        y: 384
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2199,12 +2199,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_360_jump_attack_79
       rect:
         serializedVersion: 2
-        x: 433
-        y: 383
-        width: 68
-        height: 46
+        x: 1152
+        y: 384
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2221,12 +2221,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_360_jump_attack_80
       rect:
         serializedVersion: 2
-        x: 561
-        y: 383
-        width: 67
-        height: 47
+        x: 0
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2243,12 +2243,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_360_jump_attack_81
       rect:
         serializedVersion: 2
-        x: 689
-        y: 383
-        width: 67
-        height: 47
+        x: 128
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2265,12 +2265,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_360_jump_attack_82
       rect:
         serializedVersion: 2
-        x: 817
-        y: 383
-        width: 65
-        height: 48
+        x: 256
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2287,12 +2287,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_360_jump_attack_83
       rect:
         serializedVersion: 2
-        x: 945
-        y: 383
-        width: 64
-        height: 49
+        x: 384
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2309,12 +2309,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_360_jump_attack_84
       rect:
         serializedVersion: 2
-        x: 1073
-        y: 383
-        width: 64
-        height: 49
+        x: 512
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2331,12 +2331,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_360_jump_attack_85
       rect:
         serializedVersion: 2
-        x: 1201
-        y: 383
-        width: 60
-        height: 50
+        x: 640
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2353,12 +2353,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_360_jump_attack_86
       rect:
         serializedVersion: 2
-        x: 45
-        y: 255
-        width: 64
-        height: 51
+        x: 768
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2375,12 +2375,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_360_jump_attack_87
       rect:
         serializedVersion: 2
-        x: 170
-        y: 255
-        width: 66
-        height: 52
+        x: 896
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2397,12 +2397,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_360_jump_attack_88
       rect:
         serializedVersion: 2
-        x: 295
-        y: 255
-        width: 68
-        height: 53
+        x: 1024
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2419,12 +2419,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_360_jump_attack_89
       rect:
         serializedVersion: 2
-        x: 422
-        y: 255
-        width: 68
-        height: 54
+        x: 1152
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2441,12 +2441,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_360_jump_attack_90
       rect:
         serializedVersion: 2
-        x: 549
-        y: 255
-        width: 67
-        height: 54
+        x: 0
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2463,12 +2463,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_360_jump_attack_91
       rect:
         serializedVersion: 2
-        x: 676
-        y: 255
-        width: 68
-        height: 55
+        x: 128
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2485,12 +2485,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_360_jump_attack_92
       rect:
         serializedVersion: 2
-        x: 805
-        y: 255
-        width: 65
-        height: 55
+        x: 256
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2507,12 +2507,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_360_jump_attack_93
       rect:
         serializedVersion: 2
-        x: 934
-        y: 255
-        width: 64
-        height: 55
+        x: 384
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2529,12 +2529,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_360_jump_attack_94
       rect:
         serializedVersion: 2
-        x: 1063
-        y: 255
-        width: 63
-        height: 55
+        x: 512
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2551,12 +2551,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_360_jump_attack_95
       rect:
         serializedVersion: 2
-        x: 1192
-        y: 255
-        width: 61
-        height: 55
+        x: 640
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2573,12 +2573,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_360_jump_attack_96
       rect:
         serializedVersion: 2
-        x: 41
-        y: 127
-        width: 60
-        height: 55
+        x: 768
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2595,12 +2595,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_360_jump_attack_97
       rect:
         serializedVersion: 2
-        x: 170
-        y: 127
-        width: 58
-        height: 55
+        x: 896
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2617,12 +2617,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_360_jump_attack_98
       rect:
         serializedVersion: 2
-        x: 299
-        y: 127
-        width: 56
-        height: 55
+        x: 1024
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2639,12 +2639,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_360_jump_attack_99
       rect:
         serializedVersion: 2
-        x: 427
-        y: 127
-        width: 53
-        height: 56
+        x: 1152
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2661,12 +2661,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_360_jump_attack_100
       rect:
         serializedVersion: 2
-        x: 555
-        y: 127
-        width: 53
-        height: 56
+        x: 0
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2683,12 +2683,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_360_jump_attack_101
       rect:
         serializedVersion: 2
-        x: 683
-        y: 127
-        width: 50
-        height: 56
+        x: 128
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2705,12 +2705,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_360_jump_attack_102
       rect:
         serializedVersion: 2
-        x: 810
-        y: 127
-        width: 49
-        height: 57
+        x: 256
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2727,12 +2727,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_360_jump_attack_103
       rect:
         serializedVersion: 2
-        x: 936
-        y: 127
-        width: 49
-        height: 57
+        x: 384
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2749,12 +2749,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_360_jump_attack_104
       rect:
         serializedVersion: 2
-        x: 1063
-        y: 127
-        width: 49
-        height: 58
+        x: 512
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2771,12 +2771,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_360_jump_attack_105
       rect:
         serializedVersion: 2
-        x: 1189
-        y: 127
-        width: 48
-        height: 58
+        x: 640
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2793,12 +2793,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_360_jump_attack_106
       rect:
         serializedVersion: 2
-        x: 36
+        x: 768
         y: 0
-        width: 49
-        height: 58
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2815,12 +2815,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_360_jump_attack_107
       rect:
         serializedVersion: 2
-        x: 163
+        x: 896
         y: 0
-        width: 50
-        height: 58
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2837,12 +2837,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_360_jump_attack_108
       rect:
         serializedVersion: 2
-        x: 290
+        x: 1024
         y: 0
-        width: 51
-        height: 59
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2859,12 +2859,12 @@ TextureImporter:
       name: Barbarian_Pixel_art_360_jump_attack_109
       rect:
         serializedVersion: 2
-        x: 418
+        x: 1152
         y: 0
-        width: 50
-        height: 59
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2877,143 +2877,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: Barbarian_Pixel_art_360_jump_attack_110
-      rect:
-        serializedVersion: 2
-        x: 547
-        y: 0
-        width: 50
-        height: 60
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e5763e38710a806b0800000000000000
-      internalID: -5329834136135571618
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Barbarian_Pixel_art_360_jump_attack_111
-      rect:
-        serializedVersion: 2
-        x: 676
-        y: 0
-        width: 50
-        height: 60
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3fab8cc7aef467830800000000000000
-      internalID: 4068527181910293235
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Barbarian_Pixel_art_360_jump_attack_112
-      rect:
-        serializedVersion: 2
-        x: 805
-        y: 0
-        width: 50
-        height: 61
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0c4573f191b70de50800000000000000
-      internalID: 6832095982549161152
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Barbarian_Pixel_art_360_jump_attack_113
-      rect:
-        serializedVersion: 2
-        x: 934
-        y: 0
-        width: 49
-        height: 61
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ccb47c373c2c37780800000000000000
-      internalID: -8686385111550702644
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Barbarian_Pixel_art_360_jump_attack_114
-      rect:
-        serializedVersion: 2
-        x: 1064
-        y: 0
-        width: 47
-        height: 61
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 74f5877897fcf4800800000000000000
-      internalID: 598925396334370631
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Barbarian_Pixel_art_360_jump_attack_115
-      rect:
-        serializedVersion: 2
-        x: 1193
-        y: 0
-        width: 45
-        height: 62
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ab0cc6f9ac26618c0800000000000000
-      internalID: -4028924194238709574
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 99d85af18f9d76c44a3dd4e4296313ee
     internalID: 0
     vertices: []
     indices: 
@@ -3021,7 +2889,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":10.0,"y":11.0},"gridSpriteSize":{"x":128.0,"y":128.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       Barbarian_Pixel_art_360_jump_attack_0: -9034152141874579063
       Barbarian_Pixel_art_360_jump_attack_1: 6363226124932327427
@@ -3037,12 +2907,6 @@ TextureImporter:
       Barbarian_Pixel_art_360_jump_attack_108: -5306282728954957510
       Barbarian_Pixel_art_360_jump_attack_109: -3313227207636366119
       Barbarian_Pixel_art_360_jump_attack_11: 199303254256674886
-      Barbarian_Pixel_art_360_jump_attack_110: -5329834136135571618
-      Barbarian_Pixel_art_360_jump_attack_111: 4068527181910293235
-      Barbarian_Pixel_art_360_jump_attack_112: 6832095982549161152
-      Barbarian_Pixel_art_360_jump_attack_113: -8686385111550702644
-      Barbarian_Pixel_art_360_jump_attack_114: 598925396334370631
-      Barbarian_Pixel_art_360_jump_attack_115: -4028924194238709574
       Barbarian_Pixel_art_360_jump_attack_12: -8847677903391592802
       Barbarian_Pixel_art_360_jump_attack_13: -970244301873327176
       Barbarian_Pixel_art_360_jump_attack_14: -1855844680787224804
