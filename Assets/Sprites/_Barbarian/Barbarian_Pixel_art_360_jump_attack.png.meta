@@ -1,0 +1,3146 @@
+fileFormatVersion: 2
+guid: 2d783f733346f524d91d0fde1b5562aa
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -9034152141874579063
+    second: Barbarian_Pixel_art_360_jump_attack_0
+  - first:
+      213: 6363226124932327427
+    second: Barbarian_Pixel_art_360_jump_attack_1
+  - first:
+      213: 6289390919938720216
+    second: Barbarian_Pixel_art_360_jump_attack_2
+  - first:
+      213: -5799016562280212170
+    second: Barbarian_Pixel_art_360_jump_attack_3
+  - first:
+      213: -125631709310441330
+    second: Barbarian_Pixel_art_360_jump_attack_4
+  - first:
+      213: -5747195398258066601
+    second: Barbarian_Pixel_art_360_jump_attack_5
+  - first:
+      213: 2647630901851939413
+    second: Barbarian_Pixel_art_360_jump_attack_6
+  - first:
+      213: 8066931234515769245
+    second: Barbarian_Pixel_art_360_jump_attack_7
+  - first:
+      213: -4523651315672738754
+    second: Barbarian_Pixel_art_360_jump_attack_8
+  - first:
+      213: 5873828157986600236
+    second: Barbarian_Pixel_art_360_jump_attack_9
+  - first:
+      213: -3059968524873776678
+    second: Barbarian_Pixel_art_360_jump_attack_10
+  - first:
+      213: 199303254256674886
+    second: Barbarian_Pixel_art_360_jump_attack_11
+  - first:
+      213: -8847677903391592802
+    second: Barbarian_Pixel_art_360_jump_attack_12
+  - first:
+      213: -970244301873327176
+    second: Barbarian_Pixel_art_360_jump_attack_13
+  - first:
+      213: -1855844680787224804
+    second: Barbarian_Pixel_art_360_jump_attack_14
+  - first:
+      213: 7393982316549497493
+    second: Barbarian_Pixel_art_360_jump_attack_15
+  - first:
+      213: -3961599626913872436
+    second: Barbarian_Pixel_art_360_jump_attack_16
+  - first:
+      213: 326991911793228509
+    second: Barbarian_Pixel_art_360_jump_attack_17
+  - first:
+      213: 1961703192460495752
+    second: Barbarian_Pixel_art_360_jump_attack_18
+  - first:
+      213: 4088519351273417722
+    second: Barbarian_Pixel_art_360_jump_attack_19
+  - first:
+      213: 8744914953152623771
+    second: Barbarian_Pixel_art_360_jump_attack_20
+  - first:
+      213: 370779745022686956
+    second: Barbarian_Pixel_art_360_jump_attack_21
+  - first:
+      213: 4285961518019294833
+    second: Barbarian_Pixel_art_360_jump_attack_22
+  - first:
+      213: 552345598104165735
+    second: Barbarian_Pixel_art_360_jump_attack_23
+  - first:
+      213: 5187628354584305098
+    second: Barbarian_Pixel_art_360_jump_attack_24
+  - first:
+      213: 2692924050404623992
+    second: Barbarian_Pixel_art_360_jump_attack_25
+  - first:
+      213: 5166057960328985309
+    second: Barbarian_Pixel_art_360_jump_attack_26
+  - first:
+      213: -2107644339169541484
+    second: Barbarian_Pixel_art_360_jump_attack_27
+  - first:
+      213: -2137324819560876269
+    second: Barbarian_Pixel_art_360_jump_attack_28
+  - first:
+      213: 6837954080414549928
+    second: Barbarian_Pixel_art_360_jump_attack_29
+  - first:
+      213: -3229735162879533650
+    second: Barbarian_Pixel_art_360_jump_attack_30
+  - first:
+      213: 2818285244213087909
+    second: Barbarian_Pixel_art_360_jump_attack_31
+  - first:
+      213: 6321217913713268568
+    second: Barbarian_Pixel_art_360_jump_attack_32
+  - first:
+      213: 4998744759033889843
+    second: Barbarian_Pixel_art_360_jump_attack_33
+  - first:
+      213: -5093258380411513541
+    second: Barbarian_Pixel_art_360_jump_attack_34
+  - first:
+      213: 613690853058128126
+    second: Barbarian_Pixel_art_360_jump_attack_35
+  - first:
+      213: 8209486018244352421
+    second: Barbarian_Pixel_art_360_jump_attack_36
+  - first:
+      213: -5511063953684939876
+    second: Barbarian_Pixel_art_360_jump_attack_37
+  - first:
+      213: 5549186168953921884
+    second: Barbarian_Pixel_art_360_jump_attack_38
+  - first:
+      213: 6725325794850022781
+    second: Barbarian_Pixel_art_360_jump_attack_39
+  - first:
+      213: 4403408348218771020
+    second: Barbarian_Pixel_art_360_jump_attack_40
+  - first:
+      213: -8608758135048830738
+    second: Barbarian_Pixel_art_360_jump_attack_41
+  - first:
+      213: -8027828556360592621
+    second: Barbarian_Pixel_art_360_jump_attack_42
+  - first:
+      213: 6307081236619773911
+    second: Barbarian_Pixel_art_360_jump_attack_43
+  - first:
+      213: 1055835215302223776
+    second: Barbarian_Pixel_art_360_jump_attack_44
+  - first:
+      213: -7641113714619997869
+    second: Barbarian_Pixel_art_360_jump_attack_45
+  - first:
+      213: -6969505434315087038
+    second: Barbarian_Pixel_art_360_jump_attack_46
+  - first:
+      213: 2580479584115070948
+    second: Barbarian_Pixel_art_360_jump_attack_47
+  - first:
+      213: 958164103027431079
+    second: Barbarian_Pixel_art_360_jump_attack_48
+  - first:
+      213: 1291151917462384559
+    second: Barbarian_Pixel_art_360_jump_attack_49
+  - first:
+      213: 9019277347523645803
+    second: Barbarian_Pixel_art_360_jump_attack_50
+  - first:
+      213: 8794877410693816163
+    second: Barbarian_Pixel_art_360_jump_attack_51
+  - first:
+      213: 1783749736432987572
+    second: Barbarian_Pixel_art_360_jump_attack_52
+  - first:
+      213: -8031256047598215800
+    second: Barbarian_Pixel_art_360_jump_attack_53
+  - first:
+      213: 6292550053037963626
+    second: Barbarian_Pixel_art_360_jump_attack_54
+  - first:
+      213: -7694607893743909477
+    second: Barbarian_Pixel_art_360_jump_attack_55
+  - first:
+      213: 7465133752717942986
+    second: Barbarian_Pixel_art_360_jump_attack_56
+  - first:
+      213: 6474036932225557144
+    second: Barbarian_Pixel_art_360_jump_attack_57
+  - first:
+      213: -3562485829953423787
+    second: Barbarian_Pixel_art_360_jump_attack_58
+  - first:
+      213: -873594818277585497
+    second: Barbarian_Pixel_art_360_jump_attack_59
+  - first:
+      213: 2370710720782896267
+    second: Barbarian_Pixel_art_360_jump_attack_60
+  - first:
+      213: 7831739403713659992
+    second: Barbarian_Pixel_art_360_jump_attack_61
+  - first:
+      213: 8408458645623366641
+    second: Barbarian_Pixel_art_360_jump_attack_62
+  - first:
+      213: 7788356910860436500
+    second: Barbarian_Pixel_art_360_jump_attack_63
+  - first:
+      213: -613993195671545667
+    second: Barbarian_Pixel_art_360_jump_attack_64
+  - first:
+      213: 9133142743149618719
+    second: Barbarian_Pixel_art_360_jump_attack_65
+  - first:
+      213: -5610727053888866727
+    second: Barbarian_Pixel_art_360_jump_attack_66
+  - first:
+      213: -5812037523761028419
+    second: Barbarian_Pixel_art_360_jump_attack_67
+  - first:
+      213: 892354768234452808
+    second: Barbarian_Pixel_art_360_jump_attack_68
+  - first:
+      213: 978292714796329237
+    second: Barbarian_Pixel_art_360_jump_attack_69
+  - first:
+      213: 4675236472379945031
+    second: Barbarian_Pixel_art_360_jump_attack_70
+  - first:
+      213: -2773698714919663285
+    second: Barbarian_Pixel_art_360_jump_attack_71
+  - first:
+      213: 9066930653286569600
+    second: Barbarian_Pixel_art_360_jump_attack_72
+  - first:
+      213: -9153549227251584723
+    second: Barbarian_Pixel_art_360_jump_attack_73
+  - first:
+      213: -5792980027102609376
+    second: Barbarian_Pixel_art_360_jump_attack_74
+  - first:
+      213: -4939579182737469044
+    second: Barbarian_Pixel_art_360_jump_attack_75
+  - first:
+      213: 3510873806841643397
+    second: Barbarian_Pixel_art_360_jump_attack_76
+  - first:
+      213: 6627724795811501088
+    second: Barbarian_Pixel_art_360_jump_attack_77
+  - first:
+      213: -4513636670077953235
+    second: Barbarian_Pixel_art_360_jump_attack_78
+  - first:
+      213: -556643106358473020
+    second: Barbarian_Pixel_art_360_jump_attack_79
+  - first:
+      213: -4231036993982454817
+    second: Barbarian_Pixel_art_360_jump_attack_80
+  - first:
+      213: -2287475836191048722
+    second: Barbarian_Pixel_art_360_jump_attack_81
+  - first:
+      213: 3137388506703109665
+    second: Barbarian_Pixel_art_360_jump_attack_82
+  - first:
+      213: 2216877475723832316
+    second: Barbarian_Pixel_art_360_jump_attack_83
+  - first:
+      213: 106382486842655020
+    second: Barbarian_Pixel_art_360_jump_attack_84
+  - first:
+      213: -8191783455461729498
+    second: Barbarian_Pixel_art_360_jump_attack_85
+  - first:
+      213: -5675997037367386480
+    second: Barbarian_Pixel_art_360_jump_attack_86
+  - first:
+      213: 1258688548284006401
+    second: Barbarian_Pixel_art_360_jump_attack_87
+  - first:
+      213: -2175872512760744773
+    second: Barbarian_Pixel_art_360_jump_attack_88
+  - first:
+      213: -4355176638084198389
+    second: Barbarian_Pixel_art_360_jump_attack_89
+  - first:
+      213: -6913521110361519329
+    second: Barbarian_Pixel_art_360_jump_attack_90
+  - first:
+      213: -4297644293066800667
+    second: Barbarian_Pixel_art_360_jump_attack_91
+  - first:
+      213: -8350539042783983667
+    second: Barbarian_Pixel_art_360_jump_attack_92
+  - first:
+      213: 4555223473258886259
+    second: Barbarian_Pixel_art_360_jump_attack_93
+  - first:
+      213: -2346612888154615215
+    second: Barbarian_Pixel_art_360_jump_attack_94
+  - first:
+      213: -5393962473376478073
+    second: Barbarian_Pixel_art_360_jump_attack_95
+  - first:
+      213: -7473632813349836798
+    second: Barbarian_Pixel_art_360_jump_attack_96
+  - first:
+      213: 5387983029074608661
+    second: Barbarian_Pixel_art_360_jump_attack_97
+  - first:
+      213: -4461971959723204695
+    second: Barbarian_Pixel_art_360_jump_attack_98
+  - first:
+      213: 3510228451115585929
+    second: Barbarian_Pixel_art_360_jump_attack_99
+  - first:
+      213: -5232065651780791844
+    second: Barbarian_Pixel_art_360_jump_attack_100
+  - first:
+      213: -5819235443243681705
+    second: Barbarian_Pixel_art_360_jump_attack_101
+  - first:
+      213: -1796387220820275660
+    second: Barbarian_Pixel_art_360_jump_attack_102
+  - first:
+      213: 9041374094229072718
+    second: Barbarian_Pixel_art_360_jump_attack_103
+  - first:
+      213: 9066333287694673848
+    second: Barbarian_Pixel_art_360_jump_attack_104
+  - first:
+      213: 2136276501914242479
+    second: Barbarian_Pixel_art_360_jump_attack_105
+  - first:
+      213: 4528079728421853375
+    second: Barbarian_Pixel_art_360_jump_attack_106
+  - first:
+      213: -4783320517110912398
+    second: Barbarian_Pixel_art_360_jump_attack_107
+  - first:
+      213: -5306282728954957510
+    second: Barbarian_Pixel_art_360_jump_attack_108
+  - first:
+      213: -3313227207636366119
+    second: Barbarian_Pixel_art_360_jump_attack_109
+  - first:
+      213: -5329834136135571618
+    second: Barbarian_Pixel_art_360_jump_attack_110
+  - first:
+      213: 4068527181910293235
+    second: Barbarian_Pixel_art_360_jump_attack_111
+  - first:
+      213: 6832095982549161152
+    second: Barbarian_Pixel_art_360_jump_attack_112
+  - first:
+      213: -8686385111550702644
+    second: Barbarian_Pixel_art_360_jump_attack_113
+  - first:
+      213: 598925396334370631
+    second: Barbarian_Pixel_art_360_jump_attack_114
+  - first:
+      213: -4028924194238709574
+    second: Barbarian_Pixel_art_360_jump_attack_115
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_360_jump_attack_0
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 1279
+        width: 43
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9893bb0fd7e30a280800000000000000
+      internalID: -9034152141874579063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_360_jump_attack_1
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 1279
+        width: 43
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 308a3126278be4850800000000000000
+      internalID: 6363226124932327427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_360_jump_attack_2
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 1279
+        width: 48
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d1c38418b7684750800000000000000
+      internalID: 6289390919938720216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_360_jump_attack_3
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 1279
+        width: 53
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6395eae3921c58fa0800000000000000
+      internalID: -5799016562280212170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_360_jump_attack_4
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 1279
+        width: 57
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e88a60240aaa14ef0800000000000000
+      internalID: -125631709310441330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_360_jump_attack_5
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 1279
+        width: 59
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75b71183c3cdd30b0800000000000000
+      internalID: -5747195398258066601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_360_jump_attack_6
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 1279
+        width: 62
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5526b3907464eb420800000000000000
+      internalID: 2647630901851939413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_360_jump_attack_7
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 1279
+        width: 64
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d97d0d4a73f73ff60800000000000000
+      internalID: 8066931234515769245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_360_jump_attack_8
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 1279
+        width: 61
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3419918813c831c0800000000000000
+      internalID: -4523651315672738754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_360_jump_attack_9
+      rect:
+        serializedVersion: 2
+        x: 1193
+        y: 1279
+        width: 57
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c257a7cb697048150800000000000000
+      internalID: 5873828157986600236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_360_jump_attack_10
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 1151
+        width: 52
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad1c50bc6dec885d0800000000000000
+      internalID: -3059968524873776678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_360_jump_attack_11
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 1151
+        width: 59
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6486c88f04114c200800000000000000
+      internalID: 199303254256674886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_360_jump_attack_12
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 1151
+        width: 63
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9e6549e2dbb63580800000000000000
+      internalID: -8847677903391592802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_360_jump_attack_13
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 1182
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b35e71b2fff882f0800000000000000
+      internalID: -970244301873327176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_360_jump_attack_14
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 1151
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1711637817be36e0800000000000000
+      internalID: -1855844680787224804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_360_jump_attack_15
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 1151
+        width: 61
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 592e37dedb3bc9660800000000000000
+      internalID: 7393982316549497493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_360_jump_attack_16
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 1152
+        width: 56
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc58a77f0229509c0800000000000000
+      internalID: -3961599626913872436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_360_jump_attack_17
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 1151
+        width: 59
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dda7cda4965b98400800000000000000
+      internalID: 326991911793228509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_360_jump_attack_18
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 1151
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88b8b55f8ae593b10800000000000000
+      internalID: 1961703192460495752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_360_jump_attack_19
+      rect:
+        serializedVersion: 2
+        x: 1052
+        y: 1151
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afb66f520b65db830800000000000000
+      internalID: 4088519351273417722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_360_jump_attack_20
+      rect:
+        serializedVersion: 2
+        x: 1183
+        y: 1151
+        width: 57
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b94f9ad31dd2c5970800000000000000
+      internalID: 8744914953152623771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_360_jump_attack_21
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 1023
+        width: 52
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce6bcffa636452500800000000000000
+      internalID: 370779745022686956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_360_jump_attack_22
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 1023
+        width: 50
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 176b88aea4bca7b30800000000000000
+      internalID: 4285961518019294833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_360_jump_attack_23
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 1023
+        width: 47
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76ddf3025635aa700800000000000000
+      internalID: 552345598104165735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_360_jump_attack_24
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 1023
+        width: 46
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acdddb5d0882ef740800000000000000
+      internalID: 5187628354584305098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_360_jump_attack_25
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 1023
+        width: 44
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8764977f7203f5520800000000000000
+      internalID: 2692924050404623992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_360_jump_attack_26
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 1056
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddafc7e085681b740800000000000000
+      internalID: 5166057960328985309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_360_jump_attack_27
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 1023
+        width: 45
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 492cfeae3a420c2e0800000000000000
+      internalID: -2107644339169541484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_360_jump_attack_28
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 1023
+        width: 40
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 317b2709662b652e0800000000000000
+      internalID: -2137324819560876269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_360_jump_attack_29
+      rect:
+        serializedVersion: 2
+        x: 939
+        y: 1023
+        width: 38
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a7ca81d10b45ee50800000000000000
+      internalID: 6837954080414549928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_360_jump_attack_30
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 1020
+        width: 43
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ead1af13bfcad23d0800000000000000
+      internalID: -3229735162879533650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_360_jump_attack_31
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 1030
+        width: 51
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5aecb096f7f8c1720800000000000000
+      internalID: 2818285244213087909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_360_jump_attack_32
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 939
+        width: 62
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85717b6833a79b750800000000000000
+      internalID: 6321217913713268568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_360_jump_attack_33
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 947
+        width: 63
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3348f05bfdb1f5540800000000000000
+      internalID: 4998744759033889843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_360_jump_attack_34
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 950
+        width: 63
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b355a4efc7c1159b0800000000000000
+      internalID: -5093258380411513541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_360_jump_attack_35
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 950
+        width: 61
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef8af625494448800800000000000000
+      internalID: 613690853058128126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_360_jump_attack_36
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 947
+        width: 56
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a99df1b904fde170800000000000000
+      internalID: 8209486018244352421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_360_jump_attack_37
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 943
+        width: 52
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9b36227884c483b0800000000000000
+      internalID: -5511063953684939876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_360_jump_attack_38
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 1011
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5162097b6ba20d40800000000000000
+      internalID: 5549186168953921884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_360_jump_attack_39
+      rect:
+        serializedVersion: 2
+        x: 1166
+        y: 940
+        width: 51
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d75aec89d28255d50800000000000000
+      internalID: 6725325794850022781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_360_jump_attack_40
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 909
+        width: 58
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c46c19cff8c0c1d30800000000000000
+      internalID: 4403408348218771020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_360_jump_attack_41
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 919
+        width: 61
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee0092b561c878880800000000000000
+      internalID: -8608758135048830738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_360_jump_attack_42
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 929
+        width: 60
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 313d364167c679090800000000000000
+      internalID: -8027828556360592621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_360_jump_attack_43
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 810
+        width: 50
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d7c046e7f0478750800000000000000
+      internalID: 6307081236619773911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_360_jump_attack_44
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 806
+        width: 49
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a7ef65c88417ae00800000000000000
+      internalID: 1055835215302223776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_360_jump_attack_45
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 803
+        width: 47
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 351a5b79f8f45f590800000000000000
+      internalID: -7641113714619997869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_360_jump_attack_46
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 797
+        width: 45
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 243ae77cbb7574f90800000000000000
+      internalID: -6969505434315087038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_360_jump_attack_47
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 790
+        width: 45
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e793518284bfc320800000000000000
+      internalID: 2580479584115070948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_360_jump_attack_48
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 783
+        width: 45
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a61b75dc251c4d00800000000000000
+      internalID: 958164103027431079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_360_jump_attack_49
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 777
+        width: 45
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fafe86ff3d71be110800000000000000
+      internalID: 1291151917462384559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_360_jump_attack_50
+      rect:
+        serializedVersion: 2
+        x: 917
+        y: 771
+        width: 44
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b61dfdd16f8ea2d70800000000000000
+      internalID: 9019277347523645803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_360_jump_attack_51
+      rect:
+        serializedVersion: 2
+        x: 1045
+        y: 767
+        width: 46
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36f1383686ead0a70800000000000000
+      internalID: 8794877410693816163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_360_jump_attack_52
+      rect:
+        serializedVersion: 2
+        x: 1175
+        y: 767
+        width: 54
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bde8404fe621c810800000000000000
+      internalID: 1783749736432987572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_360_jump_attack_53
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 639
+        width: 69
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88d53b61d2f3b8090800000000000000
+      internalID: -8031256047598215800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_360_jump_attack_54
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 639
+        width: 71
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6971b21fe0a35750800000000000000
+      internalID: 6292550053037963626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_360_jump_attack_55
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 693
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b954a7f63e2473590800000000000000
+      internalID: -7694607893743909477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_360_jump_attack_56
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 639
+        width: 69
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac0288b989b799760800000000000000
+      internalID: 7465133752717942986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_360_jump_attack_57
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 694
+        width: 46
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8926018f94668d950800000000000000
+      internalID: 6474036932225557144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_360_jump_attack_58
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 639
+        width: 75
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 556734433028f8ec0800000000000000
+      internalID: -3562485829953423787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_360_jump_attack_59
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 639
+        width: 75
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ad41fa242e50e3f0800000000000000
+      internalID: -873594818277585497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_360_jump_attack_60
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 668
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8c897907d476e020800000000000000
+      internalID: 2370710720782896267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_360_jump_attack_61
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 639
+        width: 75
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85448cb4e7defac60800000000000000
+      internalID: 7831739403713659992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_360_jump_attack_62
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 639
+        width: 74
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f361f89698d0b470800000000000000
+      internalID: 8408458645623366641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_360_jump_attack_63
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 639
+        width: 73
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4148bcf885dc51c60800000000000000
+      internalID: 7788356910860436500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_360_jump_attack_64
+      rect:
+        serializedVersion: 2
+        x: 1073
+        y: 639
+        width: 71
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db89d7d0178aa77f0800000000000000
+      internalID: -613993195671545667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_360_jump_attack_65
+      rect:
+        serializedVersion: 2
+        x: 1201
+        y: 639
+        width: 71
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f16ae587fe07fbe70800000000000000
+      internalID: 9133142743149618719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_360_jump_attack_66
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 511
+        width: 71
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 956b74da871b222b0800000000000000
+      internalID: -5610727053888866727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_360_jump_attack_67
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 511
+        width: 71
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db2abf66aae775fa0800000000000000
+      internalID: -5812037523761028419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_360_jump_attack_68
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 511
+        width: 71
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8479d3e0fe7426c00800000000000000
+      internalID: 892354768234452808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_360_jump_attack_69
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 511
+        width: 70
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 519a9c77a08939d00800000000000000
+      internalID: 978292714796329237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_360_jump_attack_70
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 511
+        width: 70
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74038291dc6c1e040800000000000000
+      internalID: 4675236472379945031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_360_jump_attack_71
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 511
+        width: 70
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b498147e6b7d189d0800000000000000
+      internalID: -2773698714919663285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_360_jump_attack_72
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 511
+        width: 70
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0861f38f36534dd70800000000000000
+      internalID: 9066930653286569600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_360_jump_attack_73
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 511
+        width: 70
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d213e93b97f08f080800000000000000
+      internalID: -9153549227251584723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_360_jump_attack_74
+      rect:
+        serializedVersion: 2
+        x: 1073
+        y: 511
+        width: 70
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 020cd9d9b533b9fa0800000000000000
+      internalID: -5792980027102609376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_360_jump_attack_75
+      rect:
+        serializedVersion: 2
+        x: 1201
+        y: 511
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c81d40187e6137bb0800000000000000
+      internalID: -4939579182737469044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_360_jump_attack_76
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 383
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 581050c302129b030800000000000000
+      internalID: 3510873806841643397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_360_jump_attack_77
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 383
+        width: 69
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 024946b26986afb50800000000000000
+      internalID: 6627724795811501088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_360_jump_attack_78
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 383
+        width: 68
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2b93d2ec575c51c0800000000000000
+      internalID: -4513636670077953235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_360_jump_attack_79
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 383
+        width: 68
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ce45d24b086648f0800000000000000
+      internalID: -556643106358473020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_360_jump_attack_80
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 383
+        width: 67
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd3a32e55465845c0800000000000000
+      internalID: -4231036993982454817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_360_jump_attack_81
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 383
+        width: 67
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eebfa87b8d04140e0800000000000000
+      internalID: -2287475836191048722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_360_jump_attack_82
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 383
+        width: 65
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12e9e68693e3a8b20800000000000000
+      internalID: 3137388506703109665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_360_jump_attack_83
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 383
+        width: 64
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfb6513915ee3ce10800000000000000
+      internalID: 2216877475723832316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_360_jump_attack_84
+      rect:
+        serializedVersion: 2
+        x: 1073
+        y: 383
+        width: 64
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c214492ee42f97100800000000000000
+      internalID: 106382486842655020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_360_jump_attack_85
+      rect:
+        serializedVersion: 2
+        x: 1201
+        y: 383
+        width: 60
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62b18446950f05e80800000000000000
+      internalID: -8191783455461729498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_360_jump_attack_86
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 255
+        width: 64
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09e1c8964ceca31b0800000000000000
+      internalID: -5675997037367386480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_360_jump_attack_87
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 255
+        width: 66
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 100025bd092c77110800000000000000
+      internalID: 1258688548284006401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_360_jump_attack_88
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 255
+        width: 68
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb4fb585a7fbdc1e0800000000000000
+      internalID: -2175872512760744773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_360_jump_attack_89
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 255
+        width: 68
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0059e02ced4f83c0800000000000000
+      internalID: -4355176638084198389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_360_jump_attack_90
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 255
+        width: 67
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1bccb5fd2d3e00a0800000000000000
+      internalID: -6913521110361519329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_360_jump_attack_91
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 255
+        width: 68
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e1c4cc0943bb54c0800000000000000
+      internalID: -4297644293066800667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_360_jump_attack_92
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 255
+        width: 65
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc784dfcbfcec1c80800000000000000
+      internalID: -8350539042783983667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_360_jump_attack_93
+      rect:
+        serializedVersion: 2
+        x: 934
+        y: 255
+        width: 64
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 374fd144d97673f30800000000000000
+      internalID: 4555223473258886259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_360_jump_attack_94
+      rect:
+        serializedVersion: 2
+        x: 1063
+        y: 255
+        width: 63
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 152d038d2082f6fd0800000000000000
+      internalID: -2346612888154615215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_360_jump_attack_95
+      rect:
+        serializedVersion: 2
+        x: 1192
+        y: 255
+        width: 61
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78c8b9a75bbc425b0800000000000000
+      internalID: -5393962473376478073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_360_jump_attack_96
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 127
+        width: 60
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2086492ad82584890800000000000000
+      internalID: -7473632813349836798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_360_jump_attack_97
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 127
+        width: 58
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51243d7a406f5ca40800000000000000
+      internalID: 5387983029074608661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_360_jump_attack_98
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 127
+        width: 56
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9afd1f6a424e312c0800000000000000
+      internalID: -4461971959723204695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_360_jump_attack_99
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 127
+        width: 53
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 981d635ad26d6b030800000000000000
+      internalID: 3510228451115585929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_360_jump_attack_100
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 127
+        width: 53
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd15518a208f367b0800000000000000
+      internalID: -5232065651780791844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_360_jump_attack_101
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 127
+        width: 50
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 758f81d223ced3fa0800000000000000
+      internalID: -5819235443243681705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_360_jump_attack_102
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 127
+        width: 49
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43ec4ff1753f117e0800000000000000
+      internalID: -1796387220820275660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_360_jump_attack_103
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 127
+        width: 49
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4b61ffd5d9697d70800000000000000
+      internalID: 9041374094229072718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_360_jump_attack_104
+      rect:
+        serializedVersion: 2
+        x: 1063
+        y: 127
+        width: 49
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b72754f61612dd70800000000000000
+      internalID: 9066333287694673848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_360_jump_attack_105
+      rect:
+        serializedVersion: 2
+        x: 1189
+        y: 127
+        width: 48
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fadcc96f82495ad10800000000000000
+      internalID: 2136276501914242479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_360_jump_attack_106
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 0
+        width: 49
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb85b3fa588f6de30800000000000000
+      internalID: 4528079728421853375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_360_jump_attack_107
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 0
+        width: 50
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27a24c2355b3e9db0800000000000000
+      internalID: -4783320517110912398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_360_jump_attack_108
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 0
+        width: 51
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3179dec8fb4c56b0800000000000000
+      internalID: -5306282728954957510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_360_jump_attack_109
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 0
+        width: 50
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dcccaca86d0502d0800000000000000
+      internalID: -3313227207636366119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_360_jump_attack_110
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 0
+        width: 50
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5763e38710a806b0800000000000000
+      internalID: -5329834136135571618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_360_jump_attack_111
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 0
+        width: 50
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fab8cc7aef467830800000000000000
+      internalID: 4068527181910293235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_360_jump_attack_112
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 0
+        width: 50
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c4573f191b70de50800000000000000
+      internalID: 6832095982549161152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_360_jump_attack_113
+      rect:
+        serializedVersion: 2
+        x: 934
+        y: 0
+        width: 49
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccb47c373c2c37780800000000000000
+      internalID: -8686385111550702644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_360_jump_attack_114
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 0
+        width: 47
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74f5877897fcf4800800000000000000
+      internalID: 598925396334370631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_360_jump_attack_115
+      rect:
+        serializedVersion: 2
+        x: 1193
+        y: 0
+        width: 45
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab0cc6f9ac26618c0800000000000000
+      internalID: -4028924194238709574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Barbarian_Pixel_art_360_jump_attack_0: -9034152141874579063
+      Barbarian_Pixel_art_360_jump_attack_1: 6363226124932327427
+      Barbarian_Pixel_art_360_jump_attack_10: -3059968524873776678
+      Barbarian_Pixel_art_360_jump_attack_100: -5232065651780791844
+      Barbarian_Pixel_art_360_jump_attack_101: -5819235443243681705
+      Barbarian_Pixel_art_360_jump_attack_102: -1796387220820275660
+      Barbarian_Pixel_art_360_jump_attack_103: 9041374094229072718
+      Barbarian_Pixel_art_360_jump_attack_104: 9066333287694673848
+      Barbarian_Pixel_art_360_jump_attack_105: 2136276501914242479
+      Barbarian_Pixel_art_360_jump_attack_106: 4528079728421853375
+      Barbarian_Pixel_art_360_jump_attack_107: -4783320517110912398
+      Barbarian_Pixel_art_360_jump_attack_108: -5306282728954957510
+      Barbarian_Pixel_art_360_jump_attack_109: -3313227207636366119
+      Barbarian_Pixel_art_360_jump_attack_11: 199303254256674886
+      Barbarian_Pixel_art_360_jump_attack_110: -5329834136135571618
+      Barbarian_Pixel_art_360_jump_attack_111: 4068527181910293235
+      Barbarian_Pixel_art_360_jump_attack_112: 6832095982549161152
+      Barbarian_Pixel_art_360_jump_attack_113: -8686385111550702644
+      Barbarian_Pixel_art_360_jump_attack_114: 598925396334370631
+      Barbarian_Pixel_art_360_jump_attack_115: -4028924194238709574
+      Barbarian_Pixel_art_360_jump_attack_12: -8847677903391592802
+      Barbarian_Pixel_art_360_jump_attack_13: -970244301873327176
+      Barbarian_Pixel_art_360_jump_attack_14: -1855844680787224804
+      Barbarian_Pixel_art_360_jump_attack_15: 7393982316549497493
+      Barbarian_Pixel_art_360_jump_attack_16: -3961599626913872436
+      Barbarian_Pixel_art_360_jump_attack_17: 326991911793228509
+      Barbarian_Pixel_art_360_jump_attack_18: 1961703192460495752
+      Barbarian_Pixel_art_360_jump_attack_19: 4088519351273417722
+      Barbarian_Pixel_art_360_jump_attack_2: 6289390919938720216
+      Barbarian_Pixel_art_360_jump_attack_20: 8744914953152623771
+      Barbarian_Pixel_art_360_jump_attack_21: 370779745022686956
+      Barbarian_Pixel_art_360_jump_attack_22: 4285961518019294833
+      Barbarian_Pixel_art_360_jump_attack_23: 552345598104165735
+      Barbarian_Pixel_art_360_jump_attack_24: 5187628354584305098
+      Barbarian_Pixel_art_360_jump_attack_25: 2692924050404623992
+      Barbarian_Pixel_art_360_jump_attack_26: 5166057960328985309
+      Barbarian_Pixel_art_360_jump_attack_27: -2107644339169541484
+      Barbarian_Pixel_art_360_jump_attack_28: -2137324819560876269
+      Barbarian_Pixel_art_360_jump_attack_29: 6837954080414549928
+      Barbarian_Pixel_art_360_jump_attack_3: -5799016562280212170
+      Barbarian_Pixel_art_360_jump_attack_30: -3229735162879533650
+      Barbarian_Pixel_art_360_jump_attack_31: 2818285244213087909
+      Barbarian_Pixel_art_360_jump_attack_32: 6321217913713268568
+      Barbarian_Pixel_art_360_jump_attack_33: 4998744759033889843
+      Barbarian_Pixel_art_360_jump_attack_34: -5093258380411513541
+      Barbarian_Pixel_art_360_jump_attack_35: 613690853058128126
+      Barbarian_Pixel_art_360_jump_attack_36: 8209486018244352421
+      Barbarian_Pixel_art_360_jump_attack_37: -5511063953684939876
+      Barbarian_Pixel_art_360_jump_attack_38: 5549186168953921884
+      Barbarian_Pixel_art_360_jump_attack_39: 6725325794850022781
+      Barbarian_Pixel_art_360_jump_attack_4: -125631709310441330
+      Barbarian_Pixel_art_360_jump_attack_40: 4403408348218771020
+      Barbarian_Pixel_art_360_jump_attack_41: -8608758135048830738
+      Barbarian_Pixel_art_360_jump_attack_42: -8027828556360592621
+      Barbarian_Pixel_art_360_jump_attack_43: 6307081236619773911
+      Barbarian_Pixel_art_360_jump_attack_44: 1055835215302223776
+      Barbarian_Pixel_art_360_jump_attack_45: -7641113714619997869
+      Barbarian_Pixel_art_360_jump_attack_46: -6969505434315087038
+      Barbarian_Pixel_art_360_jump_attack_47: 2580479584115070948
+      Barbarian_Pixel_art_360_jump_attack_48: 958164103027431079
+      Barbarian_Pixel_art_360_jump_attack_49: 1291151917462384559
+      Barbarian_Pixel_art_360_jump_attack_5: -5747195398258066601
+      Barbarian_Pixel_art_360_jump_attack_50: 9019277347523645803
+      Barbarian_Pixel_art_360_jump_attack_51: 8794877410693816163
+      Barbarian_Pixel_art_360_jump_attack_52: 1783749736432987572
+      Barbarian_Pixel_art_360_jump_attack_53: -8031256047598215800
+      Barbarian_Pixel_art_360_jump_attack_54: 6292550053037963626
+      Barbarian_Pixel_art_360_jump_attack_55: -7694607893743909477
+      Barbarian_Pixel_art_360_jump_attack_56: 7465133752717942986
+      Barbarian_Pixel_art_360_jump_attack_57: 6474036932225557144
+      Barbarian_Pixel_art_360_jump_attack_58: -3562485829953423787
+      Barbarian_Pixel_art_360_jump_attack_59: -873594818277585497
+      Barbarian_Pixel_art_360_jump_attack_6: 2647630901851939413
+      Barbarian_Pixel_art_360_jump_attack_60: 2370710720782896267
+      Barbarian_Pixel_art_360_jump_attack_61: 7831739403713659992
+      Barbarian_Pixel_art_360_jump_attack_62: 8408458645623366641
+      Barbarian_Pixel_art_360_jump_attack_63: 7788356910860436500
+      Barbarian_Pixel_art_360_jump_attack_64: -613993195671545667
+      Barbarian_Pixel_art_360_jump_attack_65: 9133142743149618719
+      Barbarian_Pixel_art_360_jump_attack_66: -5610727053888866727
+      Barbarian_Pixel_art_360_jump_attack_67: -5812037523761028419
+      Barbarian_Pixel_art_360_jump_attack_68: 892354768234452808
+      Barbarian_Pixel_art_360_jump_attack_69: 978292714796329237
+      Barbarian_Pixel_art_360_jump_attack_7: 8066931234515769245
+      Barbarian_Pixel_art_360_jump_attack_70: 4675236472379945031
+      Barbarian_Pixel_art_360_jump_attack_71: -2773698714919663285
+      Barbarian_Pixel_art_360_jump_attack_72: 9066930653286569600
+      Barbarian_Pixel_art_360_jump_attack_73: -9153549227251584723
+      Barbarian_Pixel_art_360_jump_attack_74: -5792980027102609376
+      Barbarian_Pixel_art_360_jump_attack_75: -4939579182737469044
+      Barbarian_Pixel_art_360_jump_attack_76: 3510873806841643397
+      Barbarian_Pixel_art_360_jump_attack_77: 6627724795811501088
+      Barbarian_Pixel_art_360_jump_attack_78: -4513636670077953235
+      Barbarian_Pixel_art_360_jump_attack_79: -556643106358473020
+      Barbarian_Pixel_art_360_jump_attack_8: -4523651315672738754
+      Barbarian_Pixel_art_360_jump_attack_80: -4231036993982454817
+      Barbarian_Pixel_art_360_jump_attack_81: -2287475836191048722
+      Barbarian_Pixel_art_360_jump_attack_82: 3137388506703109665
+      Barbarian_Pixel_art_360_jump_attack_83: 2216877475723832316
+      Barbarian_Pixel_art_360_jump_attack_84: 106382486842655020
+      Barbarian_Pixel_art_360_jump_attack_85: -8191783455461729498
+      Barbarian_Pixel_art_360_jump_attack_86: -5675997037367386480
+      Barbarian_Pixel_art_360_jump_attack_87: 1258688548284006401
+      Barbarian_Pixel_art_360_jump_attack_88: -2175872512760744773
+      Barbarian_Pixel_art_360_jump_attack_89: -4355176638084198389
+      Barbarian_Pixel_art_360_jump_attack_9: 5873828157986600236
+      Barbarian_Pixel_art_360_jump_attack_90: -6913521110361519329
+      Barbarian_Pixel_art_360_jump_attack_91: -4297644293066800667
+      Barbarian_Pixel_art_360_jump_attack_92: -8350539042783983667
+      Barbarian_Pixel_art_360_jump_attack_93: 4555223473258886259
+      Barbarian_Pixel_art_360_jump_attack_94: -2346612888154615215
+      Barbarian_Pixel_art_360_jump_attack_95: -5393962473376478073
+      Barbarian_Pixel_art_360_jump_attack_96: -7473632813349836798
+      Barbarian_Pixel_art_360_jump_attack_97: 5387983029074608661
+      Barbarian_Pixel_art_360_jump_attack_98: -4461971959723204695
+      Barbarian_Pixel_art_360_jump_attack_99: 3510228451115585929
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

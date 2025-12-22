@@ -1,0 +1,546 @@
+fileFormatVersion: 2
+guid: d17f00ea795cfa347a881e0d5972f908
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -373923767079995809
+    second: Wight_Knight_Pixel_art_Combat_sheath_sword_0
+  - first:
+      213: -4253465486462201685
+    second: Wight_Knight_Pixel_art_Combat_sheath_sword_1
+  - first:
+      213: 7925479897386239763
+    second: Wight_Knight_Pixel_art_Combat_sheath_sword_2
+  - first:
+      213: -8094617052425962052
+    second: Wight_Knight_Pixel_art_Combat_sheath_sword_3
+  - first:
+      213: -3747433589796205094
+    second: Wight_Knight_Pixel_art_Combat_sheath_sword_4
+  - first:
+      213: -7619000976625913536
+    second: Wight_Knight_Pixel_art_Combat_sheath_sword_5
+  - first:
+      213: -3991330624713066686
+    second: Wight_Knight_Pixel_art_Combat_sheath_sword_6
+  - first:
+      213: -2864140131672406325
+    second: Wight_Knight_Pixel_art_Combat_sheath_sword_7
+  - first:
+      213: 5438183690094300492
+    second: Wight_Knight_Pixel_art_Combat_sheath_sword_8
+  - first:
+      213: -3004956208263800851
+    second: Wight_Knight_Pixel_art_Combat_sheath_sword_9
+  - first:
+      213: 3675458965320104221
+    second: Wight_Knight_Pixel_art_Combat_sheath_sword_10
+  - first:
+      213: 8892827635160457699
+    second: Wight_Knight_Pixel_art_Combat_sheath_sword_11
+  - first:
+      213: 8079497779017974155
+    second: Wight_Knight_Pixel_art_Combat_sheath_sword_12
+  - first:
+      213: 4294404558278015116
+    second: Wight_Knight_Pixel_art_Combat_sheath_sword_13
+  - first:
+      213: -8261649591251054159
+    second: Wight_Knight_Pixel_art_Combat_sheath_sword_14
+  - first:
+      213: -7242866320455850448
+    second: Wight_Knight_Pixel_art_Combat_sheath_sword_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Wight_Knight_Pixel_art_Combat_sheath_sword_0
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 127
+        width: 52
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f56fe12a05e8fcaf0800000000000000
+      internalID: -373923767079995809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wight_Knight_Pixel_art_Combat_sheath_sword_1
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 127
+        width: 51
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba059070da7a8f4c0800000000000000
+      internalID: -4253465486462201685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wight_Knight_Pixel_art_Combat_sheath_sword_2
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 127
+        width: 51
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 317c436c9f5fcfd60800000000000000
+      internalID: 7925479897386239763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wight_Knight_Pixel_art_Combat_sheath_sword_3
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 127
+        width: 51
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbdb45d8da42aaf80800000000000000
+      internalID: -8094617052425962052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wight_Knight_Pixel_art_Combat_sheath_sword_4
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 127
+        width: 52
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: add84dc31017efbc0800000000000000
+      internalID: -3747433589796205094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wight_Knight_Pixel_art_Combat_sheath_sword_5
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 127
+        width: 46
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 041bbdc9afed34690800000000000000
+      internalID: -7619000976625913536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wight_Knight_Pixel_art_Combat_sheath_sword_6
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 127
+        width: 37
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 247f6dc91f1fb98c0800000000000000
+      internalID: -3991330624713066686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wight_Knight_Pixel_art_Combat_sheath_sword_7
+      rect:
+        serializedVersion: 2
+        x: 947
+        y: 127
+        width: 29
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc6c9b0a9b78048d0800000000000000
+      internalID: -2864140131672406325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wight_Knight_Pixel_art_Combat_sheath_sword_8
+      rect:
+        serializedVersion: 2
+        x: 1077
+        y: 127
+        width: 29
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4dc46fd04f487b40800000000000000
+      internalID: 5438183690094300492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wight_Knight_Pixel_art_Combat_sheath_sword_9
+      rect:
+        serializedVersion: 2
+        x: 1204
+        y: 127
+        width: 31
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de7d4d0ef304c46d0800000000000000
+      internalID: -3004956208263800851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wight_Knight_Pixel_art_Combat_sheath_sword_10
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 0
+        width: 39
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d19fd6e947ad10330800000000000000
+      internalID: 3675458965320104221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wight_Knight_Pixel_art_Combat_sheath_sword_11
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 0
+        width: 45
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e124823e9ba96b70800000000000000
+      internalID: 8892827635160457699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wight_Knight_Pixel_art_Combat_sheath_sword_12
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 0
+        width: 47
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b818ce94c64202070800000000000000
+      internalID: 8079497779017974155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wight_Knight_Pixel_art_Combat_sheath_sword_13
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 0
+        width: 50
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c88baf9613ac89b30800000000000000
+      internalID: 4294404558278015116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wight_Knight_Pixel_art_Combat_sheath_sword_14
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 0
+        width: 49
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b1dab60879b85d80800000000000000
+      internalID: -8261649591251054159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wight_Knight_Pixel_art_Combat_sheath_sword_15
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 0
+        width: 49
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 036a695b47b2c7b90800000000000000
+      internalID: -7242866320455850448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Wight_Knight_Pixel_art_Combat_sheath_sword_0: -373923767079995809
+      Wight_Knight_Pixel_art_Combat_sheath_sword_1: -4253465486462201685
+      Wight_Knight_Pixel_art_Combat_sheath_sword_10: 3675458965320104221
+      Wight_Knight_Pixel_art_Combat_sheath_sword_11: 8892827635160457699
+      Wight_Knight_Pixel_art_Combat_sheath_sword_12: 8079497779017974155
+      Wight_Knight_Pixel_art_Combat_sheath_sword_13: 4294404558278015116
+      Wight_Knight_Pixel_art_Combat_sheath_sword_14: -8261649591251054159
+      Wight_Knight_Pixel_art_Combat_sheath_sword_15: -7242866320455850448
+      Wight_Knight_Pixel_art_Combat_sheath_sword_2: 7925479897386239763
+      Wight_Knight_Pixel_art_Combat_sheath_sword_3: -8094617052425962052
+      Wight_Knight_Pixel_art_Combat_sheath_sword_4: -3747433589796205094
+      Wight_Knight_Pixel_art_Combat_sheath_sword_5: -7619000976625913536
+      Wight_Knight_Pixel_art_Combat_sheath_sword_6: -3991330624713066686
+      Wight_Knight_Pixel_art_Combat_sheath_sword_7: -2864140131672406325
+      Wight_Knight_Pixel_art_Combat_sheath_sword_8: 5438183690094300492
+      Wight_Knight_Pixel_art_Combat_sheath_sword_9: -3004956208263800851
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

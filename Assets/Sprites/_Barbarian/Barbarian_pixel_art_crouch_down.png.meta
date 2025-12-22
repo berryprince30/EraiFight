@@ -1,0 +1,598 @@
+fileFormatVersion: 2
+guid: 5bbcb70435ce80e4d8b79b85318ba962
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5350355387229168851
+    second: Barbarian_pixel_art_crouch_down_0
+  - first:
+      213: 7141787424816553146
+    second: Barbarian_pixel_art_crouch_down_1
+  - first:
+      213: -3118706680663142639
+    second: Barbarian_pixel_art_crouch_down_2
+  - first:
+      213: -8342948114419334794
+    second: Barbarian_pixel_art_crouch_down_3
+  - first:
+      213: -4993530395663662043
+    second: Barbarian_pixel_art_crouch_down_4
+  - first:
+      213: -1399908222692868477
+    second: Barbarian_pixel_art_crouch_down_5
+  - first:
+      213: 504874324269674035
+    second: Barbarian_pixel_art_crouch_down_6
+  - first:
+      213: -2416535706820164677
+    second: Barbarian_pixel_art_crouch_down_7
+  - first:
+      213: -238242717889451343
+    second: Barbarian_pixel_art_crouch_down_8
+  - first:
+      213: 5025754468891323207
+    second: Barbarian_pixel_art_crouch_down_9
+  - first:
+      213: 7382952312605892772
+    second: Barbarian_pixel_art_crouch_down_10
+  - first:
+      213: -1164914069359377414
+    second: Barbarian_pixel_art_crouch_down_11
+  - first:
+      213: -8820046520324002920
+    second: Barbarian_pixel_art_crouch_down_12
+  - first:
+      213: -5601221023907618373
+    second: Barbarian_pixel_art_crouch_down_13
+  - first:
+      213: 5695160604695852879
+    second: Barbarian_pixel_art_crouch_down_14
+  - first:
+      213: 3416501838316168493
+    second: Barbarian_pixel_art_crouch_down_15
+  - first:
+      213: 2885890783256487039
+    second: Barbarian_pixel_art_crouch_down_16
+  - first:
+      213: -3572457892544283064
+    second: Barbarian_pixel_art_crouch_down_17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Barbarian_pixel_art_crouch_down_0
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 127
+        width: 63
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d464e590e7404a40800000000000000
+      internalID: 5350355387229168851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_pixel_art_crouch_down_1
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 127
+        width: 64
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abcda85f2d9bc1360800000000000000
+      internalID: 7141787424816553146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_pixel_art_crouch_down_2
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 127
+        width: 65
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11f8f6c2cc028b4d0800000000000000
+      internalID: -3118706680663142639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_pixel_art_crouch_down_3
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 127
+        width: 64
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 671458c84e4e73c80800000000000000
+      internalID: -8342948114419334794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_pixel_art_crouch_down_4
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 127
+        width: 65
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5240a5fdf8a63bab0800000000000000
+      internalID: -4993530395663662043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_pixel_art_crouch_down_5
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 127
+        width: 65
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38e3e3473e6829ce0800000000000000
+      internalID: -1399908222692868477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_pixel_art_crouch_down_6
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 127
+        width: 64
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33e2f42e58ca10700800000000000000
+      internalID: 504874324269674035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_pixel_art_crouch_down_7
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 127
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb3cfe7f39db67ed0800000000000000
+      internalID: -2416535706820164677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_pixel_art_crouch_down_8
+      rect:
+        serializedVersion: 2
+        x: 1065
+        y: 127
+        width: 63
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ba20e5a28791bcf0800000000000000
+      internalID: -238242717889451343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_pixel_art_crouch_down_9
+      rect:
+        serializedVersion: 2
+        x: 1193
+        y: 127
+        width: 63
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74b6996df011fb540800000000000000
+      internalID: 5025754468891323207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_pixel_art_crouch_down_10
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 0
+        width: 61
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a0e5820304857660800000000000000
+      internalID: 7382952312605892772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_pixel_art_crouch_down_11
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 0
+        width: 60
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af3cafd63d465dfe0800000000000000
+      internalID: -1164914069359377414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_pixel_art_crouch_down_12
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 0
+        width: 59
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89beaad9b66e89580800000000000000
+      internalID: -8820046520324002920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_pixel_art_crouch_down_13
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 0
+        width: 59
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb16981c7277442b0800000000000000
+      internalID: -5601221023907618373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_pixel_art_crouch_down_14
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 0
+        width: 58
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f47f1bd4566490f40800000000000000
+      internalID: 5695160604695852879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_pixel_art_crouch_down_15
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 0
+        width: 57
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d25ed4f025ad96f20800000000000000
+      internalID: 3416501838316168493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_pixel_art_crouch_down_16
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 0
+        width: 56
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f74a394906ebc0820800000000000000
+      internalID: 2885890783256487039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_pixel_art_crouch_down_17
+      rect:
+        serializedVersion: 2
+        x: 939
+        y: 0
+        width: 56
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84e7bd379741c6ec0800000000000000
+      internalID: -3572457892544283064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Barbarian_pixel_art_crouch_down_0: 5350355387229168851
+      Barbarian_pixel_art_crouch_down_1: 7141787424816553146
+      Barbarian_pixel_art_crouch_down_10: 7382952312605892772
+      Barbarian_pixel_art_crouch_down_11: -1164914069359377414
+      Barbarian_pixel_art_crouch_down_12: -8820046520324002920
+      Barbarian_pixel_art_crouch_down_13: -5601221023907618373
+      Barbarian_pixel_art_crouch_down_14: 5695160604695852879
+      Barbarian_pixel_art_crouch_down_15: 3416501838316168493
+      Barbarian_pixel_art_crouch_down_16: 2885890783256487039
+      Barbarian_pixel_art_crouch_down_17: -3572457892544283064
+      Barbarian_pixel_art_crouch_down_2: -3118706680663142639
+      Barbarian_pixel_art_crouch_down_3: -8342948114419334794
+      Barbarian_pixel_art_crouch_down_4: -4993530395663662043
+      Barbarian_pixel_art_crouch_down_5: -1399908222692868477
+      Barbarian_pixel_art_crouch_down_6: 504874324269674035
+      Barbarian_pixel_art_crouch_down_7: -2416535706820164677
+      Barbarian_pixel_art_crouch_down_8: -238242717889451343
+      Barbarian_pixel_art_crouch_down_9: 5025754468891323207
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

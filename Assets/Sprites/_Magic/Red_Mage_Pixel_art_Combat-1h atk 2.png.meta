@@ -1,0 +1,1846 @@
+fileFormatVersion: 2
+guid: 9958f71957c5d2045b8f1a71d706babe
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1092655186640962634
+    second: Red_Mage_Pixel_art_Combat-1h atk 2_0
+  - first:
+      213: -1545704123398215099
+    second: Red_Mage_Pixel_art_Combat-1h atk 2_1
+  - first:
+      213: 8655498304387487471
+    second: Red_Mage_Pixel_art_Combat-1h atk 2_2
+  - first:
+      213: 8923302381286739671
+    second: Red_Mage_Pixel_art_Combat-1h atk 2_3
+  - first:
+      213: 2861138312026650422
+    second: Red_Mage_Pixel_art_Combat-1h atk 2_4
+  - first:
+      213: -9062589644438416440
+    second: Red_Mage_Pixel_art_Combat-1h atk 2_5
+  - first:
+      213: -5518591663576612427
+    second: Red_Mage_Pixel_art_Combat-1h atk 2_6
+  - first:
+      213: 1151573258648465669
+    second: Red_Mage_Pixel_art_Combat-1h atk 2_7
+  - first:
+      213: -8530750411203072066
+    second: Red_Mage_Pixel_art_Combat-1h atk 2_8
+  - first:
+      213: -4482650920190555462
+    second: Red_Mage_Pixel_art_Combat-1h atk 2_9
+  - first:
+      213: 4294493991785186389
+    second: Red_Mage_Pixel_art_Combat-1h atk 2_10
+  - first:
+      213: -8481330127243792291
+    second: Red_Mage_Pixel_art_Combat-1h atk 2_11
+  - first:
+      213: 6854850299141770145
+    second: Red_Mage_Pixel_art_Combat-1h atk 2_12
+  - first:
+      213: -2200911126282449336
+    second: Red_Mage_Pixel_art_Combat-1h atk 2_13
+  - first:
+      213: -3165580608994593042
+    second: Red_Mage_Pixel_art_Combat-1h atk 2_14
+  - first:
+      213: 2456807624249547483
+    second: Red_Mage_Pixel_art_Combat-1h atk 2_15
+  - first:
+      213: -5236514494974796279
+    second: Red_Mage_Pixel_art_Combat-1h atk 2_16
+  - first:
+      213: -6125118368885765423
+    second: Red_Mage_Pixel_art_Combat-1h atk 2_17
+  - first:
+      213: -6241564302211522835
+    second: Red_Mage_Pixel_art_Combat-1h atk 2_18
+  - first:
+      213: -6404501320938805318
+    second: Red_Mage_Pixel_art_Combat-1h atk 2_19
+  - first:
+      213: -6910505649550218679
+    second: Red_Mage_Pixel_art_Combat-1h atk 2_20
+  - first:
+      213: 5260912058937069728
+    second: Red_Mage_Pixel_art_Combat-1h atk 2_21
+  - first:
+      213: 1863361194830680715
+    second: Red_Mage_Pixel_art_Combat-1h atk 2_22
+  - first:
+      213: 4682098465039007443
+    second: Red_Mage_Pixel_art_Combat-1h atk 2_23
+  - first:
+      213: 2656314167917573676
+    second: Red_Mage_Pixel_art_Combat-1h atk 2_24
+  - first:
+      213: 5424136061161993441
+    second: Red_Mage_Pixel_art_Combat-1h atk 2_25
+  - first:
+      213: 124431541907618650
+    second: Red_Mage_Pixel_art_Combat-1h atk 2_26
+  - first:
+      213: 2154566550337240581
+    second: Red_Mage_Pixel_art_Combat-1h atk 2_27
+  - first:
+      213: -6685222107149008650
+    second: Red_Mage_Pixel_art_Combat-1h atk 2_28
+  - first:
+      213: 5107155046428105708
+    second: Red_Mage_Pixel_art_Combat-1h atk 2_29
+  - first:
+      213: 2694806549554824446
+    second: Red_Mage_Pixel_art_Combat-1h atk 2_30
+  - first:
+      213: -4515362423934932660
+    second: Red_Mage_Pixel_art_Combat-1h atk 2_31
+  - first:
+      213: 7151666472795798652
+    second: Red_Mage_Pixel_art_Combat-1h atk 2_32
+  - first:
+      213: 718184687525815051
+    second: Red_Mage_Pixel_art_Combat-1h atk 2_33
+  - first:
+      213: 7997853013203377369
+    second: Red_Mage_Pixel_art_Combat-1h atk 2_34
+  - first:
+      213: -1197868999015427796
+    second: Red_Mage_Pixel_art_Combat-1h atk 2_35
+  - first:
+      213: 5096656614685818999
+    second: Red_Mage_Pixel_art_Combat-1h atk 2_36
+  - first:
+      213: 1671098793406655712
+    second: Red_Mage_Pixel_art_Combat-1h atk 2_37
+  - first:
+      213: -820671555128725194
+    second: Red_Mage_Pixel_art_Combat-1h atk 2_38
+  - first:
+      213: -6059523857983700511
+    second: Red_Mage_Pixel_art_Combat-1h atk 2_39
+  - first:
+      213: -7795904700072874629
+    second: Red_Mage_Pixel_art_Combat-1h atk 2_40
+  - first:
+      213: 5178366311890406477
+    second: Red_Mage_Pixel_art_Combat-1h atk 2_41
+  - first:
+      213: -7901858946387195967
+    second: Red_Mage_Pixel_art_Combat-1h atk 2_42
+  - first:
+      213: -2555855580072969377
+    second: Red_Mage_Pixel_art_Combat-1h atk 2_43
+  - first:
+      213: -8940254295353329812
+    second: Red_Mage_Pixel_art_Combat-1h atk 2_44
+  - first:
+      213: 2712475800529960270
+    second: Red_Mage_Pixel_art_Combat-1h atk 2_45
+  - first:
+      213: -1454078363140084759
+    second: Red_Mage_Pixel_art_Combat-1h atk 2_46
+  - first:
+      213: -8766520606249339103
+    second: Red_Mage_Pixel_art_Combat-1h atk 2_47
+  - first:
+      213: -3725475708709467098
+    second: Red_Mage_Pixel_art_Combat-1h atk 2_48
+  - first:
+      213: 9091380483005836007
+    second: Red_Mage_Pixel_art_Combat-1h atk 2_49
+  - first:
+      213: 6042314771341692749
+    second: Red_Mage_Pixel_art_Combat-1h atk 2_50
+  - first:
+      213: 3052446887295198859
+    second: Red_Mage_Pixel_art_Combat-1h atk 2_51
+  - first:
+      213: -8792171853787963220
+    second: Red_Mage_Pixel_art_Combat-1h atk 2_52
+  - first:
+      213: -4202736021463134582
+    second: Red_Mage_Pixel_art_Combat-1h atk 2_53
+  - first:
+      213: 3478851887930579913
+    second: Red_Mage_Pixel_art_Combat-1h atk 2_54
+  - first:
+      213: 3074426788042483631
+    second: Red_Mage_Pixel_art_Combat-1h atk 2_55
+  - first:
+      213: -2970613034077026755
+    second: Red_Mage_Pixel_art_Combat-1h atk 2_56
+  - first:
+      213: -4047013582557112469
+    second: Red_Mage_Pixel_art_Combat-1h atk 2_57
+  - first:
+      213: -2350308619167295890
+    second: Red_Mage_Pixel_art_Combat-1h atk 2_58
+  - first:
+      213: 737088347880996874
+    second: Red_Mage_Pixel_art_Combat-1h atk 2_59
+  - first:
+      213: -1960780576393762860
+    second: Red_Mage_Pixel_art_Combat-1h atk 2_60
+  - first:
+      213: -1336595804109440931
+    second: Red_Mage_Pixel_art_Combat-1h atk 2_61
+  - first:
+      213: -6971839644512712192
+    second: Red_Mage_Pixel_art_Combat-1h atk 2_62
+  - first:
+      213: 8383941880765899353
+    second: Red_Mage_Pixel_art_Combat-1h atk 2_63
+  - first:
+      213: -3849049509406595057
+    second: Red_Mage_Pixel_art_Combat-1h atk 2_64
+  - first:
+      213: 871214075252623722
+    second: Red_Mage_Pixel_art_Combat-1h atk 2_65
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Combat-1h atk 2_0
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 0
+        width: 34
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4409b56a14e92f00800000000000000
+      internalID: 1092655186640962634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Combat-1h atk 2_1
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 0
+        width: 34
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54a2efc0a4e8c8ae0800000000000000
+      internalID: -1545704123398215099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Combat-1h atk 2_2
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 0
+        width: 34
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe6130b59d18e1870800000000000000
+      internalID: 8655498304387487471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Combat-1h atk 2_3
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 0
+        width: 34
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7de4ef3fc30f5db70800000000000000
+      internalID: 8923302381286739671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Combat-1h atk 2_4
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 0
+        width: 36
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 637fb95c22ec4b720800000000000000
+      internalID: 2861138312026650422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Combat-1h atk 2_5
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 0
+        width: 37
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c35d1aebb63b3280800000000000000
+      internalID: -9062589644438416440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Combat-1h atk 2_6
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 0
+        width: 39
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b18518ee160a63b0800000000000000
+      internalID: -5518591663576612427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Combat-1h atk 2_7
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 0
+        width: 42
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 501b49607c53bff00800000000000000
+      internalID: 1151573258648465669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Combat-1h atk 2_8
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 0
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebf29b8e2bfac9980800000000000000
+      internalID: -8530750411203072066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Combat-1h atk 2_9
+      rect:
+        serializedVersion: 2
+        x: 1190
+        y: 0
+        width: 46
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abac6f9fcbc6ac1c0800000000000000
+      internalID: -4482650920190555462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Combat-1h atk 2_10
+      rect:
+        serializedVersion: 2
+        x: 1317
+        y: 0
+        width: 45
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 554c766488b199b30800000000000000
+      internalID: 4294493991785186389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Combat-1h atk 2_11
+      rect:
+        serializedVersion: 2
+        x: 1443
+        y: 0
+        width: 44
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d50b0de6f234c4a80800000000000000
+      internalID: -8481330127243792291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Combat-1h atk 2_12
+      rect:
+        serializedVersion: 2
+        x: 1570
+        y: 0
+        width: 41
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ab43dc4702512f50800000000000000
+      internalID: 6854850299141770145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Combat-1h atk 2_13
+      rect:
+        serializedVersion: 2
+        x: 1696
+        y: 0
+        width: 40
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84ecab7ddfac471e0800000000000000
+      internalID: -2200911126282449336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Combat-1h atk 2_14
+      rect:
+        serializedVersion: 2
+        x: 1822
+        y: 0
+        width: 42
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee6330545399114d0800000000000000
+      internalID: -3165580608994593042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Combat-1h atk 2_15
+      rect:
+        serializedVersion: 2
+        x: 1950
+        y: 0
+        width: 41
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bda9ddc7485581220800000000000000
+      internalID: 2456807624249547483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Combat-1h atk 2_16
+      rect:
+        serializedVersion: 2
+        x: 2078
+        y: 0
+        width: 41
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90ed7d1afc92457b0800000000000000
+      internalID: -5236514494974796279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Combat-1h atk 2_17
+      rect:
+        serializedVersion: 2
+        x: 2206
+        y: 0
+        width: 48
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1da0857bb453ffaa0800000000000000
+      internalID: -6125118368885765423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Combat-1h atk 2_18
+      rect:
+        serializedVersion: 2
+        x: 2335
+        y: 0
+        width: 53
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dee5ceb16528169a0800000000000000
+      internalID: -6241564302211522835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Combat-1h atk 2_19
+      rect:
+        serializedVersion: 2
+        x: 2464
+        y: 0
+        width: 54
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab72ce92bf3ae17a0800000000000000
+      internalID: -6404501320938805318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Combat-1h atk 2_20
+      rect:
+        serializedVersion: 2
+        x: 2594
+        y: 0
+        width: 53
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94aaa34a9b3f810a0800000000000000
+      internalID: -6910505649550218679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Combat-1h atk 2_21
+      rect:
+        serializedVersion: 2
+        x: 2723
+        y: 0
+        width: 52
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a05383e4a3820940800000000000000
+      internalID: 5260912058937069728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Combat-1h atk 2_22
+      rect:
+        serializedVersion: 2
+        x: 2853
+        y: 0
+        width: 47
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b82512a522dfbd910800000000000000
+      internalID: 1863361194830680715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Combat-1h atk 2_23
+      rect:
+        serializedVersion: 2
+        x: 2981
+        y: 0
+        width: 44
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3de3d044fb72af040800000000000000
+      internalID: 4682098465039007443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Combat-1h atk 2_24
+      rect:
+        serializedVersion: 2
+        x: 3109
+        y: 0
+        width: 40
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c26709679af1dd420800000000000000
+      internalID: 2656314167917573676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Combat-1h atk 2_25
+      rect:
+        serializedVersion: 2
+        x: 3238
+        y: 0
+        width: 35
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e472f26207664b40800000000000000
+      internalID: 5424136061161993441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Combat-1h atk 2_26
+      rect:
+        serializedVersion: 2
+        x: 3366
+        y: 0
+        width: 34
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5bf14ef3d11ab100800000000000000
+      internalID: 124431541907618650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Combat-1h atk 2_27
+      rect:
+        serializedVersion: 2
+        x: 3496
+        y: 0
+        width: 32
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50e3ac5bcde86ed10800000000000000
+      internalID: 2154566550337240581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Combat-1h atk 2_28
+      rect:
+        serializedVersion: 2
+        x: 3625
+        y: 0
+        width: 31
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f08bc2d9e15933a0800000000000000
+      internalID: -6685222107149008650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Combat-1h atk 2_29
+      rect:
+        serializedVersion: 2
+        x: 3754
+        y: 0
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cebd033b47240e640800000000000000
+      internalID: 5107155046428105708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Combat-1h atk 2_30
+      rect:
+        serializedVersion: 2
+        x: 3882
+        y: 0
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef48c947740e56520800000000000000
+      internalID: 2694806549554824446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Combat-1h atk 2_31
+      rect:
+        serializedVersion: 2
+        x: 4010
+        y: 0
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4926318cc53651c0800000000000000
+      internalID: -4515362423934932660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Combat-1h atk 2_32
+      rect:
+        serializedVersion: 2
+        x: 4138
+        y: 0
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7c701f04c2df3360800000000000000
+      internalID: 7151666472795798652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Combat-1h atk 2_33
+      rect:
+        serializedVersion: 2
+        x: 4265
+        y: 0
+        width: 31
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b03e91f0b2187f900800000000000000
+      internalID: 718184687525815051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Combat-1h atk 2_34
+      rect:
+        serializedVersion: 2
+        x: 4391
+        y: 0
+        width: 33
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dc56c9e0f41efe60800000000000000
+      internalID: 7997853013203377369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Combat-1h atk 2_35
+      rect:
+        serializedVersion: 2
+        x: 4518
+        y: 0
+        width: 35
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c219b32fd70506fe0800000000000000
+      internalID: -1197868999015427796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Combat-1h atk 2_36
+      rect:
+        serializedVersion: 2
+        x: 4644
+        y: 0
+        width: 39
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7704e741036fab640800000000000000
+      internalID: 5096656614685818999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Combat-1h atk 2_37
+      rect:
+        serializedVersion: 2
+        x: 4769
+        y: 0
+        width: 43
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ec669daf7fe03710800000000000000
+      internalID: 1671098793406655712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Combat-1h atk 2_38
+      rect:
+        serializedVersion: 2
+        x: 4894
+        y: 0
+        width: 46
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 631f84791936c94f0800000000000000
+      internalID: -820671555128725194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Combat-1h atk 2_39
+      rect:
+        serializedVersion: 2
+        x: 5019
+        y: 0
+        width: 50
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e180e8e72f38eba0800000000000000
+      internalID: -6059523857983700511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Combat-1h atk 2_40
+      rect:
+        serializedVersion: 2
+        x: 5146
+        y: 0
+        width: 51
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7dab51daf16fc390800000000000000
+      internalID: -7795904700072874629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Combat-1h atk 2_41
+      rect:
+        serializedVersion: 2
+        x: 5272
+        y: 0
+        width: 52
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4cc31979b04dd740800000000000000
+      internalID: 5178366311890406477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Combat-1h atk 2_42
+      rect:
+        serializedVersion: 2
+        x: 5401
+        y: 0
+        width: 50
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c749537725f65290800000000000000
+      internalID: -7901858946387195967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Combat-1h atk 2_43
+      rect:
+        serializedVersion: 2
+        x: 5528
+        y: 0
+        width: 50
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5bfc8434e6c78cd0800000000000000
+      internalID: -2555855580072969377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Combat-1h atk 2_44
+      rect:
+        serializedVersion: 2
+        x: 5655
+        y: 0
+        width: 50
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c67fdcbf516dde380800000000000000
+      internalID: -8940254295353329812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Combat-1h atk 2_45
+      rect:
+        serializedVersion: 2
+        x: 5783
+        y: 0
+        width: 54
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4d7e688e56a4a520800000000000000
+      internalID: 2712475800529960270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Combat-1h atk 2_46
+      rect:
+        serializedVersion: 2
+        x: 5912
+        y: 0
+        width: 55
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9eb2479ce6312dbe0800000000000000
+      internalID: -1454078363140084759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Combat-1h atk 2_47
+      rect:
+        serializedVersion: 2
+        x: 6041
+        y: 0
+        width: 57
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 127bd54a4ff075680800000000000000
+      internalID: -8766520606249339103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Combat-1h atk 2_48
+      rect:
+        serializedVersion: 2
+        x: 6171
+        y: 0
+        width: 57
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62c8603d4937c4cc0800000000000000
+      internalID: -3725475708709467098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Combat-1h atk 2_49
+      rect:
+        serializedVersion: 2
+        x: 6302
+        y: 0
+        width: 54
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ea6b7f81621b2e70800000000000000
+      internalID: 9091380483005836007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Combat-1h atk 2_50
+      rect:
+        serializedVersion: 2
+        x: 6432
+        y: 0
+        width: 53
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4fcaee554d9ad350800000000000000
+      internalID: 6042314771341692749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Combat-1h atk 2_51
+      rect:
+        serializedVersion: 2
+        x: 6562
+        y: 0
+        width: 52
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b862afc75487c5a20800000000000000
+      internalID: 3052446887295198859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Combat-1h atk 2_52
+      rect:
+        serializedVersion: 2
+        x: 6691
+        y: 0
+        width: 50
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca0e7ca284eebf580800000000000000
+      internalID: -8792171853787963220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Combat-1h atk 2_53
+      rect:
+        serializedVersion: 2
+        x: 6820
+        y: 0
+        width: 49
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8e83f30bd1eca5c0800000000000000
+      internalID: -4202736021463134582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Combat-1h atk 2_54
+      rect:
+        serializedVersion: 2
+        x: 6950
+        y: 0
+        width: 47
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cb9c4e3c5d574030800000000000000
+      internalID: 3478851887930579913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Combat-1h atk 2_55
+      rect:
+        serializedVersion: 2
+        x: 7079
+        y: 0
+        width: 46
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa7a73defde8aaa20800000000000000
+      internalID: 3074426788042483631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Combat-1h atk 2_56
+      rect:
+        serializedVersion: 2
+        x: 7208
+        y: 0
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3681ba3f2346c6d0800000000000000
+      internalID: -2970613034077026755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Combat-1h atk 2_57
+      rect:
+        serializedVersion: 2
+        x: 7337
+        y: 0
+        width: 42
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b679082b69e16d7c0800000000000000
+      internalID: -4047013582557112469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Combat-1h atk 2_58
+      rect:
+        serializedVersion: 2
+        x: 7465
+        y: 0
+        width: 42
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e669ef963c6026fd0800000000000000
+      internalID: -2350308619167295890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Combat-1h atk 2_59
+      rect:
+        serializedVersion: 2
+        x: 7593
+        y: 0
+        width: 42
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a00c68772f9aa3a00800000000000000
+      internalID: 737088347880996874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Combat-1h atk 2_60
+      rect:
+        serializedVersion: 2
+        x: 7722
+        y: 0
+        width: 40
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d760955478e9c4e0800000000000000
+      internalID: -1960780576393762860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Combat-1h atk 2_61
+      rect:
+        serializedVersion: 2
+        x: 7851
+        y: 0
+        width: 39
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5877cf9235737de0800000000000000
+      internalID: -1336595804109440931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Combat-1h atk 2_62
+      rect:
+        serializedVersion: 2
+        x: 7979
+        y: 0
+        width: 39
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00a85dd18cc0f3f90800000000000000
+      internalID: -6971839644512712192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Combat-1h atk 2_63
+      rect:
+        serializedVersion: 2
+        x: 8106
+        y: 0
+        width: 40
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 952629478beb95470800000000000000
+      internalID: 8383941880765899353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Combat-1h atk 2_64
+      rect:
+        serializedVersion: 2
+        x: 8234
+        y: 0
+        width: 39
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f08ade44ddd659ac0800000000000000
+      internalID: -3849049509406595057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Combat-1h atk 2_65
+      rect:
+        serializedVersion: 2
+        x: 8362
+        y: 0
+        width: 39
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a69c0c6e59c271c00800000000000000
+      internalID: 871214075252623722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Red_Mage_Pixel_art_Combat-1h atk 2_0: 1092655186640962634
+      Red_Mage_Pixel_art_Combat-1h atk 2_1: -1545704123398215099
+      Red_Mage_Pixel_art_Combat-1h atk 2_10: 4294493991785186389
+      Red_Mage_Pixel_art_Combat-1h atk 2_11: -8481330127243792291
+      Red_Mage_Pixel_art_Combat-1h atk 2_12: 6854850299141770145
+      Red_Mage_Pixel_art_Combat-1h atk 2_13: -2200911126282449336
+      Red_Mage_Pixel_art_Combat-1h atk 2_14: -3165580608994593042
+      Red_Mage_Pixel_art_Combat-1h atk 2_15: 2456807624249547483
+      Red_Mage_Pixel_art_Combat-1h atk 2_16: -5236514494974796279
+      Red_Mage_Pixel_art_Combat-1h atk 2_17: -6125118368885765423
+      Red_Mage_Pixel_art_Combat-1h atk 2_18: -6241564302211522835
+      Red_Mage_Pixel_art_Combat-1h atk 2_19: -6404501320938805318
+      Red_Mage_Pixel_art_Combat-1h atk 2_2: 8655498304387487471
+      Red_Mage_Pixel_art_Combat-1h atk 2_20: -6910505649550218679
+      Red_Mage_Pixel_art_Combat-1h atk 2_21: 5260912058937069728
+      Red_Mage_Pixel_art_Combat-1h atk 2_22: 1863361194830680715
+      Red_Mage_Pixel_art_Combat-1h atk 2_23: 4682098465039007443
+      Red_Mage_Pixel_art_Combat-1h atk 2_24: 2656314167917573676
+      Red_Mage_Pixel_art_Combat-1h atk 2_25: 5424136061161993441
+      Red_Mage_Pixel_art_Combat-1h atk 2_26: 124431541907618650
+      Red_Mage_Pixel_art_Combat-1h atk 2_27: 2154566550337240581
+      Red_Mage_Pixel_art_Combat-1h atk 2_28: -6685222107149008650
+      Red_Mage_Pixel_art_Combat-1h atk 2_29: 5107155046428105708
+      Red_Mage_Pixel_art_Combat-1h atk 2_3: 8923302381286739671
+      Red_Mage_Pixel_art_Combat-1h atk 2_30: 2694806549554824446
+      Red_Mage_Pixel_art_Combat-1h atk 2_31: -4515362423934932660
+      Red_Mage_Pixel_art_Combat-1h atk 2_32: 7151666472795798652
+      Red_Mage_Pixel_art_Combat-1h atk 2_33: 718184687525815051
+      Red_Mage_Pixel_art_Combat-1h atk 2_34: 7997853013203377369
+      Red_Mage_Pixel_art_Combat-1h atk 2_35: -1197868999015427796
+      Red_Mage_Pixel_art_Combat-1h atk 2_36: 5096656614685818999
+      Red_Mage_Pixel_art_Combat-1h atk 2_37: 1671098793406655712
+      Red_Mage_Pixel_art_Combat-1h atk 2_38: -820671555128725194
+      Red_Mage_Pixel_art_Combat-1h atk 2_39: -6059523857983700511
+      Red_Mage_Pixel_art_Combat-1h atk 2_4: 2861138312026650422
+      Red_Mage_Pixel_art_Combat-1h atk 2_40: -7795904700072874629
+      Red_Mage_Pixel_art_Combat-1h atk 2_41: 5178366311890406477
+      Red_Mage_Pixel_art_Combat-1h atk 2_42: -7901858946387195967
+      Red_Mage_Pixel_art_Combat-1h atk 2_43: -2555855580072969377
+      Red_Mage_Pixel_art_Combat-1h atk 2_44: -8940254295353329812
+      Red_Mage_Pixel_art_Combat-1h atk 2_45: 2712475800529960270
+      Red_Mage_Pixel_art_Combat-1h atk 2_46: -1454078363140084759
+      Red_Mage_Pixel_art_Combat-1h atk 2_47: -8766520606249339103
+      Red_Mage_Pixel_art_Combat-1h atk 2_48: -3725475708709467098
+      Red_Mage_Pixel_art_Combat-1h atk 2_49: 9091380483005836007
+      Red_Mage_Pixel_art_Combat-1h atk 2_5: -9062589644438416440
+      Red_Mage_Pixel_art_Combat-1h atk 2_50: 6042314771341692749
+      Red_Mage_Pixel_art_Combat-1h atk 2_51: 3052446887295198859
+      Red_Mage_Pixel_art_Combat-1h atk 2_52: -8792171853787963220
+      Red_Mage_Pixel_art_Combat-1h atk 2_53: -4202736021463134582
+      Red_Mage_Pixel_art_Combat-1h atk 2_54: 3478851887930579913
+      Red_Mage_Pixel_art_Combat-1h atk 2_55: 3074426788042483631
+      Red_Mage_Pixel_art_Combat-1h atk 2_56: -2970613034077026755
+      Red_Mage_Pixel_art_Combat-1h atk 2_57: -4047013582557112469
+      Red_Mage_Pixel_art_Combat-1h atk 2_58: -2350308619167295890
+      Red_Mage_Pixel_art_Combat-1h atk 2_59: 737088347880996874
+      Red_Mage_Pixel_art_Combat-1h atk 2_6: -5518591663576612427
+      Red_Mage_Pixel_art_Combat-1h atk 2_60: -1960780576393762860
+      Red_Mage_Pixel_art_Combat-1h atk 2_61: -1336595804109440931
+      Red_Mage_Pixel_art_Combat-1h atk 2_62: -6971839644512712192
+      Red_Mage_Pixel_art_Combat-1h atk 2_63: 8383941880765899353
+      Red_Mage_Pixel_art_Combat-1h atk 2_64: -3849049509406595057
+      Red_Mage_Pixel_art_Combat-1h atk 2_65: 871214075252623722
+      Red_Mage_Pixel_art_Combat-1h atk 2_7: 1151573258648465669
+      Red_Mage_Pixel_art_Combat-1h atk 2_8: -8530750411203072066
+      Red_Mage_Pixel_art_Combat-1h atk 2_9: -4482650920190555462
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

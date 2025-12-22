@@ -1,0 +1,2106 @@
+fileFormatVersion: 2
+guid: 4d6a12694526071458f36f73e00bc20d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4781902820753421008
+    second: Barbarian_Pixel_art_taunt_0
+  - first:
+      213: -5069741287635435476
+    second: Barbarian_Pixel_art_taunt_1
+  - first:
+      213: 1539576282478475759
+    second: Barbarian_Pixel_art_taunt_2
+  - first:
+      213: 566745506024720414
+    second: Barbarian_Pixel_art_taunt_3
+  - first:
+      213: 3459734469418959730
+    second: Barbarian_Pixel_art_taunt_4
+  - first:
+      213: 338945249013980547
+    second: Barbarian_Pixel_art_taunt_5
+  - first:
+      213: 4457344987102081890
+    second: Barbarian_Pixel_art_taunt_6
+  - first:
+      213: 5885042789861799767
+    second: Barbarian_Pixel_art_taunt_7
+  - first:
+      213: 718144354004734516
+    second: Barbarian_Pixel_art_taunt_8
+  - first:
+      213: 521583799618247703
+    second: Barbarian_Pixel_art_taunt_9
+  - first:
+      213: -1471325220310040122
+    second: Barbarian_Pixel_art_taunt_10
+  - first:
+      213: 8057278557916576150
+    second: Barbarian_Pixel_art_taunt_11
+  - first:
+      213: -6596704991251107019
+    second: Barbarian_Pixel_art_taunt_12
+  - first:
+      213: 312429864643425965
+    second: Barbarian_Pixel_art_taunt_13
+  - first:
+      213: -6953822341115199459
+    second: Barbarian_Pixel_art_taunt_14
+  - first:
+      213: -5710928606122793477
+    second: Barbarian_Pixel_art_taunt_15
+  - first:
+      213: 4246520632370519609
+    second: Barbarian_Pixel_art_taunt_16
+  - first:
+      213: -8094385134919628142
+    second: Barbarian_Pixel_art_taunt_17
+  - first:
+      213: 8630479779536431423
+    second: Barbarian_Pixel_art_taunt_18
+  - first:
+      213: -977465583327456253
+    second: Barbarian_Pixel_art_taunt_19
+  - first:
+      213: -6299736041673409032
+    second: Barbarian_Pixel_art_taunt_20
+  - first:
+      213: 1762269417301203897
+    second: Barbarian_Pixel_art_taunt_21
+  - first:
+      213: -3166516889010821241
+    second: Barbarian_Pixel_art_taunt_22
+  - first:
+      213: -8378812471545676364
+    second: Barbarian_Pixel_art_taunt_23
+  - first:
+      213: -8365596431539473089
+    second: Barbarian_Pixel_art_taunt_24
+  - first:
+      213: -8379473921026892185
+    second: Barbarian_Pixel_art_taunt_25
+  - first:
+      213: 4146289127713371401
+    second: Barbarian_Pixel_art_taunt_26
+  - first:
+      213: -3821723057330559694
+    second: Barbarian_Pixel_art_taunt_27
+  - first:
+      213: -865312601281626910
+    second: Barbarian_Pixel_art_taunt_28
+  - first:
+      213: -6710156397036895519
+    second: Barbarian_Pixel_art_taunt_29
+  - first:
+      213: -7530351642305608401
+    second: Barbarian_Pixel_art_taunt_30
+  - first:
+      213: 928833181938402282
+    second: Barbarian_Pixel_art_taunt_31
+  - first:
+      213: 5815193311494871176
+    second: Barbarian_Pixel_art_taunt_32
+  - first:
+      213: 3688945384544832423
+    second: Barbarian_Pixel_art_taunt_33
+  - first:
+      213: -5979481071505342685
+    second: Barbarian_Pixel_art_taunt_34
+  - first:
+      213: -7482186608854007945
+    second: Barbarian_Pixel_art_taunt_35
+  - first:
+      213: -7977925045704803946
+    second: Barbarian_Pixel_art_taunt_36
+  - first:
+      213: -6348766714501978172
+    second: Barbarian_Pixel_art_taunt_37
+  - first:
+      213: 2088566077112902274
+    second: Barbarian_Pixel_art_taunt_38
+  - first:
+      213: -43430297313094022
+    second: Barbarian_Pixel_art_taunt_39
+  - first:
+      213: 844634140427123837
+    second: Barbarian_Pixel_art_taunt_40
+  - first:
+      213: -8302359420207173071
+    second: Barbarian_Pixel_art_taunt_41
+  - first:
+      213: 4753348905067221407
+    second: Barbarian_Pixel_art_taunt_42
+  - first:
+      213: 2286571027320568558
+    second: Barbarian_Pixel_art_taunt_43
+  - first:
+      213: 387089027213917039
+    second: Barbarian_Pixel_art_taunt_44
+  - first:
+      213: -734182384219512269
+    second: Barbarian_Pixel_art_taunt_45
+  - first:
+      213: -3272419806521551941
+    second: Barbarian_Pixel_art_taunt_46
+  - first:
+      213: 4898563886792788833
+    second: Barbarian_Pixel_art_taunt_47
+  - first:
+      213: 7264214493393644942
+    second: Barbarian_Pixel_art_taunt_48
+  - first:
+      213: 977502508559348477
+    second: Barbarian_Pixel_art_taunt_49
+  - first:
+      213: -6705047474148395218
+    second: Barbarian_Pixel_art_taunt_50
+  - first:
+      213: 2033638883570686769
+    second: Barbarian_Pixel_art_taunt_51
+  - first:
+      213: -1599897153634649858
+    second: Barbarian_Pixel_art_taunt_52
+  - first:
+      213: 5474612619790197604
+    second: Barbarian_Pixel_art_taunt_53
+  - first:
+      213: 3408265640313172177
+    second: Barbarian_Pixel_art_taunt_54
+  - first:
+      213: 2936612947695872092
+    second: Barbarian_Pixel_art_taunt_55
+  - first:
+      213: 1415665660402032447
+    second: Barbarian_Pixel_art_taunt_56
+  - first:
+      213: -5326904813545828962
+    second: Barbarian_Pixel_art_taunt_57
+  - first:
+      213: 227406159407652545
+    second: Barbarian_Pixel_art_taunt_58
+  - first:
+      213: -5189824003668905337
+    second: Barbarian_Pixel_art_taunt_59
+  - first:
+      213: -4180639813898892154
+    second: Barbarian_Pixel_art_taunt_60
+  - first:
+      213: -1242454968752312870
+    second: Barbarian_Pixel_art_taunt_61
+  - first:
+      213: -5764768887066569482
+    second: Barbarian_Pixel_art_taunt_62
+  - first:
+      213: -2223299952940734605
+    second: Barbarian_Pixel_art_taunt_63
+  - first:
+      213: 8711264506440833597
+    second: Barbarian_Pixel_art_taunt_64
+  - first:
+      213: 2392846969132766491
+    second: Barbarian_Pixel_art_taunt_65
+  - first:
+      213: -9004154002876461317
+    second: Barbarian_Pixel_art_taunt_66
+  - first:
+      213: -1619406264165675707
+    second: Barbarian_Pixel_art_taunt_67
+  - first:
+      213: -8145898741190804369
+    second: Barbarian_Pixel_art_taunt_68
+  - first:
+      213: -7245545359033695542
+    second: Barbarian_Pixel_art_taunt_69
+  - first:
+      213: 9081695226243582670
+    second: Barbarian_Pixel_art_taunt_70
+  - first:
+      213: -1963876847828059228
+    second: Barbarian_Pixel_art_taunt_71
+  - first:
+      213: -4967187214698189906
+    second: Barbarian_Pixel_art_taunt_72
+  - first:
+      213: -1330101433884365600
+    second: Barbarian_Pixel_art_taunt_73
+  - first:
+      213: 8690467698950485637
+    second: Barbarian_Pixel_art_taunt_74
+  - first:
+      213: -3675427739158875013
+    second: Barbarian_Pixel_art_taunt_75
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_taunt_0
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 895
+        width: 43
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d23275a74bbc5240800000000000000
+      internalID: 4781902820753421008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_taunt_1
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 895
+        width: 42
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c20cb57d829a4a9b0800000000000000
+      internalID: -5069741287635435476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_taunt_2
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 895
+        width: 42
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe9febdc87cad5510800000000000000
+      internalID: 1539576282478475759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_taunt_3
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 895
+        width: 42
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1807a4f80c7dd700800000000000000
+      internalID: 566745506024720414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_taunt_4
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 895
+        width: 43
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27344e26b22730030800000000000000
+      internalID: 3459734469418959730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_taunt_5
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 895
+        width: 42
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38dd8cd78ec24b400800000000000000
+      internalID: 338945249013980547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_taunt_6
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 895
+        width: 42
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 263769556ababdd30800000000000000
+      internalID: 4457344987102081890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_taunt_7
+      rect:
+        serializedVersion: 2
+        x: 939
+        y: 895
+        width: 42
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 757bfa1bc3fdba150800000000000000
+      internalID: 5885042789861799767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_taunt_8
+      rect:
+        serializedVersion: 2
+        x: 1067
+        y: 895
+        width: 42
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43297ed2c7c57f900800000000000000
+      internalID: 718144354004734516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_taunt_9
+      rect:
+        serializedVersion: 2
+        x: 1195
+        y: 895
+        width: 42
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71c18d8c3b90d3700800000000000000
+      internalID: 521583799618247703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_taunt_10
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 767
+        width: 42
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c1c85ee18dc49be0800000000000000
+      internalID: -1471325220310040122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_taunt_11
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 767
+        width: 43
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6993dfcb82431df60800000000000000
+      internalID: 8057278557916576150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_taunt_12
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 767
+        width: 42
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5337e64e2cbc374a0800000000000000
+      internalID: -6596704991251107019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_taunt_13
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 767
+        width: 44
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da67b4b7e49f55400800000000000000
+      internalID: 312429864643425965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_taunt_14
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 767
+        width: 47
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1047a67c6f0f7f90800000000000000
+      internalID: -6953822341115199459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_taunt_15
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 767
+        width: 50
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf52f66c0b4beb0b0800000000000000
+      internalID: -5710928606122793477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_taunt_16
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 767
+        width: 52
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93edfcf140caeea30800000000000000
+      internalID: 4246520632370519609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_taunt_17
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 767
+        width: 53
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29ac9ed0b97faaf80800000000000000
+      internalID: -8094385134919628142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_taunt_18
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 767
+        width: 54
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f39e57c12af95c770800000000000000
+      internalID: 8630479779536431423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_taunt_19
+      rect:
+        serializedVersion: 2
+        x: 1192
+        y: 767
+        width: 54
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 304d8951b385f62f0800000000000000
+      internalID: -977465583327456253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_taunt_20
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 639
+        width: 52
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fdb4519277d298a0800000000000000
+      internalID: -6299736041673409032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_taunt_21
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 639
+        width: 46
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bbd5c8b2b6d47810800000000000000
+      internalID: 1762269417301203897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_taunt_22
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 639
+        width: 42
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7872c379aa54e04d0800000000000000
+      internalID: -3166516889010821241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_taunt_23
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 639
+        width: 42
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bd38e1337a78bb80800000000000000
+      internalID: -8378812471545676364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_taunt_24
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 639
+        width: 42
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3570db4e5e67eb80800000000000000
+      internalID: -8365596431539473089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_taunt_25
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 639
+        width: 42
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76eda8c7dd026bb80800000000000000
+      internalID: -8379473921026892185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_taunt_26
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 639
+        width: 42
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9057b616ef39a8930800000000000000
+      internalID: 4146289127713371401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_taunt_27
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 639
+        width: 42
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23564e1b02386fac0800000000000000
+      internalID: -3821723057330559694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_taunt_28
+      rect:
+        serializedVersion: 2
+        x: 1063
+        y: 639
+        width: 42
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ec70f416cacdf3f0800000000000000
+      internalID: -865312601281626910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_taunt_29
+      rect:
+        serializedVersion: 2
+        x: 1191
+        y: 639
+        width: 46
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e20d4f0f4cb0e2a0800000000000000
+      internalID: -6710156397036895519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_taunt_30
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 511
+        width: 53
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f25489e2411de7790800000000000000
+      internalID: -7530351642305608401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_taunt_31
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 511
+        width: 57
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae3c8099bd0e3ec00800000000000000
+      internalID: 928833181938402282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_taunt_32
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 511
+        width: 58
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88811efa187b3b050800000000000000
+      internalID: 5815193311494871176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_taunt_33
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 511
+        width: 60
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ab8c994844c13330800000000000000
+      internalID: 3688945384544832423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_taunt_34
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 511
+        width: 60
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32f70c765ad940da0800000000000000
+      internalID: -5979481071505342685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_taunt_35
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 511
+        width: 60
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77f721cebeee92890800000000000000
+      internalID: -7482186608854007945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_taunt_36
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 511
+        width: 58
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 699b2169077b84190800000000000000
+      internalID: -7977925045704803946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_taunt_37
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 511
+        width: 54
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c729447f46a4e7a0800000000000000
+      internalID: -6348766714501978172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_taunt_38
+      rect:
+        serializedVersion: 2
+        x: 1063
+        y: 511
+        width: 44
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 282ee3c08c31cfc10800000000000000
+      internalID: 2088566077112902274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_taunt_39
+      rect:
+        serializedVersion: 2
+        x: 1191
+        y: 511
+        width: 42
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a76d92cef54b56ff0800000000000000
+      internalID: -43430297313094022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_taunt_40
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 383
+        width: 42
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7c7351964eb8bb00800000000000000
+      internalID: 844634140427123837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_taunt_41
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 383
+        width: 42
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 132fee8581818cc80800000000000000
+      internalID: -8302359420207173071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_taunt_42
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 383
+        width: 43
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f91160415a947f140800000000000000
+      internalID: 4753348905067221407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_taunt_43
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 383
+        width: 43
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eea742d0c388bbf10800000000000000
+      internalID: 2286571027320568558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_taunt_44
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 383
+        width: 45
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6b798b5b673f5500800000000000000
+      internalID: 387089027213917039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_taunt_45
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 383
+        width: 49
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3322f3ce209afc5f0800000000000000
+      internalID: -734182384219512269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_taunt_46
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 383
+        width: 52
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb3945426870692d0800000000000000
+      internalID: -3272419806521551941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_taunt_47
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 383
+        width: 54
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16b47ddb6e13bf340800000000000000
+      internalID: 4898563886792788833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_taunt_48
+      rect:
+        serializedVersion: 2
+        x: 1063
+        y: 383
+        width: 56
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8de8f2289cafc460800000000000000
+      internalID: 7264214493393644942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_taunt_49
+      rect:
+        serializedVersion: 2
+        x: 1191
+        y: 383
+        width: 55
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df2bbbd3a59c09d00800000000000000
+      internalID: 977502508559348477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_taunt_50
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 255
+        width: 55
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e27314dd8d2e2f2a0800000000000000
+      internalID: -6705047474148395218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_taunt_51
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 255
+        width: 52
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13b17a83acfe83c10800000000000000
+      internalID: 2033638883570686769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_taunt_52
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 255
+        width: 48
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef8b270f3060cc9e0800000000000000
+      internalID: -1599897153634649858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_taunt_53
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 255
+        width: 43
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46327750c2bb9fb40800000000000000
+      internalID: 5474612619790197604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_taunt_54
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 255
+        width: 42
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d03907ca879c4f20800000000000000
+      internalID: 3408265640313172177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_taunt_55
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 255
+        width: 42
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c58a936cae1f0c820800000000000000
+      internalID: 2936612947695872092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_taunt_56
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 255
+        width: 42
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3f5bf8ea6475a310800000000000000
+      internalID: 1415665660402032447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_taunt_57
+      rect:
+        serializedVersion: 2
+        x: 934
+        y: 255
+        width: 42
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9d48449b480316b0800000000000000
+      internalID: -5326904813545828962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_taunt_58
+      rect:
+        serializedVersion: 2
+        x: 1062
+        y: 255
+        width: 42
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ce9a3772b8e72300800000000000000
+      internalID: 227406159407652545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_taunt_59
+      rect:
+        serializedVersion: 2
+        x: 1190
+        y: 255
+        width: 42
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 782f486c09a0af7b0800000000000000
+      internalID: -5189824003668905337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_taunt_60
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 127
+        width: 42
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68c83be3d326bf5c0800000000000000
+      internalID: -4180639813898892154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_taunt_61
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 127
+        width: 44
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: add691ae9c9e1cee0800000000000000
+      internalID: -1242454968752312870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_taunt_62
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 127
+        width: 46
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f45c228d3d6fffa0800000000000000
+      internalID: -5764768887066569482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_taunt_63
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 127
+        width: 48
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37723dbe8704521e0800000000000000
+      internalID: -2223299952940734605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_taunt_64
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 127
+        width: 50
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3adfd21ae0a4e870800000000000000
+      internalID: 8711264506440833597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_taunt_65
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 127
+        width: 51
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b15570df3a9153120800000000000000
+      internalID: 2392846969132766491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_taunt_66
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 127
+        width: 52
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfe03a3f3a1da0380800000000000000
+      internalID: -9004154002876461317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_taunt_67
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 127
+        width: 51
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54dcc5d2596b689e0800000000000000
+      internalID: -1619406264165675707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_taunt_68
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 127
+        width: 51
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6c3503f044f3fe80800000000000000
+      internalID: -8145898741190804369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_taunt_69
+      rect:
+        serializedVersion: 2
+        x: 1192
+        y: 127
+        width: 51
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac201de62e6a27b90800000000000000
+      internalID: -7245545359033695542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_taunt_70
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 0
+        width: 51
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eca0c9ef0b9a80e70800000000000000
+      internalID: 9081695226243582670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_taunt_71
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 0
+        width: 50
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ab38967968eeb4e0800000000000000
+      internalID: -1963876847828059228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_taunt_72
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 0
+        width: 50
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eab6d07ab81011bb0800000000000000
+      internalID: -4967187214698189906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_taunt_73
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 0
+        width: 50
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0eca5160bc78a8de0800000000000000
+      internalID: -1330101433884365600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_taunt_74
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 0
+        width: 49
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58633fff35eba9870800000000000000
+      internalID: 8690467698950485637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_Pixel_art_taunt_75
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 0
+        width: 49
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7471d9c1f14efcc0800000000000000
+      internalID: -3675427739158875013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Barbarian_Pixel_art_taunt_0: 4781902820753421008
+      Barbarian_Pixel_art_taunt_1: -5069741287635435476
+      Barbarian_Pixel_art_taunt_10: -1471325220310040122
+      Barbarian_Pixel_art_taunt_11: 8057278557916576150
+      Barbarian_Pixel_art_taunt_12: -6596704991251107019
+      Barbarian_Pixel_art_taunt_13: 312429864643425965
+      Barbarian_Pixel_art_taunt_14: -6953822341115199459
+      Barbarian_Pixel_art_taunt_15: -5710928606122793477
+      Barbarian_Pixel_art_taunt_16: 4246520632370519609
+      Barbarian_Pixel_art_taunt_17: -8094385134919628142
+      Barbarian_Pixel_art_taunt_18: 8630479779536431423
+      Barbarian_Pixel_art_taunt_19: -977465583327456253
+      Barbarian_Pixel_art_taunt_2: 1539576282478475759
+      Barbarian_Pixel_art_taunt_20: -6299736041673409032
+      Barbarian_Pixel_art_taunt_21: 1762269417301203897
+      Barbarian_Pixel_art_taunt_22: -3166516889010821241
+      Barbarian_Pixel_art_taunt_23: -8378812471545676364
+      Barbarian_Pixel_art_taunt_24: -8365596431539473089
+      Barbarian_Pixel_art_taunt_25: -8379473921026892185
+      Barbarian_Pixel_art_taunt_26: 4146289127713371401
+      Barbarian_Pixel_art_taunt_27: -3821723057330559694
+      Barbarian_Pixel_art_taunt_28: -865312601281626910
+      Barbarian_Pixel_art_taunt_29: -6710156397036895519
+      Barbarian_Pixel_art_taunt_3: 566745506024720414
+      Barbarian_Pixel_art_taunt_30: -7530351642305608401
+      Barbarian_Pixel_art_taunt_31: 928833181938402282
+      Barbarian_Pixel_art_taunt_32: 5815193311494871176
+      Barbarian_Pixel_art_taunt_33: 3688945384544832423
+      Barbarian_Pixel_art_taunt_34: -5979481071505342685
+      Barbarian_Pixel_art_taunt_35: -7482186608854007945
+      Barbarian_Pixel_art_taunt_36: -7977925045704803946
+      Barbarian_Pixel_art_taunt_37: -6348766714501978172
+      Barbarian_Pixel_art_taunt_38: 2088566077112902274
+      Barbarian_Pixel_art_taunt_39: -43430297313094022
+      Barbarian_Pixel_art_taunt_4: 3459734469418959730
+      Barbarian_Pixel_art_taunt_40: 844634140427123837
+      Barbarian_Pixel_art_taunt_41: -8302359420207173071
+      Barbarian_Pixel_art_taunt_42: 4753348905067221407
+      Barbarian_Pixel_art_taunt_43: 2286571027320568558
+      Barbarian_Pixel_art_taunt_44: 387089027213917039
+      Barbarian_Pixel_art_taunt_45: -734182384219512269
+      Barbarian_Pixel_art_taunt_46: -3272419806521551941
+      Barbarian_Pixel_art_taunt_47: 4898563886792788833
+      Barbarian_Pixel_art_taunt_48: 7264214493393644942
+      Barbarian_Pixel_art_taunt_49: 977502508559348477
+      Barbarian_Pixel_art_taunt_5: 338945249013980547
+      Barbarian_Pixel_art_taunt_50: -6705047474148395218
+      Barbarian_Pixel_art_taunt_51: 2033638883570686769
+      Barbarian_Pixel_art_taunt_52: -1599897153634649858
+      Barbarian_Pixel_art_taunt_53: 5474612619790197604
+      Barbarian_Pixel_art_taunt_54: 3408265640313172177
+      Barbarian_Pixel_art_taunt_55: 2936612947695872092
+      Barbarian_Pixel_art_taunt_56: 1415665660402032447
+      Barbarian_Pixel_art_taunt_57: -5326904813545828962
+      Barbarian_Pixel_art_taunt_58: 227406159407652545
+      Barbarian_Pixel_art_taunt_59: -5189824003668905337
+      Barbarian_Pixel_art_taunt_6: 4457344987102081890
+      Barbarian_Pixel_art_taunt_60: -4180639813898892154
+      Barbarian_Pixel_art_taunt_61: -1242454968752312870
+      Barbarian_Pixel_art_taunt_62: -5764768887066569482
+      Barbarian_Pixel_art_taunt_63: -2223299952940734605
+      Barbarian_Pixel_art_taunt_64: 8711264506440833597
+      Barbarian_Pixel_art_taunt_65: 2392846969132766491
+      Barbarian_Pixel_art_taunt_66: -9004154002876461317
+      Barbarian_Pixel_art_taunt_67: -1619406264165675707
+      Barbarian_Pixel_art_taunt_68: -8145898741190804369
+      Barbarian_Pixel_art_taunt_69: -7245545359033695542
+      Barbarian_Pixel_art_taunt_7: 5885042789861799767
+      Barbarian_Pixel_art_taunt_70: 9081695226243582670
+      Barbarian_Pixel_art_taunt_71: -1963876847828059228
+      Barbarian_Pixel_art_taunt_72: -4967187214698189906
+      Barbarian_Pixel_art_taunt_73: -1330101433884365600
+      Barbarian_Pixel_art_taunt_74: 8690467698950485637
+      Barbarian_Pixel_art_taunt_75: -3675427739158875013
+      Barbarian_Pixel_art_taunt_8: 718144354004734516
+      Barbarian_Pixel_art_taunt_9: 521583799618247703
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

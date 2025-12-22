@@ -1,0 +1,494 @@
+fileFormatVersion: 2
+guid: 14535e81274650248a47fdbd12f4fa51
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -627918194908701083
+    second: Red_Mage_Pixel_art_Movement-crouch shield _0
+  - first:
+      213: 4445025508870270238
+    second: Red_Mage_Pixel_art_Movement-crouch shield _1
+  - first:
+      213: -1380043213193832859
+    second: Red_Mage_Pixel_art_Movement-crouch shield _2
+  - first:
+      213: 682508226164268018
+    second: Red_Mage_Pixel_art_Movement-crouch shield _3
+  - first:
+      213: 2038931929659108361
+    second: Red_Mage_Pixel_art_Movement-crouch shield _4
+  - first:
+      213: 613692371172612614
+    second: Red_Mage_Pixel_art_Movement-crouch shield _5
+  - first:
+      213: -532101715784153202
+    second: Red_Mage_Pixel_art_Movement-crouch shield _6
+  - first:
+      213: -2111095966491063828
+    second: Red_Mage_Pixel_art_Movement-crouch shield _7
+  - first:
+      213: -2473707018634851333
+    second: Red_Mage_Pixel_art_Movement-crouch shield _8
+  - first:
+      213: -5118238891394989448
+    second: Red_Mage_Pixel_art_Movement-crouch shield _9
+  - first:
+      213: -1791288419411059687
+    second: Red_Mage_Pixel_art_Movement-crouch shield _10
+  - first:
+      213: -48120814987386023
+    second: Red_Mage_Pixel_art_Movement-crouch shield _11
+  - first:
+      213: -652968504781684517
+    second: Red_Mage_Pixel_art_Movement-crouch shield _12
+  - first:
+      213: 9114878606687888369
+    second: Red_Mage_Pixel_art_Movement-crouch shield _13
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-crouch shield _0
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 0
+        width: 37
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56e56748abf2947f0800000000000000
+      internalID: -627918194908701083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-crouch shield _1
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 0
+        width: 36
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1d23c94627efad30800000000000000
+      internalID: 4445025508870270238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-crouch shield _2
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 0
+        width: 35
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56694e6620a19dce0800000000000000
+      internalID: -1380043213193832859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-crouch shield _3
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 0
+        width: 34
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fb9dc89d91c87900800000000000000
+      internalID: 682508226164268018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-crouch shield _4
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 0
+        width: 33
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90c688c89cdbb4c10800000000000000
+      internalID: 2038931929659108361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-crouch shield _5
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 0
+        width: 33
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60a5c19c5f5448800800000000000000
+      internalID: 613692371172612614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-crouch shield _6
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 0
+        width: 34
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e874f460f489d98f0800000000000000
+      internalID: -532101715784153202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-crouch shield _7
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 0
+        width: 35
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce94a8e4761e3b2e0800000000000000
+      internalID: -2111095966491063828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-crouch shield _8
+      rect:
+        serializedVersion: 2
+        x: 1074
+        y: 0
+        width: 37
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfb01e3a290abadd0800000000000000
+      internalID: -2473707018634851333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-crouch shield _9
+      rect:
+        serializedVersion: 2
+        x: 1202
+        y: 0
+        width: 39
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87200da88dc58f8b0800000000000000
+      internalID: -5118238891394989448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-crouch shield _10
+      rect:
+        serializedVersion: 2
+        x: 1330
+        y: 0
+        width: 39
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91c9bb65ca01427e0800000000000000
+      internalID: -1791288419411059687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-crouch shield _11
+      rect:
+        serializedVersion: 2
+        x: 1458
+        y: 0
+        width: 40
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 953ef5caf5a055ff0800000000000000
+      internalID: -48120814987386023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-crouch shield _12
+      rect:
+        serializedVersion: 2
+        x: 1586
+        y: 0
+        width: 40
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd048feba9030f6f0800000000000000
+      internalID: -652968504781684517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Mage_Pixel_art_Movement-crouch shield _13
+      rect:
+        serializedVersion: 2
+        x: 1714
+        y: 0
+        width: 40
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f36072dccd8e7e70800000000000000
+      internalID: 9114878606687888369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Red_Mage_Pixel_art_Movement-crouch shield _0: -627918194908701083
+      Red_Mage_Pixel_art_Movement-crouch shield _1: 4445025508870270238
+      Red_Mage_Pixel_art_Movement-crouch shield _10: -1791288419411059687
+      Red_Mage_Pixel_art_Movement-crouch shield _11: -48120814987386023
+      Red_Mage_Pixel_art_Movement-crouch shield _12: -652968504781684517
+      Red_Mage_Pixel_art_Movement-crouch shield _13: 9114878606687888369
+      Red_Mage_Pixel_art_Movement-crouch shield _2: -1380043213193832859
+      Red_Mage_Pixel_art_Movement-crouch shield _3: 682508226164268018
+      Red_Mage_Pixel_art_Movement-crouch shield _4: 2038931929659108361
+      Red_Mage_Pixel_art_Movement-crouch shield _5: 613692371172612614
+      Red_Mage_Pixel_art_Movement-crouch shield _6: -532101715784153202
+      Red_Mage_Pixel_art_Movement-crouch shield _7: -2111095966491063828
+      Red_Mage_Pixel_art_Movement-crouch shield _8: -2473707018634851333
+      Red_Mage_Pixel_art_Movement-crouch shield _9: -5118238891394989448
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

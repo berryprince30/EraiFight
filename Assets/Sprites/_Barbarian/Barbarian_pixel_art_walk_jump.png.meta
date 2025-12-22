@@ -1,0 +1,754 @@
+fileFormatVersion: 2
+guid: 01d45ffcf82b61440ada64fd1f563ede
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7933598184364828543
+    second: Barbarian_pixel_art_walk_jump_0
+  - first:
+      213: -5454467159752666025
+    second: Barbarian_pixel_art_walk_jump_1
+  - first:
+      213: -6496953344475035449
+    second: Barbarian_pixel_art_walk_jump_2
+  - first:
+      213: -6117353657103085567
+    second: Barbarian_pixel_art_walk_jump_3
+  - first:
+      213: -5305869748003841720
+    second: Barbarian_pixel_art_walk_jump_4
+  - first:
+      213: 4272294379339658091
+    second: Barbarian_pixel_art_walk_jump_5
+  - first:
+      213: -3791868012636938349
+    second: Barbarian_pixel_art_walk_jump_6
+  - first:
+      213: 1197230754030766427
+    second: Barbarian_pixel_art_walk_jump_7
+  - first:
+      213: -4859062048620955241
+    second: Barbarian_pixel_art_walk_jump_8
+  - first:
+      213: -3278891059104590674
+    second: Barbarian_pixel_art_walk_jump_9
+  - first:
+      213: 176178769099156944
+    second: Barbarian_pixel_art_walk_jump_10
+  - first:
+      213: 3371794407731145500
+    second: Barbarian_pixel_art_walk_jump_11
+  - first:
+      213: 6342750789564718447
+    second: Barbarian_pixel_art_walk_jump_12
+  - first:
+      213: 8172588222107018944
+    second: Barbarian_pixel_art_walk_jump_13
+  - first:
+      213: 3195345231581766237
+    second: Barbarian_pixel_art_walk_jump_14
+  - first:
+      213: -3820786728090118367
+    second: Barbarian_pixel_art_walk_jump_15
+  - first:
+      213: 1181639868861126690
+    second: Barbarian_pixel_art_walk_jump_16
+  - first:
+      213: 4335322224351373254
+    second: Barbarian_pixel_art_walk_jump_17
+  - first:
+      213: -2580059038888853868
+    second: Barbarian_pixel_art_walk_jump_18
+  - first:
+      213: -8656938396078570795
+    second: Barbarian_pixel_art_walk_jump_19
+  - first:
+      213: -7084302810145083909
+    second: Barbarian_pixel_art_walk_jump_20
+  - first:
+      213: 8840266353808462346
+    second: Barbarian_pixel_art_walk_jump_21
+  - first:
+      213: -2034349406312359243
+    second: Barbarian_pixel_art_walk_jump_22
+  - first:
+      213: -3608654775255156417
+    second: Barbarian_pixel_art_walk_jump_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Barbarian_pixel_art_walk_jump_0
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 255
+        width: 68
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f77efb1c38dc91e60800000000000000
+      internalID: 7933598184364828543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_pixel_art_walk_jump_1
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 255
+        width: 57
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75498e76407dd44b0800000000000000
+      internalID: -5454467159752666025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_pixel_art_walk_jump_2
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 255
+        width: 59
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c887440b5f26d5a0800000000000000
+      internalID: -6496953344475035449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_pixel_art_walk_jump_3
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 256
+        width: 64
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1001fee824bca1ba0800000000000000
+      internalID: -6117353657103085567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_pixel_art_walk_jump_4
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 256
+        width: 65
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8495dbd6393cd56b0800000000000000
+      internalID: -5305869748003841720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_pixel_art_walk_jump_5
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 256
+        width: 66
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6330783a1d3a4b30800000000000000
+      internalID: 4272294379339658091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_pixel_art_walk_jump_6
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 255
+        width: 66
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39fdb97f124906bc0800000000000000
+      internalID: -3791868012636938349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_pixel_art_walk_jump_7
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 255
+        width: 64
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b594d20170b6d9010800000000000000
+      internalID: 1197230754030766427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_pixel_art_walk_jump_8
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 255
+        width: 60
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 799bd5aafc4219cb0800000000000000
+      internalID: -4859062048620955241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_pixel_art_walk_jump_9
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 255
+        width: 62
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea4dddc34f90f72d0800000000000000
+      internalID: -3278891059104590674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_pixel_art_walk_jump_10
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 127
+        width: 66
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ddee1538a9e17200800000000000000
+      internalID: 176178769099156944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_pixel_art_walk_jump_11
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 127
+        width: 67
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1ba67836250bce20800000000000000
+      internalID: 3371794407731145500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_pixel_art_walk_jump_12
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 127
+        width: 65
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6d55dedc3af50850800000000000000
+      internalID: 6342750789564718447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_pixel_art_walk_jump_13
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 127
+        width: 68
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c6ea3210bdda6170800000000000000
+      internalID: 8172588222107018944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_pixel_art_walk_jump_14
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 127
+        width: 70
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d526b27fe85285c20800000000000000
+      internalID: 3195345231581766237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_pixel_art_walk_jump_15
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 127
+        width: 70
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12759a5d6b6d9fac0800000000000000
+      internalID: -3820786728090118367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_pixel_art_walk_jump_16
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 128
+        width: 71
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22818eb3337066010800000000000000
+      internalID: 1181639868861126690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_pixel_art_walk_jump_17
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 127
+        width: 74
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c7e151f7982a2c30800000000000000
+      internalID: 4335322224351373254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_pixel_art_walk_jump_18
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 127
+        width: 75
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49e7e7f49f9c13cd0800000000000000
+      internalID: -2580059038888853868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_pixel_art_walk_jump_19
+      rect:
+        serializedVersion: 2
+        x: 1183
+        y: 127
+        width: 77
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d20c4b25606cd780800000000000000
+      internalID: -8656938396078570795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_pixel_art_walk_jump_20
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 77
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfd2000e0208fad90800000000000000
+      internalID: -7084302810145083909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_pixel_art_walk_jump_21
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 0
+        width: 75
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a02579a396feeaa70800000000000000
+      internalID: 8840266353808462346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_pixel_art_walk_jump_22
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 0
+        width: 69
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ba99bf4ef984c3e0800000000000000
+      internalID: -2034349406312359243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_pixel_art_walk_jump_23
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 0
+        width: 61
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3936e3f99b7bedc0800000000000000
+      internalID: -3608654775255156417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Barbarian_pixel_art_walk_jump_0: 7933598184364828543
+      Barbarian_pixel_art_walk_jump_1: -5454467159752666025
+      Barbarian_pixel_art_walk_jump_10: 176178769099156944
+      Barbarian_pixel_art_walk_jump_11: 3371794407731145500
+      Barbarian_pixel_art_walk_jump_12: 6342750789564718447
+      Barbarian_pixel_art_walk_jump_13: 8172588222107018944
+      Barbarian_pixel_art_walk_jump_14: 3195345231581766237
+      Barbarian_pixel_art_walk_jump_15: -3820786728090118367
+      Barbarian_pixel_art_walk_jump_16: 1181639868861126690
+      Barbarian_pixel_art_walk_jump_17: 4335322224351373254
+      Barbarian_pixel_art_walk_jump_18: -2580059038888853868
+      Barbarian_pixel_art_walk_jump_19: -8656938396078570795
+      Barbarian_pixel_art_walk_jump_2: -6496953344475035449
+      Barbarian_pixel_art_walk_jump_20: -7084302810145083909
+      Barbarian_pixel_art_walk_jump_21: 8840266353808462346
+      Barbarian_pixel_art_walk_jump_22: -2034349406312359243
+      Barbarian_pixel_art_walk_jump_23: -3608654775255156417
+      Barbarian_pixel_art_walk_jump_3: -6117353657103085567
+      Barbarian_pixel_art_walk_jump_4: -5305869748003841720
+      Barbarian_pixel_art_walk_jump_5: 4272294379339658091
+      Barbarian_pixel_art_walk_jump_6: -3791868012636938349
+      Barbarian_pixel_art_walk_jump_7: 1197230754030766427
+      Barbarian_pixel_art_walk_jump_8: -4859062048620955241
+      Barbarian_pixel_art_walk_jump_9: -3278891059104590674
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

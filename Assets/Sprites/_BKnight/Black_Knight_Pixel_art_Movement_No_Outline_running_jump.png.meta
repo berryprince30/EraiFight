@@ -1,0 +1,780 @@
+fileFormatVersion: 2
+guid: 0c3be39be47ddd541bab180d5ca3f927
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -9202876778982820077
+    second: Black_Knight_Pixel_art_Movement_No_Outline_running_jump_0
+  - first:
+      213: -6514634144723777965
+    second: Black_Knight_Pixel_art_Movement_No_Outline_running_jump_1
+  - first:
+      213: -6265942962606218357
+    second: Black_Knight_Pixel_art_Movement_No_Outline_running_jump_2
+  - first:
+      213: 3020506267346767682
+    second: Black_Knight_Pixel_art_Movement_No_Outline_running_jump_3
+  - first:
+      213: 2587362418177588164
+    second: Black_Knight_Pixel_art_Movement_No_Outline_running_jump_4
+  - first:
+      213: 6683420072280862882
+    second: Black_Knight_Pixel_art_Movement_No_Outline_running_jump_5
+  - first:
+      213: -9114471234202728061
+    second: Black_Knight_Pixel_art_Movement_No_Outline_running_jump_6
+  - first:
+      213: 5093187479001110919
+    second: Black_Knight_Pixel_art_Movement_No_Outline_running_jump_7
+  - first:
+      213: -936439416113094631
+    second: Black_Knight_Pixel_art_Movement_No_Outline_running_jump_8
+  - first:
+      213: -6623894709932551798
+    second: Black_Knight_Pixel_art_Movement_No_Outline_running_jump_9
+  - first:
+      213: -2450035580649169328
+    second: Black_Knight_Pixel_art_Movement_No_Outline_running_jump_10
+  - first:
+      213: -6995690446231569741
+    second: Black_Knight_Pixel_art_Movement_No_Outline_running_jump_11
+  - first:
+      213: 2566577823653651658
+    second: Black_Knight_Pixel_art_Movement_No_Outline_running_jump_12
+  - first:
+      213: 777297514339023872
+    second: Black_Knight_Pixel_art_Movement_No_Outline_running_jump_13
+  - first:
+      213: -772686062407448611
+    second: Black_Knight_Pixel_art_Movement_No_Outline_running_jump_14
+  - first:
+      213: 4291404073823675964
+    second: Black_Knight_Pixel_art_Movement_No_Outline_running_jump_15
+  - first:
+      213: 2901391655518953987
+    second: Black_Knight_Pixel_art_Movement_No_Outline_running_jump_16
+  - first:
+      213: -8199386081258004240
+    second: Black_Knight_Pixel_art_Movement_No_Outline_running_jump_17
+  - first:
+      213: -3326204811772777051
+    second: Black_Knight_Pixel_art_Movement_No_Outline_running_jump_18
+  - first:
+      213: -3306487973059558561
+    second: Black_Knight_Pixel_art_Movement_No_Outline_running_jump_19
+  - first:
+      213: 1398110797301855509
+    second: Black_Knight_Pixel_art_Movement_No_Outline_running_jump_20
+  - first:
+      213: -9172361946727731407
+    second: Black_Knight_Pixel_art_Movement_No_Outline_running_jump_21
+  - first:
+      213: 1645487258375017483
+    second: Black_Knight_Pixel_art_Movement_No_Outline_running_jump_22
+  - first:
+      213: 3359744520267731155
+    second: Black_Knight_Pixel_art_Movement_No_Outline_running_jump_23
+  - first:
+      213: -7540389539383254591
+    second: Black_Knight_Pixel_art_Movement_No_Outline_running_jump_24
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Black_Knight_Pixel_art_Movement_No_Outline_running_jump_0
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 383
+        width: 52
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 317b9051450d84080800000000000000
+      internalID: -9202876778982820077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Knight_Pixel_art_Movement_No_Outline_running_jump_1
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 383
+        width: 59
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 356cb1ae2ce5795a0800000000000000
+      internalID: -6514634144723777965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Knight_Pixel_art_Movement_No_Outline_running_jump_2
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 384
+        width: 61
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b836ffae216ea09a0800000000000000
+      internalID: -6265942962606218357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Knight_Pixel_art_Movement_No_Outline_running_jump_3
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 387
+        width: 60
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24f8b03627efae920800000000000000
+      internalID: 3020506267346767682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Knight_Pixel_art_Movement_No_Outline_running_jump_4
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 391
+        width: 56
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cbbba0396828e320800000000000000
+      internalID: 2587362418177588164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Knight_Pixel_art_Movement_No_Outline_running_jump_5
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 302
+        width: 53
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a0340d352740cc50800000000000000
+      internalID: 6683420072280862882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Knight_Pixel_art_Movement_No_Outline_running_jump_6
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 309
+        width: 51
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38984d9f3b4e28180800000000000000
+      internalID: -9114471234202728061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Knight_Pixel_art_Movement_No_Outline_running_jump_7
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 317
+        width: 48
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 789145cf603aea640800000000000000
+      internalID: 5093187479001110919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Knight_Pixel_art_Movement_No_Outline_running_jump_8
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 324
+        width: 49
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 910a7e000591103f0800000000000000
+      internalID: -936439416113094631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Knight_Pixel_art_Movement_No_Outline_running_jump_9
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 328
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8191e03bd23314a0800000000000000
+      internalID: -6623894709932551798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Knight_Pixel_art_Movement_No_Outline_running_jump_10
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 235
+        width: 52
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05e9658ce99bffdd0800000000000000
+      internalID: -2450035580649169328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Knight_Pixel_art_Movement_No_Outline_running_jump_11
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 236
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3baf5c99a905aee90800000000000000
+      internalID: -6995690446231569741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Knight_Pixel_art_Movement_No_Outline_running_jump_12
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 236
+        width: 52
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac4654baee05e9320800000000000000
+      internalID: 2566577823653651658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Knight_Pixel_art_Movement_No_Outline_running_jump_13
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 236
+        width: 52
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00cb8f298f389ca00800000000000000
+      internalID: 777297514339023872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Knight_Pixel_art_Movement_No_Outline_running_jump_14
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 234
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd70f4fbe1ed645f0800000000000000
+      internalID: -772686062407448611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Knight_Pixel_art_Movement_No_Outline_running_jump_15
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 134
+        width: 51
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c36acefa4412e8b30800000000000000
+      internalID: 4291404073823675964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Knight_Pixel_art_Movement_No_Outline_running_jump_16
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 129
+        width: 51
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3026d75a650d34820800000000000000
+      internalID: 2901391655518953987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Knight_Pixel_art_Movement_No_Outline_running_jump_17
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 124
+        width: 48
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f0a5522dcde53e80800000000000000
+      internalID: -8199386081258004240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Knight_Pixel_art_Movement_No_Outline_running_jump_18
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 118
+        width: 48
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ada610c852f6d1d0800000000000000
+      internalID: -3326204811772777051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Knight_Pixel_art_Movement_No_Outline_running_jump_19
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 112
+        width: 47
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f530faff4befc12d0800000000000000
+      internalID: -3306487973059558561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Knight_Pixel_art_Movement_No_Outline_running_jump_20
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 10
+        width: 47
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 515b0d5dc56176310800000000000000
+      internalID: 1398110797301855509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Knight_Pixel_art_Movement_No_Outline_running_jump_21
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 4
+        width: 51
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13fabfd186935b080800000000000000
+      internalID: -9172361946727731407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Knight_Pixel_art_Movement_No_Outline_running_jump_22
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 0
+        width: 54
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b04dfdd71f1f5d610800000000000000
+      internalID: 1645487258375017483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Knight_Pixel_art_Movement_No_Outline_running_jump_23
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 0
+        width: 52
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d09f9a27d530ae20800000000000000
+      internalID: 3359744520267731155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Knight_Pixel_art_Movement_No_Outline_running_jump_24
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 0
+        width: 51
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c16df42aa72b5790800000000000000
+      internalID: -7540389539383254591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Black_Knight_Pixel_art_Movement_No_Outline_running_jump_0: -9202876778982820077
+      Black_Knight_Pixel_art_Movement_No_Outline_running_jump_1: -6514634144723777965
+      Black_Knight_Pixel_art_Movement_No_Outline_running_jump_10: -2450035580649169328
+      Black_Knight_Pixel_art_Movement_No_Outline_running_jump_11: -6995690446231569741
+      Black_Knight_Pixel_art_Movement_No_Outline_running_jump_12: 2566577823653651658
+      Black_Knight_Pixel_art_Movement_No_Outline_running_jump_13: 777297514339023872
+      Black_Knight_Pixel_art_Movement_No_Outline_running_jump_14: -772686062407448611
+      Black_Knight_Pixel_art_Movement_No_Outline_running_jump_15: 4291404073823675964
+      Black_Knight_Pixel_art_Movement_No_Outline_running_jump_16: 2901391655518953987
+      Black_Knight_Pixel_art_Movement_No_Outline_running_jump_17: -8199386081258004240
+      Black_Knight_Pixel_art_Movement_No_Outline_running_jump_18: -3326204811772777051
+      Black_Knight_Pixel_art_Movement_No_Outline_running_jump_19: -3306487973059558561
+      Black_Knight_Pixel_art_Movement_No_Outline_running_jump_2: -6265942962606218357
+      Black_Knight_Pixel_art_Movement_No_Outline_running_jump_20: 1398110797301855509
+      Black_Knight_Pixel_art_Movement_No_Outline_running_jump_21: -9172361946727731407
+      Black_Knight_Pixel_art_Movement_No_Outline_running_jump_22: 1645487258375017483
+      Black_Knight_Pixel_art_Movement_No_Outline_running_jump_23: 3359744520267731155
+      Black_Knight_Pixel_art_Movement_No_Outline_running_jump_24: -7540389539383254591
+      Black_Knight_Pixel_art_Movement_No_Outline_running_jump_3: 3020506267346767682
+      Black_Knight_Pixel_art_Movement_No_Outline_running_jump_4: 2587362418177588164
+      Black_Knight_Pixel_art_Movement_No_Outline_running_jump_5: 6683420072280862882
+      Black_Knight_Pixel_art_Movement_No_Outline_running_jump_6: -9114471234202728061
+      Black_Knight_Pixel_art_Movement_No_Outline_running_jump_7: 5093187479001110919
+      Black_Knight_Pixel_art_Movement_No_Outline_running_jump_8: -936439416113094631
+      Black_Knight_Pixel_art_Movement_No_Outline_running_jump_9: -6623894709932551798
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,2028 @@
+fileFormatVersion: 2
+guid: 91b469742686c6e4daee9203477b8b25
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6448891627528922035
+    second: Wight_Knight_Pixel_art_Combat_death_0
+  - first:
+      213: -4283534989316533258
+    second: Wight_Knight_Pixel_art_Combat_death_1
+  - first:
+      213: -6673869736543727825
+    second: Wight_Knight_Pixel_art_Combat_death_2
+  - first:
+      213: 236289818536296649
+    second: Wight_Knight_Pixel_art_Combat_death_3
+  - first:
+      213: 563538963577714494
+    second: Wight_Knight_Pixel_art_Combat_death_4
+  - first:
+      213: -7697733683270351164
+    second: Wight_Knight_Pixel_art_Combat_death_5
+  - first:
+      213: 7010127170649345388
+    second: Wight_Knight_Pixel_art_Combat_death_6
+  - first:
+      213: -668502075571572337
+    second: Wight_Knight_Pixel_art_Combat_death_7
+  - first:
+      213: -6240140489772517519
+    second: Wight_Knight_Pixel_art_Combat_death_8
+  - first:
+      213: -6565724303411386082
+    second: Wight_Knight_Pixel_art_Combat_death_9
+  - first:
+      213: 6976460380674622135
+    second: Wight_Knight_Pixel_art_Combat_death_10
+  - first:
+      213: 81713655045770494
+    second: Wight_Knight_Pixel_art_Combat_death_11
+  - first:
+      213: 4998379890579314718
+    second: Wight_Knight_Pixel_art_Combat_death_12
+  - first:
+      213: 8682063664172216586
+    second: Wight_Knight_Pixel_art_Combat_death_13
+  - first:
+      213: 6874628513586208047
+    second: Wight_Knight_Pixel_art_Combat_death_14
+  - first:
+      213: -1124074196377985819
+    second: Wight_Knight_Pixel_art_Combat_death_15
+  - first:
+      213: -4516215506815042237
+    second: Wight_Knight_Pixel_art_Combat_death_16
+  - first:
+      213: -8888119674604857582
+    second: Wight_Knight_Pixel_art_Combat_death_17
+  - first:
+      213: -7139179364209791350
+    second: Wight_Knight_Pixel_art_Combat_death_18
+  - first:
+      213: 5681409411696604707
+    second: Wight_Knight_Pixel_art_Combat_death_19
+  - first:
+      213: 8081472349486649146
+    second: Wight_Knight_Pixel_art_Combat_death_20
+  - first:
+      213: 4730802577069071487
+    second: Wight_Knight_Pixel_art_Combat_death_21
+  - first:
+      213: 2593861576566874818
+    second: Wight_Knight_Pixel_art_Combat_death_22
+  - first:
+      213: 5142939490599847381
+    second: Wight_Knight_Pixel_art_Combat_death_23
+  - first:
+      213: -5525557154193918625
+    second: Wight_Knight_Pixel_art_Combat_death_24
+  - first:
+      213: 2512092120793409694
+    second: Wight_Knight_Pixel_art_Combat_death_25
+  - first:
+      213: 1596719089439378440
+    second: Wight_Knight_Pixel_art_Combat_death_26
+  - first:
+      213: 8521048771222913210
+    second: Wight_Knight_Pixel_art_Combat_death_27
+  - first:
+      213: 6997041209528914398
+    second: Wight_Knight_Pixel_art_Combat_death_28
+  - first:
+      213: -6391892701451732605
+    second: Wight_Knight_Pixel_art_Combat_death_29
+  - first:
+      213: -7122037362419382771
+    second: Wight_Knight_Pixel_art_Combat_death_30
+  - first:
+      213: -6607305192514302737
+    second: Wight_Knight_Pixel_art_Combat_death_31
+  - first:
+      213: -3204189428692039073
+    second: Wight_Knight_Pixel_art_Combat_death_32
+  - first:
+      213: -5889785478824398519
+    second: Wight_Knight_Pixel_art_Combat_death_33
+  - first:
+      213: 2750952446896148023
+    second: Wight_Knight_Pixel_art_Combat_death_34
+  - first:
+      213: 2074228206295352485
+    second: Wight_Knight_Pixel_art_Combat_death_35
+  - first:
+      213: -5043262193140533010
+    second: Wight_Knight_Pixel_art_Combat_death_36
+  - first:
+      213: -4468769482990930937
+    second: Wight_Knight_Pixel_art_Combat_death_37
+  - first:
+      213: 2829488044526198516
+    second: Wight_Knight_Pixel_art_Combat_death_38
+  - first:
+      213: 9057981803902598774
+    second: Wight_Knight_Pixel_art_Combat_death_39
+  - first:
+      213: 4502535384791672757
+    second: Wight_Knight_Pixel_art_Combat_death_40
+  - first:
+      213: 1710934459054159270
+    second: Wight_Knight_Pixel_art_Combat_death_41
+  - first:
+      213: -518471367428874786
+    second: Wight_Knight_Pixel_art_Combat_death_42
+  - first:
+      213: -7387325942270459846
+    second: Wight_Knight_Pixel_art_Combat_death_43
+  - first:
+      213: 7272651616182043107
+    second: Wight_Knight_Pixel_art_Combat_death_44
+  - first:
+      213: 2100914141136388978
+    second: Wight_Knight_Pixel_art_Combat_death_45
+  - first:
+      213: -2853370855397821304
+    second: Wight_Knight_Pixel_art_Combat_death_46
+  - first:
+      213: 4732909856249780555
+    second: Wight_Knight_Pixel_art_Combat_death_47
+  - first:
+      213: -2358434791904533301
+    second: Wight_Knight_Pixel_art_Combat_death_48
+  - first:
+      213: -4468624425819209566
+    second: Wight_Knight_Pixel_art_Combat_death_49
+  - first:
+      213: 418446814390208400
+    second: Wight_Knight_Pixel_art_Combat_death_50
+  - first:
+      213: -3136435516061235909
+    second: Wight_Knight_Pixel_art_Combat_death_51
+  - first:
+      213: -8712839837547998219
+    second: Wight_Knight_Pixel_art_Combat_death_52
+  - first:
+      213: 3749101670330459582
+    second: Wight_Knight_Pixel_art_Combat_death_53
+  - first:
+      213: 6991621489664236784
+    second: Wight_Knight_Pixel_art_Combat_death_54
+  - first:
+      213: -7409275295084967257
+    second: Wight_Knight_Pixel_art_Combat_death_55
+  - first:
+      213: 6776908897412324799
+    second: Wight_Knight_Pixel_art_Combat_death_56
+  - first:
+      213: 1795746384605184876
+    second: Wight_Knight_Pixel_art_Combat_death_57
+  - first:
+      213: 1025266660506584985
+    second: Wight_Knight_Pixel_art_Combat_death_58
+  - first:
+      213: 5375190945564700440
+    second: Wight_Knight_Pixel_art_Combat_death_59
+  - first:
+      213: -4046792881638669630
+    second: Wight_Knight_Pixel_art_Combat_death_60
+  - first:
+      213: -3875996026443131041
+    second: Wight_Knight_Pixel_art_Combat_death_61
+  - first:
+      213: 7215161663510277625
+    second: Wight_Knight_Pixel_art_Combat_death_62
+  - first:
+      213: -8232455761632383917
+    second: Wight_Knight_Pixel_art_Combat_death_63
+  - first:
+      213: 9221288913601375081
+    second: Wight_Knight_Pixel_art_Combat_death_64
+  - first:
+      213: 4989792439048337715
+    second: Wight_Knight_Pixel_art_Combat_death_65
+  - first:
+      213: -721603579271725071
+    second: Wight_Knight_Pixel_art_Combat_death_66
+  - first:
+      213: -536290846223535126
+    second: Wight_Knight_Pixel_art_Combat_death_67
+  - first:
+      213: 5603621306611999542
+    second: Wight_Knight_Pixel_art_Combat_death_68
+  - first:
+      213: 7919216986015555593
+    second: Wight_Knight_Pixel_art_Combat_death_69
+  - first:
+      213: -4050208877435679221
+    second: Wight_Knight_Pixel_art_Combat_death_70
+  - first:
+      213: -3667038957311208438
+    second: Wight_Knight_Pixel_art_Combat_death_71
+  - first:
+      213: 2259017117242101760
+    second: Wight_Knight_Pixel_art_Combat_death_72
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Wight_Knight_Pixel_art_Combat_death_0
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 767
+        width: 46
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b32add74c01f7950800000000000000
+      internalID: 6448891627528922035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wight_Knight_Pixel_art_Combat_death_1
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 767
+        width: 47
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f3d4d25f93dd84c0800000000000000
+      internalID: -4283534989316533258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wight_Knight_Pixel_art_Combat_death_2
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 767
+        width: 49
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2fc41495d6a163a0800000000000000
+      internalID: -6673869736543727825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wight_Knight_Pixel_art_Combat_death_3
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 767
+        width: 49
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c0c5e98658774300800000000000000
+      internalID: 236289818536296649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wight_Knight_Pixel_art_Combat_death_4
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 767
+        width: 48
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e37342d93b712d700800000000000000
+      internalID: 563538963577714494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wight_Knight_Pixel_art_Combat_death_5
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 767
+        width: 46
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c68c19dff72c2590800000000000000
+      internalID: -7697733683270351164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wight_Knight_Pixel_art_Combat_death_6
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 767
+        width: 42
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6d4edc3589f84160800000000000000
+      internalID: 7010127170649345388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wight_Knight_Pixel_art_Combat_death_7
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 767
+        width: 39
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f81f1f577e009b6f0800000000000000
+      internalID: -668502075571572337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wight_Knight_Pixel_art_Combat_death_8
+      rect:
+        serializedVersion: 2
+        x: 1072
+        y: 767
+        width: 36
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 177b39649419669a0800000000000000
+      internalID: -6240140489772517519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wight_Knight_Pixel_art_Combat_death_9
+      rect:
+        serializedVersion: 2
+        x: 1198
+        y: 767
+        width: 37
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e19e302688cd1e4a0800000000000000
+      internalID: -6565724303411386082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wight_Knight_Pixel_art_Combat_death_10
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 639
+        width: 38
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b282bbd0cd51d060800000000000000
+      internalID: 6976460380674622135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wight_Knight_Pixel_art_Combat_death_11
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 639
+        width: 40
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efc4d46e22e422100800000000000000
+      internalID: 81713655045770494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wight_Knight_Pixel_art_Combat_death_12
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 639
+        width: 42
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e189f662700dd5540800000000000000
+      internalID: 4998379890579314718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wight_Knight_Pixel_art_Combat_death_13
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 639
+        width: 44
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a01bf4c27e2ec7870800000000000000
+      internalID: 8682063664172216586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wight_Knight_Pixel_art_Combat_death_14
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 639
+        width: 48
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2dd313b536976f50800000000000000
+      internalID: 6874628513586208047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wight_Knight_Pixel_art_Combat_death_15
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 639
+        width: 49
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ec15b7597c7660f0800000000000000
+      internalID: -1124074196377985819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wight_Knight_Pixel_art_Combat_death_16
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 639
+        width: 50
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34dbd2baced2351c0800000000000000
+      internalID: -4516215506815042237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wight_Knight_Pixel_art_Combat_death_17
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 639
+        width: 51
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 217540a4f3e07a480800000000000000
+      internalID: -8888119674604857582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wight_Knight_Pixel_art_Combat_death_18
+      rect:
+        serializedVersion: 2
+        x: 1058
+        y: 639
+        width: 50
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8ee978713a8cec90800000000000000
+      internalID: -7139179364209791350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wight_Knight_Pixel_art_Combat_death_19
+      rect:
+        serializedVersion: 2
+        x: 1186
+        y: 639
+        width: 50
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 326bcbf22cb68de40800000000000000
+      internalID: 5681409411696604707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wight_Knight_Pixel_art_Combat_death_20
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 511
+        width: 50
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3f0b4dc848272070800000000000000
+      internalID: 8081472349486649146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wight_Knight_Pixel_art_Combat_death_21
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 511
+        width: 49
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7c54b401ef27a140800000000000000
+      internalID: 4730802577069071487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wight_Knight_Pixel_art_Combat_death_22
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 511
+        width: 47
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c2adcb6c5f3ff320800000000000000
+      internalID: 2593861576566874818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wight_Knight_Pixel_art_Combat_death_23
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 511
+        width: 47
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d5488ed7346f5740800000000000000
+      internalID: 5142939490599847381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wight_Knight_Pixel_art_Combat_death_24
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 511
+        width: 45
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f55372e3b074153b0800000000000000
+      internalID: -5525557154193918625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wight_Knight_Pixel_art_Combat_death_25
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 511
+        width: 44
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e98e2f6697ebcd220800000000000000
+      internalID: 2512092120793409694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wight_Knight_Pixel_art_Combat_death_26
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 511
+        width: 43
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80c8e145d8fa82610800000000000000
+      internalID: 1596719089439378440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wight_Knight_Pixel_art_Combat_death_27
+      rect:
+        serializedVersion: 2
+        x: 941
+        y: 511
+        width: 43
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab0458206b8d04670800000000000000
+      internalID: 8521048771222913210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wight_Knight_Pixel_art_Combat_death_28
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 511
+        width: 44
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed19dbc78eb7a1160800000000000000
+      internalID: 6997041209528914398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wight_Knight_Pixel_art_Combat_death_29
+      rect:
+        serializedVersion: 2
+        x: 1199
+        y: 511
+        width: 43
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 389be87247f6b47a0800000000000000
+      internalID: -6391892701451732605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wight_Knight_Pixel_art_Combat_death_30
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 383
+        width: 42
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d06cee7c0c0792d90800000000000000
+      internalID: -7122037362419382771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wight_Knight_Pixel_art_Combat_death_31
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 383
+        width: 42
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fec47953fe22e44a0800000000000000
+      internalID: -6607305192514302737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wight_Knight_Pixel_art_Combat_death_32
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 383
+        width: 42
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5acfbde0be6883d0800000000000000
+      internalID: -3204189428692039073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wight_Knight_Pixel_art_Combat_death_33
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 383
+        width: 41
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 941fa6bff47434ea0800000000000000
+      internalID: -5889785478824398519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wight_Knight_Pixel_art_Combat_death_34
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 383
+        width: 41
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73e8c3fdca85d2620800000000000000
+      internalID: 2750952446896148023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wight_Knight_Pixel_art_Combat_death_35
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 383
+        width: 41
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a4845b509329cc10800000000000000
+      internalID: 2074228206295352485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wight_Knight_Pixel_art_Combat_death_36
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 383
+        width: 42
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee873b471cbb20ab0800000000000000
+      internalID: -5043262193140533010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wight_Knight_Pixel_art_Combat_death_37
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 383
+        width: 43
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 704383fe4ddbbf1c0800000000000000
+      internalID: -4468769482990930937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wight_Knight_Pixel_art_Combat_death_38
+      rect:
+        serializedVersion: 2
+        x: 1074
+        y: 383
+        width: 44
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fed23e926c544720800000000000000
+      internalID: 2829488044526198516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wight_Knight_Pixel_art_Combat_death_39
+      rect:
+        serializedVersion: 2
+        x: 1096
+        y: 449
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67ef09b957a64bd70800000000000000
+      internalID: 9057981803902598774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wight_Knight_Pixel_art_Combat_death_40
+      rect:
+        serializedVersion: 2
+        x: 1222
+        y: 447
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b76227b3183c7e30800000000000000
+      internalID: 4502535384791672757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wight_Knight_Pixel_art_Combat_death_41
+      rect:
+        serializedVersion: 2
+        x: 1201
+        y: 383
+        width: 46
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a5f5e953d57eb710800000000000000
+      internalID: 1710934459054159270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wight_Knight_Pixel_art_Combat_death_42
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 255
+        width: 48
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eddd03ec9050ec8f0800000000000000
+      internalID: -518471367428874786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wight_Knight_Pixel_art_Combat_death_43
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 255
+        width: 50
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3001faf132fa7990800000000000000
+      internalID: -7387325942270459846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wight_Knight_Pixel_art_Combat_death_44
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 255
+        width: 52
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e183bddc16ade460800000000000000
+      internalID: 7272651616182043107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wight_Knight_Pixel_art_Combat_death_45
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 255
+        width: 55
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 273870eb742f72d10800000000000000
+      internalID: 2100914141136388978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wight_Knight_Pixel_art_Combat_death_46
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 314
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8847f87235ac668d0800000000000000
+      internalID: -2853370855397821304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wight_Knight_Pixel_art_Combat_death_47
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 255
+        width: 58
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4996bf207caea140800000000000000
+      internalID: 4732909856249780555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wight_Knight_Pixel_art_Combat_death_48
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 256
+        width: 61
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc4ab926d08254fd0800000000000000
+      internalID: -2358434791904533301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wight_Knight_Pixel_art_Combat_death_49
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 255
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a08960b2c14cf1c0800000000000000
+      internalID: -4468624425819209566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wight_Knight_Pixel_art_Combat_death_50
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 255
+        width: 67
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0974f11292f9ec500800000000000000
+      internalID: 418446814390208400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wight_Knight_Pixel_art_Combat_death_51
+      rect:
+        serializedVersion: 2
+        x: 1063
+        y: 255
+        width: 70
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b35404404842974d0800000000000000
+      internalID: -3136435516061235909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wight_Knight_Pixel_art_Combat_death_52
+      rect:
+        serializedVersion: 2
+        x: 1186
+        y: 255
+        width: 74
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f354129456c51780800000000000000
+      internalID: -8712839837547998219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wight_Knight_Pixel_art_Combat_death_53
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 127
+        width: 79
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb5eed60b1c770430800000000000000
+      internalID: 3749101670330459582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wight_Knight_Pixel_art_Combat_death_54
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 127
+        width: 85
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fc9c6f93ba370160800000000000000
+      internalID: 6991621489664236784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wight_Knight_Pixel_art_Combat_death_55
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 127
+        width: 89
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7aa02690067fc2990800000000000000
+      internalID: -7409275295084967257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wight_Knight_Pixel_art_Combat_death_56
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 127
+        width: 77
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbd12719cba6c0e50800000000000000
+      internalID: 6776908897412324799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wight_Knight_Pixel_art_Combat_death_57
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 127
+        width: 74
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c63851192d5cbe810800000000000000
+      internalID: 1795746384605184876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wight_Knight_Pixel_art_Combat_death_58
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 127
+        width: 73
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 997cb8b789a7a3e00800000000000000
+      internalID: 1025266660506584985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wight_Knight_Pixel_art_Combat_death_59
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 127
+        width: 81
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81fa74e9fa3889a40800000000000000
+      internalID: 5375190945564700440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wight_Knight_Pixel_art_Combat_death_60
+      rect:
+        serializedVersion: 2
+        x: 917
+        y: 127
+        width: 84
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c20952a057e6d7c0800000000000000
+      internalID: -4046792881638669630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wight_Knight_Pixel_art_Combat_death_61
+      rect:
+        serializedVersion: 2
+        x: 1044
+        y: 127
+        width: 85
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f57180d5622b53ac0800000000000000
+      internalID: -3875996026443131041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wight_Knight_Pixel_art_Combat_death_62
+      rect:
+        serializedVersion: 2
+        x: 1166
+        y: 127
+        width: 91
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fdeb8e2e47612460800000000000000
+      internalID: 7215161663510277625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wight_Knight_Pixel_art_Combat_death_63
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 0
+        width: 93
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35ca8ca2a1170cd80800000000000000
+      internalID: -8232455761632383917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wight_Knight_Pixel_art_Combat_death_64
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 0
+        width: 89
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96b2572196998ff70800000000000000
+      internalID: 9221288913601375081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wight_Knight_Pixel_art_Combat_death_65
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 0
+        width: 96
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 339f76849cd4f3540800000000000000
+      internalID: 4989792439048337715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wight_Knight_Pixel_art_Combat_death_66
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 0
+        width: 85
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ffbbdc2e595cf5f0800000000000000
+      internalID: -721603579271725071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wight_Knight_Pixel_art_Combat_death_67
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 0
+        width: 76
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae37d861156be88f0800000000000000
+      internalID: -536290846223535126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wight_Knight_Pixel_art_Combat_death_68
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 0
+        width: 72
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6332b6c93ef04cd40800000000000000
+      internalID: 5603621306611999542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wight_Knight_Pixel_art_Combat_death_69
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 0
+        width: 72
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90062b614e5b6ed60800000000000000
+      internalID: 7919216986015555593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wight_Knight_Pixel_art_Combat_death_70
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 0
+        width: 74
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0e00522c74cac7c0800000000000000
+      internalID: -4050208877435679221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wight_Knight_Pixel_art_Combat_death_71
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 0
+        width: 80
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0452f34f7f0c1dc0800000000000000
+      internalID: -3667038957311208438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wight_Knight_Pixel_art_Combat_death_72
+      rect:
+        serializedVersion: 2
+        x: 1170
+        y: 0
+        width: 86
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0001ebe6914a95f10800000000000000
+      internalID: 2259017117242101760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Wight_Knight_Pixel_art_Combat_death_0: 6448891627528922035
+      Wight_Knight_Pixel_art_Combat_death_1: -4283534989316533258
+      Wight_Knight_Pixel_art_Combat_death_10: 6976460380674622135
+      Wight_Knight_Pixel_art_Combat_death_11: 81713655045770494
+      Wight_Knight_Pixel_art_Combat_death_12: 4998379890579314718
+      Wight_Knight_Pixel_art_Combat_death_13: 8682063664172216586
+      Wight_Knight_Pixel_art_Combat_death_14: 6874628513586208047
+      Wight_Knight_Pixel_art_Combat_death_15: -1124074196377985819
+      Wight_Knight_Pixel_art_Combat_death_16: -4516215506815042237
+      Wight_Knight_Pixel_art_Combat_death_17: -8888119674604857582
+      Wight_Knight_Pixel_art_Combat_death_18: -7139179364209791350
+      Wight_Knight_Pixel_art_Combat_death_19: 5681409411696604707
+      Wight_Knight_Pixel_art_Combat_death_2: -6673869736543727825
+      Wight_Knight_Pixel_art_Combat_death_20: 8081472349486649146
+      Wight_Knight_Pixel_art_Combat_death_21: 4730802577069071487
+      Wight_Knight_Pixel_art_Combat_death_22: 2593861576566874818
+      Wight_Knight_Pixel_art_Combat_death_23: 5142939490599847381
+      Wight_Knight_Pixel_art_Combat_death_24: -5525557154193918625
+      Wight_Knight_Pixel_art_Combat_death_25: 2512092120793409694
+      Wight_Knight_Pixel_art_Combat_death_26: 1596719089439378440
+      Wight_Knight_Pixel_art_Combat_death_27: 8521048771222913210
+      Wight_Knight_Pixel_art_Combat_death_28: 6997041209528914398
+      Wight_Knight_Pixel_art_Combat_death_29: -6391892701451732605
+      Wight_Knight_Pixel_art_Combat_death_3: 236289818536296649
+      Wight_Knight_Pixel_art_Combat_death_30: -7122037362419382771
+      Wight_Knight_Pixel_art_Combat_death_31: -6607305192514302737
+      Wight_Knight_Pixel_art_Combat_death_32: -3204189428692039073
+      Wight_Knight_Pixel_art_Combat_death_33: -5889785478824398519
+      Wight_Knight_Pixel_art_Combat_death_34: 2750952446896148023
+      Wight_Knight_Pixel_art_Combat_death_35: 2074228206295352485
+      Wight_Knight_Pixel_art_Combat_death_36: -5043262193140533010
+      Wight_Knight_Pixel_art_Combat_death_37: -4468769482990930937
+      Wight_Knight_Pixel_art_Combat_death_38: 2829488044526198516
+      Wight_Knight_Pixel_art_Combat_death_39: 9057981803902598774
+      Wight_Knight_Pixel_art_Combat_death_4: 563538963577714494
+      Wight_Knight_Pixel_art_Combat_death_40: 4502535384791672757
+      Wight_Knight_Pixel_art_Combat_death_41: 1710934459054159270
+      Wight_Knight_Pixel_art_Combat_death_42: -518471367428874786
+      Wight_Knight_Pixel_art_Combat_death_43: -7387325942270459846
+      Wight_Knight_Pixel_art_Combat_death_44: 7272651616182043107
+      Wight_Knight_Pixel_art_Combat_death_45: 2100914141136388978
+      Wight_Knight_Pixel_art_Combat_death_46: -2853370855397821304
+      Wight_Knight_Pixel_art_Combat_death_47: 4732909856249780555
+      Wight_Knight_Pixel_art_Combat_death_48: -2358434791904533301
+      Wight_Knight_Pixel_art_Combat_death_49: -4468624425819209566
+      Wight_Knight_Pixel_art_Combat_death_5: -7697733683270351164
+      Wight_Knight_Pixel_art_Combat_death_50: 418446814390208400
+      Wight_Knight_Pixel_art_Combat_death_51: -3136435516061235909
+      Wight_Knight_Pixel_art_Combat_death_52: -8712839837547998219
+      Wight_Knight_Pixel_art_Combat_death_53: 3749101670330459582
+      Wight_Knight_Pixel_art_Combat_death_54: 6991621489664236784
+      Wight_Knight_Pixel_art_Combat_death_55: -7409275295084967257
+      Wight_Knight_Pixel_art_Combat_death_56: 6776908897412324799
+      Wight_Knight_Pixel_art_Combat_death_57: 1795746384605184876
+      Wight_Knight_Pixel_art_Combat_death_58: 1025266660506584985
+      Wight_Knight_Pixel_art_Combat_death_59: 5375190945564700440
+      Wight_Knight_Pixel_art_Combat_death_6: 7010127170649345388
+      Wight_Knight_Pixel_art_Combat_death_60: -4046792881638669630
+      Wight_Knight_Pixel_art_Combat_death_61: -3875996026443131041
+      Wight_Knight_Pixel_art_Combat_death_62: 7215161663510277625
+      Wight_Knight_Pixel_art_Combat_death_63: -8232455761632383917
+      Wight_Knight_Pixel_art_Combat_death_64: 9221288913601375081
+      Wight_Knight_Pixel_art_Combat_death_65: 4989792439048337715
+      Wight_Knight_Pixel_art_Combat_death_66: -721603579271725071
+      Wight_Knight_Pixel_art_Combat_death_67: -536290846223535126
+      Wight_Knight_Pixel_art_Combat_death_68: 5603621306611999542
+      Wight_Knight_Pixel_art_Combat_death_69: 7919216986015555593
+      Wight_Knight_Pixel_art_Combat_death_7: -668502075571572337
+      Wight_Knight_Pixel_art_Combat_death_70: -4050208877435679221
+      Wight_Knight_Pixel_art_Combat_death_71: -3667038957311208438
+      Wight_Knight_Pixel_art_Combat_death_72: 2259017117242101760
+      Wight_Knight_Pixel_art_Combat_death_8: -6240140489772517519
+      Wight_Knight_Pixel_art_Combat_death_9: -6565724303411386082
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
