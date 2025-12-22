@@ -1,3 +1,4 @@
+// Damage.cs
 using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
@@ -7,51 +8,75 @@ using TMPro;
 
 public class Damage : Player, IPunObservable
 {
-    Controll controll;
+    private Controll controll; // Assuming this exists elsewhere
     public float netCurHP;
     public float netMaxHP;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+
     void Start()
     {
         base.Start();
-
         controll = GetComponent<Controll>();
-        
         netCurHP = CurHP;
         netMaxHP = MaxHP;
     }
 
     public void OnPhotonSerializeView(PhotonStream stream, PhotonMessageInfo info)
     {
-        if (stream.IsWriting)  // 로컬 플레이어가 데이터 전송
+        if (stream.IsWriting)  // Local player sends data
         {
             stream.SendNext(CurHP);
             stream.SendNext(MaxHP);
         }
-        else  // 다른 클라이언트가 데이터 수신 및 적용
+        else  // Remote clients receive and apply data
         {
             netCurHP = (float)stream.ReceiveNext();
             netMaxHP = (float)stream.ReceiveNext();
         }
     }
 
-    // Update is called once per frame
     void Update()
     {
-        
+        // Add death check if needed
+        if (photonView.IsMine && CurHP <= 0)
+        {
+            // Handle death, e.g., photonView.RPC("HandleDeath", PhotonTarget.All);
+        }
     }
 
-    public void GetDamage(float Damage)
+    // Assumes your player has a Collider2D set as trigger for hurtbox
+    // Attacks should have a separate Collider2D as trigger with tag "Attack" and an AttackData component
+    void OnTriggerEnter2D(Collider2D other)
     {
-        CurHP -= Damage;
-        if(Damage < 7.5)
+        if (!photonView.IsMine) return; // Only process on the local owner (victim)
+
+        if (other.CompareTag("Attack"))
         {
-            //controll.AddState(PlayerStats.Sstun);
+            // Ensure it's not self-attack (e.g., own hitbox)
+            if (other.transform.root != transform.root) // Or check photonView.Owner
+            {
+                AttackData attackData = other.GetComponent<AttackData>();
+                if (attackData != null)
+                {
+                    GetDamage(attackData.damageAmount);
+                }
+            }
+        }
+    }
+
+    public void GetDamage(float damage)
+    {
+        CurHP -= damage;
+        CurHP = Mathf.Clamp(CurHP, 0, MaxHP); // Prevent negative HP
+
+        if (damage < 7.5f)
+        {
+            // controll.AddState(PlayerStats.Sstun);
         }
         else
         {
-            //controll.AddState(PlayerStats.Lstun); 
+            // controll.AddState(PlayerStats.Lstun);
         }
-        Debug.Log(CurHP + " | " + MaxHP + " | " + netCurHP + " | " + netMaxHP);
+
+        Debug.Log($"Damage taken: {damage} | CurHP: {CurHP} / {MaxHP}");
     }
 }

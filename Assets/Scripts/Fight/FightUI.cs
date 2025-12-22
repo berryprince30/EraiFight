@@ -1,3 +1,4 @@
+// FightUI.cs (mostly unchanged, but ensure it's not Photon-dependent unless needed; UI is local)
 using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
@@ -7,44 +8,53 @@ using Photon.Pun;
 using Photon.Realtime;
 using TMPro;
 
-public class FightUI : MonoBehaviourPunCallbacks, IPunObservable
+public class FightUI : MonoBehaviourPunCallbacks // Removed IPunObservable if not needed
 {
     public Image HP_1;
     public Image HP_2;
     public TMP_Text Seconds;
-    public float TimeMax;
+    public float TimeMax = 60f; // Example starting time; sync if needed
     private List<Damage> players = new List<Damage>();
-    void Awake()
-    {
-        Seconds.text = TimeMax.ToString("0");
-    }
+    private bool gameOver = false;
 
     void Start()
     {
+        Seconds.text = TimeMax.ToString("0");
         players = FindObjectsOfType<Damage>().ToList();
         players.Sort((a, b) => a.photonView.Owner.ActorNumber.CompareTo(b.photonView.Owner.ActorNumber));
     }
 
-    public void OnPhotonSerializeView(PhotonStream stream, PhotonMessageInfo info)
-    {
-        
-    }
-
-    // Update is called once per frame
     void Update()
     {
-        TimeMax -= Time.deltaTime;
-        Seconds.text = TimeMax.ToString("0");
+        if (gameOver) return;
 
-        if(TimeMax <= -987)
+        // Time sync: For simplicity, run locally; for precision, master client could RPC updates
+        TimeMax -= Time.deltaTime;
+        Seconds.text = Mathf.Max(0, TimeMax).ToString("0");
+
+        if (TimeMax <= 0)
         {
-            Win987();
+            Win987(); // Adjust to handle tie or whatever
         }
 
         if (players.Count == 2)
         {
             HP_1.fillAmount = GetHPFill(players[0]);
             HP_2.fillAmount = GetHPFill(players[1]);
+
+            // Check for winner
+            if (players[0].CurHP <= 0 || players[0].netCurHP <= 0)
+            {
+                // Player 2 wins
+                gameOver = true;
+                Debug.Log("Player 2 Wins");
+            }
+            else if (players[1].CurHP <= 0 || players[1].netCurHP <= 0)
+            {
+                // Player 1 wins
+                gameOver = true;
+                Debug.Log("Player 1 Wins");
+            }
         }
     }
 
@@ -64,7 +74,8 @@ public class FightUI : MonoBehaviourPunCallbacks, IPunObservable
 
     void Win987()
     {
-        Time.timeScale = 0;
+        gameOver = true;
+        Time.timeScale = 0; // Caution: In multiplayer, this affects local only; use Photon to sync game state
         Seconds.text = "+987";
         GameSet();
     }

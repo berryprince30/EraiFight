@@ -440,6 +440,8 @@ MonoBehaviour:
   CurHP: 100
   MaxHP: 100
   P_anim: {fileID: 380525020310927365}
+  netCurHP: 0
+  netMaxHP: 0
 --- !u!1 &9019801808513527455
 GameObject:
   m_ObjectHideFlags: 0
@@ -450,6 +452,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2408633486909439417}
   - component: {fileID: 3969103014059633362}
+  - component: {fileID: 4869932934970941140}
   - component: {fileID: 527547218298752211}
   - component: {fileID: 1766830963168596125}
   m_Layer: 0
@@ -520,6 +523,19 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.1, y: 0.1}
   m_EdgeRadius: 0
+--- !u!114 &4869932934970941140
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9019801808513527455}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 066f54ed30e06c54f827579080874796, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AttackData
+  damageAmount: 10
 --- !u!114 &527547218298752211
 MonoBehaviour:
   m_ObjectHideFlags: 0
