@@ -8,12 +8,12 @@ using Photon.Pun;
 using Photon.Realtime;
 using TMPro;
 
-public class FightUI : MonoBehaviourPunCallbacks // Removed IPunObservable if not needed
+public class FightUI : MonoBehaviourPunCallbacks
 {
     public Image HP_1;
     public Image HP_2;
     public TMP_Text Seconds;
-    public float TimeMax = 60f; // Example starting time; sync if needed
+    public float TimeMax;
     private List<Damage> players = new List<Damage>();
     private bool gameOver = false;
 
@@ -30,7 +30,7 @@ public class FightUI : MonoBehaviourPunCallbacks // Removed IPunObservable if no
 
         // Time sync: For simplicity, run locally; for precision, master client could RPC updates
         TimeMax -= Time.deltaTime;
-        Seconds.text = Mathf.Max(0, TimeMax).ToString("0");
+        Seconds.text = TimeMax.ToString("0");
 
         if (TimeMax <= -987)
         {
