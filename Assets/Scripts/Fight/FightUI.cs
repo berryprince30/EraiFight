@@ -56,6 +56,11 @@ public class FightUI : MonoBehaviourPunCallbacks
                 Debug.Log("Player 1 Wins");
             }
         }
+        else
+        {
+            players = FindObjectsOfType<Damage>().ToList();
+            players.Sort((a, b) => a.photonView.Owner.ActorNumber.CompareTo(b.photonView.Owner.ActorNumber));
+        }
     }
 
     private float GetHPFill(Damage playerDamage)
