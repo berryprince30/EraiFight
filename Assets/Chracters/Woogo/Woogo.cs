@@ -9,7 +9,6 @@ using UnityEngine.InputSystem;
 public class Woogo : Player, IPunObservable
 {
     // 범용
-    float DamageF;
     BoxCollider2D HitBox;
     Controll controll;
     Animator anim;
@@ -109,6 +108,7 @@ public class Woogo : Player, IPunObservable
                 if(EndAttack)
                 {
                     AddState(PlayerStats.Attacking);
+                    controll.AddState(PlayerStats.Attacking);
                     AttackRoutine();
                     EndAttack = false;
                     Invoke("EndAttackTrue", 0.5f);
@@ -129,7 +129,6 @@ public class Woogo : Player, IPunObservable
     void Atk1()
     {
         Debug.Log("Attack1");
-        DamageF = 5;
         anim.SetTrigger("Atk1");
         StartCoroutine(SetCollider(0.9f, 0.6f, 1.8f, 0.7f, 0.5f));
     }
@@ -188,9 +187,10 @@ public class Woogo : Player, IPunObservable
     {
         Canceling = true;
 
-        yield return new WaitForSeconds(5f);
+        yield return new WaitForSeconds(0.75f); // 모든 평타는 0.75초일것
 
         RemoveState(PlayerStats.Attacking);
+        controll.RemoveState(PlayerStats.Attacking);
         AttackIndex = 0;
         Canceling = false;
         
@@ -218,6 +218,7 @@ public class Woogo : Player, IPunObservable
             {
                 RemoveState(PlayerStats.Moving);
                 RemoveState(PlayerStats.Attacking);
+                controll.RemoveState(PlayerStats.Attacking);
                 AddState(PlayerStats.Guard);
                 EndAttackTrue();
                 EndDownAttackTrue();

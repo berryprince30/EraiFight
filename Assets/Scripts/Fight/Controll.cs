@@ -69,7 +69,9 @@ public class Controll : Player, IPunObservable
     {
         base.Update(); // 필?수
 
-        if (PV.IsMine)
+        if (PV.IsMine 
+        && !IsContainState(PlayerStats.Sstun)
+        && !IsContainState(PlayerStats.Lstun))
         {
             Walk();
             Jump();
@@ -86,7 +88,12 @@ public class Controll : Player, IPunObservable
 
     void Walk()
     {
-        float h = moveInput.x;  // Input System 값
+        float h;
+
+        if(!IsContainState(PlayerStats.Attacking))
+            h = moveInput.x;  // Input System 값
+        else
+            h = 0;
 
         rigid.linearVelocity = new Vector2(h * moveSpeed, rigid.linearVelocity.y);
 
@@ -104,7 +111,7 @@ public class Controll : Player, IPunObservable
 
     void Jump()
     {
-        if (jumpInput && isGround && !IsContainState(PlayerStats.Sstun) && !IsContainState(PlayerStats.Lstun))
+        if (jumpInput && isGround)
         {
             rigid.AddForce(Vector2.up * jumpPower, ForceMode2D.Impulse);
             if(IsContainState(PlayerStats.Moving))
