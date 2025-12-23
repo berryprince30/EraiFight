@@ -1,5 +1,6 @@
 // FightUI.cs (mostly unchanged, but ensure it's not Photon-dependent unless needed; UI is local)
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using System.Collections;
 using System.Collections.Generic;
@@ -18,9 +19,12 @@ public class FightUI : MonoBehaviourPunCallbacks
     private bool gameOver = false;
 
     // End Phase
+    public GameObject WinPanel;
     public TMP_Text WhoWin;
     public Image WinImg;
     public Image LoseImg;
+    public Image[] WinImgs;
+    public Image[] LoseImgs;
 
     void Start()
     {
@@ -48,17 +52,10 @@ public class FightUI : MonoBehaviourPunCallbacks
             HP_2.fillAmount = GetHPFill(players[1]);
 
             // Check for winner
-            if (players[0].CurHP <= 0 || players[0].netCurHP <= 0)
+            if (players[0].CurHP <= 0 || players[0].netCurHP <= 0 
+            || players[1].CurHP <= 0 || players[1].netCurHP <= 0)
             {
-                // Player 2 wins
-                gameOver = true;
-                Debug.Log("Player 2 Wins");
-            }
-            else if (players[1].CurHP <= 0 || players[1].netCurHP <= 0)
-            {
-                // Player 1 wins
-                gameOver = true;
-                Debug.Log("Player 1 Wins");
+                EndPhase();
             }
         }
         else
@@ -93,5 +90,70 @@ public class FightUI : MonoBehaviourPunCallbacks
     void GameSet()
     {
         Debug.Log("[987이 마이너스가 되는 결론에는 절대 도달할 수 없다.]");
+    }
+
+    void EndPhase()
+    {
+        WinPanel.SetActive(true);
+        gameOver = true;
+        if (players[0].CurHP <= 0 || players[0].netCurHP <= 0)
+        {
+            // Player 2 wins
+            PhotonView winnerPV = players[1].GetComponent<PhotonView>();
+            Debug.Log("Player 2 Wins");
+            WhoWin.text = winnerPV.Owner.NickName + " Wins!";
+        }
+        else if (players[1].CurHP <= 0 || players[1].netCurHP <= 0)
+        {
+            // Player 1 wins
+            PhotonView winnerPV = players[0].GetComponent<PhotonView>();
+            Debug.Log("Player 1 Wins");
+            WhoWin.text = winnerPV.Owner.NickName + " Wins!";
+        }
+        Time.timeScale = 0;
+    }
+
+    public void ReloadGame()
+    {
+        // 로컬 타임스케일 복구 (중요)
+        Time.timeScale = 1f;
+
+        if (PhotonNetwork.InRoom)
+        {
+            PhotonNetwork.LeaveRoom();
+        }
+        else
+        {
+            DisconnectAndLoadSelect();
+        }
+    }
+
+    public override void OnLeftRoom()
+    {
+        Debug.Log("[FightUI] Left Room");
+        DisconnectAndLoadSelect();
+    }
+
+    void DisconnectAndLoadSelect()
+    {
+        if (PhotonNetwork.IsConnected)
+        {
+            PhotonNetwork.Disconnect();
+        }
+        else
+        {
+            LoadSelectScene();
+        }
+    }
+
+    public override void OnDisconnected(DisconnectCause cause)
+    {
+        Debug.Log("[FightUI] Disconnected: " + cause);
+        LoadSelectScene();
+    }
+
+    void LoadSelectScene()
+    {
+        SceneManager.LoadScene("Select");
     }
 }
