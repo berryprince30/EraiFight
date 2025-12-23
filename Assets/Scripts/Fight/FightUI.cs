@@ -17,6 +17,11 @@ public class FightUI : MonoBehaviourPunCallbacks
     private List<Damage> players = new List<Damage>();
     private bool gameOver = false;
 
+    // End Phase
+    public TMP_Text WhoWin;
+    public Image WinImg;
+    public Image LoseImg;
+
     void Start()
     {
         Seconds.text = TimeMax.ToString("0");
