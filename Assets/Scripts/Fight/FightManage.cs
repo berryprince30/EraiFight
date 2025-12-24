@@ -29,8 +29,8 @@ public class FightManage : MonoBehaviourPunCallbacks
 
     public void CharSpwan()
     {
-        Vector3 Mvec = new Vector3(-5, 0, 0);
-        Vector3 Cvec = new Vector3(5, 0, 0);
+        Vector3 Mvec = new Vector3(-5, 5, 0);
+        Vector3 Cvec = new Vector3(5, 5, 0);
 
         MasterIndex = PlayerPrefs.GetInt("MIndex");
         ClientIndex = PlayerPrefs.GetInt("CIndex");
