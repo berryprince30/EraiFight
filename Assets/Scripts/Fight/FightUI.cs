@@ -23,8 +23,7 @@ public class FightUI : MonoBehaviourPunCallbacks
     public TMP_Text WhoWin;
     public Image WinImg;
     public Image LoseImg;
-    public Image[] WinImgs;
-    public Image[] LoseImgs;
+    public Sprite[] WinLoseImgs;
 
     void Start()
     {
