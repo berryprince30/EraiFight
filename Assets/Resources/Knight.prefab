@@ -256,14 +256,8 @@ MonoBehaviour:
     SynchronizeType: 1
     Name: Atk2
   - Type: 9
-    SynchronizeType: 1
-    Name: Atk3
-  - Type: 9
     SynchronizeType: 0
     Name: Skill2
-  - Type: 9
-    SynchronizeType: 0
-    Name: Skill3
   - Type: 9
     SynchronizeType: 0
     Name: Guard

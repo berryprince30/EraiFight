@@ -6,7 +6,7 @@ using Photon.Realtime;
 using TMPro;
 using UnityEngine.InputSystem;
 
-public class KightWander : Player, IPunObservable
+public class KnightWander : Player, IPunObservable
 {
     // 범용
     BoxCollider2D HitBox;
@@ -24,7 +24,6 @@ public class KightWander : Player, IPunObservable
     private List<(string input, int frame)> inputBuffer = new List<(string, int)>();
     private int currentFrame = 0;
     private Vector2 prevMoveInput;
-    string[] seq3 = { "Z", "Up", "Left", "X"};
     string[] seq2 = { "Z", "Up", "Z" };
     string[] seq1 = { "Z", "Left", "Z" };
     
@@ -140,13 +139,6 @@ public class KightWander : Player, IPunObservable
         StartCoroutine(SetCollider(0.9f, 0.6f, 1.8f, 0.7f, 0.5f));
     }
 
-    void Atk3()
-    {
-        Debug.Log("Attack3");
-        anim.SetTrigger("Atk3");
-        StartCoroutine(SetCollider(0.9f, 0.8f, 1.8f, 0.7f, 0.5f));
-    }
-
     void EndAttackTrue()
     {
         EndAttack = true;
@@ -165,14 +157,13 @@ public class KightWander : Player, IPunObservable
             {
                 case 0: Atk1(); break;
                 case 1: Atk2(); break;
-                case 2: Atk3(); break;
                 default: Debug.Log("씨1발 뭐ㅝ야"); break;
             }
         }
 
         AttackIndex++;
 
-        if(AttackIndex >= 3)
+        if(AttackIndex >= 2)
         {
             AttackIndex = 0;
         }
@@ -239,17 +230,14 @@ public class KightWander : Player, IPunObservable
 
     void Cmd1() // z -> <- z
     {
+        // 하단공격
         Debug.Log("Cmd1");
     }
 
     void Cmd2() // <- <- 점프(스패이스 바 || 위 화살표) z x
     {
+        // 슬라이드
         Debug.Log("Cmd2");
-    }
-    
-    void Cmd3() // <- z x z 점프(스패이스 바 || 위 화살표) ->
-    {
-        Debug.Log("Cmd3");
     }
 
     // X 입력 (새로 추가: 콤보에 사용되는 x 버튼 입력)
@@ -278,14 +266,6 @@ public class KightWander : Player, IPunObservable
 
     private bool CheckCombos() // 콤보 체크 함수 (긴 시퀀스 우선 체크)
     {
-        // Cmd3: <- z x z 점프 ->
-        if (CheckSequence(seq3))
-        {
-            Cmd3();
-            inputBuffer.Clear();
-            return true;
-        }
-
         // Cmd2: <- <- 점프 z x
         if (CheckSequence(seq2))
         {
@@ -319,11 +299,6 @@ public class KightWander : Player, IPunObservable
         int startFrame = inputBuffer[inputBuffer.Count - len].frame;
         int endFrame = inputBuffer[inputBuffer.Count - 1].frame;
         return (endFrame - startFrame <= CheckComboFrame);
-    }
-
-    void Special() // 이건 냅둬
-    {
-        Debug.Log("Special");
     }
 
     IEnumerator SetCollider(float OfsX, float OfsY, float SizeX, float SizeY, float AttackTime)
