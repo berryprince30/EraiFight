@@ -99,15 +99,21 @@ public class FightUI : MonoBehaviourPunCallbacks
         {
             // Player 2 wins
             PhotonView winnerPV = players[1].GetComponent<PhotonView>();
-            Debug.Log("Player 2 Wins");
+            PhotonView loserPV = players[0].GetComponent<PhotonView>();
+            
             WhoWin.text = winnerPV.Owner.NickName + " Wins!";
+            WinImg.sprite = WinLoseImgs[PlayerPrefs.GetInt("CIndex")];
+            LoseImg.sprite = WinLoseImgs[PlayerPrefs.GetInt("MIndex")];
         }
         else if (players[1].CurHP <= 0 || players[1].netCurHP <= 0)
         {
             // Player 1 wins
             PhotonView winnerPV = players[0].GetComponent<PhotonView>();
-            Debug.Log("Player 1 Wins");
+            PhotonView loserPV = players[1].GetComponent<PhotonView>();
+
             WhoWin.text = winnerPV.Owner.NickName + " Wins!";
+            WinImg.sprite = WinLoseImgs[PlayerPrefs.GetInt("MIndex")];
+            LoseImg.sprite = WinLoseImgs[PlayerPrefs.GetInt("CIndex")];
         }
         Time.timeScale = 0;
     }

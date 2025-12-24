@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using TMPro;
 
-public class Imsi : MonoBehaviour
+public class Imsi : MonoBehaviour // HP확인용 임시 스크립트
 {
     private List<Damage> players = new List<Damage>();
     public TMP_Text HP_One;

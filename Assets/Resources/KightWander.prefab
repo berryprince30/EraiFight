@@ -89,7 +89,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -7410336568181726669, guid: 5fa68c94bbb6c104d83d04de0118ae2a, type: 3}
+  m_Sprite: {fileID: 3204480812468917802, guid: 84402eb323a88c745af8c83ff467f1a2, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -186,8 +186,8 @@ BoxCollider2D:
   m_Offset: {x: -0.1875, y: 1.9375}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.57894737, y: -0.03448276}
-    oldSize: {x: 2.375, y: 3.625}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2.875, y: 4.875}
     newSize: {x: 1.3125, y: 1.9375}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -258,6 +258,18 @@ MonoBehaviour:
   - Type: 9
     SynchronizeType: 1
     Name: Atk3
+  - Type: 9
+    SynchronizeType: 0
+    Name: Skill2
+  - Type: 9
+    SynchronizeType: 0
+    Name: Skill3
+  - Type: 9
+    SynchronizeType: 0
+    Name: Guard
+  - Type: 9
+    SynchronizeType: 0
+    Name: Die
   m_SynchronizeLayers:
   - SynchronizeType: 1
     LayerIndex: 0
