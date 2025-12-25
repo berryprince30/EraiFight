@@ -131,10 +131,10 @@ TextureImporter:
       name: Run+Attack_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 11
         y: 0
-        width: 76
-        height: 86
+        width: 56
+        height: 75
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -153,10 +153,10 @@ TextureImporter:
       name: Run+Attack_1
       rect:
         serializedVersion: 2
-        x: 76
+        x: 79
         y: 0
-        width: 76
-        height: 86
+        width: 60
+        height: 69
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -175,10 +175,10 @@ TextureImporter:
       name: Run+Attack_2
       rect:
         serializedVersion: 2
-        x: 147
+        x: 151
         y: 0
-        width: 72
-        height: 86
+        width: 57
+        height: 63
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -197,10 +197,10 @@ TextureImporter:
       name: Run+Attack_3
       rect:
         serializedVersion: 2
-        x: 219
+        x: 220
         y: 0
-        width: 76
-        height: 86
+        width: 65
+        height: 62
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -219,10 +219,10 @@ TextureImporter:
       name: Run+Attack_4
       rect:
         serializedVersion: 2
-        x: 295
+        x: 297
         y: 0
-        width: 76
-        height: 86
+        width: 64
+        height: 62
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -241,10 +241,10 @@ TextureImporter:
       name: Run+Attack_5
       rect:
         serializedVersion: 2
-        x: 371
+        x: 373
         y: 0
-        width: 76
-        height: 86
+        width: 68
+        height: 58
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -273,7 +273,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries:
       - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":6.0,"y":1.0},"gridSpriteSize":{"x":76.0,"y":86.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       Run+Attack_0: -5222144045036199091
       Run+Attack_1: -7891939522487584870

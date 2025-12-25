@@ -131,10 +131,10 @@ TextureImporter:
       name: Attack 2_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 33
         y: 0
-        width: 107
-        height: 86
+        width: 42
+        height: 75
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -153,10 +153,10 @@ TextureImporter:
       name: Attack 2_1
       rect:
         serializedVersion: 2
-        x: 107
+        x: 128
         y: 0
-        width: 107
-        height: 86
+        width: 43
+        height: 71
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -175,12 +175,12 @@ TextureImporter:
       name: Attack 2_2
       rect:
         serializedVersion: 2
-        x: 214
+        x: 225
         y: 0
-        width: 107
-        height: 86
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 87
+        height: 69
+      alignment: 9
+      pivot: {x: 0.3220013, y: 0.48160392}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -197,12 +197,12 @@ TextureImporter:
       name: Attack 2_3
       rect:
         serializedVersion: 2
-        x: 321
+        x: 325
         y: 0
-        width: 107
-        height: 86
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 68
+        height: 64
+      alignment: 9
+      pivot: {x: 0.6269338, y: 0.5238002}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -229,12 +229,14 @@ TextureImporter:
     spriteCustomMetadata:
       entries:
       - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":4.0,"y":1.0},"gridSpriteSize":{"x":107.0,"y":86.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       Attack 2_0: -3504445768780078300
       Attack 2_1: -4719016525697344907
       Attack 2_2: -8162710234889106271
       Attack 2_3: -3928759291754492119
+      Attack 2_4: 1447448668
+      Attack 2_5: 1697843206
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
