@@ -217,6 +217,7 @@ public class Knight : Player, IPunObservable
                 StopCoroutine(CancelAttack());
 
                 Debug.Log("Guard");
+                anim.SetTrigger("Guard");
 
                 Invoke("CancelGuard", 0.75f); 
             }
@@ -233,12 +234,16 @@ public class Knight : Player, IPunObservable
     {
         // 찌르기
         Debug.Log("Cmd1");
+        anim.SetTrigger("Skill1");
+        StartCoroutine(SetCollider(0.9f, 0.6f, 1.8f, 0.7f, 0.5f));
     }
 
     void Cmd2() // <- <- 점프(스패이스 바 || 위 화살표) z x
     {
         // 달리며 때리기
         Debug.Log("Cmd2");
+        anim.SetTrigger("Skill2");
+        StartCoroutine(SetCollider(0.9f, 0.6f, 1.8f, 0.7f, 0.5f));
     }
 
     // X 입력 (새로 추가: 콤보에 사용되는 x 버튼 입력)

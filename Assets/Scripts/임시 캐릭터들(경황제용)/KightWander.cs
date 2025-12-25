@@ -193,6 +193,7 @@ public class KnightWander : Player, IPunObservable
     {
         Debug.Log("Down");
         anim.SetTrigger("Skill1");
+        StartCoroutine(SetCollider(0.9f, 0.6f, 1.8f, 0.7f, 0.5f));
     }
 
     // 가드
@@ -216,6 +217,7 @@ public class KnightWander : Player, IPunObservable
                 StopCoroutine(CancelAttack());
 
                 Debug.Log("Guard");
+                anim.SetTrigger("Guard");
 
                 Invoke("CancelGuard", 0.75f); 
             }
@@ -233,6 +235,7 @@ public class KnightWander : Player, IPunObservable
         // 하단공격
         Debug.Log("Cmd1");
         anim.SetTrigger("Skill2");
+        StartCoroutine(SetCollider(0.9f, 0.6f, 1.8f, 0.7f, 0.5f));
     }
 
     // X 입력 (새로 추가: 콤보에 사용되는 x 버튼 입력)

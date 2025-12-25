@@ -24,8 +24,8 @@ public class LightMagician : Player, IPunObservable
     private List<(string input, int frame)> inputBuffer = new List<(string, int)>();
     private int currentFrame = 0;
     private Vector2 prevMoveInput;
-    string[] seq3 = { "Z", "Up", "Z", "X", "Left", "Z" };
-    string[] seq2 = { "Z", "Up", "Z", "X", "Right", "Z" };
+    string[] seq3 = { "Z", "Up", "Z", "X", "Left"};
+    string[] seq2 = { "Z", "Up", "Z", "X", "Right"};
     string[] seq1 = { "Up", "Z", "Z", "X" };
     
     void Start()
@@ -193,7 +193,7 @@ public class LightMagician : Player, IPunObservable
     void AtkD()
     {
         Debug.Log("Down");
-        anim.SetTrigger("Skill1");
+        // anim.SetTrigger("Skill1");
     }
 
     // 가드
@@ -217,6 +217,7 @@ public class LightMagician : Player, IPunObservable
                 StopCoroutine(CancelAttack());
 
                 Debug.Log("Guard");
+                anim.SetTrigger("Guard");
 
                 Invoke("CancelGuard", 0.75f); 
             }
@@ -233,12 +234,15 @@ public class LightMagician : Player, IPunObservable
     {
         // 라이트볼(오...섬광탄...?) (투사체 생성)
         Debug.Log("Cmd1");
+        anim.SetTrigger("Skill1");
     }
 
     void Cmd2() // <- <- 점프(스패이스 바 || 위 화살표) z x
     {
         // 빛 방사
         Debug.Log("Cmd2");
+        anim.SetTrigger("Skill2");
+        StartCoroutine(SetCollider(0.9f, 0.6f, 1.8f, 0.7f, 0.5f));
     }
 
     // X 입력 (새로 추가: 콤보에 사용되는 x 버튼 입력)

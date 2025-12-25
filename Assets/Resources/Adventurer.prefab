@@ -465,8 +465,8 @@ GameObject:
   - component: {fileID: 2408633486909439417}
   - component: {fileID: 3969103014059633362}
   - component: {fileID: 4869932934970941140}
-  - component: {fileID: 1766830963168596125}
   - component: {fileID: 7329988093419929924}
+  - component: {fileID: 1766830963168596125}
   m_Layer: 0
   m_Name: Attack
   m_TagString: Attack
@@ -548,6 +548,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AttackData
   damageAmount: 5
+--- !u!114 &7329988093419929924
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9019801808513527455}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a9c3daeba5097e48b4fff52271fa227, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Adventurer
+  CurHP: 0
+  MaxHP: 0
+  P_anim: {fileID: 380525020310927365}
 --- !u!114 &1766830963168596125
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -575,8 +590,8 @@ MonoBehaviour:
   m_ActionEvents:
   - m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: Woogo, Assembly-CSharp
+      - m_Target: {fileID: 7329988093419929924}
+        m_TargetAssemblyTypeName: Adventurer, Assembly-CSharp
         m_MethodName: OnAtk
         m_Mode: 0
         m_Arguments:
@@ -591,8 +606,8 @@ MonoBehaviour:
     m_ActionName: 'Attack/Atk[/Keyboard/z]'
   - m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: Woogo, Assembly-CSharp
+      - m_Target: {fileID: 7329988093419929924}
+        m_TargetAssemblyTypeName: Adventurer, Assembly-CSharp
         m_MethodName: Guard
         m_Mode: 0
         m_Arguments:
@@ -626,18 +641,3 @@ MonoBehaviour:
   m_DefaultActionMap: Attack
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
---- !u!114 &7329988093419929924
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9019801808513527455}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2a9c3daeba5097e48b4fff52271fa227, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Adventurer
-  CurHP: 0
-  MaxHP: 0
-  P_anim: {fileID: 380525020310927365}

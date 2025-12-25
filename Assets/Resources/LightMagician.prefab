@@ -218,7 +218,7 @@ MonoBehaviour:
   - {fileID: 970611013242120989}
   - {fileID: 2770112778282438706}
   - {fileID: -6062805819145365507}
-  - {fileID: 527547218298752211}
+  - {fileID: 0}
   sceneViewId: 0
   InstantiationId: 0
   isRuntimeInstantiated: 0
@@ -261,9 +261,6 @@ MonoBehaviour:
   - Type: 9
     SynchronizeType: 0
     Name: Skill2
-  - Type: 9
-    SynchronizeType: 0
-    Name: Skill3
   - Type: 9
     SynchronizeType: 0
     Name: Guard
@@ -465,7 +462,7 @@ GameObject:
   - component: {fileID: 2408633486909439417}
   - component: {fileID: 3969103014059633362}
   - component: {fileID: 4869932934970941140}
-  - component: {fileID: 527547218298752211}
+  - component: {fileID: 5473881049781206014}
   - component: {fileID: 1766830963168596125}
   m_Layer: 0
   m_Name: Attack
@@ -548,7 +545,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AttackData
   damageAmount: 10
---- !u!114 &527547218298752211
+--- !u!114 &5473881049781206014
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -557,11 +554,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 9019801808513527455}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a86c1996e5c34324a9a55db385ee83de, type: 3}
+  m_Script: {fileID: 11500000, guid: ec33c5c8e8d4d3b41a844892c32be45e, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Woogo
-  CurHP: 0
-  MaxHP: 0
+  m_EditorClassIdentifier: Assembly-CSharp::LightMagician
+  CurHP: 100
+  MaxHP: 100
   P_anim: {fileID: 380525020310927365}
 --- !u!114 &1766830963168596125
 MonoBehaviour:
@@ -590,8 +587,8 @@ MonoBehaviour:
   m_ActionEvents:
   - m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 527547218298752211}
-        m_TargetAssemblyTypeName: Woogo, Assembly-CSharp
+      - m_Target: {fileID: 5473881049781206014}
+        m_TargetAssemblyTypeName: LightMagician, Assembly-CSharp
         m_MethodName: OnAtk
         m_Mode: 0
         m_Arguments:
@@ -606,8 +603,8 @@ MonoBehaviour:
     m_ActionName: 'Attack/Atk[/Keyboard/z]'
   - m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 527547218298752211}
-        m_TargetAssemblyTypeName: Woogo, Assembly-CSharp
+      - m_Target: {fileID: 5473881049781206014}
+        m_TargetAssemblyTypeName: LightMagician, Assembly-CSharp
         m_MethodName: Guard
         m_Mode: 0
         m_Arguments:

@@ -218,7 +218,7 @@ MonoBehaviour:
   - {fileID: 970611013242120989}
   - {fileID: 2770112778282438706}
   - {fileID: -6062805819145365507}
-  - {fileID: 527547218298752211}
+  - {fileID: 4519223374451513494}
   sceneViewId: 0
   InstantiationId: 0
   isRuntimeInstantiated: 0
@@ -459,7 +459,7 @@ GameObject:
   - component: {fileID: 2408633486909439417}
   - component: {fileID: 3969103014059633362}
   - component: {fileID: 4869932934970941140}
-  - component: {fileID: 527547218298752211}
+  - component: {fileID: 4519223374451513494}
   - component: {fileID: 1766830963168596125}
   m_Layer: 0
   m_Name: Attack
@@ -542,7 +542,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AttackData
   damageAmount: 10
---- !u!114 &527547218298752211
+--- !u!114 &4519223374451513494
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -551,11 +551,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 9019801808513527455}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a86c1996e5c34324a9a55db385ee83de, type: 3}
+  m_Script: {fileID: 11500000, guid: d6d6ae913da62c6499c8a96da8e1ce9a, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Woogo
-  CurHP: 0
-  MaxHP: 0
+  m_EditorClassIdentifier: Assembly-CSharp::Knight
+  CurHP: 100
+  MaxHP: 100
   P_anim: {fileID: 380525020310927365}
 --- !u!114 &1766830963168596125
 MonoBehaviour:
@@ -584,8 +584,8 @@ MonoBehaviour:
   m_ActionEvents:
   - m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 527547218298752211}
-        m_TargetAssemblyTypeName: Woogo, Assembly-CSharp
+      - m_Target: {fileID: 4519223374451513494}
+        m_TargetAssemblyTypeName: Knight, Assembly-CSharp
         m_MethodName: OnAtk
         m_Mode: 0
         m_Arguments:
@@ -600,8 +600,8 @@ MonoBehaviour:
     m_ActionName: 'Attack/Atk[/Keyboard/z]'
   - m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 527547218298752211}
-        m_TargetAssemblyTypeName: Woogo, Assembly-CSharp
+      - m_Target: {fileID: 4519223374451513494}
+        m_TargetAssemblyTypeName: Knight, Assembly-CSharp
         m_MethodName: Guard
         m_Mode: 0
         m_Arguments:

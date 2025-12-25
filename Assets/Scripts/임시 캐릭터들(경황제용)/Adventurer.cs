@@ -24,8 +24,8 @@ public class Adventurer : Player, IPunObservable
     private List<(string input, int frame)> inputBuffer = new List<(string, int)>();
     private int currentFrame = 0;
     private Vector2 prevMoveInput;
-    string[] seq2 = { "Z", "Up", "Z" };
-    string[] seq1 = { "Z", "Left", "Z" };
+    string[] seq1 = { "Z", "Up", "Z" };
+    string[] seq2 = { "Up", "Up", "Z", "X", "Z" };
     
     void Start()
     {
@@ -216,6 +216,7 @@ public class Adventurer : Player, IPunObservable
                 StopCoroutine(CancelAttack());
 
                 Debug.Log("Guard");
+                anim.SetTrigger("Guard");
 
                 Invoke("CancelGuard", 0.75f); 
             }
@@ -233,6 +234,7 @@ public class Adventurer : Player, IPunObservable
         // 킥
         Debug.Log("Cmd1");
         anim.SetTrigger("Skill2");
+        StartCoroutine(SetCollider(0.9f, 0.6f, 1.8f, 0.7f, 0.5f));
     }
 
     void Cmd2() // <- <- 점프(스패이스 바 || 위 화살표) z x
@@ -240,6 +242,7 @@ public class Adventurer : Player, IPunObservable
         // 화살 (투사체 생성)
         Debug.Log("Cmd2");
         anim.SetTrigger("Skill3");
+        StartCoroutine(SetCollider(0.9f, 0.6f, 1.8f, 0.7f, 0.5f));
     }
 
     // X 입력 (새로 추가: 콤보에 사용되는 x 버튼 입력)
