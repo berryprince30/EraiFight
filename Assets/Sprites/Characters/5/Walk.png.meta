@@ -140,10 +140,10 @@ TextureImporter:
       name: Walk_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 49
         y: 0
-        width: 128
-        height: 128
+        width: 21
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -162,10 +162,10 @@ TextureImporter:
       name: Walk_1
       rect:
         serializedVersion: 2
-        x: 128
+        x: 177
         y: 0
-        width: 128
-        height: 128
+        width: 21
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -184,10 +184,10 @@ TextureImporter:
       name: Walk_2
       rect:
         serializedVersion: 2
-        x: 256
+        x: 305
         y: 0
-        width: 128
-        height: 128
+        width: 21
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -206,10 +206,10 @@ TextureImporter:
       name: Walk_3
       rect:
         serializedVersion: 2
-        x: 384
+        x: 434
         y: 0
-        width: 128
-        height: 128
+        width: 21
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -228,10 +228,10 @@ TextureImporter:
       name: Walk_4
       rect:
         serializedVersion: 2
-        x: 512
+        x: 561
         y: 0
-        width: 128
-        height: 128
+        width: 21
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -250,10 +250,10 @@ TextureImporter:
       name: Walk_5
       rect:
         serializedVersion: 2
-        x: 640
+        x: 690
         y: 0
-        width: 128
-        height: 128
+        width: 22
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -272,10 +272,10 @@ TextureImporter:
       name: Walk_6
       rect:
         serializedVersion: 2
-        x: 768
+        x: 816
         y: 0
-        width: 128
-        height: 128
+        width: 21
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -304,7 +304,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries:
       - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":7.0,"y":1.0},"gridSpriteSize":{"x":128.0,"y":128.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       Walk_0: 4035959289877228764
       Walk_1: -982904232830982447
@@ -313,6 +313,8 @@ TextureImporter:
       Walk_4: 1553940418269799609
       Walk_5: 2416434504916517810
       Walk_6: -6428935122508569504
+      Walk_7: -1084454150
+      Walk_8: -209474309
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
