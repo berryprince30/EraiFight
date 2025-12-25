@@ -39,7 +39,7 @@ public class Damage : Player, IPunObservable
         // Add death check if needed
         if (photonView.IsMine && CurHP <= 0)
         {
-            // Handle death, e.g., photonView.RPC("HandleDeath", PhotonTarget.All);
+            P_anim.SetTrigger("Die");
         }
     }
 
