@@ -176,10 +176,10 @@ TextureImporter:
       name: Flame_jet_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 24
         y: 0
-        width: 128
-        height: 128
+        width: 38
+        height: 66
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -198,10 +198,10 @@ TextureImporter:
       name: Flame_jet_1
       rect:
         serializedVersion: 2
-        x: 128
+        x: 156
         y: 0
-        width: 128
-        height: 128
+        width: 25
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -220,12 +220,12 @@ TextureImporter:
       name: Flame_jet_2
       rect:
         serializedVersion: 2
-        x: 256
+        x: 275
         y: 0
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 46
+        height: 63
+      alignment: 9
+      pivot: {x: 0.3804016, y: 0.47746503}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -242,12 +242,12 @@ TextureImporter:
       name: Flame_jet_3
       rect:
         serializedVersion: 2
-        x: 384
+        x: 395
         y: 0
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 75
+        height: 58
+      alignment: 9
+      pivot: {x: 0.25864503, y: 0.4816417}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -264,12 +264,12 @@ TextureImporter:
       name: Flame_jet_4
       rect:
         serializedVersion: 2
-        x: 512
+        x: 524
         y: 0
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 96
+        height: 58
+      alignment: 9
+      pivot: {x: 0.20237415, y: 0.4729289}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -286,12 +286,12 @@ TextureImporter:
       name: Flame_jet_5
       rect:
         serializedVersion: 2
-        x: 640
+        x: 652
         y: 0
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 114
+        height: 64
+      alignment: 9
+      pivot: {x: 0.16841848, y: 0.45563322}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -308,12 +308,12 @@ TextureImporter:
       name: Flame_jet_6
       rect:
         serializedVersion: 2
-        x: 768
+        x: 780
         y: 0
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 114
+        height: 72
+      alignment: 9
+      pivot: {x: 0.17570041, y: 0.3933554}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -330,12 +330,12 @@ TextureImporter:
       name: Flame_jet_7
       rect:
         serializedVersion: 2
-        x: 896
+        x: 908
         y: 0
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 116
+        height: 80
+      alignment: 9
+      pivot: {x: 0.17638844, y: 0.36491662}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -352,12 +352,12 @@ TextureImporter:
       name: Flame_jet_8
       rect:
         serializedVersion: 2
-        x: 1024
+        x: 1036
         y: 0
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 116
+        height: 82
+      alignment: 9
+      pivot: {x: 0.1641309, y: 0.36821136}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -374,12 +374,12 @@ TextureImporter:
       name: Flame_jet_9
       rect:
         serializedVersion: 2
-        x: 1152
+        x: 1164
         y: 0
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 115
+        height: 77
+      alignment: 9
+      pivot: {x: 0.18346532, y: 0.37073362}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -396,12 +396,12 @@ TextureImporter:
       name: Flame_jet_10
       rect:
         serializedVersion: 2
-        x: 1280
+        x: 1290
         y: 0
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 114
+        height: 61
+      alignment: 9
+      pivot: {x: 0.19537888, y: 0.46059117}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -418,12 +418,12 @@ TextureImporter:
       name: Flame_jet_11
       rect:
         serializedVersion: 2
-        x: 1408
+        x: 1420
         y: 0
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 111
+        height: 60
+      alignment: 9
+      pivot: {x: 0.19680044, y: 0.4542107}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -440,12 +440,12 @@ TextureImporter:
       name: Flame_jet_12
       rect:
         serializedVersion: 2
-        x: 1536
+        x: 1548
         y: 0
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 110
+        height: 60
+      alignment: 9
+      pivot: {x: 0.20028853, y: 0.4656581}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -462,12 +462,12 @@ TextureImporter:
       name: Flame_jet_13
       rect:
         serializedVersion: 2
-        x: 1664
+        x: 1675
         y: 0
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 54
+        height: 58
+      alignment: 9
+      pivot: {x: 0.4236857, y: 0.505921}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
