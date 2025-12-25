@@ -19,6 +19,7 @@ public class FightUI : MonoBehaviourPunCallbacks
     private bool gameOver = false;
 
     // End Phase
+    public GameObject TimePanel;
     public GameObject WinPanel;
     public TMP_Text WhoWin;
     public Image WinImg;
@@ -40,9 +41,10 @@ public class FightUI : MonoBehaviourPunCallbacks
         TimeMax -= Time.deltaTime;
         Seconds.text = TimeMax.ToString("0");
 
-        if (TimeMax <= -987)
+        if (TimeMax <= 0)
         {
-            Win987();
+            //Win987();
+            TimeEnd();
         }
 
         if (players.Count == 2)
@@ -115,6 +117,13 @@ public class FightUI : MonoBehaviourPunCallbacks
             WinImg.sprite = WinLoseImgs[PlayerPrefs.GetInt("MIndex")];
             LoseImg.sprite = WinLoseImgs[PlayerPrefs.GetInt("CIndex")];
         }
+        Time.timeScale = 0;
+    }
+
+    void TimeEnd()
+    {
+        TimePanel.SetActive(true);
+        gameOver = true;
         Time.timeScale = 0;
     }
 
