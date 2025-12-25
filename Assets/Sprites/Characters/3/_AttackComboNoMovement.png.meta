@@ -143,12 +143,12 @@ TextureImporter:
       name: _AttackComboNoMovement_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 27
         y: 0
-        width: 120
-        height: 80
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 39
+        height: 37
+      alignment: 9
+      pivot: {x: 0.661917, y: 0.4999999}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -165,12 +165,12 @@ TextureImporter:
       name: _AttackComboNoMovement_1
       rect:
         serializedVersion: 2
-        x: 120
+        x: 159
         y: 0
-        width: 120
-        height: 80
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 66
+        height: 43
+      alignment: 9
+      pivot: {x: 0.27952507, y: 0.43615016}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -187,12 +187,12 @@ TextureImporter:
       name: _AttackComboNoMovement_2
       rect:
         serializedVersion: 2
-        x: 240
+        x: 281
         y: 0
-        width: 120
-        height: 80
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 65
+        height: 36
+      alignment: 9
+      pivot: {x: 0.26346153, y: 0.49237353}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -209,12 +209,12 @@ TextureImporter:
       name: _AttackComboNoMovement_3
       rect:
         serializedVersion: 2
-        x: 360
+        x: 401
         y: 0
-        width: 120
-        height: 80
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 59
+        height: 35
+      alignment: 9
+      pivot: {x: 0.30920875, y: 0.5392218}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -231,12 +231,12 @@ TextureImporter:
       name: _AttackComboNoMovement_4
       rect:
         serializedVersion: 2
-        x: 480
+        x: 510
         y: 0
-        width: 120
-        height: 80
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 38
+        height: 37
+      alignment: 9
+      pivot: {x: 0.7167535, y: 0.5222609}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -253,12 +253,12 @@ TextureImporter:
       name: _AttackComboNoMovement_5
       rect:
         serializedVersion: 2
-        x: 600
+        x: 626
         y: 0
-        width: 120
-        height: 80
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 42
+        height: 37
+      alignment: 9
+      pivot: {x: 0.6895723, y: 0.5074202}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -275,12 +275,12 @@ TextureImporter:
       name: _AttackComboNoMovement_6
       rect:
         serializedVersion: 2
-        x: 720
+        x: 747
         y: 0
-        width: 120
-        height: 80
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 77
+        height: 41
+      alignment: 9
+      pivot: {x: 0.43581796, y: 0.44642848}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -297,12 +297,12 @@ TextureImporter:
       name: _AttackComboNoMovement_7
       rect:
         serializedVersion: 2
-        x: 840
+        x: 865
         y: 0
-        width: 120
-        height: 80
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 64
+        height: 36
+      alignment: 9
+      pivot: {x: 0.5343189, y: 0.5076263}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -319,12 +319,12 @@ TextureImporter:
       name: _AttackComboNoMovement_8
       rect:
         serializedVersion: 2
-        x: 960
+        x: 984
         y: 0
-        width: 120
-        height: 80
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 46
+        height: 36
+      alignment: 9
+      pivot: {x: 0.738743, y: 0.5076263}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -341,12 +341,12 @@ TextureImporter:
       name: _AttackComboNoMovement_9
       rect:
         serializedVersion: 2
-        x: 1080
+        x: 1105
         y: 0
-        width: 120
-        height: 80
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 45
+        height: 36
+      alignment: 9
+      pivot: {x: 0.7013401, y: 0.5152529}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -373,7 +373,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries:
       - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":10.0,"y":1.0},"gridSpriteSize":{"x":120.0,"y":80.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       _AttackComboNoMovement_0: 3984948888800490918
       _AttackComboNoMovement_1: -711078728889181417
