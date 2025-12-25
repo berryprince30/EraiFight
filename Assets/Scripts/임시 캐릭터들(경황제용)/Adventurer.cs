@@ -237,7 +237,7 @@ public class Adventurer : Player, IPunObservable
 
     void Cmd2() // <- <- 점프(스패이스 바 || 위 화살표) z x
     {
-        // 화살
+        // 화살 (투사체 생성)
         Debug.Log("Cmd2");
         anim.SetTrigger("Skill3");
     }

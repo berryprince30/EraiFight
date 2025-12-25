@@ -24,8 +24,8 @@ public class KnightWander : Player, IPunObservable
     private List<(string input, int frame)> inputBuffer = new List<(string, int)>();
     private int currentFrame = 0;
     private Vector2 prevMoveInput;
-    string[] seq2 = { "Z", "Up", "Z" };
-    string[] seq1 = { "Z", "Left", "Z" };
+    string[] seq2 = { "Z", "Up", "Right", "Z" };
+    string[] seq1 = { "Z", "Up", "Left", "Z" };
     
     void Start()
     {
@@ -232,12 +232,7 @@ public class KnightWander : Player, IPunObservable
     {
         // 하단공격
         Debug.Log("Cmd1");
-    }
-
-    void Cmd2() // <- <- 점프(스패이스 바 || 위 화살표) z x
-    {
-        // 슬라이드
-        Debug.Log("Cmd2");
+        anim.SetTrigger("Skill2");
     }
 
     // X 입력 (새로 추가: 콤보에 사용되는 x 버튼 입력)
@@ -266,16 +261,8 @@ public class KnightWander : Player, IPunObservable
 
     private bool CheckCombos() // 콤보 체크 함수 (긴 시퀀스 우선 체크)
     {
-        // Cmd2: <- <- 점프 z x
-        if (CheckSequence(seq2))
-        {
-            Cmd2();
-            inputBuffer.Clear();
-            return true;
-        }
-
         // Cmd1: z -> <- z
-        if (CheckSequence(seq1))
+        if (CheckSequence(seq1) || CheckSequence(seq2))
         {
             Cmd1();
             inputBuffer.Clear();

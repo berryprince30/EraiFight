@@ -1,4 +1,5 @@
 using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using Photon.Pun;
@@ -28,7 +29,7 @@ public class LoadingSceneController : MonoBehaviourPunCallbacks
         totalPlayers = PhotonNetwork.CurrentRoom.PlayerCount;
         StartCoroutine(LoadingFakeProgress());
         
-        int a = Random.Range(0, 13);
+        int a = Random.Range(0, Tips.Length);
         TipTXT.text = "Tip : "+ Tips[a];
     }
 

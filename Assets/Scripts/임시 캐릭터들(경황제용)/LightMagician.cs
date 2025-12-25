@@ -24,8 +24,9 @@ public class LightMagician : Player, IPunObservable
     private List<(string input, int frame)> inputBuffer = new List<(string, int)>();
     private int currentFrame = 0;
     private Vector2 prevMoveInput;
-    string[] seq2 = { "Z", "Up", "Z" };
-    string[] seq1 = { "Z", "Left", "Z" };
+    string[] seq3 = { "Z", "Up", "Z", "X", "Left", "Z" };
+    string[] seq2 = { "Z", "Up", "Z", "X", "Right", "Z" };
+    string[] seq1 = { "Up", "Z", "Z", "X" };
     
     void Start()
     {
@@ -230,7 +231,7 @@ public class LightMagician : Player, IPunObservable
 
     void Cmd1() // z -> <- z
     {
-        // 라이트볼(오...섬광탄...?)
+        // 라이트볼(오...섬광탄...?) (투사체 생성)
         Debug.Log("Cmd1");
     }
 
@@ -267,7 +268,7 @@ public class LightMagician : Player, IPunObservable
     private bool CheckCombos() // 콤보 체크 함수 (긴 시퀀스 우선 체크)
     {
         // Cmd2: <- <- 점프 z x
-        if (CheckSequence(seq2))
+        if (CheckSequence(seq2) || CheckSequence(seq3))
         {
             Cmd2();
             inputBuffer.Clear();

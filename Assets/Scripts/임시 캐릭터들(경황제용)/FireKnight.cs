@@ -24,8 +24,8 @@ public class FireKnight : Player, IPunObservable
     private List<(string input, int frame)> inputBuffer = new List<(string, int)>();
     private int currentFrame = 0;
     private Vector2 prevMoveInput;
-    string[] seq2 = { "Z", "Up", "Z" };
-    string[] seq1 = { "Z", "Left", "Z" };
+    string[] seq1 = { "Up", "Z", "X" };
+    string[] seq2 = { "Z", "X", "Up", "Up", "X", "Z", "Up" };
     
     void Start()
     {
@@ -230,7 +230,7 @@ public class FireKnight : Player, IPunObservable
 
     void Cmd1() // z -> <- z
     {
-        // 파이어볼
+        // 파이어볼 (투사체 생성)
         Debug.Log("Cmd1");
     }
 

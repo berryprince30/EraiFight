@@ -24,8 +24,9 @@ public class Knight : Player, IPunObservable
     private List<(string input, int frame)> inputBuffer = new List<(string, int)>();
     private int currentFrame = 0;
     private Vector2 prevMoveInput;
-    string[] seq2 = { "Z", "Up", "Z" };
-    string[] seq1 = { "Z", "Left", "Z" };
+    string[] seq3 = { "Z", "Up", "X", "Right", "Up",};
+    string[] seq2 = { "Z", "Up", "X", "Left", "Up",};
+    string[] seq1 = { "Up", "X", "Z" };
     
     void Start()
     {
@@ -267,7 +268,7 @@ public class Knight : Player, IPunObservable
     private bool CheckCombos() // 콤보 체크 함수 (긴 시퀀스 우선 체크)
     {
         // Cmd2: <- <- 점프 z x
-        if (CheckSequence(seq2))
+        if (CheckSequence(seq2) || CheckSequence(seq3))
         {
             Cmd2();
             inputBuffer.Clear();
