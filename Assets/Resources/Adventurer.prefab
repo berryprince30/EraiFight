@@ -456,7 +456,7 @@ MonoBehaviour:
   P_anim: {fileID: 380525020310927365}
   moveInput: {x: 0, y: 0}
   moveSpeed: 5
-  jumpPower: 15
+  jumpPower: 17.5
 --- !u!114 &-6062805819145365507
 MonoBehaviour:
   m_ObjectHideFlags: 0
