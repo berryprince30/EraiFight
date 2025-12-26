@@ -20,7 +20,7 @@ public class Controll : Player, IPunObservable
 
     // 점프 관련 함수
     public float moveSpeed = 5f;
-    public float jumpPower = 12f;
+    public float jumpPower;
     bool isGround;
 
     void Awake()

@@ -623,7 +623,7 @@ MonoBehaviour:
   HP_1: {fileID: 1716271051}
   HP_2: {fileID: 1895274157}
   Seconds: {fileID: 615927554}
-  TimeMax: 300
+  TimeMax: 200
   TimePanel: {fileID: 751660221}
   WinPanel: {fileID: 1176678879}
   WhoWin: {fileID: 770369934}
@@ -1953,7 +1953,7 @@ Transform:
   m_GameObject: {fileID: 809832841}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -6.09, y: -2.38, z: -5}
+  m_LocalPosition: {x: -6.8, y: -2.34, z: -5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3434,7 +3434,7 @@ Transform:
   m_GameObject: {fileID: 1501776321}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.01, y: -0.88, z: 5}
+  m_LocalPosition: {x: -0.01, y: -0.88, z: 10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -3464,6 +3464,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 07fd62625cb6dd34c84b2aec1f1d38f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MapManager
+  Items:
+  - ItemHeal
+  - ItemJump
+  - ItemSpeed
+  minSpawnTime: 10
+  maxSpawnTime: 30
+  minPos: {x: -8, y: 0}
+  maxPos: {x: 8, y: 0}
 --- !u!1 &1580192046
 GameObject:
   m_ObjectHideFlags: 0
@@ -4909,7 +4917,7 @@ Transform:
   m_GameObject: {fileID: 2048228378}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4.01, y: -0.572, z: -5}
+  m_LocalPosition: {x: -3.71, y: -0.76, z: -5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5022,19 +5030,19 @@ PolygonCollider2D:
     - - {x: 1.2090486, y: 0.05977416}
       - {x: 0.9268315, y: 0.082995296}
       - {x: 0.6753497, y: 0.12177825}
-      - {x: -0.740124, y: 0.17064011}
-      - {x: -1.0129125, y: 0.13761938}
-      - {x: -1.1488426, y: 0.033673048}
-      - {x: -1.2200687, y: 0.112725854}
-      - {x: -1.3226979, y: 0.16881585}
+      - {x: -0.7161362, y: 0.22661138}
+      - {x: -1.0129125, y: 0.2495619}
+      - {x: -1.1488426, y: 0.21757853}
+      - {x: -1.2440565, y: 0.24066007}
+      - {x: -1.33869, y: 0.22478712}
       - {x: -1.5579798, y: 0.21952868}
       - {x: -1.605464, y: 0.5536387}
       - {x: 0.795486, y: 0.64377546}
-      - {x: 1.0424151, y: 1.0267487}
-      - {x: 1.3746476, y: 0.9446726}
-      - {x: 1.4453835, y: 0.61903644}
-      - {x: 1.6758265, y: 0.5491532}
-      - {x: 1.4050411, y: 0.013967231}
+      - {x: 0.95445967, y: 1.0027609}
+      - {x: 1.3106804, y: 0.98465204}
+      - {x: 1.4054041, y: 0.65102005}
+      - {x: 1.5798762, y: 0.6211163}
+      - {x: 1.5809501, y: 0.25384396}
   m_UseDelaunayMesh: 0
 --- !u!1 &2052778245
 GameObject:
