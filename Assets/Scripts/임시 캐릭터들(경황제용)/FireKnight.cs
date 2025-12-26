@@ -236,11 +236,21 @@ public class FireKnight : Player, IPunObservable
         anim.SetTrigger("Skill1");
         // 파이어볼 생성
         SpriteRenderer sr = GetComponentInParent<SpriteRenderer>();
+        int direc;
+
+        if(!sr.flipX) direc = 1;
+        else direc = -1;
+
+        Vector3 SpwanPos = new Vector3(
+            controll.transform.position.x + (1.6f * direc),
+            controll.transform.position.y + 0.5f,
+            controll.transform.position.z);
+
         GameObject arrowObj = PhotonNetwork.Instantiate(
-            "fireball", controll.transform.position, Quaternion.identity
+            "fireball", SpwanPos, Quaternion.identity
         );
         Bbang Barrow = arrowObj.GetComponent<Bbang>();
-        Barrow.startPos = controll.transform.position;
+        Barrow.startPos = SpwanPos;
         Barrow.SelectDirection(sr.flipX);
     }
 

@@ -235,13 +235,23 @@ public class LightMagician : Player, IPunObservable
         // 라이트볼(오...섬광탄...?) (투사체 생성)
         Debug.Log("Cmd1");
         anim.SetTrigger("Skill1");
-        
+
         SpriteRenderer sr = GetComponentInParent<SpriteRenderer>();
+        int direc;
+
+        if(!sr.flipX) direc = 1;
+        else direc = -1;
+
+        Vector3 SpwanPos = new Vector3(
+            controll.transform.position.x + (1.5f * direc),
+            controll.transform.position.y + 0.5f,
+            controll.transform.position.z);
+
         GameObject arrowObj = PhotonNetwork.Instantiate(
-            "lightball", controll.transform.position, Quaternion.identity
+            "lightball", SpwanPos, Quaternion.identity
         );
         Bbang Barrow = arrowObj.GetComponent<Bbang>();
-        Barrow.startPos = controll.transform.position;
+        Barrow.startPos = SpwanPos;
         Barrow.SelectDirection(sr.flipX);
     }
 

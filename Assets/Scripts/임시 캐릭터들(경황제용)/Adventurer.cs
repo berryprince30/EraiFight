@@ -242,13 +242,22 @@ public class Adventurer : Player, IPunObservable
         // 화살 (투사체 생성)
         Debug.Log("Cmd2");
         anim.SetTrigger("Skill3");
-
         SpriteRenderer sr = GetComponentInParent<SpriteRenderer>();
+        int direc;
+
+        if(!sr.flipX) direc = 1;
+        else direc = -1;
+
+        Vector3 SpwanPos = new Vector3(
+            controll.transform.position.x + (2.0f * direc),
+            controll.transform.position.y + 1.1f,
+            controll.transform.position.z);
+
         GameObject arrowObj = PhotonNetwork.Instantiate(
-            "arrow", controll.transform.position, Quaternion.identity
+            "arrow", SpwanPos, Quaternion.identity
         );
         Bbang Barrow = arrowObj.GetComponent<Bbang>();
-        Barrow.startPos = controll.transform.position;
+        Barrow.startPos = SpwanPos;
         Barrow.SelectDirection(sr.flipX);
     }
 

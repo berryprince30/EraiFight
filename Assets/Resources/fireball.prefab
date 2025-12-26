@@ -130,7 +130,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61de5c48fb5cd7a4581c67b5c4f679e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Bbang
-  moveSpeed: 3
+  moveSpeed: 6
   startPos: {x: 0, y: 0, z: 0}
   moveDirection: {x: 1, y: 0, z: 0}
 --- !u!70 &5376768749108076440
@@ -215,4 +215,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 066f54ed30e06c54f827579080874796, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AttackData
-  damageAmount: 15
+  damageAmount: 10

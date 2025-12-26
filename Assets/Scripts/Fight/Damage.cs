@@ -60,7 +60,7 @@ public class Damage : Player, IPunObservable
             }
         }
 
-        else if (other.CompareTag("Arrow"))
+        if (other.CompareTag("Arrow"))
         {
             // Ensure it's not self-attack (e.g., own hitbox)
             if (other.transform.root != transform.root) // Or check photonView.Owner

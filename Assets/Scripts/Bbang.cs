@@ -10,7 +10,7 @@ public class Bbang : MonoBehaviourPun
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        // startPos = transform.position;
+        
     }
 
     // Update is called once per frame
@@ -27,20 +27,6 @@ public class Bbang : MonoBehaviourPun
         {
             Destroy(this.gameObject);
         }
-
-        // if(other.tag == "Ground")
-        // {
-        //     Debug.Log("땅이다");
-        //     Destroy(this.gameObject);
-        // }
-
-        // if (photonView.IsMine) return;
-
-        // if(other.tag == "Body")
-        // {
-        //     Debug.Log("몸이다");
-        //     Destroy(this.gameObject);
-        // }
     }
 
     public void SelectDirection(bool flip)
