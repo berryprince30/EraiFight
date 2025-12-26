@@ -76,7 +76,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -114,7 +114,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -142,12 +142,12 @@ TextureImporter:
       name: "ChatGPT Image 2025\uB144 12\uC6D4 27\uC77C \uC624\uC804 12_40_44_0"
       rect:
         serializedVersion: 2
-        x: 30
-        y: 809
-        width: 468
-        height: 211
+        x: 24
+        y: 1217
+        width: 466
+        height: 187
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -164,12 +164,12 @@ TextureImporter:
       name: "ChatGPT Image 2025\uB144 12\uC6D4 27\uC77C \uC624\uC804 12_40_44_1"
       rect:
         serializedVersion: 2
-        x: 571
-        y: 737
-        width: 429
-        height: 287
+        x: 565
+        y: 1145
+        width: 427
+        height: 263
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -186,12 +186,12 @@ TextureImporter:
       name: "ChatGPT Image 2025\uB144 12\uC6D4 27\uC77C \uC624\uC804 12_40_44_2"
       rect:
         serializedVersion: 2
-        x: 1039
-        y: 699
-        width: 441
-        height: 315
+        x: 1033
+        y: 1105
+        width: 439
+        height: 293
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -208,12 +208,12 @@ TextureImporter:
       name: "ChatGPT Image 2025\uB144 12\uC6D4 27\uC77C \uC624\uC804 12_40_44_3"
       rect:
         serializedVersion: 2
-        x: 23
-        y: 440
-        width: 615
-        height: 364
+        x: 1612
+        y: 1099
+        width: 285
+        height: 263
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -230,12 +230,12 @@ TextureImporter:
       name: "ChatGPT Image 2025\uB144 12\uC6D4 27\uC77C \uC624\uC804 12_40_44_4"
       rect:
         serializedVersion: 2
-        x: 307
-        y: 655
-        width: 342
-        height: 135
+        x: 16
+        y: 784
+        width: 331
+        height: 240
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -249,59 +249,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "ChatGPT Image 2025\uB144 12\uC6D4 27\uC77C \uC624\uC804 12_40_44_5"
-      rect:
-        serializedVersion: 2
-        x: 657
-        y: 249
-        width: 492
-        height: 483
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5ed37597d523dc130800000000000000
-      internalID: 3588579855133261285
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "ChatGPT Image 2025\uB144 12\uC6D4 27\uC77C \uC624\uC804 12_40_44_6"
-      rect:
-        serializedVersion: 2
-        x: 1189
-        y: 415
-        width: 316
-        height: 269
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4f5c3b19ae63ddf40800000000000000
-      internalID: 5754816279944087028
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: "ChatGPT Image 2025\uB144 12\uC6D4 27\uC77C \uC624\uC804 12_40_44_7"
       rect:
         serializedVersion: 2
-        x: 11
-        y: 0
-        width: 599
-        height: 441
+        x: 367
+        y: 810
+        width: 348
+        height: 202
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -318,12 +274,12 @@ TextureImporter:
       name: "ChatGPT Image 2025\uB144 12\uC6D4 27\uC77C \uC624\uC804 12_40_44_8"
       rect:
         serializedVersion: 2
-        x: 463
-        y: 247
-        width: 454
-        height: 186
+        x: 717
+        y: 701
+        width: 490
+        height: 296
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -340,12 +296,12 @@ TextureImporter:
       name: "ChatGPT Image 2025\uB144 12\uC6D4 27\uC77C \uC624\uC804 12_40_44_9"
       rect:
         serializedVersion: 2
-        x: 978
-        y: 379
-        width: 263
-        height: 191
+        x: 1208
+        y: 767
+        width: 457
+        height: 234
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -362,12 +318,12 @@ TextureImporter:
       name: "ChatGPT Image 2025\uB144 12\uC6D4 27\uC77C \uC624\uC804 12_40_44_10"
       rect:
         serializedVersion: 2
-        x: 1431
-        y: 408
-        width: 10
-        height: 10
+        x: 1694
+        y: 810
+        width: 292
+        height: 178
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -381,37 +337,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "ChatGPT Image 2025\uB144 12\uC6D4 27\uC77C \uC624\uC804 12_40_44_11"
-      rect:
-        serializedVersion: 2
-        x: 6
-        y: 99
-        width: 11
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e7b364c1d1231a200800000000000000
-      internalID: 189487759936076670
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: "ChatGPT Image 2025\uB144 12\uC6D4 27\uC77C \uC624\uC804 12_40_44_12"
       rect:
         serializedVersion: 2
-        x: 635
-        y: 1
-        width: 342
-        height: 246
+        x: 687
+        y: 189
+        width: 613
+        height: 475
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -425,23 +359,45 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "ChatGPT Image 2025\uB144 12\uC6D4 27\uC77C \uC624\uC804 12_40_44_13"
+      name: "ChatGPT Image 2025\uB144 12\uC6D4 27\uC77C \uC624\uC804 12_40_44_11"
       rect:
         serializedVersion: 2
-        x: 988
-        y: 1
-        width: 527
-        height: 359
+        x: 11
+        y: 193
+        width: 645
+        height: 448
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: e10b40c479798d830800000000000000
-      internalID: 4096190537164697630
+      spriteID: d33cb46bbb2a8e74aa80ec262c74caaf
+      internalID: 189487759936076670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ChatGPT Image 2025\uB144 12\uC6D4 27\uC77C \uC624\uC804 12_40_44_14"
+      rect:
+        serializedVersion: 2
+        x: 1412
+        y: 228
+        width: 538
+        height: 404
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e00665a4a5ce04a4f97320745a2b6338
+      internalID: -11605982
       vertices: []
       indices: 
       edges: []
@@ -450,7 +406,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: a9f31aa93cb74fc47886d3afcda5b6cc
     internalID: 0
     vertices: []
     indices: 
@@ -458,7 +414,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       "ChatGPT Image 2025\uB144 12\uC6D4 27\uC77C \uC624\uC804 12_40_44_0": -7410940853630635976
       "ChatGPT Image 2025\uB144 12\uC6D4 27\uC77C \uC624\uC804 12_40_44_1": 8660821953859300323
@@ -466,6 +424,9 @@ TextureImporter:
       "ChatGPT Image 2025\uB144 12\uC6D4 27\uC77C \uC624\uC804 12_40_44_11": 189487759936076670
       "ChatGPT Image 2025\uB144 12\uC6D4 27\uC77C \uC624\uC804 12_40_44_12": -3000271421360011236
       "ChatGPT Image 2025\uB144 12\uC6D4 27\uC77C \uC624\uC804 12_40_44_13": 4096190537164697630
+      "ChatGPT Image 2025\uB144 12\uC6D4 27\uC77C \uC624\uC804 12_40_44_14": -11605982
+      "ChatGPT Image 2025\uB144 12\uC6D4 27\uC77C \uC624\uC804 12_40_44_15": -1649753392
+      "ChatGPT Image 2025\uB144 12\uC6D4 27\uC77C \uC624\uC804 12_40_44_16": 1814705554
       "ChatGPT Image 2025\uB144 12\uC6D4 27\uC77C \uC624\uC804 12_40_44_2": -1524700496037696354
       "ChatGPT Image 2025\uB144 12\uC6D4 27\uC77C \uC624\uC804 12_40_44_3": -6042897471237015551
       "ChatGPT Image 2025\uB144 12\uC6D4 27\uC77C \uC624\uC804 12_40_44_4": -8069192637407659094
