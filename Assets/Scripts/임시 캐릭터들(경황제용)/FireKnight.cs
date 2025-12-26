@@ -129,7 +129,6 @@ public class FireKnight : Player, IPunObservable
     {
         Debug.Log("Attack1");
         anim.SetTrigger("Atk1");
-        StartCoroutine(SetCollider(0.9f, 0.6f, 1.8f, 0.7f, 0.5f));
     }
 
     void Atk2()
@@ -236,6 +235,13 @@ public class FireKnight : Player, IPunObservable
         Debug.Log("Cmd1");
         anim.SetTrigger("Skill1");
         // 파이어볼 생성
+        SpriteRenderer sr = GetComponentInParent<SpriteRenderer>();
+        GameObject arrowObj = PhotonNetwork.Instantiate(
+            "fireball", controll.transform.position, Quaternion.identity
+        );
+        Bbang Barrow = arrowObj.GetComponent<Bbang>();
+        Barrow.startPos = controll.transform.position;
+        Barrow.SelectDirection(sr.flipX);
     }
 
     void Cmd2() // <- <- 점프(스패이스 바 || 위 화살표) z x

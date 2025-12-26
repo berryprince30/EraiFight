@@ -242,7 +242,14 @@ public class Adventurer : Player, IPunObservable
         // 화살 (투사체 생성)
         Debug.Log("Cmd2");
         anim.SetTrigger("Skill3");
-        StartCoroutine(SetCollider(0.9f, 0.6f, 1.8f, 0.7f, 0.5f));
+
+        SpriteRenderer sr = GetComponentInParent<SpriteRenderer>();
+        GameObject arrowObj = PhotonNetwork.Instantiate(
+            "arrow", controll.transform.position, Quaternion.identity
+        );
+        Bbang Barrow = arrowObj.GetComponent<Bbang>();
+        Barrow.startPos = controll.transform.position;
+        Barrow.SelectDirection(sr.flipX);
     }
 
     // X 입력 (새로 추가: 콤보에 사용되는 x 버튼 입력)

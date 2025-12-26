@@ -59,6 +59,20 @@ public class Damage : Player, IPunObservable
                 }
             }
         }
+
+        else if (other.CompareTag("Arrow"))
+        {
+            // Ensure it's not self-attack (e.g., own hitbox)
+            if (other.transform.root != transform.root) // Or check photonView.Owner
+            {
+                AttackData attackData = other.GetComponent<AttackData>();
+                if (attackData != null)
+                {
+                    GetDamage(attackData.damageAmount);
+                    Destroy(other.gameObject);
+                }
+            }
+        }
     }
 
     public void GetDamage(float damage)
