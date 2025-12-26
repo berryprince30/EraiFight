@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 380525020310927365}
   - component: {fileID: 4979503051089176734}
   - component: {fileID: 3620518841568648038}
+  - component: {fileID: 2670269518199644102}
   - component: {fileID: 5544642708199262561}
   - component: {fileID: 349631294481325010}
   - component: {fileID: 970611013242120989}
@@ -36,7 +37,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -1, y: -3, z: 0}
-  m_LocalScale: {x: 0.25, y: 0.25, z: 1}
+  m_LocalScale: {x: 0.25, y: 0.2, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2408633486909439417}
@@ -180,7 +181,7 @@ BoxCollider2D:
     serializedVersion: 2
     m_Bits: 4294967295
   m_IsTrigger: 0
-  m_UsedByEffector: 0
+  m_UsedByEffector: 1
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
@@ -195,6 +196,25 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 3.5, y: 8.25}
   m_EdgeRadius: 0
+--- !u!251 &2670269518199644102
+PlatformEffector2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7967595604156980771}
+  m_Enabled: 1
+  m_UseColliderMask: 1
+  m_ColliderMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RotationalOffset: 0
+  m_UseOneWay: 0
+  m_UseOneWayGrouping: 0
+  m_SurfaceArc: 180
+  m_UseSideFriction: 0
+  m_UseSideBounce: 0
+  m_SideArc: 1
 --- !u!114 &5544642708199262561
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -430,7 +450,7 @@ MonoBehaviour:
   P_anim: {fileID: 380525020310927365}
   moveInput: {x: 0, y: 0}
   moveSpeed: 5
-  jumpPower: 15
+  jumpPower: 17.5
 --- !u!114 &-6062805819145365507
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -527,7 +547,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.1, y: 0.1}
+  m_Size: {x: 0.0001, y: 0.0001}
   m_EdgeRadius: 0
 --- !u!114 &4869932934970941140
 MonoBehaviour:
