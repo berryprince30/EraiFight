@@ -89,6 +89,6 @@ public class Damage : Player, IPunObservable
             // controll.AddState(PlayerStats.Lstun);
         }
 
-        Debug.Log($"Damage taken: {damage} | CurHP: {CurHP} / {MaxHP}");
+        PhotonNetwork.Instantiate("HitParticle", transform.position, Quaternion.identity);
     }
 }
