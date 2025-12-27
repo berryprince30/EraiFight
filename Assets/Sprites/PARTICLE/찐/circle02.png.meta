@@ -1,15 +1,15 @@
 fileFormatVersion: 2
-guid: 0512ef77d8b8e324d9bd7b9a6f740cc5
+guid: cde82363394a5b1438a77104ede2a527
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2427941401309356249
-    second: star_05_0
+      213: -3643760154290002694
+    second: circle_02_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 0
+    enableMipMap: 1
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -37,12 +37,12 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
-    wrapU: 1
-    wrapV: 1
-    wrapW: 1
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -57,7 +57,7 @@ TextureImporter:
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 8
+  textureType: 0
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -75,7 +75,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: star_05_0
+      name: circle_02_0
       rect:
         serializedVersion: 2
-        x: 39
-        y: 32
-        width: 435
-        height: 480
+        x: 63
+        y: 62
+        width: 387
+        height: 450
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9d0228837d7c1b120800000000000000
-      internalID: 2427941401309356249
+      spriteID: af462d4f173ce6dc0800000000000000
+      internalID: -3643760154290002694
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      star_05_0: 2427941401309356249
+      circle_02_0: -3643760154290002694
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
