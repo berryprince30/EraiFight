@@ -12,6 +12,7 @@ public class KnightWander : Player, IPunObservable
     BoxCollider2D HitBox;
     Controll controll;
     Animator anim;
+    Rigidbody2D rigid;
 
     // 평타 관련
     int AttackIndex = 0;
@@ -34,6 +35,7 @@ public class KnightWander : Player, IPunObservable
         HitBox = GetComponent<BoxCollider2D>();
         controll = GetComponentInParent<Controll>();
         anim = GetComponentInParent<Animator>();
+        rigid = GetComponentInParent<Rigidbody2D>();
     }
 
     public void OnPhotonSerializeView(PhotonStream stream, PhotonMessageInfo info)
@@ -195,6 +197,7 @@ public class KnightWander : Player, IPunObservable
         anim.SetTrigger("Skill2");
         StartCoroutine(SetCollider(0.9f, 0.6f, 1.8f, 0.7f, 0.5f));
         // 대쉬
+        Dash(5);
     }
 
     public void Cmd1(InputAction.CallbackContext context) // z -> <- z
@@ -212,6 +215,7 @@ public class KnightWander : Player, IPunObservable
         anim.SetTrigger("Skill3");
         StartCoroutine(SetCollider(0.9f, 0.6f, 1.8f, 0.7f, 0.5f));
         // 대쉬
+        Dash(7.5f);
     }
 
     // X 입력 (새로 추가: 콤보에 사용되는 x 버튼 입력)
@@ -296,5 +300,14 @@ public class KnightWander : Player, IPunObservable
             Vector3 size = new Vector3(HitBox.size.x * transform.lossyScale.x, HitBox.size.y * transform.lossyScale.y, 0);
             Gizmos.DrawWireCube(center, size);
         }
+    }
+
+    void Dash(float dashPower)
+    {
+        SpriteRenderer sr = GetComponentInParent<SpriteRenderer>();
+        float dir = sr.flipX ? -1f : 1f;
+
+        rigid.linearVelocity = new Vector2(0, rigid.linearVelocity.y); // 기존 관성 제거
+        rigid.AddForce(Vector2.right * dir * dashPower, ForceMode2D.Impulse);
     }
 }
