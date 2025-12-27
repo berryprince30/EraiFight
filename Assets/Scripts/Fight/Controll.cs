@@ -76,7 +76,7 @@ public class Controll : Player, IPunObservable
             Walk();
             Jump();
         }
-        else
+        else if(!PV.IsMine)
         {
             SyncRemotePlayer();
         }

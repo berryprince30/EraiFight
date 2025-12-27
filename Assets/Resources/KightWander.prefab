@@ -20,7 +20,7 @@ GameObject:
   - component: {fileID: -200234039183342546}
   - component: {fileID: 2770112778282438706}
   - component: {fileID: -6062805819145365507}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: KightWander
   m_TagString: Body
   m_Icon: {fileID: 0}
@@ -484,7 +484,7 @@ GameObject:
   - component: {fileID: 4869932934970941140}
   - component: {fileID: 6240370461017061970}
   - component: {fileID: 1766830963168596125}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Attack
   m_TagString: Attack
   m_Icon: {fileID: 0}

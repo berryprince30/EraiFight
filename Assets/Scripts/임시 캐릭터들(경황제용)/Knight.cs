@@ -205,7 +205,7 @@ public class Knight : Player, IPunObservable
         anim.SetTrigger("Skill1");
         StartCoroutine(SetCollider(0.9f, 0.6f, 1.8f, 0.7f, 0.5f));
         // 대쉬
-        Dash(3);
+        Dash(7.5f);
     }
 
     void Cmd2() // <- <- 점프(스패이스 바 || 위 화살표) z x
@@ -215,7 +215,7 @@ public class Knight : Player, IPunObservable
         anim.SetTrigger("Skill2");
         StartCoroutine(SetCollider(0.9f, 0.6f, 1.8f, 0.7f, 0.5f));
         // 대쉬
-        Dash(6);
+        Dash(15);
     }
 
     public void CmdDefend(InputAction.CallbackContext context)
@@ -320,10 +320,23 @@ public class Knight : Player, IPunObservable
 
     void Dash(float dashPower)
     {
+        StartCoroutine(DashIsStun(1f));
+
         SpriteRenderer sr = GetComponentInParent<SpriteRenderer>();
         float dir = sr.flipX ? -1f : 1f;
 
         rigid.linearVelocity = new Vector2(0, rigid.linearVelocity.y); // 기존 관성 제거
         rigid.AddForce(Vector2.right * dir * dashPower, ForceMode2D.Impulse);
+    }
+
+    IEnumerator DashIsStun(float Waits)
+    {
+        controll.AddState(PlayerStats.Lstun);
+
+        yield return new WaitForSeconds(Waits);
+
+        controll.RemoveState(PlayerStats.Lstun);
+
+        yield return null;
     }
 }

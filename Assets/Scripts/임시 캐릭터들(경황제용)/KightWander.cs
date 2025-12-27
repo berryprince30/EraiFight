@@ -197,7 +197,7 @@ public class KnightWander : Player, IPunObservable
         anim.SetTrigger("Skill2");
         StartCoroutine(SetCollider(0.9f, 0.6f, 1.8f, 0.7f, 0.5f));
         // 대쉬
-        Dash(5);
+        Dash(10);
     }
 
     public void Cmd1(InputAction.CallbackContext context) // z -> <- z
@@ -215,7 +215,7 @@ public class KnightWander : Player, IPunObservable
         anim.SetTrigger("Skill3");
         StartCoroutine(SetCollider(0.9f, 0.6f, 1.8f, 0.7f, 0.5f));
         // 대쉬
-        Dash(7.5f);
+        Dash(17.5f);
     }
 
     // X 입력 (새로 추가: 콤보에 사용되는 x 버튼 입력)
@@ -304,10 +304,23 @@ public class KnightWander : Player, IPunObservable
 
     void Dash(float dashPower)
     {
+        StartCoroutine(DashIsStun(1f));
+
         SpriteRenderer sr = GetComponentInParent<SpriteRenderer>();
         float dir = sr.flipX ? -1f : 1f;
 
         rigid.linearVelocity = new Vector2(0, rigid.linearVelocity.y); // 기존 관성 제거
         rigid.AddForce(Vector2.right * dir * dashPower, ForceMode2D.Impulse);
+    }
+
+    IEnumerator DashIsStun(float Waits)
+    {
+        controll.AddState(PlayerStats.Lstun);
+
+        yield return new WaitForSeconds(Waits);
+
+        controll.RemoveState(PlayerStats.Lstun);
+
+        yield return null;
     }
 }
