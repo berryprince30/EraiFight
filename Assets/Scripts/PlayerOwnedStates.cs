@@ -69,7 +69,7 @@ namespace PlayerOwnedStates
     {
         public override void Enter(Player player)
         {
-            player.photonView.RPC("checkUI", RpcTarget.AllBuffered, player.CurHP, player.MaxHP);
+            // player.photonView.RPC("checkUI", RpcTarget.AllBuffered, player.CurHP, player.MaxHP);
         }
         public override void Execute(Player player)
         {
@@ -84,7 +84,7 @@ namespace PlayerOwnedStates
     {
         public override void Enter(Player player)
         {
-            player.photonView.RPC("checkUI", RpcTarget.AllBuffered, player.CurHP, player.MaxHP);
+            // player.photonView.RPC("checkUI", RpcTarget.AllBuffered, player.CurHP, player.MaxHP);
         }
         public override void Execute(Player player)
         {
