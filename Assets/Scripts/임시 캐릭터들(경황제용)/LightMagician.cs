@@ -26,7 +26,7 @@ public class LightMagician : Player, IPunObservable
     private Vector2 prevMoveInput;
     string[] seq3 = { "Z", "Left", "Up"};
     string[] seq2 = { "Z", "Right", "Up" };
-    string[] seq1 = { "Up", "Z", "X" };
+    string[] seq1 = { "Up", "Z", "X" }; // 투사체
     
     void Start()
     {
