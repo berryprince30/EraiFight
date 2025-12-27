@@ -213,7 +213,6 @@ public class KnightWander : Player, IPunObservable
         // 구르기
         Debug.Log("Cmd1");
         anim.SetTrigger("Skill3");
-        StartCoroutine(SetCollider(0.3f, 2f, 3.2f, 3.2f, 0.5f));
         // 대쉬
         Dash(17.5f);
     }
@@ -287,7 +286,7 @@ public class KnightWander : Player, IPunObservable
         yield return new WaitForSeconds(AttackTime);
 
         HitBox.offset = new Vector2(0, 0);
-        HitBox.size = new Vector2(0.1f, 0.1f);
+        HitBox.size = new Vector2(0, 0);
     }
 
     void OnDrawGizmos()

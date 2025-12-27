@@ -304,7 +304,7 @@ public class FireKnight : Player, IPunObservable
         yield return new WaitForSeconds(AttackTime);
 
         HitBox.offset = new Vector2(0, 0);
-        HitBox.size = new Vector2(0.1f, 0.1f);
+        HitBox.size = new Vector2(0, 0);
     }
 
     void OnDrawGizmos()
