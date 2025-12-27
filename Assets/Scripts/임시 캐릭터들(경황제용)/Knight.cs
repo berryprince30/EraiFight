@@ -220,10 +220,16 @@ public class Knight : Player, IPunObservable
 
     public void CmdDefend(InputAction.CallbackContext context)
     {
-        Debug.Log("CmdDefend");
-        anim.SetTrigger("Guard");
-        StartCoroutine(SetCollider(1.7f, 1f, 2.5f, 4.3f, 0.15f));
-        // 돌진
+        if (!photonView.IsMine) return;
+        
+        if (context.performed)
+        {
+            Debug.Log("CmdDefend");
+            anim.SetTrigger("Guard");
+            StartCoroutine(SetCollider(1.7f, 1f, 2.5f, 4.3f, 0.15f));
+            // 돌진
+            Dash(7.5f);
+        }
     }
 
     // X 입력 (새로 추가: 콤보에 사용되는 x 버튼 입력)

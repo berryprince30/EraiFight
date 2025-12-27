@@ -626,7 +626,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 6240370461017061970}
         m_TargetAssemblyTypeName: KnightWander, Assembly-CSharp
-        m_MethodName: Cmd1
+        m_MethodName: OnCmdOne
         m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

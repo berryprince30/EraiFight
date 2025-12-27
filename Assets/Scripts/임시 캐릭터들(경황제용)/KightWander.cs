@@ -200,12 +200,17 @@ public class KnightWander : Player, IPunObservable
         Dash(10);
     }
 
-    public void Cmd1(InputAction.CallbackContext context) // z -> <- z
+    public void OnCmdOne(InputAction.CallbackContext context) // z -> <- z
     {
-        // 하단공격
-        Debug.Log("Cmd1");
-        anim.SetTrigger("Skill1");
-        StartCoroutine(SetCollider(2.6f, 1.5f, 6.3f, 3f, 0.15f));
+        if (!photonView.IsMine) return;
+        
+        if (context.performed)
+        {
+            // 하단공격
+            Debug.Log("Cmd1");
+            anim.SetTrigger("Skill1");
+            StartCoroutine(SetCollider(2.6f, 1.5f, 6.3f, 3f, 0.15f));
+        }
     }
 
     void Cmd2() // z -> <- z
