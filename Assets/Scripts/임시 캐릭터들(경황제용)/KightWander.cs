@@ -20,7 +20,7 @@ public class KnightWander : Player, IPunObservable
     bool EndDownAttack = true;
 
     // 콤보 공격 관련
-    int CheckComboFrame = 60;
+    int CheckComboFrame = 90;
     private List<(string input, int frame)> inputBuffer = new List<(string, int)>();
     private int currentFrame = 0;
     private Vector2 prevMoveInput;
@@ -194,6 +194,7 @@ public class KnightWander : Player, IPunObservable
         Debug.Log("Down");
         anim.SetTrigger("Skill2");
         StartCoroutine(SetCollider(0.9f, 0.6f, 1.8f, 0.7f, 0.5f));
+        // 대쉬
     }
 
     public void Cmd1(InputAction.CallbackContext context) // z -> <- z
@@ -206,10 +207,11 @@ public class KnightWander : Player, IPunObservable
 
     void Cmd2() // z -> <- z
     {
-        // 하단공격
+        // 구르기
         Debug.Log("Cmd1");
         anim.SetTrigger("Skill3");
         StartCoroutine(SetCollider(0.9f, 0.6f, 1.8f, 0.7f, 0.5f));
+        // 대쉬
     }
 
     // X 입력 (새로 추가: 콤보에 사용되는 x 버튼 입력)

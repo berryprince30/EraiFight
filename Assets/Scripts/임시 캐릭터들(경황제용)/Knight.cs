@@ -20,7 +20,7 @@ public class Knight : Player, IPunObservable
     bool EndDownAttack = true;
 
     // 콤보 공격 관련
-    int CheckComboFrame = 60;
+    int CheckComboFrame = 90;
     private List<(string input, int frame)> inputBuffer = new List<(string, int)>();
     private int currentFrame = 0;
     private Vector2 prevMoveInput;
@@ -202,6 +202,7 @@ public class Knight : Player, IPunObservable
         Debug.Log("Cmd1");
         anim.SetTrigger("Skill1");
         StartCoroutine(SetCollider(0.9f, 0.6f, 1.8f, 0.7f, 0.5f));
+        // 대쉬
     }
 
     void Cmd2() // <- <- 점프(스패이스 바 || 위 화살표) z x
@@ -210,6 +211,7 @@ public class Knight : Player, IPunObservable
         Debug.Log("Cmd2");
         anim.SetTrigger("Skill2");
         StartCoroutine(SetCollider(0.9f, 0.6f, 1.8f, 0.7f, 0.5f));
+        // 대쉬
     }
 
     public void CmdDefend(InputAction.CallbackContext context)
