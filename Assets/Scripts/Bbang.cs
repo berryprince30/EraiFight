@@ -10,7 +10,7 @@ public class Bbang : MonoBehaviourPun
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+        StartCoroutine(twoSeconds());
     }
 
     // Update is called once per frame
@@ -41,5 +41,14 @@ public class Bbang : MonoBehaviourPun
             SpriteRenderer sr = GetComponent<SpriteRenderer>();
             sr.flipX = true;
         }
+    }
+
+    IEnumerator twoSeconds()
+    {
+        yield return new WaitForSeconds(2f);
+
+        Destroy(this.gameObject);
+
+        yield return null;
     }
 }

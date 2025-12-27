@@ -26,7 +26,7 @@ public class Adventurer : Player, IPunObservable
     private int currentFrame = 0;
     private Vector2 prevMoveInput;
     string[] seq1 = { "Z", "Up", "Z" };
-    string[] seq2 = { "Up", "Z", "X", "Z" }; // 투사체
+    string[] seq2 = { "Up", "Up", "Z", "X", "Z" }; // 투사체
     
     void Start()
     {
@@ -241,6 +241,10 @@ public class Adventurer : Player, IPunObservable
         if (context.performed)
         {
             AddToBuffer("X");
+
+            HitBox.offset = new Vector2(0, 0);
+            HitBox.size = new Vector2(0, 0);
+            
             if (CheckCombos()) return; // 콤보 발동 시 skip (정상 스킬이 있으면 여기서 처리)
             // 정상 X 스킬이 없다면 아무것도 하지 않음 또는 필요 시 구현
             Debug.Log("Normal Skill X");
@@ -263,6 +267,7 @@ public class Adventurer : Player, IPunObservable
         if (CheckSequence(seq2))
         {
             Cmd2();
+            Debug.Log("씨발련아");
             inputBuffer.Clear();
             return true;
         }

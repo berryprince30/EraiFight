@@ -240,6 +240,10 @@ public class Knight : Player, IPunObservable
         if (context.performed)
         {
             AddToBuffer("X");
+            
+            HitBox.offset = new Vector2(0, 0);
+            HitBox.size = new Vector2(0, 0);
+
             if (CheckCombos()) return; // 콤보 발동 시 skip (정상 스킬이 있으면 여기서 처리)
             // 정상 X 스킬이 없다면 아무것도 하지 않음 또는 필요 시 구현
             Debug.Log("Normal Skill X");
