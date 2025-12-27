@@ -131,14 +131,14 @@ public class KnightWander : Player, IPunObservable
     {
         Debug.Log("Attack1");
         anim.SetTrigger("Atk1");
-        StartCoroutine(SetCollider(3f, 2f, 6.8f, 4.5f, 0.5f));
+        StartCoroutine(SetCollider(3f, 2f, 6.8f, 4.5f, 0.15f));
     }
 
     void Atk2()
     {
         Debug.Log("Attack2");
         anim.SetTrigger("Atk2");
-        StartCoroutine(SetCollider(2.7f, 2.3f, 6f, 5f, 0.5f));
+        StartCoroutine(SetCollider(2.7f, 2.3f, 6f, 5f, 0.2f));
     }
 
     void EndAttackTrue()
@@ -195,7 +195,7 @@ public class KnightWander : Player, IPunObservable
     {
         Debug.Log("Down");
         anim.SetTrigger("Skill2");
-        StartCoroutine(SetCollider(1.25f, -0.1f, 3f, 1.5f, 0.5f));
+        StartCoroutine(SetCollider(1.25f, -0.1f, 3f, 1.5f, 0.15f));
         // 대쉬
         Dash(10);
     }
@@ -205,7 +205,7 @@ public class KnightWander : Player, IPunObservable
         // 하단공격
         Debug.Log("Cmd1");
         anim.SetTrigger("Skill1");
-        StartCoroutine(SetCollider(2.9f, 1.5f, 6.3f, 3f, 0.5f));
+        StartCoroutine(SetCollider(2.9f, 1.5f, 6.3f, 3f, 0.15f));
     }
 
     void Cmd2() // z -> <- z

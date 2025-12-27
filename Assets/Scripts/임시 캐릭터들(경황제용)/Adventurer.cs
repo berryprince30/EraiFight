@@ -131,14 +131,14 @@ public class Adventurer : Player, IPunObservable
     {
         Debug.Log("Attack1");
         anim.SetTrigger("Atk1");
-        StartCoroutine(SetCollider(1.4f, 0.2f, 2.7f, 3.7f, 0.5f));
+        StartCoroutine(SetCollider(1.4f, 0.2f, 2.7f, 3.7f, 0.2f));
     }
 
     void Atk2()
     {
         Debug.Log("Attack2");
         anim.SetTrigger("Atk2");
-        StartCoroutine(SetCollider(1.6f, 0f, 3.0f, 2.7f, 0.5f));
+        StartCoroutine(SetCollider(1.6f, 0f, 3.0f, 2.7f, 0.2f));
     }
 
     void EndAttackTrue()
@@ -195,7 +195,7 @@ public class Adventurer : Player, IPunObservable
     {
         Debug.Log("Down");
         anim.SetTrigger("Skill1");
-        StartCoroutine(SetCollider(0.8f, -1f, 2.0f, 1.1f, 0.5f));
+        StartCoroutine(SetCollider(0.8f, -1f, 2.0f, 1.1f, 0.2f));
         // 대쉬
         Dash(10);
         
@@ -206,7 +206,7 @@ public class Adventurer : Player, IPunObservable
         // 킥
         Debug.Log("Cmd1");
         anim.SetTrigger("Skill2");
-        StartCoroutine(SetCollider(1.56f, 0.4f, 1.7f, 1.4f, 0.5f));
+        StartCoroutine(SetCollider(1.56f, 0.4f, 1.7f, 1.4f, 0.4f));
     }
 
     void Cmd2() // <- <- 점프(스패이스 바 || 위 화살표) z x

@@ -130,14 +130,14 @@ public class LightMagician : Player, IPunObservable
     {
         Debug.Log("Attack1");
         anim.SetTrigger("Atk1");
-        StartCoroutine(SetCollider(5.5f, 4.6f, 5.9f, 3.7f, 0.5f));
+        StartCoroutine(SetCollider(5.5f, 4.6f, 5.9f, 3.7f, 0.25f));
     }
 
     void Atk2()
     {
         Debug.Log("Attack2");
         anim.SetTrigger("Atk2");
-        StartCoroutine(SetCollider(5.7f, 4.2f, 6.3f, 4.5f, 0.5f));
+        StartCoroutine(SetCollider(5.7f, 4.2f, 6.3f, 4.5f, 0.3f));
     }
 
     void EndAttackTrue()

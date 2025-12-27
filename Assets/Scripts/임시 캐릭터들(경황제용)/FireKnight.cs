@@ -129,7 +129,7 @@ public class FireKnight : Player, IPunObservable
     {
         Debug.Log("Attack1");
         anim.SetTrigger("Atk1");
-        StartCoroutine(SetCollider(5.5f, 2.9f, 5.2f, 4.6f, 0.5f));
+        StartCoroutine(SetCollider(5.5f, 2.9f, 5.2f, 4.6f, 0.4f));
     }
 
     void Atk2()
@@ -224,7 +224,7 @@ public class FireKnight : Player, IPunObservable
         // 화염방사
         Debug.Log("Cmd2");
         anim.SetTrigger("Skill2");
-        StartCoroutine(SetCollider(8.25f, 2.6f, 10.8f, 8f, 0.5f));
+        StartCoroutine(SetCollider(8.25f, 2.6f, 10.8f, 8f, 1.0f));
     }
 
     // X 입력 (새로 추가: 콤보에 사용되는 x 버튼 입력)

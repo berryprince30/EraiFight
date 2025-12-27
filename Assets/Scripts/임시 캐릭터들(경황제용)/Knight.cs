@@ -132,14 +132,14 @@ public class Knight : Player, IPunObservable
     {
         Debug.Log("Attack1");
         anim.SetTrigger("Atk1");
-        StartCoroutine(SetCollider(3.4f, 1.5f, 8.7f, 6.5f, 0.5f));
+        StartCoroutine(SetCollider(3.4f, 1.5f, 8.7f, 6.5f, 0.1f));
     }
 
     void Atk2()
     {
         Debug.Log("Attack2");
         anim.SetTrigger("Atk2");
-        StartCoroutine(SetCollider(3.2f, 0.9f, 8.3f, 7f, 0.5f));
+        StartCoroutine(SetCollider(3.2f, 0.9f, 8.3f, 7f, 0.15f));
     }
 
     void EndAttackTrue()
@@ -203,7 +203,7 @@ public class Knight : Player, IPunObservable
         // 찌르기
         Debug.Log("Cmd1");
         anim.SetTrigger("Skill1");
-        StartCoroutine(SetCollider(4.5f, -0.1f, 5.6f, 2.2f, 0.5f));
+        StartCoroutine(SetCollider(4.5f, -0.1f, 5.6f, 2.2f, 0.2f));
         // 대쉬
         Dash(7.5f);
     }
@@ -213,7 +213,7 @@ public class Knight : Player, IPunObservable
         // 달리며 때리기
         Debug.Log("Cmd2");
         anim.SetTrigger("Skill2");
-        StartCoroutine(SetCollider(2.3f, 0.1f, 3.7f, 7.5f, 0.5f));
+        StartCoroutine(SetCollider(2.3f, 0.1f, 3.7f, 7.5f, 0.2f));
         // 대쉬
         Dash(15);
     }
@@ -222,7 +222,7 @@ public class Knight : Player, IPunObservable
     {
         Debug.Log("CmdDefend");
         anim.SetTrigger("Guard");
-        StartCoroutine(SetCollider(1.7f, 1f, 2.5f, 4.3f, 0.5f));
+        StartCoroutine(SetCollider(1.7f, 1f, 2.5f, 4.3f, 0.15f));
         // 돌진
     }
 
@@ -289,7 +289,7 @@ public class Knight : Player, IPunObservable
 
     IEnumerator SetCollider(float OfsX, float OfsY, float SizeX, float SizeY, float AttackTime)
     {
-        yield return new WaitForSeconds(0.1f);
+        yield return new WaitForSeconds(0.15f);
 
         SpriteRenderer sr = GetComponentInParent<SpriteRenderer>();
         int i = 0;
