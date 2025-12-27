@@ -201,40 +201,6 @@ public class Adventurer : Player, IPunObservable
         
     }
 
-    // 가드
-    public void Guard(InputAction.CallbackContext context)
-    {
-        if (!photonView.IsMine) return;
-
-        if(context.performed)
-        {
-            AddToBuffer("X");
-            if (CheckCombos()) return;
-
-            if(!IsContainState(PlayerStats.Guard))
-            {
-                RemoveState(PlayerStats.Moving);
-                RemoveState(PlayerStats.Attacking);
-                controll.RemoveState(PlayerStats.Attacking);
-                AddState(PlayerStats.Guard);
-                EndAttackTrue();
-                EndDownAttackTrue();
-                StopCoroutine(CancelAttack());
-
-                Debug.Log("Guard");
-                anim.SetTrigger("Guard");
-
-                Invoke("CancelGuard", 0.75f); 
-            }
-        }
-    }
-
-    void CancelGuard()
-    {
-        Debug.Log("Guard Canceled");
-        RemoveState(PlayerStats.Guard);
-    }
-
     void Cmd1() // z -> <- z 
     {
         // 킥
