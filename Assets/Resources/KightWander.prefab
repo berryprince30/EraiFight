@@ -284,6 +284,9 @@ MonoBehaviour:
   - Type: 9
     SynchronizeType: 0
     Name: Die
+  - Type: 9
+    SynchronizeType: 0
+    Name: Skill3
   m_SynchronizeLayers:
   - SynchronizeType: 1
     LayerIndex: 0
@@ -622,7 +625,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 6240370461017061970}
         m_TargetAssemblyTypeName: KnightWander, Assembly-CSharp
-        m_MethodName: Guard
+        m_MethodName: Cmd1
         m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

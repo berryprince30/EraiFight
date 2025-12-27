@@ -24,8 +24,8 @@ public class KnightWander : Player, IPunObservable
     private List<(string input, int frame)> inputBuffer = new List<(string, int)>();
     private int currentFrame = 0;
     private Vector2 prevMoveInput;
-    string[] seq2 = { "Z", "Up", "Right", "Z" };
-    string[] seq1 = { "Z", "Up", "Left", "Z" };
+    string[] seq2 = { "Z", "Right", "Right" };
+    string[] seq1 = { "Z", "Left", "Left" };
     
     void Start()
     {
@@ -192,49 +192,23 @@ public class KnightWander : Player, IPunObservable
     void AtkD()
     {
         Debug.Log("Down");
+        anim.SetTrigger("Skill2");
+        StartCoroutine(SetCollider(0.9f, 0.6f, 1.8f, 0.7f, 0.5f));
+    }
+
+    public void Cmd1(InputAction.CallbackContext context) // z -> <- z
+    {
+        // 하단공격
+        Debug.Log("Cmd1");
         anim.SetTrigger("Skill1");
         StartCoroutine(SetCollider(0.9f, 0.6f, 1.8f, 0.7f, 0.5f));
     }
 
-    // 가드
-    public void Guard(InputAction.CallbackContext context)
-    {
-        if (!photonView.IsMine) return;
-
-        if(context.performed)
-        {
-            AddToBuffer("X");
-            if (CheckCombos()) return;
-
-            if(!IsContainState(PlayerStats.Guard))
-            {
-                RemoveState(PlayerStats.Moving);
-                RemoveState(PlayerStats.Attacking);
-                controll.RemoveState(PlayerStats.Attacking);
-                AddState(PlayerStats.Guard);
-                EndAttackTrue();
-                EndDownAttackTrue();
-                StopCoroutine(CancelAttack());
-
-                Debug.Log("Guard");
-                anim.SetTrigger("Guard");
-
-                Invoke("CancelGuard", 0.75f); 
-            }
-        }
-    }
-
-    void CancelGuard()
-    {
-        Debug.Log("Guard Canceled");
-        RemoveState(PlayerStats.Guard);
-    }
-
-    void Cmd1() // z -> <- z
+    void Cmd2() // z -> <- z
     {
         // 하단공격
         Debug.Log("Cmd1");
-        anim.SetTrigger("Skill2");
+        anim.SetTrigger("Skill3");
         StartCoroutine(SetCollider(0.9f, 0.6f, 1.8f, 0.7f, 0.5f));
     }
 
@@ -267,7 +241,7 @@ public class KnightWander : Player, IPunObservable
         // Cmd1: z -> <- z
         if (CheckSequence(seq1) || CheckSequence(seq2))
         {
-            Cmd1();
+            Cmd2();
             inputBuffer.Clear();
             return true;
         }

@@ -622,7 +622,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 4519223374451513494}
         m_TargetAssemblyTypeName: Knight, Assembly-CSharp
-        m_MethodName: Guard
+        m_MethodName: CmdDefend
         m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

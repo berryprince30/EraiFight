@@ -24,9 +24,9 @@ public class LightMagician : Player, IPunObservable
     private List<(string input, int frame)> inputBuffer = new List<(string, int)>();
     private int currentFrame = 0;
     private Vector2 prevMoveInput;
-    string[] seq3 = { "Z", "Up", "Z", "X", "Left"};
-    string[] seq2 = { "Z", "Up", "Z", "X", "Right"};
-    string[] seq1 = { "Up", "Z", "Z", "X" };
+    string[] seq3 = { "Z", "Left", "Up"};
+    string[] seq2 = { "Z", "Right", "Up" };
+    string[] seq1 = { "Up", "Z", "X" };
     
     void Start()
     {
@@ -195,41 +195,7 @@ public class LightMagician : Player, IPunObservable
         Debug.Log("Down");
         // anim.SetTrigger("Skill1");
     }
-
-    // 가드
-    public void Guard(InputAction.CallbackContext context)
-    {
-        if (!photonView.IsMine) return;
-
-        if(context.performed)
-        {
-            AddToBuffer("X");
-            if (CheckCombos()) return;
-
-            if(!IsContainState(PlayerStats.Guard))
-            {
-                RemoveState(PlayerStats.Moving);
-                RemoveState(PlayerStats.Attacking);
-                controll.RemoveState(PlayerStats.Attacking);
-                AddState(PlayerStats.Guard);
-                EndAttackTrue();
-                EndDownAttackTrue();
-                StopCoroutine(CancelAttack());
-
-                Debug.Log("Guard");
-                anim.SetTrigger("Guard");
-
-                Invoke("CancelGuard", 0.75f); 
-            }
-        }
-    }
-
-    void CancelGuard()
-    {
-        Debug.Log("Guard Canceled");
-        RemoveState(PlayerStats.Guard);
-    }
-
+    
     void Cmd1() // z -> <- z
     {
         // 라이트볼(오...섬광탄...?) (투사체 생성)

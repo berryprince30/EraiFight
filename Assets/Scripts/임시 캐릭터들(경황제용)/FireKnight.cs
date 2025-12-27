@@ -25,7 +25,7 @@ public class FireKnight : Player, IPunObservable
     private int currentFrame = 0;
     private Vector2 prevMoveInput;
     string[] seq1 = { "Up", "Z", "X" };
-    string[] seq2 = { "Z", "X", "Up", "Up", "X", "Z", "Up" };
+    string[] seq2 = { "Z", "X", "Up", "Up" };
     
     void Start()
     {

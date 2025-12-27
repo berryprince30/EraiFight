@@ -24,8 +24,8 @@ public class Knight : Player, IPunObservable
     private List<(string input, int frame)> inputBuffer = new List<(string, int)>();
     private int currentFrame = 0;
     private Vector2 prevMoveInput;
-    string[] seq3 = { "Z", "Up", "X", "Right", "Up",};
-    string[] seq2 = { "Z", "Up", "X", "Left", "Up",};
+    string[] seq3 = { "Up", "Z", "Right" };
+    string[] seq2 = { "Up", "Z", "Left" };
     string[] seq1 = { "Up", "X", "Z" };
     
     void Start()
@@ -196,40 +196,6 @@ public class Knight : Player, IPunObservable
         anim.SetTrigger("Skill1");
     }
 
-    // 가드
-    public void Guard(InputAction.CallbackContext context)
-    {
-        if (!photonView.IsMine) return;
-
-        if(context.performed)
-        {
-            AddToBuffer("X");
-            if (CheckCombos()) return;
-
-            if(!IsContainState(PlayerStats.Guard))
-            {
-                RemoveState(PlayerStats.Moving);
-                RemoveState(PlayerStats.Attacking);
-                controll.RemoveState(PlayerStats.Attacking);
-                AddState(PlayerStats.Guard);
-                EndAttackTrue();
-                EndDownAttackTrue();
-                StopCoroutine(CancelAttack());
-
-                Debug.Log("Guard");
-                anim.SetTrigger("Guard");
-
-                Invoke("CancelGuard", 0.75f); 
-            }
-        }
-    }
-
-    void CancelGuard()
-    {
-        Debug.Log("Guard Canceled");
-        RemoveState(PlayerStats.Guard);
-    }
-
     void Cmd1() // z -> <- z
     {
         // 찌르기
@@ -244,6 +210,14 @@ public class Knight : Player, IPunObservable
         Debug.Log("Cmd2");
         anim.SetTrigger("Skill2");
         StartCoroutine(SetCollider(0.9f, 0.6f, 1.8f, 0.7f, 0.5f));
+    }
+
+    public void CmdDefend(InputAction.CallbackContext context)
+    {
+        Debug.Log("CmdDefend");
+        anim.SetTrigger("Guard");
+        StartCoroutine(SetCollider(0.9f, 0.6f, 1.8f, 0.7f, 0.5f));
+        // 돌진
     }
 
     // X 입력 (새로 추가: 콤보에 사용되는 x 버튼 입력)
