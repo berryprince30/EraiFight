@@ -20,7 +20,7 @@ public class FireKnight : Player, IPunObservable
     bool EndDownAttack = true;
 
     // 콤보 공격 관련
-    int CheckComboFrame = 90;
+    int CheckComboFrame = 60;
     private List<(string input, int frame)> inputBuffer = new List<(string, int)>();
     private int currentFrame = 0;
     private Vector2 prevMoveInput;
