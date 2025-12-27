@@ -104,8 +104,8 @@ public class FightUI : MonoBehaviourPunCallbacks
             PhotonView loserPV = players[0].GetComponent<PhotonView>();
             
             WhoWin.text = winnerPV.Owner.NickName + " Wins!";
-            WinImg.sprite = WinLoseImgs[PlayerPrefs.GetInt("CIndex")];
-            LoseImg.sprite = WinLoseImgs[PlayerPrefs.GetInt("MIndex")];
+            WinImg.sprite = WinLoseImgs[players[1].PIndex];
+            LoseImg.sprite = WinLoseImgs[players[0].PIndex];
         }
         else if (players[1].CurHP <= 0 || players[1].netCurHP <= 0)
         {
@@ -114,8 +114,8 @@ public class FightUI : MonoBehaviourPunCallbacks
             PhotonView loserPV = players[1].GetComponent<PhotonView>();
 
             WhoWin.text = winnerPV.Owner.NickName + " Wins!";
-            WinImg.sprite = WinLoseImgs[PlayerPrefs.GetInt("MIndex")];
-            LoseImg.sprite = WinLoseImgs[PlayerPrefs.GetInt("CIndex")];
+            WinImg.sprite = WinLoseImgs[players[0].PIndex];
+            LoseImg.sprite = WinLoseImgs[players[1].PIndex];
         }
         Time.timeScale = 0;
     }

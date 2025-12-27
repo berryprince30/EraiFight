@@ -325,7 +325,7 @@ public class FireKnight : Player, IPunObservable
 
     IEnumerator SetCollider(float OfsX, float OfsY, float SizeX, float SizeY, float AttackTime)
     {
-        yield return new WaitForSeconds(0.2f);
+        yield return new WaitForSeconds(0.1f);
 
         SpriteRenderer sr = GetComponentInParent<SpriteRenderer>();
         int i = 0;

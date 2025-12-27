@@ -468,6 +468,7 @@ MonoBehaviour:
   P_anim: {fileID: 380525020310927365}
   netCurHP: 0
   netMaxHP: 0
+  PIndex: 3
 --- !u!1 &9019801808513527455
 GameObject:
   m_ObjectHideFlags: 0

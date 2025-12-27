@@ -195,9 +195,10 @@ public class Adventurer : Player, IPunObservable
     {
         Debug.Log("Down");
         anim.SetTrigger("Skill1");
+        StartCoroutine(SetCollider(0.9f, 0.6f, 1.8f, 0.7f, 0.5f));
         // 대쉬
         Dash(10);
-        StartCoroutine(SetCollider(0.9f, 0.6f, 1.8f, 0.7f, 0.5f));
+        
     }
 
     // 가드
@@ -329,7 +330,7 @@ public class Adventurer : Player, IPunObservable
 
     IEnumerator SetCollider(float OfsX, float OfsY, float SizeX, float SizeY, float AttackTime)
     {
-        yield return new WaitForSeconds(0.2f);
+        yield return new WaitForSeconds(0.1f);
 
         SpriteRenderer sr = GetComponentInParent<SpriteRenderer>();
         int i = 0;

@@ -8,14 +8,19 @@ using TMPro;
 
 public class Damage : Player, IPunObservable
 {
-    private Controll controll; // Assuming this exists elsewhere
+    Controll controll; // Assuming this exists elsewhere
+    Animator anim;
+    Rigidbody2D rigid;
     public float netCurHP;
     public float netMaxHP;
+    public int PIndex;
 
     void Start()
     {
         base.Start();
         controll = GetComponent<Controll>();
+        anim = GetComponent<Animator>();
+        rigid = GetComponent<Rigidbody2D>();
         netCurHP = CurHP;
         netMaxHP = MaxHP;
     }
@@ -80,15 +85,32 @@ public class Damage : Player, IPunObservable
         CurHP -= damage;
         CurHP = Mathf.Clamp(CurHP, 0, MaxHP); // Prevent negative HP
 
-        if (damage < 7.5f)
-        {
-            // controll.AddState(PlayerStats.Sstun);
-        }
-        else
-        {
-            // controll.AddState(PlayerStats.Lstun);
-        }
+        StartCoroutine(GetStun());
 
         PhotonNetwork.Instantiate("HitParticle", transform.position, Quaternion.identity);
+    }
+
+    IEnumerator GetStun()
+    {
+        controll.AddState(PlayerStats.Sstun);
+        anim.SetTrigger("Sstun");
+        GetGetStun();
+        
+        yield return new WaitForSeconds(0.3f);
+
+        controll.RemoveState(PlayerStats.Sstun);
+    }
+
+    void GetGetStun()
+    {
+        SpriteRenderer sr = GetComponent<SpriteRenderer>();
+
+        int dir;
+
+        if(sr.flipX) dir = 1;
+        else dir = -1;
+
+        rigid.linearVelocity = new Vector2(0, rigid.linearVelocity.y); // 기존 관성 제거
+        rigid.AddForce(Vector2.right * dir * 5, ForceMode2D.Impulse);
     }
 }
