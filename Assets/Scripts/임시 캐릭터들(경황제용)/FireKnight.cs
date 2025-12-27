@@ -129,14 +129,14 @@ public class FireKnight : Player, IPunObservable
     {
         Debug.Log("Attack1");
         anim.SetTrigger("Atk1");
-        StartCoroutine(SetCollider(5.5f, 2.9f, 5.2f, 4.6f, 0.4f));
+        StartCoroutine(SetCollider(3.95f, 2.9f, 5.2f, 4.6f, 0.4f));
     }
 
     void Atk2()
     {
         Debug.Log("Attack2");
         anim.SetTrigger("Atk2");
-        StartCoroutine(SetCollider(5.8f, 2.5f, 5.8f, 2.1f, 0.5f));
+        StartCoroutine(SetCollider(4.25f, 2.5f, 5.8f, 2.1f, 0.5f));
     }
 
     void EndAttackTrue()
@@ -224,7 +224,7 @@ public class FireKnight : Player, IPunObservable
         // 화염방사
         Debug.Log("Cmd2");
         anim.SetTrigger("Skill2");
-        StartCoroutine(SetCollider(8.25f, 2.6f, 10.8f, 8f, 1.0f));
+        StartCoroutine(SetCollider(6.7f, 2.6f, 10.8f, 8f, 1.0f));
     }
 
     // X 입력 (새로 추가: 콤보에 사용되는 x 버튼 입력)
@@ -290,7 +290,7 @@ public class FireKnight : Player, IPunObservable
 
     IEnumerator SetCollider(float OfsX, float OfsY, float SizeX, float SizeY, float AttackTime)
     {
-        yield return new WaitForSeconds(0.1f);
+        yield return new WaitForSeconds(0.2f);
 
         SpriteRenderer sr = GetComponentInParent<SpriteRenderer>();
         int i = 0;

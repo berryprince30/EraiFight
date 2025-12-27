@@ -130,14 +130,14 @@ public class LightMagician : Player, IPunObservable
     {
         Debug.Log("Attack1");
         anim.SetTrigger("Atk1");
-        StartCoroutine(SetCollider(5.5f, 4.6f, 5.9f, 3.7f, 0.25f));
+        StartCoroutine(SetCollider(4.2f, 4.6f, 5.9f, 3.7f, 0.25f));
     }
 
     void Atk2()
     {
         Debug.Log("Attack2");
         anim.SetTrigger("Atk2");
-        StartCoroutine(SetCollider(5.7f, 4.2f, 6.3f, 4.5f, 0.3f));
+        StartCoroutine(SetCollider(4.4f, 4.2f, 6.3f, 4.5f, 0.3f));
     }
 
     void EndAttackTrue()
@@ -226,7 +226,7 @@ public class LightMagician : Player, IPunObservable
         // 빛 방사
         Debug.Log("Cmd2");
         anim.SetTrigger("Skill2");
-        StartCoroutine(SetCollider(8.1f, 5.4f, 11.11f, 3.7f, 0.5f));
+        StartCoroutine(SetCollider(6.8f, 5.4f, 11.11f, 3.7f, 0.5f));
     }
 
     // X 입력 (새로 추가: 콤보에 사용되는 x 버튼 입력)
