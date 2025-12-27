@@ -26,7 +26,7 @@ public class Adventurer : Player, IPunObservable
     private int currentFrame = 0;
     private Vector2 prevMoveInput;
     string[] seq1 = { "Z", "Up", "Z" };
-    string[] seq2 = { "Up", "Up", "Z", "X", "Z" };
+    string[] seq2 = { "Up", "Z", "X", "Z" };
     
     void Start()
     {

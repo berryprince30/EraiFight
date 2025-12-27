@@ -25,7 +25,8 @@ public class FireKnight : Player, IPunObservable
     private int currentFrame = 0;
     private Vector2 prevMoveInput;
     string[] seq1 = { "Up", "Z", "X" };
-    string[] seq2 = { "Z", "X", "Up", "Up" };
+    string[] seq2 = { "Z", "X", "Up", "Right" };
+    string[] seq3 = { "Z", "X", "Up", "Left" };
     
     void Start()
     {
@@ -254,7 +255,7 @@ public class FireKnight : Player, IPunObservable
     private bool CheckCombos() // 콤보 체크 함수 (긴 시퀀스 우선 체크)
     {
         // Cmd2: <- <- 점프 z x
-        if (CheckSequence(seq2))
+        if (CheckSequence(seq2) || CheckSequence(seq3))
         {
             Cmd2();
             inputBuffer.Clear();
