@@ -39,7 +39,7 @@ public class LoadingSceneController : MonoBehaviourPunCallbacks
 
         while (fakeProgress < 1f)
         {
-            fakeProgress += Time.deltaTime * 0.25f; // 대충 가짜 로딩속도
+            fakeProgress += Time.deltaTime * 0.15f; // 대충 가짜 로딩속도
             progressBar.fillAmount = fakeProgress;
 
             if (fakeProgress >= 0.95f && !isLocalLoadingComplete)
